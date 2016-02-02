@@ -1,38 +1,20 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
+<footer class="usa-footer usa-footer-medium usa-sans usa-background-dark" role="contentinfo">
+  <div class="usa-footer-secondary_section">
+    <div class="usa-grid-full">
+      <div class="usa-footer-logo usa-width-two-thirds">
+        <a href="http://www.gsa.gov"><img class="usa-footer-logo-img" src="/img/logos/gsa.png" alt="GSA Logo"></a>
+        <a href="https://18f.gsa.gov"><img class="usa-footer-logo-img" src="/img/logos/18f.png" alt="18F Logo"></a>
+        <a href="https://presidentialinnovationfellows.gov"><img class="usa-footer-logo-img" src="/img/logos/pif.png" alt="PIF Logo"></a>
       </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
+      <div class="usa-footer-contact-links usa-width-one-third">
+        <address>
+          <h3 class="usa-footer-contact-heading">Apps.Gov</h3>
+          <p>
+            <a href="https://apps.pif.gov">https://apps.pif.gov</a> | <a herf="https://github.com/presidential-innovation-fellows/apps-gov">GitHub</a><br/>
+            <a href="mailto:apps@listserv.gsa.gov">apps@listserv.gsa.gov</a>
+          </p>
+        </address>
       </div>
     </div>
-
   </div>
-
-</footer>
+</div>
