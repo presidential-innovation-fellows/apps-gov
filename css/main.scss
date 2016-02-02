@@ -15,9 +15,39 @@ h1, h2, h3, h4, h5, h6 {
 .usa-disclaimer-official{
   padding-left:2rem;
 }
-
 .usa-disclaimer-stage {
   padding-right:3rem;
+}
+.navbar-default{
+  background-color:transparent;
+  border-color:transparent;
+}
+ul{
+  li{
+    margin-top:0px;
+    float:left;
+    &:before{
+      content:"";
+    }
+    &:not(:first-child){
+      margin-left:30px;
+      margin-top:15px;
+      margin-bottom:0px;
+    }
+    &:last-child{
+      margin-right:10px;
+    }
+    a{
+      color:$color-gray-lightest;
+      &:visited{
+        color:$color-gray-lightest;
+      }
+      &:hover{
+        text-decoration:none;
+        color:$color-gray-light;
+      }
+    }
+  }
 }
 
 // footer
@@ -69,33 +99,41 @@ footer {
     margin-top:0;
     display:inline;
     float:left;
+    font-family:$font-sans;
   }
   h2{
     margin-top:225px;
     margin-bottom:0;
+    font-family:$font-sans;
+    font-size:5.5rem;
   }
   h5{
     margin-top:0;
     margin-bottom:10px;
+    font-family:$font-sans;
+    font-size:2.5rem;
   }
   .usa-hero-navbar{
     padding-left:3rem;
     padding-right:3rem;
     padding-top:1rem;
   }
-  .usa-button-outline-inverse{
+  ul{
     float:right;
-  }
-  .usa-button-gray{
-
+    color:#fff;
+    display:inline;
+    li{
+      float:left;
+    }
   }
   .hero-search{
     height:125px;
     background-color:rgba(0,0,0,0.6);
-    // position:absolute;
-    // bottom:0;
-    // left:0;
-    // right:0;
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    // margin-top:168px; //453px
     form{
       margin-top:40px;
     }
