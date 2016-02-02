@@ -6,6 +6,10 @@
 
 @import 'all';
 
+// general
+h1, h2, h3, h4, h5, h6 {
+  color: #205493;
+}
 
 // header
 .usa-disclaimer-official{
@@ -36,6 +40,16 @@ footer {
     vertical-align:middle;
     margin-right:3rem;
   }
+  h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+  }
+}
+
+// error
+.error {
+  background-color:#dce4ef;
+  text-align:center;
+  min-height:450px;
 }
 
 // responsive
