@@ -19,3 +19,6 @@ repo_url: https://github.com/presidential-innovation-fellows/apps-gov
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-sitemap
