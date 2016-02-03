@@ -26,7 +26,7 @@ permalink: products/
   <div class="usa-grid">
     {% for product_hash in site.data.products %}{% assign product = product_hash[1] %}
     <div class="usa-width-one-third">
-      <img src="/companies/{{ product.logo }}">
+      <img src="/products/{{ product.logo }}">
       <div class="product-title">
         <h4><a href="/products/{{ product.url }}/">{{ product.name }}</a></h4>
         <span class="usa-label">{{ product.category }}</span>
