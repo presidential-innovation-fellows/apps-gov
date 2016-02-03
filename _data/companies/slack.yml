@@ -1,0 +1,25 @@
+company: "Slack, Inc."
+logo: slack.png
+product: Slack
+url: http://slack.com
+email: sales@slack.com
+short_description: "Slack is a team communication application providing services such as real-time messaging, archiving, and search for modern teams."
+long_description: "something long form"
+video: https://youtu.be/B6zVzWU95Sw
+funding: $339.95M
+round: Series E
+contracts:
+  - Schedule 70
+  - NASA SEWP
+  - DHS CDM
+fedramp:
+  - checklist1
+  - checklist2
+18f:
+  - checklist1
+  - checklist2
+category: productivity
+keywords:
+  - chat
+  - collaboration
+  - email
