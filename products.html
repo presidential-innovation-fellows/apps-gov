@@ -1,5 +1,7 @@
 ---
 layout: default
+title: All Applications
+permalink: products/
 ---
 
 
@@ -22,62 +24,16 @@ layout: default
 </div>
 <div class="usa-products">
   <div class="usa-grid">
-    {% for product in site.data.companies %}
+    {% for company_hash in site.data.companies %}{% assign company = company_hash[1] %}
     <div class="usa-width-one-third">
-      <img src="/companies/{{ product[1].logo }}">
+      <img src="/companies/{{ company.logo }}">
       <div class="product-title">
-        <h4>{{ product[1].product }}</h4>
-        <span class="usa-label">{{ product[1].category }}</span>
+        <h4><a href="/products/{{ company.url }}/">{{ company.product }}</a></h4>
+        <span class="usa-label">{{ company.category }}</span>
       </div>
-      <p>{{ product[1].short_description }} <a href="#">Learn more</a></p>
-    </div>
-    <div class="usa-width-one-third">
-      <img src="/companies/{{ product[1].logo }}">
-      <div class="product-title">
-        <h4>{{ product[1].product }}</h4>
-        <span class="usa-label">{{ product[1].category }}</span>
+      <div>
+      insert buttons contracting, fedramp, 18f
       </div>
-      <p>{{ product[1].short_description }} <a href="#">Learn more</a></p>
-    </div>
-    <div class="usa-width-one-third">
-      <img src="/companies/{{ product[1].logo }}">
-      <div class="product-title">
-        <h4>{{ product[1].product }}</h4>
-        <span class="usa-label">{{ product[1].category }}</span>
-      </div>
-      <p>{{ product[1].short_description }} <a href="#">Learn more</a></p>
-    </div>
-    <div class="usa-width-one-third">
-      <img src="/companies/{{ product[1].logo }}">
-      <div class="product-title">
-        <h4>{{ product[1].product }}</h4>
-        <span class="usa-label">{{ product[1].category }}</span>
-      </div>
-      <p>{{ product[1].short_description }} <a href="#">Learn more</a></p>
-    </div>
-    <div class="usa-width-one-third">
-      <img src="/companies/{{ product[1].logo }}">
-      <div class="product-title">
-        <h4>{{ product[1].product }}</h4>
-        <span class="usa-label">{{ product[1].category }}</span>
-      </div>
-      <p>{{ product[1].short_description }} <a href="#">Learn more</a></p>
-    </div>
-    <div class="usa-width-one-third">
-      <img src="/companies/{{ product[1].logo }}">
-      <div class="product-title">
-        <h4>{{ product[1].product }}</h4>
-        <span class="usa-label">{{ product[1].category }}</span>
-      </div>
-      <p>{{ product[1].short_description }} <a href="#">Learn more</a></p>
-    </div>
-    <div class="usa-width-one-third">
-      <img src="/companies/{{ product[1].logo }}">
-      <div class="product-title">
-        <h4>{{ product[1].product }}</h4>
-        <span class="usa-label">{{ product[1].category }}</span>
-      </div>
-      <p>{{ product[1].short_description }} <a href="#">Learn more</a></p>
     </div>
     {% endfor %}
   </div>
