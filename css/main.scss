@@ -18,37 +18,6 @@ h1, h2, h3, h4, h5, h6 {
 .usa-disclaimer-stage {
   padding-right:3rem;
 }
-.navbar-default{
-  background-color:transparent;
-  border-color:transparent;
-}
-ul{
-  li{
-    margin-top:0px;
-    float:left;
-    &:before{
-      content:"";
-    }
-    &:not(:first-child){
-      margin-left:30px;
-      margin-top:15px;
-      margin-bottom:0px;
-    }
-    &:last-child{
-      margin-right:10px;
-    }
-    a{
-      color:$color-gray-lightest;
-      &:visited{
-        color:$color-gray-lightest;
-      }
-      &:hover{
-        text-decoration:none;
-        color:$color-gray-light;
-      }
-    }
-  }
-}
 
 // footer
 footer {
@@ -124,6 +93,31 @@ footer {
     display:inline;
     li{
       float:left;
+      &:before{
+        content:"";
+      }
+      &:first-child{
+        margin-top:0px;
+        margin-bottom:0px;
+      }
+      &:not(:first-child){
+        margin-left:30px;
+        margin-top:15px;
+        margin-bottom:0px;
+      }
+      &:last-child{
+        margin-right:10px;
+      }
+      a{
+        color:$color-gray-lightest;
+        &:visited{
+          color:$color-gray-lightest;
+        }
+        &:hover{
+          text-decoration:none;
+          color:$color-gray-light;
+        }
+      }
     }
   }
   .hero-search{
@@ -137,6 +131,12 @@ footer {
     form{
       margin-top:40px;
     }
+  }
+}
+
+.usa-content{
+  h2{
+    text-align:center;
   }
 }
 
