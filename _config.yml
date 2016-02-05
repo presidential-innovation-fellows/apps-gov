@@ -22,3 +22,9 @@ markdown: kramdown
 
 gems:
   - jekyll-sitemap
+
+page_gen:
+  - data: products
+    template: page
+    name: url
+    dir: products
