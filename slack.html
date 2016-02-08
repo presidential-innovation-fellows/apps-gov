@@ -1,0 +1,119 @@
+---
+layout: default
+title: All Applications
+permalink: products/slack/
+---
+
+<div class="usa-hero-navbar">
+  <h1><a href="{{ site.url }}">Apps.Gov</a></h1>
+  <ul>
+    <li>
+      <form class="usa-search">
+        <div role="search">
+          <label class="usa-sr-only" for="search-field">Search medium</label>
+          <input id="search-field" type="search" name="search">
+          <button type="submit">
+            <span class="usa-search-submit-text">Search</span>
+          </button>
+        </div>
+      </form>
+    </li>
+    <li><button class="usa-button-gray" type="button">List your Product</button></li>
+  </ul>
+</div>
+<div class="usa-product">
+	<div class="usa-grid">
+		{% for product_hash in site.data.products %}{% assign product = product_hash[1] %}
+			<div class="usa-width-one-fourth">
+				<img src="/product_images/{{ product.logo }}">
+				<a href="">{{ product.company_url }}</a><br/>
+				<a href="">Request a demo</a>
+				<ul>
+					<li><span class="usa-label">{{ product.keywords[0] }}</span></li>
+					<li><span class="usa-label">{{ product.keywords[1] }}</span></li>
+					<li><span class="usa-label">{{ product.keywords[2] }}</span></li>
+				</ul>
+
+				<a href="">Edit this app in Github</a><br/>
+				<a href="">Report this app</a>
+				
+			</div>
+			<div class="usa-width-one-half">
+				<iframe width="560" height="315" src="{{ product.video }}" frameborder="0" allowfullscreen></iframe>
+				<br/>
+				<h3>{{ product.category }}</h3>
+				<h2>{{ product.name }}</h2>
+				<p>{{ product.description }}</p>
+				<div class="usa-grid">
+					<div class="usa-width-one-third">
+						<h4>Contract Vehicles</h4>
+						<form>
+						  <select name="options" id="options">
+						    <option value="value1">{{ product.contracts[0] }}</option>
+						    <option value="value2">{{ product.contracts[1] }}</option>
+						    <option value="value3">{{ product.contracts[2] }}</option>
+						  </select>
+						  <button>Purchase</button>
+						</form>
+					</div>
+					<div class="usa-width-one-third">
+						<h4>18F Security Review</h4>
+						 <fieldset class="usa-fieldset-inputs usa-sans">
+
+					    <legend class="usa-sr-only">Historical figures 1</legend>
+
+					    <ul class="usa-unstyled-list">
+					      <li>
+					        <input id="apple-pie" type="checkbox" name="apple-pie" value="apple-pie" checked="">
+					        <label for="apple-pie">Sojourner Truth</label>
+					      </li>
+					      <li>
+					        <input id="key-lime-pie" type="checkbox" name="key-lime-pie" value="key-lime-pie">
+					        <label for="key-lime-pie">Frederick Douglass</label>
+					      </li>
+					      <li>
+					        <input id="peach-pie" type="checkbox" name="peach-pie" value="peach-pie">
+					        <label for="peach-pie">Booker T. Washington</label>
+					      </li>
+					      <li>
+					        <input id="disabled" type="checkbox" disabled="">
+					        <label for="disabled">George Washington Carver</label>
+					      </li>
+					    </ul>
+
+					  </fieldset>
+					</div>
+					<div class="usa-width-one-third">
+						<h4>FedRamp</h4>
+						 <fieldset class="usa-fieldset-inputs usa-sans">
+
+					    <legend class="usa-sr-only">Historical figures 1</legend>
+
+					    <ul class="usa-unstyled-list">
+					      <li>
+					        <input id="apple-pie" type="checkbox" name="apple-pie" value="apple-pie" checked="">
+					        <label for="apple-pie">Sojourner Truth</label>
+					      </li>
+					      <li>
+					        <input id="key-lime-pie" type="checkbox" name="key-lime-pie" value="key-lime-pie">
+					        <label for="key-lime-pie">Frederick Douglass</label>
+					      </li>
+					      <li>
+					        <input id="peach-pie" type="checkbox" name="peach-pie" value="peach-pie">
+					        <label for="peach-pie">Booker T. Washington</label>
+					      </li>
+					      <li>
+					        <input id="disabled" type="checkbox" disabled="">
+					        <label for="disabled">George Washington Carver</label>
+					      </li>
+					    </ul>
+
+					  </fieldset>
+					</div>
+				</div>
+			</div>
+			<div class="usa-width-one-sixth">
+			</div>
+		{% endfor %}
+	</div>
+</div>
