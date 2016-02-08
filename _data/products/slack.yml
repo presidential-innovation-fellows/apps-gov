@@ -5,7 +5,7 @@ logo: slack.png
 company_url: http://slack.com
 email: sales@slack.com
 description: "Slack is a team communication application providing services such as real-time messaging, archiving, and search for modern teams."
-video: https://youtu.be/B6zVzWU95Sw
+video: https://youtube.com/embed/B6zVzWU95Sw
 funding: $339.95M
 round: Series E
 contracts:
@@ -14,11 +14,11 @@ contracts:
   - DHS CDM
 fedramp: false
 fedramp_ready:
-  - checklist1
-  - checklist2
+  - true
+  - false
 18f:
-  - checklist1
-  - checklist2
+  - true
+  - false
 category: productivity
 keywords:
   - chat
