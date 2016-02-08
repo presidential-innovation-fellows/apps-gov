@@ -1,0 +1,26 @@
+footer {
+  padding-left:3rem;
+  padding-right:3rem;
+  .usa-footer-secondary_section{
+    background-color:#323a45;
+    color:#fff;
+    a {
+      color:#d6d7d9;
+    }
+  }
+  .usa-grid-full{
+    max-width:none;
+  }
+  .usa-footer-logo-img{
+    max-height:10rem;
+    max-width:10rem;
+    vertical-align:middle;
+    margin-right:3rem;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+  }
+  h3{
+    font-family:$font-sans;
+  }
+}
