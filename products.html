@@ -24,14 +24,16 @@ permalink: products/
 </div>
 <div class="usa-products">
   <div class="usa-grid">
-    {% for product_hash in site.data.products %}{% assign product = product_hash[1] %}
+    {% for product_hash in site.data.products %}{% assign product = product_hash[1].companies[0] %}
     <div class="usa-width-one-third">
-      <img src="/product_images/{{ product.logo }}">
+      <img src="{{ product.image }}">
       <div class="product-title">
-        <h4><a href="/products/{{ product.url }}/">{{ product.name }}</a></h4>
-        <span class="usa-label">{{ product.category }}</span>
+        <h2><a href="/products/{{ product.slug }}/">{{ product.name }}</a></h2>
+        <h4>{{ product.sector }}</h4>
       </div>
       <div>
+        {{product.top_keywords}}
+        <br/><br/>
       insert buttons contracting, fedramp, 18f
       </div>
     </div>
