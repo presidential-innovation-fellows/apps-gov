@@ -13,6 +13,7 @@ contracts:
   - NASA SEWP
   - DHS CDM
 fedramp: false
+fedramp_infra: true
 fedramp_ready:
   - true
   - false
