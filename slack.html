@@ -48,7 +48,9 @@ permalink: products/Slack/
 				<a href="mailto:cloud-proving-ground+abuse@gsa.gov" target="blank">Report this app</a>
 			</div>
 			<div class="usa-width-one-half">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ product.youtube_video_id }}" frameborder="0" allowfullscreen></iframe>
+				{% if product.youtube_video_id %}
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ product.youtube_video_id }}" frameborder="0" allowfullscreen></iframe>
+				{% endif %}
 				<br/>
 				<h2>{{ product.name }}</h2>
 				<h4>{{ product.sector }}</h4>
