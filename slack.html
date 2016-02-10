@@ -43,84 +43,88 @@ permalink: products/slack/
 				add social media + angellist<br/><br/>
 				<a href="https://github.com/presidential-innovation-fellows/apps-gov" target="blank">Edit this app in Github</a><br/>
 				<a href="mailto:cloud-proving-ground+abuse@gsa.gov" target="blank">Report this app</a>
-				
 			</div>
 			<div class="usa-width-one-half">
-				<iframe width="560" height="315" src="{{ product.video }}" frameborder="0" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ product.youtube_video_id }}" frameborder="0" allowfullscreen></iframe>
 				<br/>
 				<h2>{{ product.name }}</h2>
 				<h4>{{ product.sector }}</h4>
 				<p>{{ product.description }}</p>
 				<h4>Additional Company Info</h4>
 				<ul>
-					<li>location: {{ product.location }}</li>
-					<li>type: {{product.status}}</li>
-					<li>founded: {{product.founded_year}}</li>
-					<li>stage: {{product.stage}}</li>
-					<li>employees: {{product.employee_count}}</li>
-					<li>investors: {{product.investors_string}}</li>
+					<li><strong>location:</strong> {{ product.location }}</li>
+					<li><strong>type:</strong> {{product.status}}</li>
+					<li><strong>founded:</strong> {{product.founded_year}}</li>
+					<li><strong>stage:</strong> {{product.stage}}</li>
+					<li><strong>employees:</strong> {{product.employee_count}}</li>
+					<li><strong>investors:</strong> {{product.investors_string}}</li>
 				</ul>
 			</div>
 
 			<div class="usa-width-one-fourth">
-				<h4>FedRamp Approved</h4>
-				<h4>FedRamp Infrastructure</h4>
-				<h4>FedRamp Ready</h4>
-			 	<fieldset class="usa-fieldset-inputs usa-sans">
+				{% if product.fedramp == true %}
+					<h4>FedRamp Approved</h4>
+					black/white vs color logo
+				{% else %}
+					<h4>FedRamp Infrastructure</h4>
+					black/white vs color logo
+					<h4>FedRamp Ready</h4>
+				 	<fieldset class="usa-fieldset-inputs usa-sans">
 
-			    <legend class="usa-sr-only">Historical figures 1</legend>
+				    <legend class="usa-sr-only">Historical figures 1</legend>
 
-			    <ul class="usa-unstyled-list">
-			      <li>
-			        <input id="apple-pie" type="checkbox" name="apple-pie" value="apple-pie" checked="">
-			        <label for="apple-pie">FIPS Pub 199</label>
-			      </li>
-			      <li>
-			        <input id="key-lime-pie" type="checkbox" name="key-lime-pie" value="key-lime-pie">
-			        <label for="key-lime-pie">E-Authentication Template</label>
-			      </li>
-			      <li>
-			        <input id="peach-pie" type="checkbox" name="peach-pie" value="peach-pie">
-			        <label for="peach-pie">Information System Security Policies and Procedures</label>
-			      </li>
-			      <li>
-			        <input id="pecan-pie" type="checkbox" name="pecan-pie" value="pecan-pie">
-			        <label for="pecan-pie">Configuration Management (CM) Plan</label>
-			      </li>
-			      <li>
-			      	<input id="blueberry-pie" type="checkbox" name="blueberry-pie" value="blueberry-pie">
-			      	<label for="blueberry-pie">Control Implementation Summary (CIS)</label>
-			      </li>
-			      <li>
-			      	<input id="zero-pie" type="checkbox" name="zero-pie" value="zero-pie">
-			      	<label for="zero-pie">CIS Worksheet</label>
-			      </li>
-			      <li>
-			      	<input id="one-pie" type="checkbox" name="one-pie" value="one-pie">
-			      	<label for="one-pie">IT Contigency Plan (CP)</label>
-			      </li>
-			      <li>
-			      	<input id="two-pie" type="checkbox" name="one-pie" value="two-pie">
-			      	<label for="two-pie">Incident Response Plan (IRP)</label>
-			      </li>
-			      <li>
-			      	<input id="three-pie" type="checkbox" name="three-pie" value="three-pie">
-			      	<label for="three-pie">Privacy Threshold Analysis (PTA) / Privacy Impact Analysis (PIA)</label>
-			      </li>
-			      <li>
-			      	<input id="four-pie" type="checkbox" name="four-pie" value="four-pie">
-			      	<label for="four-pie">User Guide</label>
-			      </li>
-			      <li>
-			      	<input id="five-pie" type="checkbox" name="five-pie" value="five-pie">
-			      	<label for="five-pie">Rules of Behavior (ROB)</label>
-			      </li>
-			      <li>
-			      	<input id="six-pie" type="checkbox" name="six-pie" value="six-pie">
-			      	<label for="six-pie">Signature Page</label>
-			      </li>
-			    </ul>
-			  </fieldset>
+				    <ul class="usa-unstyled-list">
+				      <li>
+				        <input id="fedramp-ready-one" type="checkbox" name="fedramp-ready-one" value="fedramp-ready-one" {% if product.fedramp_ready[0].fips == true %}checked=""{% endif %}>
+				        <label for="fedramp-ready-one">FIPS Pub 199</label>
+				      </li>
+				      <li>
+				        <input id="fedramp-ready-two" type="checkbox" name="fedramp-ready-two" value="fedramp-ready-two" {% if product.fedramp_ready[0].eauth == true %}checked=""{% endif %}>
+				        <label for="fedramp-ready-two">E-Authentication Template</label>
+				      </li>
+				      <li>
+				        <input id="fedramp-ready-three" type="checkbox" name="fedramp-ready-three" value="fedramp-ready-three" {% if product.fedramp_ready[0].isspp == true %}checked=""{% endif %}>
+				        <label for="fedramp-ready-three">Information System Security Policies and Procedures</label>
+				      </li>
+				      <li>
+				        <input id="fedramp-ready-four" type="checkbox" name="fedramp-ready-four" value="fedramp-ready-four" {% if product.fedramp_ready[0].cm_plan == true %}checked=""{% endif %}>
+				        <label for="fedramp-ready-four">Configuration Management (CM) Plan</label>
+				      </li>
+				      <li>
+				      	<input id="fedramp-ready-five" type="checkbox" name="fedramp-ready-five" value="fedramp-ready-five">
+				      	<label for="fedramp-ready-five" {% if product.fedramp_ready[0].cis == true %}checked=""{% endif %}>Control Implementation Summary (CIS)</label>
+				      </li>
+				      <li>
+				      	<input id="fedramp-ready-six" type="checkbox" name="fedramp-ready-six" value="fedramp-ready-six" {% if product.fedramp_ready[0].cis_worksheet == true %}checked=""{% endif %}>
+				      	<label for="fedramp-ready-six">CIS Worksheet</label>
+				      </li>
+				      <li>
+				      	<input id="fedramp-ready-seven" type="checkbox" name="fedramp-ready-seven" value="fedramp-ready-seven" {% if product.fedramp_ready[0].cp == true %}checked=""{% endif %}>
+				      	<label for="fedramp-ready-seven">IT Contigency Plan (CP)</label>
+				      </li>
+				      <li>
+				      	<input id="fedramp-ready-eight" type="checkbox" name="fedramp-ready-seven" value="fedramp-ready-eight" {% if product.fedramp_ready[0].irp == true %}checked=""{% endif %}>
+				      	<label for="fedramp-ready-eight">Incident Response Plan (IRP)</label>
+				      </li>
+				      <li>
+				      	<input id="fedramp-ready-nine" type="checkbox" name="fedramp-ready-nine" value="fedramp-ready-nine" {% if product.fedramp_ready[0].pta_pia == true %}checked=""{% endif %}>
+				      	<label for="fedramp-ready-nine">Privacy Threshold Analysis (PTA) / Privacy Impact Analysis (PIA)</label>
+				      </li>
+				      <li>
+				      	<input id="fedramp-ready-ten" type="checkbox" name="fedramp-ready-ten" value="fedramp-ready-ten" {% if product.fedramp_ready[0].user_guide == true %}checked=""{% endif %}>
+				      	<label for="fedramp-ready-ten">User Guide</label>
+				      </li>
+				      <li>
+				      	<input id="fedramp-ready-eleven" type="checkbox" name="fedramp-ready-eleven" value="fedramp-ready-eleven" {% if product.fedramp_ready[0].rob == true %}checked=""{% endif %}>
+				      	<label for="fedramp-ready-eleven">Rules of Behavior (ROB)</label>
+				      </li>
+				      <li>
+				      	<input id="fedramp-ready-twelve" type="checkbox" name="fedramp-ready-twelve" value="fedramp-ready-twelve" {% if product.fedramp_ready[0].signature == true %}checked=""{% endif %}>
+				      	<label for="fedramp-ready-twelve">Signature Page</label>
+				      </li>
+				    </ul>
+				  </fieldset>
+				{% endif %}
 			</div>
 		{% endfor %}
 	</div>
