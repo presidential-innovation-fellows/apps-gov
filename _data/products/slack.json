@@ -64,51 +64,24 @@
     "last_round_amount": 160000000,
     "top_exec_schools_string": "University of California, Berkeley, Wellesley College, The University of Texas at Austin, Birmingham City University, Widener University, Chester",
     "top_exec_prev_orgs_string": "Yahoo!, Flickr, Google, Twitter, #Angels",
-    "ceo_name": "Stewart Butterfield"
-  }],
-  "account_companies": [{
-    "_id": "535b48185bf2732308000209",
-    "account_custom": {
-      "press_coverage_account_custom_text": "Ari Levy - CNBC",
-      "my_field_account_custom_number": "11",
-      "headcount_account_custom_number": "106",
-      "owner_account_custom_teamlist": "55b568b15a1f58ce5e00ebec"
-    },
-    "first_comment": "544981f75140ea3828000073",
-    "first_comment_date": "2014-10-23T22:32:23.696Z",
-    "latest_comment": "553173f2afa992ca26000078",
-    "latest_comment_date": "2015-04-17T20:58:26.262Z",
-    "sfdc_account_id": "001j000000diSo4AAE",
-    "sfdc_account_owner_id": "005j000000CVDgKAAX"
-  }],
-  "user_companies": [{
-    "_id": "535b48185bf2732308000209",
-    "comments": ["553173f2afa992ca26000078", "5453dc34871a9d340f0008f2", "544981f75140ea3828000073"],
-    "watchlists": ["54c9118e71c6eec827000126", "54c2aa6c87b630f533000671"]
-  }],
-  "rankings": [],
-  "company_links": [{
-    "_id": "535b48185bf2732308000209",
-    "slug": "Slack",
-    "name": "Slack",
-    "favicon": "//datafox-data.s3.amazonaws.com/favicons/535b48185bf2732308000209.ico",
-    "company": "535b48185bf2732308000209"
-  }],
-  "comments": [{
-    "_id": "544981f75140ea3828000073",
-    "text": "Insane usage! \"TechCrunch understands that the company is currently clocking up 250,000 daily active users, and that in its freemium business model, about one-third of its \"seats\" are paid. As a point of comparison, at the end of April the company had 60,000 daily active users and 15,000 paid seats.\"",
-    "user": "526dd6d19e5e976511000045",
-    "account": "53d96bd9f073a4371a0000b6",
-    "ctime": "2014-10-23T22:32:23.696Z",
-    "company": "535b48185bf2732308000209",
-    "acting_user_can_edit": false
-  }, {
-    "_id": "553173f2afa992ca26000078",
-    "text": "Ari Levy - CNBC",
-    "user": "526fc92c013ae1524800003c",
-    "account": "53d96bd9f073a4371a0000b6",
-    "ctime": "2015-04-17T20:58:26.262Z",
-    "company": "535b48185bf2732308000209",
-    "acting_user_can_edit": false
+    "ceo_name": "Stewart Butterfield",
+    "youtube_video_id": "B6zVzWU95Sw",
+    "contracts": "Schedule 70, NASA SEWP, DHS CDM",
+    "fedramp": false,
+    "fedramp_infrastructure": false,
+    "fedramp_ready": [{
+        "fips": true,
+        "eauth": false,
+        "isspp": true,
+        "cm_plan": true,
+        "cis": false,
+        "cis_worksheet": true,
+        "cp": false,
+        "irp": true,
+        "pta_pia": false,
+        "user_guide": true,
+        "rob": false,
+        "signature": true
+    }]
   }]
 }
