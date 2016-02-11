@@ -24,111 +24,66 @@ permalink: products/Slack/
 <div class="usa-product">
 	<div class="usa-grid">
 		{% for product_hash in site.data.products %}{% assign product = product_hash[1].companies[0] %}
-			<div class="usa-width-one-fourth">
+			<div class="usa-width-one-fourth left-content">
 				<img src="{{ product.image }}">
-				<a href="{{ product.url }}">{{ product.url }}</a><br/>
-				<a href="mailto:sales@slack.com" target="blank">sales@slack.com</a><br/>
-				<a href="mailto:demo-request@slack.com" target="blank">Request a demo</a>
-				<p>{{ product.top_keywords }}
+        {% assign keywords = product.top_keywords | split: ',' %}
+        {% for keyword in keywords %}
+          <a href="{{ site.url }}/products?={{ keyword | strip }}';">#{{ keyword | strip | replace: ' ', '_' }}</a>{% if forloop.last == false %}, {% endif %}
+        {% endfor %}
+				<br/><br/>
 				<h4>Contract Vehicles</h4>
 				<form>
 				  <select name="options" id="options">
-				    <option value="value1">{{ product.contracts[0] }}</option>
-				    <option value="value2">{{ product.contracts[1] }}</option>
-				    <option value="value3">{{ product.contracts[2] }}</option>
+				  	{% assign contracts = product.contracts | split: ',' %}
+				  	{% for contract in contracts %}
+				    	<option value="value-{{ forloop.index }}">{{ contract | strip }}</option>
+				    {% endfor %}
 				  </select>
-				  <button>Purchase</button>
+				  <button>Procurement Details</button>
 				</form>
 				<ul>
-					<li><a href="https://twitter.com/{{ product.twitter_handle }}" target="blank"><i class="fa fa-twitter"></i></a></li>
-					<li><a href="https://linkedin.com/company/{{ product.linkedin_id }}" target="blank"><i class="fa fa-linkedin"></i></a></li>
-					<li><a href="https://angellist.com/{{ product.angellist_slug }}" target="blank"><i class="fa fa-angellist"></i></a></li>
+					<li><a href="https://twitter.com/{{ product.twitter_handle }}" target="blank"><i class="fa fa-twitter fa-2x"></i></a></li>
+					<li><a href="https://linkedin.com/company/{{ product.linkedin_id }}" target="blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
+					<li><a href="https://angellist.com/{{ product.angellist_slug }}" target="blank"><i class="fa fa-angellist fa-2x"></i></a></li>
+					<li><a href="mailto:{{ product.sales_poc }}" target="blank"><i class="fa fa-envelope fa-2x"></i></a></li>
 				</ul>
-				<a href="https://github.com/presidential-innovation-fellows/apps-gov" target="blank">Edit this app in Github</a><br/>
+				<hr/>
+				<a href="https://github.com/presidential-innovation-fellows/apps-gov" target="blank">Edit this app in Github</a><br/><br/>
 				<a href="mailto:cloud-proving-ground+abuse@gsa.gov" target="blank">Report this app</a>
 			</div>
-			<div class="usa-width-one-half">
+			<div class="usa-width-one-half center-content">
 				{% if product.youtube_video_id %}
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ product.youtube_video_id }}" frameborder="0" allowfullscreen></iframe>
 				{% endif %}
-				<br/>
 				<h2>{{ product.name }}</h2>
-				<h4>{{ product.sector }}</h4>
+				<h4>{{ product.sector }} // <a href="{{ product.url }}">{{ product.url }}</a></h4>
+				
 				<p>{{ product.description }}</p>
+				{% assign customers = product.gov_customers | split: ',' %}
+				<p class="customers-title"><strong>Government Customers:</strong></p>
+				<ul class="customers">
+					{% for customer in customers %}<li><img src="/img/customers/{{ customer | strip }}.png"></li>{% endfor %}
+				</ul>
 				<h4>Additional Company Info</h4>
 				<ul>
 					<li><strong>location:</strong> {{ product.location }}</li>
-					<li><strong>founded:</strong> {{product.founded_year}}</li>
+					<li><strong>founded:</strong> {{ product.founded_year }}</li>
 					<li><strong>employees:</strong> {{product.employee_count}}</li>
 					<li><strong>type:</strong> {{product.status}}</li>
 					<li><strong>investors:</strong> {{product.investors_string}}</li>
 				</ul>
 			</div>
 
-			<div class="usa-width-one-fourth">
-				{% if product.fedramp == true %}
-					<h4>FedRamp Approved</h4>
-					black/white vs color logo
-				{% else %}
-					<h4>FedRamp Infrastructure</h4>
-					black/white vs color logo
-					<h4>FedRamp Ready</h4>
-				 	<fieldset class="usa-fieldset-inputs usa-sans">
-
-				    <legend class="usa-sr-only">Historical figures 1</legend>
-
-				    <ul class="usa-unstyled-list">
-				      <li>
-				        <input id="fedramp-ready-one" type="checkbox" name="fedramp-ready-one" value="fedramp-ready-one" {% if product.fedramp_ready[0].fips == true %}checked=""{% endif %}>
-				        <label for="fedramp-ready-one">FIPS Pub 199</label>
-				      </li>
-				      <li>
-				        <input id="fedramp-ready-two" type="checkbox" name="fedramp-ready-two" value="fedramp-ready-two" {% if product.fedramp_ready[0].eauth == true %}checked=""{% endif %}>
-				        <label for="fedramp-ready-two">E-Authentication Template</label>
-				      </li>
-				      <li>
-				        <input id="fedramp-ready-three" type="checkbox" name="fedramp-ready-three" value="fedramp-ready-three" {% if product.fedramp_ready[0].isspp == true %}checked=""{% endif %}>
-				        <label for="fedramp-ready-three">Information System Security Policies and Procedures</label>
-				      </li>
-				      <li>
-				        <input id="fedramp-ready-four" type="checkbox" name="fedramp-ready-four" value="fedramp-ready-four" {% if product.fedramp_ready[0].cm_plan == true %}checked=""{% endif %}>
-				        <label for="fedramp-ready-four">Configuration Management (CM) Plan</label>
-				      </li>
-				      <li>
-				      	<input id="fedramp-ready-five" type="checkbox" name="fedramp-ready-five" value="fedramp-ready-five">
-				      	<label for="fedramp-ready-five" {% if product.fedramp_ready[0].cis == true %}checked=""{% endif %}>Control Implementation Summary (CIS)</label>
-				      </li>
-				      <li>
-				      	<input id="fedramp-ready-six" type="checkbox" name="fedramp-ready-six" value="fedramp-ready-six" {% if product.fedramp_ready[0].cis_worksheet == true %}checked=""{% endif %}>
-				      	<label for="fedramp-ready-six">CIS Worksheet</label>
-				      </li>
-				      <li>
-				      	<input id="fedramp-ready-seven" type="checkbox" name="fedramp-ready-seven" value="fedramp-ready-seven" {% if product.fedramp_ready[0].cp == true %}checked=""{% endif %}>
-				      	<label for="fedramp-ready-seven">IT Contigency Plan (CP)</label>
-				      </li>
-				      <li>
-				      	<input id="fedramp-ready-eight" type="checkbox" name="fedramp-ready-seven" value="fedramp-ready-eight" {% if product.fedramp_ready[0].irp == true %}checked=""{% endif %}>
-				      	<label for="fedramp-ready-eight">Incident Response Plan (IRP)</label>
-				      </li>
-				      <li>
-				      	<input id="fedramp-ready-nine" type="checkbox" name="fedramp-ready-nine" value="fedramp-ready-nine" {% if product.fedramp_ready[0].pta_pia == true %}checked=""{% endif %}>
-				      	<label for="fedramp-ready-nine">Privacy Threshold Analysis (PTA) / Privacy Impact Analysis (PIA)</label>
-				      </li>
-				      <li>
-				      	<input id="fedramp-ready-ten" type="checkbox" name="fedramp-ready-ten" value="fedramp-ready-ten" {% if product.fedramp_ready[0].user_guide == true %}checked=""{% endif %}>
-				      	<label for="fedramp-ready-ten">User Guide</label>
-				      </li>
-				      <li>
-				      	<input id="fedramp-ready-eleven" type="checkbox" name="fedramp-ready-eleven" value="fedramp-ready-eleven" {% if product.fedramp_ready[0].rob == true %}checked=""{% endif %}>
-				      	<label for="fedramp-ready-eleven">Rules of Behavior (ROB)</label>
-				      </li>
-				      <li>
-				      	<input id="fedramp-ready-twelve" type="checkbox" name="fedramp-ready-twelve" value="fedramp-ready-twelve" {% if product.fedramp_ready[0].signature == true %}checked=""{% endif %}>
-				      	<label for="fedramp-ready-twelve">Signature Page</label>
-				      </li>
-				    </ul>
-				  </fieldset>
-				{% endif %}
+			<div class="usa-width-one-fourth right-content">
+				<h4>Gov Approvals</h4>
+				<ul>
+					<li>
+						<p {% if product.gov_tos == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>Gov TOS</strong></p>
+					</li>
+					<li>
+						<p {% if product.fedramp != 'none' %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>FedRamp {% if product.fedramp == 'jab' %}(JAB){% endif %}{% if product.fedramp == 'agency' %}(Agency){% endif %}{% if product.fedramp == '3pao' %}(3PAO){% endif %}{% if product.fedramp == 'ready' %}(Ready){% endif %}{% if product.fedramp == 'infra' %}(infra){% endif %}</strong></p>
+					</li>
+				</li>
 			</div>
 		{% endfor %}
 	</div>
