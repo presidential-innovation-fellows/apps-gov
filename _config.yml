@@ -13,7 +13,7 @@ description: > # this means to ignore newlines until "baseurl:"
   operate better.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://apps.pif.gov" # the base hostname & protocol for your site
-twitter_username: appsgov
+twitter_username: InnovFellows
 github_username:  presidential-innovation-fellows
 repo_url: https://github.com/presidential-innovation-fellows/apps-gov
 
