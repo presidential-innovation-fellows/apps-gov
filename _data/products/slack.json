@@ -76,7 +76,10 @@
     "fedramp": "3pao",
     "fips_104_1": true,
     "fips_140_2": false,
-    "icd_503": true,
-    "800_53A": false,
+    "icd_503": false,
+    "800_53A": true,
+    "swamp": false,
+    "nccoe": true,
+    "18f": true
   }]
 }
