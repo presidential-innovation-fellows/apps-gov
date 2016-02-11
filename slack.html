@@ -78,10 +78,22 @@ permalink: products/Slack/
 				<h4>Gov Approvals</h4>
 				<ul>
 					<li>
+						<p {% if product.fedramp != 'none' %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>FedRamp {% if product.fedramp == 'jab' %}(JAB){% endif %}{% if product.fedramp == 'agency' %}(Agency){% endif %}{% if product.fedramp == '3pao' %}(3PAO){% endif %}{% if product.fedramp == 'ready' %}(Ready){% endif %}{% if product.fedramp == 'infra' %}(infra){% endif %}</strong></p>
+					</li>
+					<li>
 						<p {% if product.gov_tos == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>Gov TOS</strong></p>
 					</li>
 					<li>
-						<p {% if product.fedramp != 'none' %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>FedRamp {% if product.fedramp == 'jab' %}(JAB){% endif %}{% if product.fedramp == 'agency' %}(Agency){% endif %}{% if product.fedramp == '3pao' %}(3PAO){% endif %}{% if product.fedramp == 'ready' %}(Ready){% endif %}{% if product.fedramp == 'infra' %}(infra){% endif %}</strong></p>
+						<p {% if product.icd_503 == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>ICD 503</strong></p>
+					</li>
+					<li>
+						<p {% if product.fips_140_1 == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>NIST FIPS 140-1</strong></p>
+					</li>
+					<li>
+						<p {% if product.fips_140_2 == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>NIST FIPS 140-2</strong></p>
+					</li>
+					<li>
+						<p {% if product.800_53A == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>NIST SP 800-53A</strong></p>
 					</li>
 				</li>
 			</div>
