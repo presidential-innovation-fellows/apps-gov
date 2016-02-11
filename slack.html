@@ -18,7 +18,7 @@ permalink: products/Slack/
         </div>
       </form>
     </li>
-    <li><button class="usa-button-gray" type="button">List your Product</button></li>
+    <li><button class="usa-button-gray" type="button" onclick="location.href='https://github.com/presidential-innovation-fellows/apps-gov/';">List your Product</button></li>
   </ul>
 </div>
 <div class="usa-product">
@@ -45,7 +45,7 @@ permalink: products/Slack/
 					<li><a href="https://twitter.com/{{ product.twitter_handle }}" target="blank"><i class="fa fa-twitter fa-2x"></i></a></li>
 					<li><a href="https://linkedin.com/company/{{ product.linkedin_id }}" target="blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
 					<li><a href="https://angellist.com/{{ product.angellist_slug }}" target="blank"><i class="fa fa-angellist fa-2x"></i></a></li>
-					<li><a href="mailto:{{ product.sales_poc }}" target="blank"><i class="fa fa-envelope fa-2x"></i></a></li>
+					<li><a href="mailto:{{ product.sales_poc }}" target="blank"><i class="fa fa-envelope-o fa-2x"></i></a></li>
 				</ul>
 				<hr/>
 				<a href="https://github.com/presidential-innovation-fellows/apps-gov/blob/master/_data/products/{{ product.slug | downcase }}.json" target="blank">Edit this app in Github</a><br/>
@@ -59,10 +59,15 @@ permalink: products/Slack/
 				<h4>{{ product.sector }} // <a href="{{ product.url }}">{{ product.url }}</a></h4>
 				
 				<p>{{ product.description }}</p>
-				{% assign customers = product.gov_customers | split: ',' %}
-				<p class="customers-title"><strong>Government Customers:</strong></p>
+				{% assign customers = product.gov_customers %}
+				<p class="customers-title"><strong>Government Customers: (full <a href="https://www.fpds.gov/fpdsng_cms/index.php/en/" target="blank">FPDS</a> list)</strong></p>
 				<ul class="customers">
-					{% for customer in customers %}<li><img src="/img/customers/{{ customer | strip }}.png"></li>{% endfor %}
+					{% for customer in customers %}<li><img src="/img/customers/{{ customer.name }}.png">
+						<ul class="customer-info">
+							<li><i class="fa fa-users"></i></li>
+							<li><i class="fa fa-envelope"></i></li>
+						</ul>
+					</li>{% endfor %}
 				</ul>
 				<h4>Additional Company Info</h4>
 				<ul>
@@ -75,36 +80,43 @@ permalink: products/Slack/
 			</div>
 
 			<div class="usa-width-one-fourth right-content">
-				<h4>Gov Approvals</h4>
+				<h4>Certifications</h4>
 				<ul>
 					<li>
-						<p {% if product.18f == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>18F Security Testing</strong></p>
+						<p {% if product.gov_tos == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>Negotiated TOS</strong></p>
 					</li>
+					<li>
+						<p {% if product.privacy == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>Privacy Policy</strong></p>
+					</li>
+					<li>
+						<p {% if product.pia == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>Privacy Impact Assessment (PIA)</strong></p>
+					</li>
+					<li>
+						<p {% if product.masonry == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>Compliance Masonry</strong></p>
+					</li>
+					<li>
+						<p class="ato-title"><strong>Authority to Operate (ATO)</strong></p>
+						<ul class="ato">
+							<li><p {% if product.ato[0].agency == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>Agency Approval</strong></li>
+							<li><p {% if product.ato[0].fedramp == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>FedRamp (Agency)</strong></li>
+							<li><p {% if product.ato[0].jab == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>FedRamp (JAB)</strong></li>
+						</ul>
+					</li>
+				</ul>
+				<h4>Additional Testing</h4>
+				<ul>
 					<li>
 						<p {% if product.swamp == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>DHS SWAMP</strong></p>
-					</li>
-					<li>
-						<p {% if product.fedramp != 'none' %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>FedRamp {% if product.fedramp == 'jab' %}(JAB){% endif %}{% if product.fedramp == 'agency' %}(Agency){% endif %}{% if product.fedramp == '3pao' %}(3PAO){% endif %}{% if product.fedramp == 'ready' %}(Ready){% endif %}{% if product.fedramp == 'infra' %}(infra){% endif %}</strong></p>
-					</li>
-					<li>
-						<p {% if product.gov_tos == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>Gov TOS</strong></p>
-					</li>
-					<li>
-						<p {% if product.icd_503 == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>ICD 503</strong></p>
 					</li>
 					<li>
 						<p {% if product.nccoe == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>NCCoE Review</strong></p>
 					</li>
 					<li>
-						<p {% if product.fips_140_1 == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>NIST FIPS 140-1</strong></p>
-					</li>
-					<li>
-						<p {% if product.fips_140_2 == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>NIST FIPS 140-2</strong></p>
-					</li>
-					<li>
 						<p {% if product.800_53A == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>NIST SP 800-53A</strong></p>
 					</li>
-				</li>
+					<li>
+						<p {% if product.icd_503 == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>ICD 503</strong></p>
+					</li>
 			</div>
 		{% endfor %}
 	</div>

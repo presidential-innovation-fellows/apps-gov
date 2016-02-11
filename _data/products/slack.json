@@ -66,20 +66,41 @@
     "top_exec_schools_string": "University of California, Berkeley, Wellesley College, The University of Texas at Austin, Birmingham City University, Widener University, Chester",
     "top_exec_prev_orgs_string": "Yahoo!, Flickr, Google, Twitter, #Angels",
     "ceo_name": "Stewart Butterfield",
-    // gov-specific data,
-    // see README.md for instructions,
-    "gov_customers": "GSA, NASA, NOAA",
+    // gov-specific data, see README.md for instructions,
     "sales_poc": "sales@slack.com",
+    "gov_customers": [
+        {
+            "name": "GSA",
+            "email": "buyer@gsa.gov",
+            "size": 150
+        },
+        {
+            "name": "NASA",
+            "email": "procurement@nasa.gov",
+            "size": 500
+        },
+        {
+            "name": "NOAA",
+            "email": "purchasing@noaa.gov",
+            "size": 50
+        }
+    ],
     // "youtube_video_id": "B6zVzWU95Sw",
     "contracts": "Schedule 70, NASA SEWP, DHS CDM, NIH NITAAC",
     "gov_tos": true,
-    "fedramp": "3pao",
-    "fips_104_1": true,
-    "fips_140_2": false,
+    "privacy": true,
+    "pia": false,
+    "masonry": true,
+    "ato": [{
+        "agency": true,
+        "fedramp": true,
+        "jab": false
+    }],
+    // "fips_104_1": true,
+    // "fips_140_2": false,
     "icd_503": false,
-    "800_53A": true,
+    "800_53A": false,
     "swamp": false,
     "nccoe": true,
-    "18f": true
   }]
 }

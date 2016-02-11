@@ -20,7 +20,7 @@
       margin-bottom:0;
     }
     ul.customers{
-      margin-bottom:1em;
+      margin-bottom:0;
       li{
         display:inline-block;
         &:not(:first-child){
@@ -31,6 +31,18 @@
         }
         img{
           width:60px;
+        }
+        ul.customer-info{
+          margin:0;
+          display:inline-block;
+          li{
+            display:inline;
+            margin:0;
+            line-height:1;
+            &:after{
+              margin-bottom:0;
+            }
+          }
         }
       }
     }
@@ -75,8 +87,16 @@
         .complete{
           color:#323a45;
           i{
-            color:#e31c3d;
+            color:#2e8540;
           }
+        }
+        .ato-title{
+          color:#5b616b;
+        }
+        ul.ato{
+          margin-left:10px;
+          margin-top:10px;
+          margin-bottom:0px;
         }
       }
     }
