@@ -32,9 +32,10 @@ permalink: products/
         <h4>{{ product.sector }}</h4>
       </div>
       <div>
-        {{product.top_keywords}}
-        <br/><br/>
-      insert buttons contracting and fedramp process
+        {% assign keywords = product.top_keywords | split: ',' %}
+        {% for keyword in keywords %}
+          <a href="{{ site.url }}/products?={{ keyword | strip }}';">#{{ keyword | strip | replace: ' ', '_' }}</a>{% if forloop.last == false %}, {% endif %}
+        {% endfor %}
       </div>
     </div>
     {% endfor %}
