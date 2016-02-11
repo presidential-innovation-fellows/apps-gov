@@ -78,6 +78,12 @@ permalink: products/Slack/
 				<h4>Gov Approvals</h4>
 				<ul>
 					<li>
+						<p {% if product.18f == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>18F Security Testing</strong></p>
+					</li>
+					<li>
+						<p {% if product.swamp == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>DHS SWAMP</strong></p>
+					</li>
+					<li>
 						<p {% if product.fedramp != 'none' %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>FedRamp {% if product.fedramp == 'jab' %}(JAB){% endif %}{% if product.fedramp == 'agency' %}(Agency){% endif %}{% if product.fedramp == '3pao' %}(3PAO){% endif %}{% if product.fedramp == 'ready' %}(Ready){% endif %}{% if product.fedramp == 'infra' %}(infra){% endif %}</strong></p>
 					</li>
 					<li>
@@ -85,6 +91,9 @@ permalink: products/Slack/
 					</li>
 					<li>
 						<p {% if product.icd_503 == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>ICD 503</strong></p>
+					</li>
+					<li>
+						<p {% if product.nccoe == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>NCCoE Review</strong></p>
 					</li>
 					<li>
 						<p {% if product.fips_140_1 == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>NIST FIPS 140-1</strong></p>
