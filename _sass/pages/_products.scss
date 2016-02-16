@@ -1,9 +1,14 @@
 .usa-products{
   margin-top:100px;
   margin-bottom:75px;
+  #hashtag{
+    font-size:1.6rem;
+  }
+  .product{
+    margin-bottom:10px;
+  }
   img{
     width:50px;
-    height:50px;
     display:inline;
     margin-bottom:5px;
   }
@@ -11,7 +16,8 @@
     display:inline-block;
     vertical-align:top;
   }
-  h2{
+  h3{
+    margin-left:5px;
     margin-top:0px;
     margin-bottom:0px;
     line-height:1.1;
