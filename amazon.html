@@ -48,7 +48,7 @@ permalink: products/Amazon/
 			<ul>
 				<li><a href="https://twitter.com/{{ product.twitter_handle }}" target="blank"><i class="fa fa-twitter fa-2x"></i></a></li>
 				<li><a href="https://linkedin.com/company/{{ product.linkedin_id }}" target="blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
-				<li><a href="https://angellist.com/{{ product.angellist_slug }}" target="blank"><i class="fa fa-angellist fa-2x"></i></a></li>
+				<li><a href="https://angellist.com/{{ product.slug }}" target="blank"><i class="fa fa-angellist fa-2x"></i></a></li>
 				<li><a href="mailto:{{ product.sales_poc }}" target="blank"><i class="fa fa-envelope-o fa-2x"></i></a></li>
 			</ul>
 			<hr/>
@@ -78,9 +78,9 @@ permalink: products/Amazon/
 			<ul>
 				<li><strong>location:</strong> {{ product.location }}</li>
 				<li><strong>founded:</strong> {{ product.founded_year }}</li>
-				<li><strong>employees:</strong> {{product.employee_count}}</li>
+				<li><strong>employees:</strong> {{product.number_of_employees}}</li>
 				<li><strong>type:</strong> {{product.status}}</li>
-				<li><strong>investors:</strong> {{product.investors_string}}</li>
+				<li><strong>investors:</strong> {{product.investors}}</li>
 			</ul>
 		</div>
 
