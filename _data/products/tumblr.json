@@ -1,1 +1,42 @@
-{"id":"5130efc68989846a36000780","slug":"tumblr","name":"Tumblr","overall_score":1065,"object_type":"company","icon_url":"//datafox-favicons.s3.amazonaws.com/favicons/5130efc68989846a36000780.ico","url":"tumblr.com","founded_year":2007,"logo_url":"//datafox-data.s3-us-west-1.amazonaws.com/images/cb_9f1be266fd44e9a56215c8fc40626a2a.image/png","stage":"Acquired","status":"Acquired","location":"New York, NY","top_keywords":["curated web","blogging platforms","opinions","postal and courier services","internet"],"pe_ratio":null,"market_cap":null,"revenue_estimate":2400000,"number_of_employees":12,"total_funding":125250000,"last_funding_date":"2012-01-01T08:00:00.000Z","twitter_handle":"tumblr","linkedin_id":1668979,"twitter_followers_count":2225013,"angellist_followers_count":574,"short_description":"Tumblr, a microblogging platform and social networking website, enables users to\npost multimedia and other content to a short-form blog.","long_description":"Tumblr is a microblogging platform and social networking website allowing users\nto post multimedia and other content to a short-form blog. Its users also have\nthe ability to follow other users' blogs, as well as make their blogs private.\nMuch of the Tumblr’s features are accessed from the dashboard interface, where\nthe option to post content and posts of followed blogs appear. This media\nnetwork is powered by an army of independent creators and is the home to an\naudience of more than 400 million unique visitors. Founded by David Karp in\n2007, Tumblr is headquartered in New York. The company was acquired by Yahoo in\n2013."}
+{
+    "slug": "tumblr",
+    "name": "Tumblr",
+    "url": "tumblr.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130efc68989846a36000780.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_9f1be266fd44e9a56215c8fc40626a2a.image/png",
+    "founded_year": 2007,
+    "location": "New York, NY",
+    "status": "Acquired",
+    "stage": "Acquired",
+    "top_keywords": [
+        "curated web",
+        "blogging platforms",
+        "opinions",
+        "postal and courier services",
+        "internet"
+    ],
+    "number_of_employees": 12,
+    "short_description": "Tumblr, a microblogging platform and social networking website, enables users to\npost multimedia and other content to a short-form blog.",
+    "long_description": "Tumblr, a microblogging platform and social networking website, enables users to\npost multimedia and other content to a short-form blog.",
+    "investors": [
+        "137 Ventures",
+        "Sequoia Capital",
+        "Draper Fisher Jurvetson",
+        "The Chernin Group",
+        "Greylock Partners",
+        "Insight Venture Partners",
+        "Spark Capital",
+        "Union Square Ventures",
+        "CrunchFund",
+        "Sequoia Capital",
+        "Union Square Ventures",
+        "Spark Capital",
+        "Union Square Ventures",
+        "Spark Capital",
+        "Spark Capital",
+        "Union Square Ventures",
+        "betaworks",
+        "Union Square Ventures",
+        "Spark Capital"
+    ]
+}

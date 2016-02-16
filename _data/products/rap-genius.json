@@ -1,1 +1,45 @@
-{"id":"5130f0ad8989846a3603137e","slug":"rap-genius","name":"Genius","overall_score":894,"object_type":"company","icon_url":"//datafox-favicons.s3.amazonaws.com/favicons/5130f0ad8989846a3603137e.ico","url":"genius.com/","founded_year":2009,"logo_url":"//datafox-data.s3-us-west-1.amazonaws.com/images/cb_22034eb9387ec9a4fb6f2838fe3d1987.png","stage":"Late Stage","status":null,"location":"New York, NY","top_keywords":["software","text analytics","content","digital media","music"],"pe_ratio":null,"market_cap":null,"revenue_estimate":null,"number_of_employees":null,"total_funding":128627053,"last_funding_date":"2015-11-04T08:00:00.000Z","twitter_handle":"genius","linkedin_id":null,"twitter_followers_count":17644,"angellist_followers_count":182,"short_description":"Genius is an online knowledge project that breaks down information with\nline-by-line annotations, added and edited by anyone in the world.","long_description":"Genius is an online knowledge project that breaks down information with\nline-by-line annotations, added and edited by anyone in the world. It's a\nliving, crowdsourced archive and tool for interpreting human culture. The Genius\nknowledge project began with Rap Genius, a website for annotating rap lyrics,\nand eventually expanded to all genres of music, as well as literature, news,\nhistory, sports, movies, and technology. Now in its sixth year, Genius has\nexpanded to include a platform for annotating any page on the internet. Whether\nyou’re on Genius.com or annotating with Genius on any other website on the\nInternet, the call to action remains the same: highlight the text you want to\nannotate and add context, commentary, or images. To use Genius all over the web,\nsimply add genius.it/ before any URL to make that page annotateable. Genius’s\ncontributors range from passionate fans to cultural commentators across many\ndisciplines, along with top verified users that include leading authors,\nartists, and critics. Verified users range from authors such as Michael Chabon,\nJudith Butler and Junot Diaz to innovators, musicians and producers like Eminem,\nSia, Rick Rubin, Carrie Underwood, Nas, The-Dream, Blake Shelton, Sylvan Esso,\nNatalie Prass, and Grizzly Bear."}
+{
+    "slug": "rap-genius",
+    "name": "Genius",
+    "url": "genius.com/",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130f0ad8989846a3603137e.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_22034eb9387ec9a4fb6f2838fe3d1987.png",
+    "founded_year": 2009,
+    "location": "New York, NY",
+    "status": null,
+    "stage": "Late Stage",
+    "top_keywords": [
+        "software",
+        "text analytics",
+        "content",
+        "digital media",
+        "music"
+    ],
+    "number_of_employees": null,
+    "short_description": "Genius is an online knowledge project that breaks down information with\nline-by-line annotations, added and edited by anyone in the world.",
+    "long_description": "Genius is an online knowledge project that breaks down information with\nline-by-line annotations, added and edited by anyone in the world.",
+    "investors": [
+        "Andreessen Horowitz",
+        "QueensBridge Venture Partners",
+        "Andreessen Horowitz",
+        "AFSquare",
+        "betaworks",
+        "Fenox Venture Capital",
+        "Transmedia Capital",
+        "betaworks",
+        "Y Combinator",
+        "Emergence Capital Partners",
+        "Deep Fork Capital",
+        "Accel Partners",
+        "WaldenVC",
+        "Emergence Capital Partners",
+        "Mohr Davidow Ventures",
+        "Walden International",
+        "Emergence Capital Partners",
+        "Mohr Davidow Ventures",
+        "Accel Partners",
+        "Walden International",
+        "Emergence Capital Partners",
+        "Mohr Davidow Ventures"
+    ]
+}

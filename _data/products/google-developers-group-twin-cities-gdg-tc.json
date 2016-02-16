@@ -1,1 +1,21 @@
-{"id":"52b8af69f2dc83044f001b88","slug":"google-developers-group-twin-cities-gdg-tc","name":"Google Developers Group","overall_score":455,"object_type":"company","icon_url":"//datafox-favicons.s3.amazonaws.com/favicons/52b8af69f2dc83044f001b88.ico","url":"developers.google.com/","founded_year":2015,"logo_url":"//datafox-data.s3-us-west-1.amazonaws.com/images/cb_2846ebaaca73567383cbf68f882cd824.svg","stage":null,"status":null,"location":"Minneapolis, MN","top_keywords":["google technologies","developer relations","technology advocacy","computer software"],"pe_ratio":null,"market_cap":null,"revenue_estimate":null,"number_of_employees":null,"total_funding":0,"last_funding_date":null,"twitter_handle":"googledevs","linkedin_id":2969362,"twitter_followers_count":1573096,"angellist_followers_count":null,"short_description":"Helping startups from around the world develop the world’s greatest apps","long_description":"Have you and your team set out to address a real challenge for your home country\nand region? Are you ready to scale your product by leveraging Google’s global\nreach and local resources? Would you like to join an elite community of startups\nfrom around the world? Could your company benefit from equity-free funding from\nGoogle? If you answered yes to ALL of these questions, we should work together!\nApply now for the Google Launchpad Accelerator, currently operating in three\nlocations: Brazil, India and Indonesia."}
+{
+    "slug": "google-developers-group-twin-cities-gdg-tc",
+    "name": "Google Developers Group",
+    "url": "developers.google.com/",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/52b8af69f2dc83044f001b88.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_2846ebaaca73567383cbf68f882cd824.svg",
+    "founded_year": 2015,
+    "location": "Minneapolis, MN",
+    "status": null,
+    "stage": null,
+    "top_keywords": [
+        "google technologies",
+        "developer relations",
+        "technology advocacy",
+        "computer software"
+    ],
+    "number_of_employees": null,
+    "short_description": "Helping startups from around the world develop the world’s greatest apps",
+    "long_description": "Helping startups from around the world develop the world’s greatest apps",
+    "investors": []
+}

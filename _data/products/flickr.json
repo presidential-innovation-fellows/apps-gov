@@ -1,1 +1,22 @@
-{"id":"5130efc28989846a36000128","slug":"flickr","name":"Flickr","overall_score":1080,"object_type":"company","icon_url":"//datafox-favicons.s3.amazonaws.com/favicons/5130efc28989846a36000128.ico","url":"flickr.com","founded_year":2004,"logo_url":"//datafox-data.s3-us-west-1.amazonaws.com/images/cb_c750db1b559a058341dc2fa27a64af61.image/png","stage":"Acquired","status":"Acquired","location":"Ithaca, NY","top_keywords":["photography","social media","photo sharing","video","photos"],"pe_ratio":null,"market_cap":null,"revenue_estimate":150000000,"number_of_employees":571,"total_funding":0,"last_funding_date":"2004-06-01T07:00:00.000Z","twitter_handle":"Flickr","linkedin_id":157246,"twitter_followers_count":905986,"angellist_followers_count":108,"short_description":"Flickr is a mobile application and social network that offers an online photo\nsharing network for its users.","long_description":"Flickr is a mobile application and social network that offers an online photo\nsharing network for its users. It provides its users with the ability to\ncapture, share, and view a number of images related to many categories. The\napplication also provides its users with the ability to integrate the\napplication with the camera of the device and capture professional photographs\nin high resolution. In addition, it provides free editing tools, live filters,\nHD video recording, and more. Flickr enables its users to store over 500,000\nphotographs. It is available for Android and iOS devices. Currently owned by\n[Yahoo!](http://www.crunchbase.com/organization/yahoo), Flickr was founded in\n2004 by [Caterina Fake]( http://www.crunchbase.com/person/caterina-fake) and\n[Stewart Butterfield]( http://www.crunchbase.com/person/stewart-butterfield) in\nSunnyvale, California."}
+{
+    "slug": "flickr",
+    "name": "Flickr",
+    "url": "flickr.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130efc28989846a36000128.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_c750db1b559a058341dc2fa27a64af61.image/png",
+    "founded_year": 2004,
+    "location": "Ithaca, NY",
+    "status": "Acquired",
+    "stage": "Acquired",
+    "top_keywords": [
+        "photography",
+        "social media",
+        "photo sharing",
+        "video",
+        "photos"
+    ],
+    "number_of_employees": 571,
+    "short_description": "Flickr is a mobile application and social network that offers an online photo\nsharing network for its users.",
+    "long_description": "Flickr is a mobile application and social network that offers an online photo\nsharing network for its users.",
+    "investors": []
+}

@@ -1,1 +1,39 @@
-{"id":"5130f0078989846a3600d162","slug":"medium","name":"Medium","overall_score":1049,"object_type":"company","icon_url":"//datafox-favicons.s3.amazonaws.com/favicons/5130f0078989846a3600d162.ico","url":"medium.com","founded_year":2013,"logo_url":"//datafox-data.s3-us-west-1.amazonaws.com/images/cb_7463885963317174004c8d507410bb18.png","stage":"Series B","status":"Private","location":"San Francisco, CA","top_keywords":["startups","analytics","business analytics","news","ecommerce"],"pe_ratio":null,"market_cap":null,"revenue_estimate":35000000,"number_of_employees":139,"total_funding":82196090,"last_funding_date":"2015-09-28T07:00:00.000Z","twitter_handle":"Medium","linkedin_id":3039001,"twitter_followers_count":1610716,"angellist_followers_count":956,"short_description":"Never has customer experience been as critical as it is in today’s\ninter-networked world, where customers trust other customers more than","long_description":"Medium is rethinking how ideas and stories are shared with the world. We\nbelieve: - Great ideas can come from anywhere - People create better things\ntogether - Design matters at a deep level We also care deeply about how media\nshapes the lives of individuals and the decisions of society — and we think it\ncan be better. We have a world-class engineering and design team, which we are\nlooking to grow slowly and deliberately. Let us know if you're interested."}
+{
+    "slug": "medium",
+    "name": "Medium",
+    "url": "medium.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130f0078989846a3600d162.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_7463885963317174004c8d507410bb18.png",
+    "founded_year": 2013,
+    "location": "San Francisco, CA",
+    "status": "Private",
+    "stage": "Series B",
+    "top_keywords": [
+        "startups",
+        "analytics",
+        "business analytics",
+        "news",
+        "ecommerce"
+    ],
+    "number_of_employees": 139,
+    "short_description": "Never has customer experience been as critical as it is in today’s\ninter-networked world, where customers trust other customers more than",
+    "long_description": "Never has customer experience been as critical as it is in today’s\ninter-networked world, where customers trust other customers more than",
+    "investors": [
+        "Andreessen Horowitz",
+        "Google Ventures",
+        "Greylock Partners",
+        "Obvious",
+        "The Chernin Group",
+        "CAA Ventures",
+        "Science",
+        "betaworks",
+        "CODE Advisors",
+        "Google Ventures",
+        "Greylock Partners",
+        "Lowercase Capital",
+        "Vayner/RSE",
+        "Eleven",
+        "Eleven",
+        "Eleven"
+    ]
+}

@@ -1,1 +1,22 @@
-{"id":"5130efe48989846a360062e4","slug":"mixedink","name":"MixedInk","overall_score":830,"object_type":"company","icon_url":"//datafox-favicons.s3.amazonaws.com/favicons/5130efe48989846a360062e4.ico","url":"mixedink.com","founded_year":2007,"logo_url":"//datafox-data.s3-us-west-1.amazonaws.com/images/cb_298c52a9a8e9c5650e7383f033265b81.image/jpeg","stage":null,"status":"Private","location":"Byron Bay, Australia","top_keywords":["curated web","web tools","collaboration","internet","collaborate"],"pe_ratio":null,"market_cap":null,"revenue_estimate":1400000,"number_of_employees":7,"total_funding":0,"last_funding_date":null,"twitter_handle":"MixedInk","linkedin_id":261396,"twitter_followers_count":330,"angellist_followers_count":null,"short_description":"MixedInk's platform allows massive groups to weave their ideas and opinions into\na single text.","long_description":"MixedInk's platform allows massive groups to weave their ideas and opinions into\na single text. It combines the wiki concept with a democratic rating system like\nDigg's. Larry Lessig recently called it \"compelling,\" and Craig Newmark said it\n\"could be a real step toward online democracy.\""}
+{
+    "slug": "mixedink",
+    "name": "MixedInk",
+    "url": "mixedink.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130efe48989846a360062e4.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_298c52a9a8e9c5650e7383f033265b81.image/jpeg",
+    "founded_year": 2007,
+    "location": "Byron Bay, Australia",
+    "status": "Private",
+    "stage": null,
+    "top_keywords": [
+        "curated web",
+        "web tools",
+        "collaboration",
+        "internet",
+        "collaborate"
+    ],
+    "number_of_employees": 7,
+    "short_description": "MixedInk's platform allows massive groups to weave their ideas and opinions into\na single text.",
+    "long_description": "MixedInk's platform allows massive groups to weave their ideas and opinions into\na single text.",
+    "investors": []
+}

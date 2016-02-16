@@ -1,1 +1,30 @@
-{"id":"5130f09c8989846a3602d426","slug":"crowdhall","name":"CrowdHall","overall_score":483,"object_type":"company","icon_url":"//datafox-favicons.s3.amazonaws.com/favicons/5130f09c8989846a3602d426.ico","url":"crowdhall.com","founded_year":2012,"logo_url":"//datafox-data.s3-us-west-1.amazonaws.com/images/cb_3b419ba90ec2362ea7d46a3a125f7115.image/png","stage":"Closed Down","status":"Closed Down","location":"Las Vegas, NV","top_keywords":["curated web","social media","politics","celebrity","brand marketing"],"pe_ratio":null,"market_cap":null,"revenue_estimate":1400000,"number_of_employees":4,"total_funding":770000,"last_funding_date":"2013-05-09T07:00:00.000Z","twitter_handle":"CrowdHall","linkedin_id":2699449,"twitter_followers_count":1884,"angellist_followers_count":156,"short_description":"CrowdHall allows users to host crowd-sourced town halls, empowering the crowd to\narticulate its questions and voice its perspective.","long_description":"A CrowdHall is a crowd-sourced town hall built on the idea that public discourse\nwith high-profile people & organizations doesn't have to be one-sided. It\nempowers the crowd to organize its thoughts, articulate its questions, and voice\nits perspective in a democratic way."}
+{
+    "slug": "crowdhall",
+    "name": "CrowdHall",
+    "url": "crowdhall.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130f09c8989846a3602d426.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_3b419ba90ec2362ea7d46a3a125f7115.image/png",
+    "founded_year": 2012,
+    "location": "Las Vegas, NV",
+    "status": "Closed Down",
+    "stage": "Closed Down",
+    "top_keywords": [
+        "curated web",
+        "social media",
+        "politics",
+        "celebrity",
+        "brand marketing"
+    ],
+    "number_of_employees": 4,
+    "short_description": "CrowdHall allows users to host crowd-sourced town halls, empowering the crowd to\narticulate its questions and voice its perspective.",
+    "long_description": "CrowdHall allows users to host crowd-sourced town halls, empowering the crowd to\narticulate its questions and voice its perspective.",
+    "investors": [
+        "The Brandery",
+        "VegasTechFund",
+        "Vine St. Ventures",
+        "Northwestern Capital",
+        "Social Starts",
+        "The Brandery",
+        "Vine St. Ventures"
+    ]
+}

@@ -1,1 +1,22 @@
-{"id":"521068efbdfe6c4d7806e8c1","slug":"ideascale","name":"IdeaScale","overall_score":905,"object_type":"company","icon_url":"//datafox-favicons.s3.amazonaws.com/favicons/521068efbdfe6c4d7806e8c1.ico","url":"ideascale.com","founded_year":2009,"logo_url":"//datafox-data.s3-us-west-1.amazonaws.com/images/cb_92f3a6811f3b745dd2c6b22358ca79d8.jpg","stage":null,"status":null,"location":"San Francisco, CA","top_keywords":["crowdsourcing","innovation management","government innovation","enterprise software","social innovation"],"pe_ratio":null,"market_cap":null,"revenue_estimate":2400000,"number_of_employees":24,"total_funding":0,"last_funding_date":null,"twitter_handle":"ideascale","linkedin_id":null,"twitter_followers_count":4300,"angellist_followers_count":22,"short_description":"IdeaScale is the largest cloud-based innovation software platform in the world\nwith more than 25,000 customers and 4 million users.","long_description":"IdeaScale is the largest cloud-based innovation software platform in the world\nwith more than 25,000 customers and 4 million users. The software allows\norganizations to involve the opinions of public and private communities by\ncollecting their ideas and giving users a platform to vote. The ideas are then\nevaluated, routed, and delivered on the back-end, making IdeaScale the engine of\ninnovation. IdeaScale's current client roster includes industry leaders, such as\nEA Sports, NBC, NASA, Xerox and the White House."}
+{
+    "slug": "ideascale",
+    "name": "IdeaScale",
+    "url": "ideascale.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/521068efbdfe6c4d7806e8c1.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_92f3a6811f3b745dd2c6b22358ca79d8.jpg",
+    "founded_year": 2009,
+    "location": "San Francisco, CA",
+    "status": null,
+    "stage": null,
+    "top_keywords": [
+        "crowdsourcing",
+        "innovation management",
+        "government innovation",
+        "enterprise software",
+        "social innovation"
+    ],
+    "number_of_employees": 24,
+    "short_description": "IdeaScale is the largest cloud-based innovation software platform in the world\nwith more than 25,000 customers and 4 million users.",
+    "long_description": "IdeaScale is the largest cloud-based innovation software platform in the world\nwith more than 25,000 customers and 4 million users.",
+    "investors": []
+}

@@ -1,1 +1,22 @@
-{"id":"515103432857b57a510c7f1b","slug":"tint","name":"Tint","overall_score":472,"object_type":"company","icon_url":"//datafox-favicons.s3.amazonaws.com/favicons/515103432857b57a510c7f1b.ico","url":"tintup.com","founded_year":2013,"logo_url":"//datafox-data.s3-us-west-1.amazonaws.com/images/cb_e82a0aaf137b38cd02fd43711a580778.image/png","stage":null,"status":null,"location":null,"top_keywords":["software","social media","b2b","ediscovery","internet"],"pe_ratio":null,"market_cap":null,"revenue_estimate":null,"number_of_employees":null,"total_funding":0,"last_funding_date":null,"twitter_handle":"tint","linkedin_id":null,"twitter_followers_count":5761,"angellist_followers_count":257,"short_description":"Tint is a self-service platform helping brands aggregate, curate and display\nsocial feeds in their websites and social networks.","long_description":"Our vision is to help brands drive deeper engagement with their audience by\nallowing them to integrate any social feeds into any of their digital\nproperties. Tint (formerly Hypemarks) is a self-service platform that helps\nbrands aggregate, curate, and display any any social feeds onto their websites,\nFB pages, mobile apps, retail displays, and event walls. Over 20,000 brands\ntrust Tint today after 8 months of launch, and our company hit profitability in\n3 months."}
+{
+    "slug": "tint",
+    "name": "Tint",
+    "url": "tintup.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/515103432857b57a510c7f1b.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_e82a0aaf137b38cd02fd43711a580778.image/png",
+    "founded_year": 2013,
+    "location": null,
+    "status": null,
+    "stage": null,
+    "top_keywords": [
+        "software",
+        "social media",
+        "b2b",
+        "ediscovery",
+        "internet"
+    ],
+    "number_of_employees": null,
+    "short_description": "Tint is a self-service platform helping brands aggregate, curate and display\nsocial feeds in their websites and social networks.",
+    "long_description": "Tint is a self-service platform helping brands aggregate, curate and display\nsocial feeds in their websites and social networks.",
+    "investors": []
+}

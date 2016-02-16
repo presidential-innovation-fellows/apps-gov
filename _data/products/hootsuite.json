@@ -1,1 +1,41 @@
-{"id":"5130efee8989846a36007fd8","slug":"hootsuite","name":"HootSuite","overall_score":1118,"object_type":"company","icon_url":"//datafox-data.s3.amazonaws.com/favicons/5130efee8989846a36007fd8.ico","url":"hootsuite.com","founded_year":2008,"logo_url":"//datafox-data.s3-us-west-1.amazonaws.com/images/cb_0659accbc67223c64ebc57a53d2869ce.jpg","stage":"Late Stage","status":"Private","location":"Vancouver, Canada","top_keywords":["social media","messaging","online scheduling","big data analytics","twitter applications"],"pe_ratio":null,"market_cap":null,"revenue_estimate":75000000,"number_of_employees":1093,"total_funding":284900000,"last_funding_date":"2014-09-25T07:00:00.000Z","twitter_handle":"HootSuite","linkedin_id":288540,"twitter_followers_count":7480036,"angellist_followers_count":367,"short_description":"Hootsuite is the most widely used platform for managing social media, loved by\nover 10 million people around the globe.","long_description":"Hootsuite is the most widely used platform for managing social media, loved by\nover 10 million people around the globe and trusted by 744 of the Fortune 1000.\nWith Hootsuite, brands harness the power of social. Our platform brings together\nyour social networks and integrates with hundreds of business applications. It’s\nthe one place to build customer relationships, listen to the needs of the market\nand grow your revenue."}
+{
+    "slug": "hootsuite",
+    "name": "HootSuite",
+    "url": "hootsuite.com",
+    "icon_url": "//datafox-data.s3.amazonaws.com/favicons/5130efee8989846a36007fd8.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_0659accbc67223c64ebc57a53d2869ce.jpg",
+    "founded_year": 2008,
+    "location": "Vancouver, Canada",
+    "status": "Private",
+    "stage": "Late Stage",
+    "top_keywords": [
+        "social media",
+        "messaging",
+        "online scheduling",
+        "big data analytics",
+        "twitter applications"
+    ],
+    "number_of_employees": 1093,
+    "short_description": "Hootsuite is the most widely used platform for managing social media, loved by\nover 10 million people around the globe.",
+    "long_description": "Hootsuite is the most widely used platform for managing social media, loved by\nover 10 million people around the globe.",
+    "investors": [
+        "Difference Capital",
+        "Accel Partners",
+        "Insight Venture Partners",
+        "OMERS Ventures",
+        "Silicon Valley Bank",
+        "Fidelity Investments",
+        "Cloud Apps Capital Partners",
+        "Fidelity Investments",
+        "Accel Partners",
+        "OMERS Ventures",
+        "Insight Venture Partners",
+        "OMERS Ventures",
+        "Millennium Value Partners",
+        "Blumberg Capital",
+        "Hearst Ventures",
+        "Hearst Ventures",
+        "Blumberg Capital",
+        "Leo Group LLC"
+    ]
+}

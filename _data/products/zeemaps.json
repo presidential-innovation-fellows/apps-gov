@@ -1,1 +1,22 @@
-{"id":"5130f0548989846a3601d27c","slug":"zeemaps","name":"ZeeMaps","overall_score":853,"object_type":"company","icon_url":"//datafox-favicons.s3.amazonaws.com/favicons/5130f0548989846a3601d27c.ico","url":"zeemaps.com","founded_year":2002,"logo_url":"//datafox-data.s3-us-west-1.amazonaws.com/images/cb_9ca53c6f34db0b0e24d449de45f85fa2.image/png","stage":null,"status":null,"location":"Cupertino, CA","top_keywords":["software","maps","open source","curated web","create map"],"pe_ratio":null,"market_cap":null,"revenue_estimate":2400000,"number_of_employees":12,"total_funding":0,"last_funding_date":null,"twitter_handle":"zeemaps","linkedin_id":null,"twitter_followers_count":351,"angellist_followers_count":null,"short_description":"Your Open Source Partner","long_description":"Zee Source mission is to help organizations adopt Open Source technologies for\ntheir own software development. We provide professional customization and\nintegration of several Open Source tools like Bugzilla, CVS, SubVersion, and\nMailman, to suite our customers' special requirements. Zee Source has developed\na Web 2.0 mapping solution ZeeMaps, that allows users to easily create and\npublish interactive maps. Some unique features of ZeeMaps are: (1) scalability:\nfrom a few markers to tens of thousands of markers, (2) custom fields that can\nbe combined with distance search, and (3) static images in high resolution\nsuitable for publications. Many publishers like wired.com, Bay Area Newsgroup,\nand Milwaukee Sentinel routinely use ZeeMaps to create interactive maps related\nto their news stories."}
+{
+    "slug": "zeemaps",
+    "name": "ZeeMaps",
+    "url": "zeemaps.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130f0548989846a3601d27c.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_9ca53c6f34db0b0e24d449de45f85fa2.image/png",
+    "founded_year": 2002,
+    "location": "Cupertino, CA",
+    "status": null,
+    "stage": null,
+    "top_keywords": [
+        "software",
+        "maps",
+        "open source",
+        "curated web",
+        "create map"
+    ],
+    "number_of_employees": 12,
+    "short_description": "Your Open Source Partner",
+    "long_description": "Your Open Source Partner",
+    "investors": []
+}

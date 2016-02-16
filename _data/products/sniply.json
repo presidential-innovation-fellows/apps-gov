@@ -1,1 +1,22 @@
-{"id":"5130f03e8989846a3601864e","slug":"sniply","name":"Snip.ly","overall_score":429,"object_type":"company","icon_url":"//datafox-data.s3.amazonaws.com/favicons/5130f03e8989846a3601864e.ico","url":"snip.ly","founded_year":2010,"logo_url":"//datafox-data.s3-us-west-1.amazonaws.com/images/cb_ff9ebf80cdc201ce407233581002df99.image/png","stage":"Closed Down","status":"Closed Down","location":null,"top_keywords":["curated web","software","social media","advertising","sniply"],"pe_ratio":null,"market_cap":null,"revenue_estimate":null,"number_of_employees":null,"total_funding":0,"last_funding_date":null,"twitter_handle":"sniply","linkedin_id":null,"twitter_followers_count":19895,"angellist_followers_count":24,"short_description":"Snip.ly offers a group of tools to allow you to easily share small snippets of\ncontent from your favorite articles online","long_description":"Sniply is an online platform and software that enables its users to share\ncontent and generate traffic. It enables its users to attach a link to content\nshared by them. It enables its users to generate more signups and subscribers\nfor their websites. Sniply was founded in 2010 by Abhijit Rao, Abhishek Amit,\nand Zal Bilimoria. It is based in San Francisco, California."}
+{
+    "slug": "sniply",
+    "name": "Snip.ly",
+    "url": "snip.ly",
+    "icon_url": "//datafox-data.s3.amazonaws.com/favicons/5130f03e8989846a3601864e.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_ff9ebf80cdc201ce407233581002df99.image/png",
+    "founded_year": 2010,
+    "location": null,
+    "status": "Closed Down",
+    "stage": "Closed Down",
+    "top_keywords": [
+        "curated web",
+        "software",
+        "social media",
+        "advertising",
+        "sniply"
+    ],
+    "number_of_employees": null,
+    "short_description": "Snip.ly offers a group of tools to allow you to easily share small snippets of\ncontent from your favorite articles online",
+    "long_description": "Snip.ly offers a group of tools to allow you to easily share small snippets of\ncontent from your favorite articles online",
+    "investors": []
+}

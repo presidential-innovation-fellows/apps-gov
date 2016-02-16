@@ -1,1 +1,24 @@
-{"id":"5130efc38989846a3600026c","slug":"amazon","name":"Amazon","overall_score":1243,"object_type":"company","icon_url":"//datafox-favicons.s3.amazonaws.com/favicons/5130efc38989846a3600026c.ico","url":"amazon.com","founded_year":1994,"logo_url":"//datafox-data.s3-us-west-1.amazonaws.com/images/cb_05554f656aa94dd162718ce2d60f10c4.image/jpeg","stage":"Public","status":"Public","location":"Seattle, WA","top_keywords":["ecommerce","crowdsourcing","groceries","consumer goods","delivery"],"pe_ratio":401.704,"market_cap":236420000000,"revenue_estimate":89000000000,"number_of_employees":73521,"total_funding":8000000,"last_funding_date":null,"twitter_handle":"amazon","linkedin_id":1586,"twitter_followers_count":2201809,"angellist_followers_count":766,"short_description":"Amazon.com is an international e-commerce website for consumers, sellers, and\ncontent creators.","long_description":"Amazon is an e-commerce retailer formed originally to provide consumers with\nproducts in two segments. It offers users with merchandise and content purchased\nfor resale from vendors and those offered by third-party sellers. Operating in\nNorth American and International markets, Amazon provides its services through\nwebsites such as amazon.com and amazon.ca. It also enables authors, musicians,\nfilmmakers, app developers, and others to publish and sell content via its\nbranded websites. Amazon also provides Kindle Direct Publishing, an online\nplatform that allows independent authors and publishers to make their books\navailable in the Kindle Store. In addition, it provides co-branded credit card\nagreements and advertising services, serves developers and enterprises through\nAmazon Web Services, and manufactures and sells electronic devices. It offers\nAmazon Prime which is an annual membership program. It provides free shipping,\nstreaming, and access to books to borrow and read on a Kindle device. Amazon was\nfounded in 1994 and is headquartered in Seattle, Washington."}
+{
+    "slug": "amazon",
+    "name": "Amazon",
+    "url": "amazon.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130efc38989846a3600026c.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_05554f656aa94dd162718ce2d60f10c4.image/jpeg",
+    "founded_year": 1994,
+    "location": "Seattle, WA",
+    "status": "Public",
+    "stage": "Public",
+    "top_keywords": [
+        "ecommerce",
+        "crowdsourcing",
+        "groceries",
+        "consumer goods",
+        "delivery"
+    ],
+    "number_of_employees": 73521,
+    "short_description": "Amazon.com is an international e-commerce website for consumers, sellers, and\ncontent creators.",
+    "long_description": "Amazon.com is an international e-commerce website for consumers, sellers, and\ncontent creators.",
+    "investors": [
+        "Kleiner Perkins Caufield & Byers"
+    ]
+}

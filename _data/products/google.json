@@ -1,1 +1,26 @@
-{"id":"5130efc28989846a3600008e","slug":"google","name":"Google","overall_score":1246,"object_type":"company","icon_url":"//datafox-data.s3-us-west-1.amazonaws.com/favicons/5130efc28989846a3600008e.ico","url":"google.com","founded_year":1998,"logo_url":"//datafox-data.s3-us-west-1.amazonaws.com/images/cb_6acfa7da1dbd936ed985cf07a1b27711.png","stage":"Public","status":"Public","location":"Mountain View, CA","top_keywords":["search","email","blogging platforms","information technology","video streaming"],"pe_ratio":28.745584524810766,"market_cap":469850000000,"revenue_estimate":71500000000,"number_of_employees":61377,"total_funding":26100000,"last_funding_date":null,"twitter_handle":"google","linkedin_id":1441,"twitter_followers_count":13692405,"angellist_followers_count":7790,"short_description":"Google’s mission is to organize the world’s information and make it universally\naccessible and useful.","long_description":"Google is a multinational corporation that is specialized in internet-related\nservices and products. The company’s product portfolio includes Google Search,\nwhich provides users with access to information online; Knowledge Graph that\nallows to search for things, people, or places as well as builds systems\nrecognizing speech and understanding natural language; Google Now, which\nprovides information to users when they need it; Product Listing Ads that offer\nproduct image, price, and merchant information; AdWords, an auction-based\nadvertising program; AdSense, which enables websites that are part of the Google\nNetwork to deliver ads; Google Display, a display advertising network;\nDoubleClick Ad Exchange, a marketplace for the trading display ad space; and\nYouTube that offers video, interactive, and other ad formats. Additionally, the\ncompany offers Android, an open-source mobile software platform; hardware\nproducts, including Chromebook, Chrome, Chromecast, and Nexus devices; Google+ ,\na social platform to share to share content with others; Google Play, a\ncloud-based digital entertainment store for apps, music, books, and movies;\nGoogle Drive, a place for users to create, share, collaborate, and keep their\nstuff; and Google Wallet, a virtual wallet for in-store contactless payments.\nFurther, it provides Google Apps, which include Gmail, Calendar, and Google\nSites that are built for people to work anywhere, anytime, on any device without\nloss of security or control; Google Maps Application Programming Interface;\nGoogle Earth Enterprise, a software solution for imagery and data visualization;\nGoogle App Engine, a Platform-as-a-service; Google Cloud Storage; Google\nBigQuery for real-time analytics; Google Cloud SQL for structured query\nlanguage; and Google Compute Engine, an Infrastructure-as-a-service-Platform. It\nalso offers mobile wireless devices, and related products and services. Google\nwas founded by Larry Page and Sergey Brin in 1996 while they were Ph.D. students\nat Stanford University."}
+{
+    "slug": "google",
+    "name": "Google",
+    "url": "google.com",
+    "icon_url": "//datafox-data.s3-us-west-1.amazonaws.com/favicons/5130efc28989846a3600008e.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_6acfa7da1dbd936ed985cf07a1b27711.png",
+    "founded_year": 1998,
+    "location": "Mountain View, CA",
+    "status": "Public",
+    "stage": "Public",
+    "top_keywords": [
+        "search",
+        "email",
+        "blogging platforms",
+        "information technology",
+        "video streaming"
+    ],
+    "number_of_employees": 61377,
+    "short_description": "Google’s mission is to organize the world’s information and make it universally\naccessible and useful.",
+    "long_description": "Google’s mission is to organize the world’s information and make it universally\naccessible and useful.",
+    "investors": [
+        "Signatures Capital LLC",
+        "Sequoia Capital",
+        "Kleiner Perkins Caufield & Byers"
+    ]
+}

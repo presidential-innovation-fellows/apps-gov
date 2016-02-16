@@ -1,1 +1,22 @@
-{"id":"558dc03d15c6fda83b002732","slug":"mandrill-1","name":"Mandrill","overall_score":847,"object_type":"company","icon_url":"//datafox-data.s3.amazonaws.com/favicons/558dc03d15c6fda83b002732.ico","url":"mandrill.com","founded_year":null,"logo_url":"//datafox-data.s3-us-west-1.amazonaws.com/images/cb_aad1d8c973800fccea4618f3119737e0.png","stage":null,"status":null,"location":"Atlanta, GA","top_keywords":["mobile enablers landscape 2015 api layer","mobile enablers landscape 2015 api layer email","marketplace tools communication and email","custom software and technical consulting","software"],"pe_ratio":null,"market_cap":null,"revenue_estimate":2400000,"number_of_employees":12,"total_funding":0,"last_funding_date":null,"twitter_handle":null,"linkedin_id":null,"twitter_followers_count":null,"angellist_followers_count":null,"short_description":"Mandrill is a reliable, scalable, and secure delivery API for transactional\nemails from websites and applications.","long_description":"Mandrill is an email infrastructure service that started as an idea in 2010.\nThat idea became reality in 2012, when Mandrill cannibalized a crew of\nMailChimp's best engineers. Isolated from the rest of the team, they turned the\nidea from a skunkworks project into a product that outperforms competitor\nservices. Growing fast and innovating faster, Mandrill is now the largest Email\nas a Service platform on the market, with more than 375,000 active customers.\nUse Mandrill to send automated one-to-one email like password resets and welcome\nmessages, as well as marketing emails and customized newsletters. Mandrill is\nquick to set up, easy to use, and ridiculously stable. We made it for\ndevelopers, who love documentation, integrations, high delivery rates, webhooks,\nand analytics. If you're not comfortable with code and APIs, we recommend\nfinding someone who is before getting started. Mandrill comes with a beautiful\ninterface, flexible template options, custom tagging, and advanced tracking and\nreports. Mandrill is the only email infrastructure service with a mobile app\nthat lets you monitor delivery and troubleshoot from wherever you are. It's also\npowerful, scalable, and affordable."}
+{
+    "slug": "mandrill-1",
+    "name": "Mandrill",
+    "url": "mandrill.com",
+    "icon_url": "//datafox-data.s3.amazonaws.com/favicons/558dc03d15c6fda83b002732.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_aad1d8c973800fccea4618f3119737e0.png",
+    "founded_year": null,
+    "location": "Atlanta, GA",
+    "status": null,
+    "stage": null,
+    "top_keywords": [
+        "mobile enablers landscape 2015 api layer",
+        "mobile enablers landscape 2015 api layer email",
+        "marketplace tools communication and email",
+        "custom software and technical consulting",
+        "software"
+    ],
+    "number_of_employees": 12,
+    "short_description": "Mandrill is a reliable, scalable, and secure delivery API for transactional\nemails from websites and applications.",
+    "long_description": "Mandrill is a reliable, scalable, and secure delivery API for transactional\nemails from websites and applications.",
+    "investors": []
+}

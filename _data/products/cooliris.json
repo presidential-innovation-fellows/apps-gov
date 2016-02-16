@@ -1,1 +1,31 @@
-{"id":"5130efd08989846a3600248c","slug":"cooliris","name":"Cooliris","overall_score":999,"object_type":"company","icon_url":"//datafox-data.s3.amazonaws.com/favicons/5130efd08989846a3600248c.ico","url":"cooliris.com","founded_year":2006,"logo_url":"//datafox-data.s3-us-west-1.amazonaws.com/images/cb_5a321ae8344b1b8977b5b88b368b3290.jpg","stage":"Acquired","status":"Acquired","location":"Palo Alto, CA","top_keywords":["messaging","mobile","mobile social","photo sharing","user experience"],"pe_ratio":null,"market_cap":null,"revenue_estimate":17500000,"number_of_employees":20,"total_funding":28100000,"last_funding_date":"2011-02-14T08:00:00.000Z","twitter_handle":"Cooliris","linkedin_id":137183,"twitter_followers_count":3297,"angellist_followers_count":51,"short_description":"Cooliris develops visually immersive media and communication experiences for\nmobile and web consumers.","long_description":"Cooliris is the leader in creating the world's most beautiful messaging and\nmedia experiences for mobile and web consumers. The Gallery app on Android,\ndeveloped by Cooliris, is a top 10 mobile app in the U.S., as measured by\ncomScore. Most recently, Cooliris launched BeamIt, a new visual messaging app\nwhere private messaging meets stunning photo sharing. The team of 16\ncollaborators is headquartered in San Francisco, with passionate users around\nthe world. Cooliris is venture backed by Kleiner Perkins Caufield & Byers, DAG\nVentures, The Westly Group, T-Venture and DOCOMO Capital. For more information,\nvisit www.cooliris.com."}
+{
+    "slug": "cooliris",
+    "name": "Cooliris",
+    "url": "cooliris.com",
+    "icon_url": "//datafox-data.s3.amazonaws.com/favicons/5130efd08989846a3600248c.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_5a321ae8344b1b8977b5b88b368b3290.jpg",
+    "founded_year": 2006,
+    "location": "Palo Alto, CA",
+    "status": "Acquired",
+    "stage": "Acquired",
+    "top_keywords": [
+        "messaging",
+        "mobile",
+        "mobile social",
+        "photo sharing",
+        "user experience"
+    ],
+    "number_of_employees": 20,
+    "short_description": "Cooliris develops visually immersive media and communication experiences for\nmobile and web consumers.",
+    "long_description": "Cooliris develops visually immersive media and communication experiences for\nmobile and web consumers.",
+    "investors": [
+        "DAG Ventures",
+        "The Westly Group",
+        "T-Venture",
+        "Kleiner Perkins Caufield & Byers",
+        "Kleiner Perkins Caufield & Byers",
+        "DAG Ventures",
+        "The Westly Group",
+        "Kleiner Perkins Caufield & Byers"
+    ]
+}

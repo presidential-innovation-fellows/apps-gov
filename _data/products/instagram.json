@@ -1,1 +1,32 @@
-{"id":"5130f01b8989846a36011118","slug":"instagram","name":"Instagram","overall_score":1080,"object_type":"company","icon_url":"//datafox-favicons.s3.amazonaws.com/favicons/5130f01b8989846a36011118.ico","url":"instagram.com","founded_year":2010,"logo_url":"//datafox-data.s3-us-west-1.amazonaws.com/images/cb_08644a6976edce2dafffb236a22efa69.image/png","stage":"Acquired","status":"Acquired","location":"San Francisco, CA","top_keywords":["photography","photo sharing","mobile","social media","social network media"],"pe_ratio":null,"market_cap":null,"revenue_estimate":1400000,"number_of_employees":269,"total_funding":57500000,"last_funding_date":"2012-04-05T07:00:00.000Z","twitter_handle":"instagram","linkedin_id":2289109,"twitter_followers_count":41134705,"angellist_followers_count":441,"short_description":"Instagram is a free photo sharing application that enables its users to take\nphotos, apply filters, and share them on social networks.","long_description":"Instagram is a free photo sharing application that enables its users to take\nphotos, apply filters, and share them on social networks such as Facebook,\nTwitter, Foursquare, Tumblr, Flickr, and Posterous. It allows its users to\ncapture and customize their photos and videos with several custom-built filter\neffects. Developed by Kevin Systrom and Mike Krieger, Instagram is compatible\nwith all iOS and Android devices. It is currently used by over 200 million users\nworldwide. Instagram was founded in 2010 in San Francisco, California. It was\nacquired by Facebook in April 2012."}
+{
+    "slug": "instagram",
+    "name": "Instagram",
+    "url": "instagram.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130f01b8989846a36011118.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_08644a6976edce2dafffb236a22efa69.image/png",
+    "founded_year": 2010,
+    "location": "San Francisco, CA",
+    "status": "Acquired",
+    "stage": "Acquired",
+    "top_keywords": [
+        "photography",
+        "photo sharing",
+        "mobile",
+        "social media",
+        "social network media"
+    ],
+    "number_of_employees": 269,
+    "short_description": "Instagram is a free photo sharing application that enables its users to take\nphotos, apply filters, and share them on social networks.",
+    "long_description": "Instagram is a free photo sharing application that enables its users to take\nphotos, apply filters, and share them on social networks.",
+    "investors": [
+        "Sequoia Capital",
+        "Baseline Ventures",
+        "Thrive Capital",
+        "Benchmark",
+        "Greylock Partners",
+        "Benchmark",
+        "Baseline Ventures",
+        "Andreessen Horowitz",
+        "Baseline Ventures"
+    ]
+}

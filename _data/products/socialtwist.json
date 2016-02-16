@@ -1,1 +1,22 @@
-{"id":"5130efda8989846a3600423c","slug":"socialtwist","name":"SocialTwist","overall_score":947,"object_type":"company","icon_url":"//datafox-favicons.s3.amazonaws.com/favicons/5130efda8989846a3600423c.ico","url":"socialtwist.com","founded_year":2008,"logo_url":"//datafox-data.s3-us-west-1.amazonaws.com/images/cb_c1c8c675422a557a22cad8ce8cf28b69.image/png","stage":null,"status":"Private","location":"Mountain View, CA","top_keywords":["social media marketing","internet marketing","social marketing","referral marketing","customer activation"],"pe_ratio":null,"market_cap":null,"revenue_estimate":7000000,"number_of_employees":23,"total_funding":0,"last_funding_date":null,"twitter_handle":"TellaFriend","linkedin_id":269478,"twitter_followers_count":732,"angellist_followers_count":7,"short_description":"SocialTwist is a social marketing technology platform that drives customer\nacquisition, engagement and retention strategies for businesses.","long_description":"SocialTwist is a leading social marketing technology provider. Our customer\nactivation platform helps marketers drive customer acquisition, engagement and\nretention strategies. Since 2008, SocialTwist has helped a large number of\ncustomers across industries including consumer products, financial services,\ntravel, and entertainment to implement solutions for referral marketing,\nenhancing content engagement, and launch creative social applications."}
+{
+    "slug": "socialtwist",
+    "name": "SocialTwist",
+    "url": "socialtwist.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130efda8989846a3600423c.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_c1c8c675422a557a22cad8ce8cf28b69.image/png",
+    "founded_year": 2008,
+    "location": "Mountain View, CA",
+    "status": "Private",
+    "stage": null,
+    "top_keywords": [
+        "social media marketing",
+        "internet marketing",
+        "social marketing",
+        "referral marketing",
+        "customer activation"
+    ],
+    "number_of_employees": 23,
+    "short_description": "SocialTwist is a social marketing technology platform that drives customer\nacquisition, engagement and retention strategies for businesses.",
+    "long_description": "SocialTwist is a social marketing technology platform that drives customer\nacquisition, engagement and retention strategies for businesses.",
+    "investors": []
+}

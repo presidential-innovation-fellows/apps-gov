@@ -1,1 +1,45 @@
-{"id":"5130efd98989846a36003c2c","slug":"yammer","name":"Yammer","overall_score":1093,"object_type":"company","icon_url":"//datafox-favicons.s3.amazonaws.com/favicons/5130efd98989846a36003c2c.ico","url":"yammer.com","founded_year":2008,"logo_url":"//datafox-data.s3-us-west-1.amazonaws.com/images/cb_28fa95241d964636a9b521d522909b94.image/jpeg","stage":"Acquired","status":"Acquired","location":"San Francisco, CA","top_keywords":["enterprise software","web development","enterprises","social media","networking"],"pe_ratio":null,"market_cap":null,"revenue_estimate":500000000,"number_of_employees":253,"total_funding":142000000,"last_funding_date":"2012-02-29T08:00:00.000Z","twitter_handle":"Yammer","linkedin_id":260901,"twitter_followers_count":61298,"angellist_followers_count":535,"short_description":"Yammer is an enterprise social network that enables employees to collaborate\nacross departments, geographies and business applications.","long_description":"Yammer is an enterprise social network established to foster team collaboration,\nempower employees, and drive business transformation. It enables employees to\ncollaborate in real time across departments, geographies, and business\napplications. It also helps them create groups to collaborate on projects and\nshare and edit documents. The service of yammer.com can be accessed through the\nweb, desktop and mobile devices including iPhone, iPad, Windows Phone, Android,\nand Blackberry, enabling a “virtual office” that employees can plug into while\non-the-go. Additionally, Yammer can be easily integrated with other systems such\nas Microsoft SharePoint, creating a social layer across all enterprise\napplications. Yammer has secured more than 7 million users, including employees\nfrom 85 percent of the Fortune 500 companies. Founded in 2008, Yammer is now a\npart of Microsoft."}
+{
+    "slug": "yammer",
+    "name": "Yammer",
+    "url": "yammer.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130efd98989846a36003c2c.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_28fa95241d964636a9b521d522909b94.image/jpeg",
+    "founded_year": 2008,
+    "location": "San Francisco, CA",
+    "status": "Acquired",
+    "stage": "Acquired",
+    "top_keywords": [
+        "enterprise software",
+        "web development",
+        "enterprises",
+        "social media",
+        "networking"
+    ],
+    "number_of_employees": 253,
+    "short_description": "Yammer is an enterprise social network that enables employees to collaborate\nacross departments, geographies and business applications.",
+    "long_description": "Yammer is an enterprise social network that enables employees to collaborate\nacross departments, geographies and business applications.",
+    "investors": [
+        "Capricorn Investment Group",
+        "The Social+Capital Partnership",
+        "Meritech Capital Partners",
+        "Capricorn Venture Partners",
+        "Khosla Ventures",
+        "CrunchFund",
+        "Founders Fund",
+        "Charles River Ventures",
+        "Emergence Capital Partners",
+        "US Venture Partners",
+        "Draper Fisher Jurvetson",
+        "The Social+Capital Partnership",
+        "US Venture Partners",
+        "Emergence Capital Partners",
+        "Charles River Ventures",
+        "Founders Fund",
+        "Emergence Capital Partners",
+        "SV Angel",
+        "Charles River Ventures",
+        "Goldcrest Investments",
+        "Charles River Ventures",
+        "Founders Fund"
+    ]
+}

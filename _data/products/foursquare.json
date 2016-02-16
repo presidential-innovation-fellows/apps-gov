@@ -1,1 +1,44 @@
-{"id":"5130efed8989846a36007ac0","slug":"foursquare","name":"Foursquare","overall_score":1054,"object_type":"company","icon_url":"//datafox-data.s3.amazonaws.com/favicons/5130efed8989846a36007ac0.ico","url":"foursquare.com","founded_year":2009,"logo_url":"//datafox-data.s3-us-west-1.amazonaws.com/images/cb_b35956143d1173f32cd6051b7bc648ca.png","stage":"Late Stage","status":"Private","location":"New York, NY","top_keywords":["mobile","location based services","social media","internet","consumer services and mobile applications"],"pe_ratio":null,"market_cap":null,"revenue_estimate":3000000,"number_of_employees":286,"total_funding":207350000,"last_funding_date":"2016-01-14T08:00:00.000Z","twitter_handle":"foursquare","linkedin_id":264317,"twitter_followers_count":683555,"angellist_followers_count":1048,"short_description":"Foursquare is a geo-technology platform that helps people explore the world with\nFoursquare/Swarm and powers Pinpoint's ad tech solutions.","long_description":"Foursquare makes apps that help people keep up and meet up with friends, and\ndiscover great places. Swarm is for people who want the fastest and easiest way\nto connect with their friends. The Foursquare app is for explorers who want to\nknow about the best spots, and to share what they’ve found with others. Whether\nyou're setting off on a trip around the world, coordinating a night out with\nfriends, or trying to pick out the best dish at your local restaurant,\nFoursquare is the perfect companion."}
+{
+    "slug": "foursquare",
+    "name": "Foursquare",
+    "url": "foursquare.com",
+    "icon_url": "//datafox-data.s3.amazonaws.com/favicons/5130efed8989846a36007ac0.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_b35956143d1173f32cd6051b7bc648ca.png",
+    "founded_year": 2009,
+    "location": "New York, NY",
+    "status": "Private",
+    "stage": "Late Stage",
+    "top_keywords": [
+        "mobile",
+        "location based services",
+        "social media",
+        "internet",
+        "consumer services and mobile applications"
+    ],
+    "number_of_employees": 286,
+    "short_description": "Foursquare is a geo-technology platform that helps people explore the world with\nFoursquare/Swarm and powers Pinpoint's ad tech solutions.",
+    "long_description": "Foursquare is a geo-technology platform that helps people explore the world with\nFoursquare/Swarm and powers Pinpoint's ad tech solutions.",
+    "investors": [
+        "Spark Capital",
+        "Andreessen Horowitz",
+        "Draper Fisher Jurvetson",
+        "Morgan Stanley",
+        "Union Square Ventures",
+        "Microsoft",
+        "Smallcap World Fund",
+        "Draper Fisher Jurvetson",
+        "Silver Lake Partners",
+        "Spark Capital",
+        "Union Square Ventures",
+        "Andreessen Horowitz",
+        "CrunchFund",
+        "Andreessen Horowitz",
+        "Spark Capital",
+        "Union Square Ventures",
+        "Union Square Ventures",
+        "Andreessen Horowitz",
+        "SV Angel",
+        "SV Angel",
+        "Union Square Ventures"
+    ]
+}

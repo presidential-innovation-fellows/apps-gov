@@ -1,1 +1,31 @@
-{"id":"5130eff48989846a360091ce","slug":"blip","name":"Blip","overall_score":949,"object_type":"company","icon_url":"//datafox-favicons.s3.amazonaws.com/favicons/5130eff48989846a360091ce.ico","url":"blip.com","founded_year":2005,"logo_url":"//datafox-data.s3-us-west-1.amazonaws.com/images/cb_7552ac0ddb57abe1866a3560962595ce.image/jpeg","stage":"Acquired","status":"Acquired","location":"New York, NY","top_keywords":["entertainment industry","digital entertainment","games","video","video streaming"],"pe_ratio":null,"market_cap":null,"revenue_estimate":null,"number_of_employees":null,"total_funding":27300000,"last_funding_date":"2012-07-30T07:00:00.000Z","twitter_handle":"blip","linkedin_id":235302,"twitter_followers_count":null,"angellist_followers_count":50,"short_description":"Blip is an online media platform that provides its users with access to video\nclips and programs related to media and entertainment.","long_description":"Blip is an online media platform that provides its users with access to video\nclips and programs related to media and entertainment. It provides its users\nwith access programs and video clips related to general entertainment, comedy,\nmusic, drama, television, food, video games, and more. In addition, it\ncategorizes its content into three segments: editors' picks, current video and\nprogram trends, and new episodes of programs. It also provides producers with a\nsuite of tools to host, distribute, and monetize their web series. Blip was\nfounded on May 1, 2005 by Charles Hope and Jared Klett. It is based in New York\nCity, New York."}
+{
+    "slug": "blip",
+    "name": "Blip",
+    "url": "blip.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130eff48989846a360091ce.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_7552ac0ddb57abe1866a3560962595ce.image/jpeg",
+    "founded_year": 2005,
+    "location": "New York, NY",
+    "status": "Acquired",
+    "stage": "Acquired",
+    "top_keywords": [
+        "entertainment industry",
+        "digital entertainment",
+        "games",
+        "video",
+        "video streaming"
+    ],
+    "number_of_employees": null,
+    "short_description": "Blip is an online media platform that provides its users with access to video\nclips and programs related to media and entertainment.",
+    "long_description": "Blip is an online media platform that provides its users with access to video\nclips and programs related to media and entertainment.",
+    "investors": [
+        "Bain Capital Ventures",
+        "Canaan Partners",
+        "Bain Capital Ventures",
+        "Canaan Partners",
+        "Bain Capital Ventures",
+        "Lauder Partners",
+        "Ambient Sound Investments",
+        "SV Angel"
+    ]
+}

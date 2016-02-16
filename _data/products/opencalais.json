@@ -1,1 +1,18 @@
-{"id":"5130eff58989846a36009696","slug":"opencalais","name":"OpenCalais","overall_score":813,"object_type":"company","icon_url":"//datafox-favicons.s3.amazonaws.com/favicons/5130eff58989846a36009696.ico","url":"opencalais.com","founded_year":1998,"logo_url":"//datafox-data.s3-us-west-1.amazonaws.com/images/cb_244771e3dc138bd53a3bea2dcf9da910.image/png","stage":null,"status":null,"location":null,"top_keywords":["curated web"],"pe_ratio":null,"market_cap":null,"revenue_estimate":2400000,"number_of_employees":12,"total_funding":0,"last_funding_date":null,"twitter_handle":"opencalais","linkedin_id":null,"twitter_followers_count":2627,"angellist_followers_count":null,"short_description":"OpenCalais is a web service that creates rich semantic metadata for the content\nsubmitted by users.","long_description":"Calais is a rapidly growing toolkit of capabilities that allow you to readily\nincorporate state-of-the-art semantic functionality within your blog, content\nmanagement system, website or application. The OpenCalais Web Service\nautomatically creates rich semantic metadata for the content you submit â€“ in\nwell under a second. Using natural language processing, machine learning and\nother methods, Calais analyzes your document and finds the entities within it.\nBut, Calais goes well beyond classic entity identification and returns the facts\nand events hidden within your text as well. The OpenCalais initiative supports\nthe interoperability of content and advances Thomson Reuters mission to deliver\nintelligent information. It offers free metadata generation services, developer\ntools and an automatic connection to the Linked Data cloud. The free OpenCalais\nservice and open API makes it easy to automate content operations, enhance\ncontent, increase audience engagement and extend distribution across the content\necosystem."}
+{
+    "slug": "opencalais",
+    "name": "OpenCalais",
+    "url": "opencalais.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130eff58989846a36009696.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_244771e3dc138bd53a3bea2dcf9da910.image/png",
+    "founded_year": 1998,
+    "location": null,
+    "status": null,
+    "stage": null,
+    "top_keywords": [
+        "curated web"
+    ],
+    "number_of_employees": 12,
+    "short_description": "OpenCalais is a web service that creates rich semantic metadata for the content\nsubmitted by users.",
+    "long_description": "OpenCalais is a web service that creates rich semantic metadata for the content\nsubmitted by users.",
+    "investors": []
+}

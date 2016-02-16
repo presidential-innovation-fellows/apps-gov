@@ -1,1 +1,40 @@
-{"id":"5130eff08989846a36008436","slug":"surveymonkey","name":"SurveyMonkey","overall_score":999,"object_type":"company","icon_url":"//datafox-favicons.s3.amazonaws.com/favicons/5130eff08989846a36008436.ico","url":"surveymonkey.com","founded_year":2014,"logo_url":"//datafox-data.s3-us-west-1.amazonaws.com/images/cb_9e5f84b2a06b9755d2eb92436423e4be.jpg","stage":"Late Stage","status":"Private","location":"Palo Alto, CA","top_keywords":["gay and lesbian","applications","mobile","software","surveys"],"pe_ratio":null,"market_cap":null,"revenue_estimate":null,"number_of_employees":700,"total_funding":1150000000,"last_funding_date":"2014-12-15T08:00:00.000Z","twitter_handle":"surveymonkey","linkedin_id":362798,"twitter_followers_count":18393,"angellist_followers_count":170,"short_description":"Software and mobile app development company","long_description":"Create and publish online surveys in minutes, and view results graphically and\nin real time. SurveyMonkey provides free online questionnaire and survey\nsoftware."}
+{
+    "slug": "surveymonkey",
+    "name": "SurveyMonkey",
+    "url": "surveymonkey.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130eff08989846a36008436.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_9e5f84b2a06b9755d2eb92436423e4be.jpg",
+    "founded_year": 2014,
+    "location": "Palo Alto, CA",
+    "status": "Private",
+    "stage": "Late Stage",
+    "top_keywords": [
+        "gay and lesbian",
+        "applications",
+        "mobile",
+        "software",
+        "surveys"
+    ],
+    "number_of_employees": 700,
+    "short_description": "Software and mobile app development company",
+    "long_description": "Software and mobile app development company",
+    "investors": [
+        "Morgan Stanley",
+        "T. Rowe Price",
+        "Baillie Gifford",
+        "Tiger Global Management",
+        "Google Capital",
+        "The Social+Capital Partnership",
+        "Tiger Global Management",
+        "The Social+Capital Partnership",
+        "Iconiq Capital",
+        "Laurel Crown Partners",
+        "Google Capital",
+        "Salesforce",
+        "JPMorgan Chase & Co.",
+        "SunTrust Robinson Humphreys",
+        "Bank of America",
+        "Spectrum Equity",
+        "Bain Capital Ventures"
+    ]
+}

@@ -1,1 +1,19 @@
-{"id":"52f156888429774e16145101","slug":"department-of-better-technology","name":"Department of Better Technology","overall_score":422,"object_type":"company","icon_url":"//datafox-favicons.s3.amazonaws.com/favicons/52f156888429774e16145101.ico","url":"dobt.co","founded_year":2013,"logo_url":"//datafox-data.s3-us-west-1.amazonaws.com/images/cb_12d9bf2943ba797e748705c0a5a1b03f.image/png","stage":null,"status":null,"location":"Atlanta, GA","top_keywords":["software","enterprises"],"pe_ratio":null,"market_cap":null,"revenue_estimate":null,"number_of_employees":null,"total_funding":0,"last_funding_date":null,"twitter_handle":"dobtco","linkedin_id":null,"twitter_followers_count":1369,"angellist_followers_count":null,"short_description":"Awesome government software","long_description":"We make great software for government. We build software that not only meets\ncompliance standards, security standards and can operate in the enterprise, but\nalso is beautiful, well designed, and easy to learn and use."}
+{
+    "slug": "department-of-better-technology",
+    "name": "Department of Better Technology",
+    "url": "dobt.co",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/52f156888429774e16145101.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_12d9bf2943ba797e748705c0a5a1b03f.image/png",
+    "founded_year": 2013,
+    "location": "Atlanta, GA",
+    "status": null,
+    "stage": null,
+    "top_keywords": [
+        "software",
+        "enterprises"
+    ],
+    "number_of_employees": null,
+    "short_description": "Awesome government software",
+    "long_description": "Awesome government software",
+    "investors": []
+}

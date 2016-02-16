@@ -1,1 +1,38 @@
-{"id":"52015cc512e4b04f5600003e","slug":"ifttt","name":"IFTTT","overall_score":1025,"object_type":"company","icon_url":"//datafox-favicons.s3.amazonaws.com/favicons/52015cc512e4b04f5600003e.ico","url":"ifttt.com","founded_year":2010,"logo_url":"//datafox-data.s3-us-west-1.amazonaws.com/images/cb_14555eed145287f5dc3bb7b65746e39f.png","stage":"Series B","status":"Private","location":"San Francisco, CA","top_keywords":["curated web","consumer internet","productivity software","mobile","business productivity"],"pe_ratio":null,"market_cap":null,"revenue_estimate":7000000,"number_of_employees":43,"total_funding":38500000,"last_funding_date":"2014-08-29T07:00:00.000Z","twitter_handle":"IFTTT","linkedin_id":1785718,"twitter_followers_count":130689,"angellist_followers_count":872,"short_description":"Put the internet to work for you","long_description":"IFTTT lets you create powerful connections \u0003with one simple statement — if this\nthen that."}
+{
+    "slug": "ifttt",
+    "name": "IFTTT",
+    "url": "ifttt.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/52015cc512e4b04f5600003e.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_14555eed145287f5dc3bb7b65746e39f.png",
+    "founded_year": 2010,
+    "location": "San Francisco, CA",
+    "status": "Private",
+    "stage": "Series B",
+    "top_keywords": [
+        "curated web",
+        "consumer internet",
+        "productivity software",
+        "mobile",
+        "business productivity"
+    ],
+    "number_of_employees": 43,
+    "short_description": "Put the internet to work for you",
+    "long_description": "Put the internet to work for you",
+    "investors": [
+        "Norwest Venture Partners",
+        "Andreessen Horowitz",
+        "Andreessen Horowitz",
+        "Lerer Ventures",
+        "New Enterprise Associates",
+        "Gunderson Dettmer",
+        "New Enterprise Associates",
+        "Greylock Partners",
+        "CrunchFund",
+        " Founder Collective ",
+        "SV Angel",
+        "Lerer Ventures",
+        "BoxGroup",
+        "FLOODGATE",
+        "betaworks"
+    ]
+}

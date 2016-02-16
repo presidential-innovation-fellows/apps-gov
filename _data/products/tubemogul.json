@@ -1,1 +1,38 @@
-{"id":"5130efc48989846a36000434","slug":"tubemogul","name":"TubeMogul","overall_score":1106,"object_type":"company","icon_url":"//datafox-favicons.s3.amazonaws.com/favicons/5130efc48989846a36000434.ico","url":"tubemogul.com","founded_year":2006,"logo_url":"//datafox-data.s3-us-west-1.amazonaws.com/images/cb_e24d9888b1d7b59dfbaba02f85fc3b76.png","stage":"Public","status":"Public","location":"Emeryville, CA","top_keywords":["advertising","analytics","video","content syndication","online video advertising"],"pe_ratio":null,"market_cap":null,"revenue_estimate":35000000,"number_of_employees":468,"total_funding":136057047,"last_funding_date":null,"twitter_handle":"tubemogul","linkedin_id":127551,"twitter_followers_count":13865,"angellist_followers_count":146,"short_description":"TubeMogul is an enterprise software company for digital branding. Brands use the\nTubeMogul Platform to execute their global video ad spend.","long_description":"TubeMogul is the leading enterprise software company for digital branding. The\nworld’s largest brands and agencies unify their video advertising on TubeMogul’s\nprogrammatic platform. By using a single, integrated solution, TubeMogul’s\nclients gain control over their video spend, simplify their workflow and verify\nthe success of their campaigns. Founded in 2006, TubeMogul is based in\nEmeryville, California with offices across North America, Europe, Asia and\nAustralia."}
+{
+    "slug": "tubemogul",
+    "name": "TubeMogul",
+    "url": "tubemogul.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130efc48989846a36000434.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_e24d9888b1d7b59dfbaba02f85fc3b76.png",
+    "founded_year": 2006,
+    "location": "Emeryville, CA",
+    "status": "Public",
+    "stage": "Public",
+    "top_keywords": [
+        "advertising",
+        "analytics",
+        "video",
+        "content syndication",
+        "online video advertising"
+    ],
+    "number_of_employees": 468,
+    "short_description": "TubeMogul is an enterprise software company for digital branding. Brands use the\nTubeMogul Platform to execute their global video ad spend.",
+    "long_description": "TubeMogul is an enterprise software company for digital branding. Brands use the\nTubeMogul Platform to execute their global video ad spend.",
+    "investors": [
+        "SingTel Innov8",
+        "Cross Creek Advisors",
+        "Foundation Capital",
+        "Trinity Ventures",
+        "Northgate Capital",
+        "Foundation Capital",
+        "Trinity Ventures",
+        "Northgate Capital",
+        "Foundation Capital",
+        "Knight's Bridge Capital Partners",
+        "Trinity Ventures",
+        "Trinity Ventures",
+        "Knight's Bridge Capital Partners",
+        "NSV",
+        "Bee Partners"
+    ]
+}

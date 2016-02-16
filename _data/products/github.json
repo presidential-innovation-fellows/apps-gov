@@ -1,1 +1,29 @@
-{"id":"5130efcd8989846a360019ba","slug":"github","name":"GitHub","overall_score":1094,"object_type":"company","icon_url":"//datafox-favicons.s3.amazonaws.com/favicons/5130efcd8989846a360019ba.ico","url":"github.com","founded_year":2008,"logo_url":"//datafox-data.s3-us-west-1.amazonaws.com/images/cb_57fd815ad340c7aba975dd541a71fec6.png","stage":"Series B","status":"Private","location":"San Francisco, CA","top_keywords":["software","internet","services","developer tools","computer software"],"pe_ratio":null,"market_cap":null,"revenue_estimate":75000000,"number_of_employees":274,"total_funding":350000000,"last_funding_date":"2015-07-29T07:00:00.000Z","twitter_handle":"github","linkedin_id":1418841,"twitter_followers_count":781177,"angellist_followers_count":364,"short_description":"GitHub is a web-based Git repository hosting service offering distributed\nrevision control and source code management functionality of Git.","long_description":"GitHub is the best place to build software together. Over 12 million people use\nGitHub to share code and build amazing things with friends, co-workers,\nclassmates, and complete strangers. With the collaborative features of\nGitHub.com, our desktop and mobile apps, and GitHub Enterprise, it has never\nbeen easier for individuals and teams to write better code, faster. Originally\nfounded by Tom Preston-Werner, Chris Wanstrath, and PJ Hyett to simplify sharing\ncode, GitHub has grown into the largest code host in the world."}
+{
+    "slug": "github",
+    "name": "GitHub",
+    "url": "github.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130efcd8989846a360019ba.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_57fd815ad340c7aba975dd541a71fec6.png",
+    "founded_year": 2008,
+    "location": "San Francisco, CA",
+    "status": "Private",
+    "stage": "Series B",
+    "top_keywords": [
+        "software",
+        "internet",
+        "services",
+        "developer tools",
+        "computer software"
+    ],
+    "number_of_employees": 274,
+    "short_description": "GitHub is a web-based Git repository hosting service offering distributed\nrevision control and source code management functionality of Git.",
+    "long_description": "GitHub is a web-based Git repository hosting service offering distributed\nrevision control and source code management functionality of Git.",
+    "investors": [
+        "Institutional Venture Partners",
+        "Sequoia Capital",
+        "Andreessen Horowitz",
+        "Thrive Capital",
+        "SV Angel",
+        "Andreessen Horowitz"
+    ]
+}

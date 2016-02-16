@@ -1,1 +1,22 @@
-{"id":"5130efc88989846a36000cce","slug":"survey-analytics","name":"Survey Analytics","overall_score":958,"object_type":"company","icon_url":"//datafox-favicons.s3.amazonaws.com/favicons/5130efc88989846a36000cce.ico","url":"surveyanalytics.com","founded_year":2003,"logo_url":"//datafox-data.s3-us-west-1.amazonaws.com/images/cb_199be61148ae3aee61ad3c2ae266f65c.image/png","stage":null,"status":"Private","location":"Seattle, WA","top_keywords":["curated web","market research","online surveys","questionnaires","survey applications"],"pe_ratio":null,"market_cap":null,"revenue_estimate":7000000,"number_of_employees":40,"total_funding":0,"last_funding_date":null,"twitter_handle":"surveyanalytics","linkedin_id":542565,"twitter_followers_count":3672,"angellist_followers_count":null,"short_description":"Survey Analytics offers data collection and analysis tools, including online\nsurveys, mobile data collection, and more for enterprises.","long_description":"Survey Analytics offers user-friendly, robust and affordable online tools that\nhelp businesses and organizations communicate with customers and prospects to\ngain key insights and drive sales."}
+{
+    "slug": "survey-analytics",
+    "name": "Survey Analytics",
+    "url": "surveyanalytics.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130efc88989846a36000cce.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_199be61148ae3aee61ad3c2ae266f65c.image/png",
+    "founded_year": 2003,
+    "location": "Seattle, WA",
+    "status": "Private",
+    "stage": null,
+    "top_keywords": [
+        "curated web",
+        "market research",
+        "online surveys",
+        "questionnaires",
+        "survey applications"
+    ],
+    "number_of_employees": 40,
+    "short_description": "Survey Analytics offers data collection and analysis tools, including online\nsurveys, mobile data collection, and more for enterprises.",
+    "long_description": "Survey Analytics offers data collection and analysis tools, including online\nsurveys, mobile data collection, and more for enterprises.",
+    "investors": []
+}

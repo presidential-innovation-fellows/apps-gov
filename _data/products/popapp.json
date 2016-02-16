@@ -1,1 +1,27 @@
-{"id":"5179c00f5b7e3a812f0e5109","slug":"popapp","name":"POPAPP","overall_score":893,"object_type":"company","icon_url":"//datafox-favicons.s3.amazonaws.com/favicons/5179c00f5b7e3a812f0e5109.ico","url":"popapp.in","founded_year":2012,"logo_url":"//datafox-data.s3-us-west-1.amazonaws.com/images/cb_971d6f77335f0b90f861c9528a2f7101.image/png","stage":"Pre-Series A","status":null,"location":null,"top_keywords":["software","rapidly expanding","applications","mobile","saas"],"pe_ratio":null,"market_cap":null,"revenue_estimate":null,"number_of_employees":9,"total_funding":700000,"last_funding_date":"2014-07-22T07:00:00.000Z","twitter_handle":"woomooinc","linkedin_id":2861243,"twitter_followers_count":2583,"angellist_followers_count":834,"short_description":"POPAPP is an app that transforms sketches into click-through prototypes.","long_description":"POPAPP transforms sketches into click-through prototypes in minutes. Design\nwireframes on paper. Pen & paper are the best tools. Import your sketches by\ntaking a picture. Create a storyboard by linking your sketches together with\n\"link spots\". Press play and simulate your user interface to make sure\neverything flows correctly. Share your prototype with colleagues and friends.\nThey can try out your prototype in any device. You’d be surprised how valuable\ntheir feedback can be. POPAPP is widely adopted, its users include Yahoo, Zynga,\nLinkedIn and 37Signals."}
+{
+    "slug": "popapp",
+    "name": "POPAPP",
+    "url": "popapp.in",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5179c00f5b7e3a812f0e5109.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_971d6f77335f0b90f861c9528a2f7101.image/png",
+    "founded_year": 2012,
+    "location": null,
+    "status": null,
+    "stage": "Pre-Series A",
+    "top_keywords": [
+        "software",
+        "rapidly expanding",
+        "applications",
+        "mobile",
+        "saas"
+    ],
+    "number_of_employees": 9,
+    "short_description": "POPAPP is an app that transforms sketches into click-through prototypes.",
+    "long_description": "POPAPP is an app that transforms sketches into click-through prototypes.",
+    "investors": [
+        "zPark Venture",
+        "Golden Gate Ventures",
+        "500 Startups",
+        "500 Startups"
+    ]
+}
