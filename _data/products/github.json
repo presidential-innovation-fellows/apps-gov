@@ -15,7 +15,7 @@
         "developer tools",
         "computer software"
     ],
-    "number_of_employees": 274,
+    "number_of_employees": 375,
     "short_description": "GitHub is a web-based Git repository hosting service offering distributed\nrevision control and source code management functionality of Git.",
     "long_description": "GitHub is a web-based Git repository hosting service offering distributed\nrevision control and source code management functionality of Git.",
     "investors": [
@@ -23,7 +23,6 @@
         "Sequoia Capital",
         "Andreessen Horowitz",
         "Thrive Capital",
-        "SV Angel",
-        "Andreessen Horowitz"
+        "SV Angel"
     ]
 }

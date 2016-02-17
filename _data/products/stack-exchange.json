@@ -15,7 +15,7 @@
         "recruiting",
         "software engineering"
     ],
-    "number_of_employees": 222,
+    "number_of_employees": 175,
     "short_description": "Stack Exchange is an online network of community-driven question and answer\nsites for programmers and software developers.",
     "long_description": "Stack Exchange is an online network of community-driven question and answer\nsites for programmers and software developers.",
     "investors": [
@@ -24,11 +24,6 @@
         "Spark Capital",
         "Union Square Ventures",
         "Index Ventures",
-        "Bezos Expeditions",
-        "Index Ventures",
-        "Spark Capital",
-        "Union Square Ventures",
-        " Founder Collective ",
-        "Union Square Ventures"
+        " Founder Collective "
     ]
 }

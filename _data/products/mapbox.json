@@ -15,7 +15,7 @@
         "design",
         "open source"
     ],
-    "number_of_employees": 57,
+    "number_of_employees": 175,
     "short_description": "Mapbox is mapping platform for developers. Our building blocks make it easy for\nlocation to be core to any mobile or online application.",
     "long_description": "Mapbox is mapping platform for developers. Our building blocks make it easy for\nlocation to be core to any mobile or online application.",
     "investors": [
@@ -25,7 +25,6 @@
         "Thrive Capital",
         "Pritzker Group",
         "Promus Ventures",
-        "Foundry Group",
         "Knight Foundation"
     ]
 }

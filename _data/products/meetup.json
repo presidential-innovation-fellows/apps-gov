@@ -3,7 +3,7 @@
     "name": "Meetup",
     "url": "meetup.com",
     "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130efc18989846a3600006e.ico",
-    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/al_32841.jpg?buster=1385150168",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_e62b140b2321d4b5a74c19d989be276b.image/jpeg",
     "founded_year": 2002,
     "location": "New York, NY",
     "status": "Acquired",
@@ -22,11 +22,6 @@
         "Draper Fisher Jurvetson",
         "Omidyar Network",
         "Union Square Ventures",
-        "Draper Fisher Jurvetson",
-        "Omidyar Network",
-        "eBay",
-        "Omidyar Network",
-        "Draper Fisher Jurvetson",
-        "Draper Fisher Jurvetson"
+        "eBay"
     ]
 }
