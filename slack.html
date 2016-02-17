@@ -60,7 +60,7 @@ permalink: products/Slack/
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ product.youtube_video_id }}" frameborder="0" allowfullscreen></iframe>
 			{% endif %}
 			<h2>{{ product.name }}</h2>
-			<h4>{{ product.sector }} // <a href="http://{{ product.url }}"target="blank">{{ product.url }}</a></h4>
+			<h4><a href="http://{{ product.url }}"target="blank">{{ product.url }}</a></h4>
 			<p>{{ product.short_description }}</p>
 			{% if product.gov_customers %}
 				{% assign customers = product.gov_customers %}
@@ -80,7 +80,15 @@ permalink: products/Slack/
 				<li><strong>founded:</strong> {{ product.founded_year }}</li>
 				<li><strong>employees:</strong> {{product.number_of_employees}}</li>
 				<li><strong>type:</strong> {{product.status}}</li>
-				<li><strong>investors:</strong> {{product.investors}}</li>
+				<li><strong>investors:</strong> 
+		      {% assign investors = product.investors %}
+		      {% for investor in investors %}
+		        {% if forloop.last == true %}
+				      {{ investor }}
+				    {% else %}
+				      {{ investor }}, 
+				    {% endif %}
+		      {% endfor %}</li>
 			</ul>
 		</div>
 
