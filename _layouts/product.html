@@ -1,0 +1,11 @@
+---
+layout: default
+skip_index: false
+---
+{% assign product = page.product_info %}<h2>{{ product.name }}</h2>
+
+<h3>Top keywords</h3>
+
+<ul>{% for keyword in product.top_keywords %}
+<li>{{ keyword }}</li>
+{% endfor %}</ul>
