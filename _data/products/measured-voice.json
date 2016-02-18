@@ -18,5 +18,18 @@
     "number_of_employees": 35,
     "short_description": "Social media management for professional communicators. Distraction-free\nenvironment. Scheduled social media posts. Metrics that matter. Unlimited users.",
     "long_description": "Social media management for professional communicators. Distraction-free\nenvironment. Scheduled social media posts. Metrics that matter. Unlimited users.",
-    "investors": []
+    "investors": [],
+    "gov_tos": true,
+    "privacy": false,
+    "pia": false,
+    "masonry": false,
+    "ato": [{
+        "agency": false,
+        "fedramp": false,
+        "jab": false
+    }],
+    "icd_503": false,
+    "800_53A": false,
+    "swamp": false,
+    "nccoe": false,
 }

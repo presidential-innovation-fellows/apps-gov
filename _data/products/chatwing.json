@@ -18,5 +18,18 @@
     "number_of_employees": null,
     "short_description": "Chatwing is free live chat software for any blog, social network or website.",
     "long_description": "Chatwing is free live chat software for any blog, social network or website.",
-    "investors": []
+    "investors": [],
+    "gov_tos": true,
+    "privacy": false,
+    "pia": false,
+    "masonry": false,
+    "ato": [{
+        "agency": false,
+        "fedramp": false,
+        "jab": false
+    }],
+    "icd_503": false,
+    "800_53A": false,
+    "swamp": false,
+    "nccoe": false,
 }

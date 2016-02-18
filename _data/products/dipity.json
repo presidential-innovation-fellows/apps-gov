@@ -20,5 +20,18 @@
     "long_description": "Dipity is a free digital timeline management website enabling publishers to\norganize the web content by date and time.",
     "investors": [
         " Rustic Canyon Partners "
-    ]
+    ],
+    "gov_tos": true,
+    "privacy": false,
+    "pia": false,
+    "masonry": false,
+    "ato": [{
+        "agency": false,
+        "fedramp": false,
+        "jab": false
+    }],
+    "icd_503": false,
+    "800_53A": false,
+    "swamp": false,
+    "nccoe": false,
 }

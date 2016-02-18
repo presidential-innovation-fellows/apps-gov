@@ -18,5 +18,18 @@
     "number_of_employees": 571,
     "short_description": "Flickr is a mobile application and social network that offers an online photo\nsharing network for its users.",
     "long_description": "Flickr is a mobile application and social network that offers an online photo\nsharing network for its users.",
-    "investors": []
+    "investors": [],
+    "gov_tos": true,
+    "privacy": false,
+    "pia": false,
+    "masonry": false,
+    "ato": [{
+        "agency": false,
+        "fedramp": false,
+        "jab": false
+    }],
+    "icd_503": false,
+    "800_53A": false,
+    "swamp": false,
+    "nccoe": false,
 }

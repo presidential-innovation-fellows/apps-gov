@@ -18,5 +18,18 @@
     "number_of_employees": null,
     "short_description": "SocialOomph.com is a service that provides free and paid productivity\nenhancement services for social media users.",
     "long_description": "SocialOomph.com is a service that provides free and paid productivity\nenhancement services for social media users.",
-    "investors": []
+    "investors": [],
+    "gov_tos": true,
+    "privacy": false,
+    "pia": false,
+    "masonry": false,
+    "ato": [{
+        "agency": false,
+        "fedramp": false,
+        "jab": false
+    }],
+    "icd_503": false,
+    "800_53A": false,
+    "swamp": false,
+    "nccoe": false,
 }

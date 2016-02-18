@@ -18,5 +18,18 @@
     "number_of_employees": 40,
     "short_description": "Survey Analytics offers data collection and analysis tools, including online\nsurveys, mobile data collection, and more for enterprises.",
     "long_description": "Survey Analytics offers data collection and analysis tools, including online\nsurveys, mobile data collection, and more for enterprises.",
-    "investors": []
+    "investors": [],
+    "gov_tos": true,
+    "privacy": false,
+    "pia": false,
+    "masonry": false,
+    "ato": [{
+        "agency": false,
+        "fedramp": false,
+        "jab": false
+    }],
+    "icd_503": false,
+    "800_53A": false,
+    "swamp": false,
+    "nccoe": false,
 }

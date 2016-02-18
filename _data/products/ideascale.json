@@ -18,5 +18,18 @@
     "number_of_employees": 24,
     "short_description": "IdeaScale is the largest cloud-based innovation software platform in the world\nwith more than 25,000 customers and 4 million users.",
     "long_description": "IdeaScale is the largest cloud-based innovation software platform in the world\nwith more than 25,000 customers and 4 million users.",
-    "investors": []
+    "investors": [],
+    "gov_tos": true,
+    "privacy": false,
+    "pia": false,
+    "masonry": false,
+    "ato": [{
+        "agency": false,
+        "fedramp": false,
+        "jab": false
+    }],
+    "icd_503": false,
+    "800_53A": false,
+    "swamp": false,
+    "nccoe": false,
 }

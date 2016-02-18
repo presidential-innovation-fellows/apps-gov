@@ -22,5 +22,18 @@
         "Alfred P. Sloan Foundation",
         "Ambient Sound Investments",
         "Andurance Ventures LLP"
-    ]
+    ],
+    "gov_tos": true,
+    "privacy": false,
+    "pia": false,
+    "masonry": false,
+    "ato": [{
+        "agency": false,
+        "fedramp": false,
+        "jab": false
+    }],
+    "icd_503": false,
+    "800_53A": false,
+    "swamp": false,
+    "nccoe": false,
 }

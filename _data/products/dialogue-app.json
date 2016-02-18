@@ -14,5 +14,18 @@
     "number_of_employees": 12,
     "short_description": "Dialogue App produces ideas that are valuable and actionable through structured\nonline discussion.",
     "long_description": "Dialogue App produces ideas that are valuable and actionable through structured\nonline discussion.",
-    "investors": []
+    "investors": [],
+    "gov_tos": true,
+    "privacy": false,
+    "pia": false,
+    "masonry": false,
+    "ato": [{
+        "agency": false,
+        "fedramp": false,
+        "jab": false
+    }],
+    "icd_503": false,
+    "800_53A": false,
+    "swamp": false,
+    "nccoe": false,
 }

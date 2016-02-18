@@ -34,5 +34,18 @@
         "Cambrian Ventures",
         "Breyer Capital",
         "Accel Partners"
-    ]
+    ],
+    "gov_tos": true,
+    "privacy": false,
+    "pia": false,
+    "masonry": false,
+    "ato": [{
+        "agency": false,
+        "fedramp": false,
+        "jab": false
+    }],
+    "icd_503": false,
+    "800_53A": false,
+    "swamp": false,
+    "nccoe": false,
 }

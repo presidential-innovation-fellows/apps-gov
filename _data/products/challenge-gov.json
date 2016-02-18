@@ -14,5 +14,18 @@
     "number_of_employees": null,
     "short_description": "A partnership between the public and the government to solve important\nchallenges.",
     "long_description": "A partnership between the public and the government to solve important\nchallenges.",
-    "investors": []
+    "investors": [],
+    "gov_tos": true,
+    "privacy": false,
+    "pia": false,
+    "masonry": false,
+    "ato": [{
+        "agency": false,
+        "fedramp": false,
+        "jab": false
+    }],
+    "icd_503": false,
+    "800_53A": false,
+    "swamp": false,
+    "nccoe": false,
 }

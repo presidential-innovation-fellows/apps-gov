@@ -18,5 +18,18 @@
     "number_of_employees": 7,
     "short_description": "MixedInk's platform allows massive groups to weave their ideas and opinions into\na single text.",
     "long_description": "MixedInk's platform allows massive groups to weave their ideas and opinions into\na single text.",
-    "investors": []
+    "investors": [],
+    "gov_tos": true,
+    "privacy": false,
+    "pia": false,
+    "masonry": false,
+    "ato": [{
+        "agency": false,
+        "fedramp": false,
+        "jab": false
+    }],
+    "icd_503": false,
+    "800_53A": false,
+    "swamp": false,
+    "nccoe": false,
 }

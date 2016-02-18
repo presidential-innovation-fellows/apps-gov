@@ -14,5 +14,18 @@
     "number_of_employees": 12,
     "short_description": "OpenCalais is a web service that creates rich semantic metadata for the content\nsubmitted by users.",
     "long_description": "OpenCalais is a web service that creates rich semantic metadata for the content\nsubmitted by users.",
-    "investors": []
+    "investors": [],
+    "gov_tos": true,
+    "privacy": false,
+    "pia": false,
+    "masonry": false,
+    "ato": [{
+        "agency": false,
+        "fedramp": false,
+        "jab": false
+    }],
+    "icd_503": false,
+    "800_53A": false,
+    "swamp": false,
+    "nccoe": false,
 }
