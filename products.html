@@ -31,9 +31,7 @@ permalink: products/
         <h3><a href="/products/{{ product.slug }}/">{{ product.name }}</a></h3>
       </div>
       <div>
-        {% for keyword in product.top_keywords %}
-          <a href="{{ site.url }}/products/?={{ keyword | strip }}" id="hashtag">#{{ keyword | strip | replace: ' ', '_' }}</a>
-        {% endfor %}
+        {{ product.short_description }}
       </div>
     </div>
     {% endfor %}
