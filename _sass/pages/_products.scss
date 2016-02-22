@@ -1,29 +1,104 @@
+body {
+  background-color: lighten($color-gray-light, 28);
+}
+
+ul {
+
+  li {
+
+    &::before {
+      content: "";
+    }
+  }
+}
+
+.product-list-item {
+  @include span-columns(4);
+  @include transition(all 0.2s ease);
+  background-color: $color-white;
+  border: 1px solid lighten($color-gray-light, 15);
+  border-radius: 0.25em;
+  margin-bottom: 1.5em;
+
+  &:hover {
+    box-shadow: 0 0 5px rgba($color-primary, 0.75);
+  }
+
+  &:nth-child(3n) {
+    @include omega;
+  }
+
+  &:nth-child(3n+1) {
+    clear: left;
+  }
+
+  a {
+    @include clearfix;
+    display: block;
+    padding: 0.75em;
+  }
+
+  h3 {
+    color: lighten($color-gray-dark, 10);
+    font-family: $font-sans;
+    font-size: 1.15em;
+    line-height: 1.1em;
+    margin: 0 0 0.25em;
+  }
+
+  p {
+    color: lighten($color-gray, 15);
+    font-size: 0.85em;
+    line-height: 1.3em;
+    margin: 0;
+  }
+
+  .logo {
+    float: left;
+    width: 18%;
+  }
+
+  .product-content {
+    float: right;
+    width: 75%;
+  }
+}
+
+.products-header {
+  margin-bottom: 2em;
+  text-align: center;
+
+  p {
+    color: $color-gray;
+    margin: 0;
+  }
+}
+
 .usa-products{
-  margin-top:100px;
-  margin-bottom:75px;
-  #hashtag{
-    font-size:1.6rem;
+  @include outer-container;
+  display: block;
+  margin-bottom: 4em;
+  margin-top: 3em;
+
+  h1 {
+    color: lighten($color-gray-dark, 5);
+    font-family: $font-sans;
+    line-height: 0.9em;
+    margin: 0 0 0.1em;
   }
-  .product{
-    margin-bottom:10px;
+
+  h4 {
+    margin-bottom: 0;
+    margin-top: 0;
   }
-  img{
-    width:50px;
-    display:inline;
-    margin-bottom:5px;
+
+  img {
+    border-radius: 0.2em;
+    width: 100%;
   }
+
   .product-title{
     display:inline-block;
     vertical-align:top;
-  }
-  h3{
-    margin-left:5px;
-    margin-top:0px;
-    margin-bottom:0px;
-    line-height:1.1;
-  }
-  h4{
-    margin-top:0px;
-    margin-bottom:0px;
   }
 }

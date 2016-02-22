@@ -2,24 +2,6 @@
 layout: default
 skip_index: false
 ---
-
-<div class="usa-hero-navbar">
-  <h1><a href="/">Apps.Gov</a></h1>
-  <ul>
-    <li>
-      <form class="usa-search">
-        <div role="search">
-          <label class="usa-sr-only" for="search-field">Search medium</label>
-          <input id="search-field" type="search" name="search">
-          <button type="submit">
-            <span class="usa-search-submit-text">Search</span>
-          </button>
-        </div>
-      </form>
-    </li>
-    <li><button class="usa-button-gray" type="button" onclick="location.href='{{ site.baseurl }}/listing/';">List your Product</button></li>
-  </ul>
-</div>
 <div class="usa-product">
 	<div class="usa-grid">
 		{% assign product = page.product_info %}
@@ -79,13 +61,13 @@ skip_index: false
 				<li><strong>founded:</strong> {{ product.founded_year }}</li>
 				<li><strong>employees:</strong> {{product.number_of_employees}}</li>
 				<li><strong>type:</strong> {{product.status}}</li>
-				<li><strong>investors:</strong> 
+				<li><strong>investors:</strong>
 		      {% assign investors = product.investors %}
 		      {% for investor in investors %}
 		        {% if forloop.last == true %}
 				      {{ investor }}
 				    {% else %}
-				      {{ investor }}, 
+				      {{ investor }},
 				    {% endif %}
 		      {% endfor %}</li>
 			</ul>
