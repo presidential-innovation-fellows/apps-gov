@@ -1,12 +1,21 @@
-<header class="usa-site-header" role="banner">
+{% include disclaimer.html %}
 
-  <div class="usa-disclaimer">
-    <span class="usa-disclaimer-official">
-      <img class="usa-flag_icon" alt="US flag signifying that this is a United States Federal Government website" src="/img/us_flag_small.png"> An official website of the United States Government
-    </span>
-    <span class="usa-disclaimer-stage">
-      This site is currently in alpha. <a href="https://18f.gsa.gov/dashboard/stages/#alpha">Learn More.</a>
-    </span>
+<nav class="usa-hero-navbar">
+  <div class="usa-grid">
+    <h1><a href="/">Apps.Gov</a></h1>
+    <ul>
+      <li>
+        <form class="usa-search">
+          <div role="search">
+            <label class="usa-sr-only" for="search-field">Search medium</label>
+            <input id="search-field" type="search" name="search">
+            <button type="submit">
+              <span class="usa-search-submit-text">Search</span>
+            </button>
+          </div>
+        </form>
+      </li>
+      <li><button class="usa-button-gray" type="button"  onclick="location.href='{{ site.baseurl }}/listing/';">List your Product</button></li>
+    </ul>
   </div>
-
-</header>
+</nav>
