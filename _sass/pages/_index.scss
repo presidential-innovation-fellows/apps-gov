@@ -56,3 +56,15 @@
   margin: 0 auto;
   max-width: 40em;
 }
+
+.home-layout {
+
+  .usa-disclaimer {
+    background-color: lighten($color-gray-light, 20);
+    color: $color-gray-dark;
+  }
+
+  .usa-hero-navbar {
+    margin-top: 0;
+  }
+}
