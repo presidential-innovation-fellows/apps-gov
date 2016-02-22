@@ -129,6 +129,12 @@ skip_index: false
 				<li>
 					<p {% if product.icd_503 == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>ICD 503</strong></p>
 				</li>
+				<li>
+					<p {% if product.hipaa == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>HIPAA</strong></p>
+				</li>
+				<li>
+					<p {% if product.pci == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>PCI</strong></p>
+				</li>
 			</ul>
 		</div>
 	</div>
