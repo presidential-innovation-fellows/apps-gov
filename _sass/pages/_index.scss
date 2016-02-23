@@ -1,3 +1,26 @@
+body {
+  background-color: lighten($color-gray-light, 28);
+  -webkit-font-smoothing: antialias;
+}
+
+a {
+  &:focus {
+    box-shadow: none;
+    outline: 0;
+  }
+}
+
+ul {
+  display: block;
+
+  li {
+
+    &::before {
+      content: "";
+    }
+  }
+}
+
 .usa-hero{
   background-attachment: scroll;
   background-image: url('/img/white-house.jpg');
@@ -23,7 +46,7 @@
     font-family: $font-sans;
     font-size: 5.5rem;
     margin-bottom: 0;
-    margin-top: 2.5em;
+    margin-top: 2.25em;
   }
 
   h5 {
@@ -33,6 +56,10 @@
     margin-top: 0;
   }
 
+  .usa-button {
+    padding: 0.75em 1.1em;
+  }
+
   .usa-hero-overlay{
     background-color: rgba(0,0,0,0.5);
   }
@@ -40,7 +67,7 @@
 
 .hero-search {
   background-color: rgba(0,0,0,0.6);
-  margin-top: 7em;
+  margin-top: 6em;
   padding: 2.5em 0;
   width: 100%;
 
@@ -59,12 +86,18 @@
 
 .home-layout {
 
+  .search-products {
+    display: none;
+  }
+
+  .usa-button-gray {
+    background: transparent;
+    box-shadow: $button-stroke $color-white;
+    margin: 0;
+  }
+
   .usa-disclaimer {
     background-color: lighten($color-gray-light, 20);
     color: $color-gray-dark;
-  }
-
-  .usa-hero-navbar {
-    margin-top: 0;
   }
 }

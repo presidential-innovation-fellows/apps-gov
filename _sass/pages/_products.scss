@@ -1,17 +1,3 @@
-body {
-  background-color: lighten($color-gray-light, 28);
-}
-
-ul {
-
-  li {
-
-    &::before {
-      content: "";
-    }
-  }
-}
-
 .product-list-item {
   @include span-columns(4);
   @include transition(all 0.2s ease);

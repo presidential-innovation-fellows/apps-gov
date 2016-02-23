@@ -1,10 +1,16 @@
-{% include disclaimer.html %}
-
 <nav class="usa-hero-navbar">
   <div class="usa-grid">
-    <h1><a href="/">Apps.Gov</a></h1>
+    <h1 class="logo">
+      <a href="/">
+        {% if page.layout == 'home' %}
+          <img src="/img/apps-logo-alt-light.svg">
+        {% else %}
+          <img src="/img/apps-logo-alt.svg">
+        {% endif %}
+      </a>
+    </h1>
     <ul>
-      <li>
+      <li class="search-products">
         <form class="usa-search">
           <div role="search">
             <label class="usa-sr-only" for="search-field">Search medium</label>
@@ -15,7 +21,7 @@
           </div>
         </form>
       </li>
-      <li><button class="usa-button-gray" type="button"  onclick="location.href='{{ site.baseurl }}/listing/';">List your Product</button></li>
+      <li><a href="/listing" class="usa-button usa-button-gray">List your Product</a></li>
     </ul>
   </div>
 </nav>
