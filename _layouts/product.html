@@ -14,12 +14,12 @@ skip_index: false
 			<br/><br/>
 			<h4>Contract Vehicles</h4>
 			{% if product.contracts %}
+				{% assign contracts = product.contracts %}
 				<form>
 				  <select name="options" id="options">
-				  	{% assign contracts = product.contracts | split: ',' %}
-				  	{% for contract in contracts %}
-				    	<option value="value-{{ forloop.index }}">{{ contract | strip }}</option>
-				    {% endfor %}
+			      {% for contract in contracts %}
+		        	<option value="value-{{ forloop.index }}">{{ contract | strip }}</option>
+			      {% endfor %}
 				  </select>
 				  <button>Procurement Details</button>
 				</form>
@@ -27,10 +27,10 @@ skip_index: false
 				<p><strong>NONE AVAILABLE</strong></p>
 			{% endif %}
 			<ul>
-				<li><a href="https://twitter.com/{{ product.twitter_handle }}" target="blank"><i class="fa fa-twitter fa-2x"></i></a></li>
-				<li><a href="https://linkedin.com/company/{{ product.linkedin_id }}" target="blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
-				<li><a href="https://angellist.com/{{ product.slug }}" target="blank"><i class="fa fa-angellist fa-2x"></i></a></li>
-				<li><a href="mailto:{{ product.sales_poc }}" target="blank"><i class="fa fa-envelope-o fa-2x"></i></a></li>
+				{% if product.twitter_handle %}<li><a href="https://twitter.com/{{ product.twitter_handle }}" target="blank"><i class="fa fa-twitter fa-2x"></i></a></li>{% endif %}
+				{% if product.linkedin_in %}<li><a href="https://linkedin.com/company/{{ product.linkedin_id }}" target="blank"><i class="fa fa-linkedin fa-2x"></i></a></li>{% endif %}
+				{% if product.slug %}<li><a href="https://angellist.com/{{ product.slug }}" target="blank"><i class="fa fa-angellist fa-2x"></i></a></li>{% endif %}
+				{% if product.sales_poc %}<li><a href="mailto:{{ product.sales_poc }}" target="blank"><i class="fa fa-envelope-o fa-2x"></i></a></li>{% endif %}
 			</ul>
 			<hr/>
 			<a href="https://github.com/presidential-innovation-fellows/apps-gov/blob/master/_data/products/{{ product.slug | downcase }}.json" target="blank">Edit this app in Github</a><br/>
@@ -86,9 +86,6 @@ skip_index: false
 					<p {% if product.pia == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>Privacy Impact Assessment (PIA)</strong></p>
 				</li>
 				<li>
-					<p {% if product.masonry == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>Compliance Masonry</strong></p>
-				</li>
-				<li>
 					<p class="ato-title"><strong>Authority to Operate (ATO)</strong></p>
 					<ul class="ato">
 						<li><p {% if product.ato[0].agency == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>Agency Approval</strong></li>
@@ -99,6 +96,9 @@ skip_index: false
 			</ul>
 			<h4>Additional Testing</h4>
 			<ul>
+				<li>
+					<p {% if product.masonry == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>Compliance Masonry</strong></p>
+				</li>
 				<li>
 					<p {% if product.swamp == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>DHS SWAMP</strong></p>
 				</li>
