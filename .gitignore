@@ -2,4 +2,5 @@ _site
 .sass-cache
 .jekyll-metadata
 s3_website.yml
-_data
+_data/products
+slack.yml
