@@ -27,10 +27,10 @@ skip_index: false
 				<p><strong>NONE AVAILABLE</strong></p>
 			{% endif %}
 			<ul>
-				{% if product.twitter_handle %}<li><a href="https://twitter.com/{{ product.twitter_handle }}" target="blank"><i class="fa fa-twitter fa-2x"></i></a></li>{% endif %}
-				{% if product.linkedin_in %}<li><a href="https://linkedin.com/company/{{ product.linkedin_id }}" target="blank"><i class="fa fa-linkedin fa-2x"></i></a></li>{% endif %}
-				{% if product.slug %}<li><a href="https://angellist.com/{{ product.slug }}" target="blank"><i class="fa fa-angellist fa-2x"></i></a></li>{% endif %}
-				{% if product.sales_poc %}<li><a href="mailto:{{ product.sales_poc }}" target="blank"><i class="fa fa-envelope-o fa-2x"></i></a></li>{% endif %}
+				<li>{% if product.twitter_handle %}<a href="https://twitter.com/{{ product.twitter_handle }}" target="blank"><i class="fa fa-twitter fa-2x"></i></a>{% else %}<i class="fa fa-twitter fa-2x disabled-icon"></i></li>{% endif %}
+				<li>{% if product.linkedin_in %}<a href="https://linkedin.com/company/{{ product.linkedin_id }}" target="blank"><i class="fa fa-linkedin fa-2x"></i></a>{% else %}<i class="fa fa-linkedin fa-2x disabled-icon"></i></li>{% endif %}
+				<li>{% if product.slug %}<a href="https://angellist.com/{{ product.slug }}" target="blank"><i class="fa fa-angellist fa-2x"></i></a>{% else %}<i class="fa fa-angellist fa-2x disabled-icon"></i></li>{% endif %}
+				<li>{% if product.sales_poc %}<a href="mailto:{{ product.sales_poc }}" target="blank"><i class="fa fa-envelope-o fa-2x"></i></a>{% else %}<i class="fa fa-envelope-o fa-2x disabled-icon"></i></li>{% endif %}
 			</ul>
 			<hr/>
 			<a href="https://github.com/presidential-innovation-fellows/apps-gov/blob/master/_data/products/{{ product.slug | downcase }}.json" target="blank">Edit this app in Github</a><br/>
