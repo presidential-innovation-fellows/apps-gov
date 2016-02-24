@@ -1,0 +1,96 @@
+.logo {
+  a {
+    display: block;
+    width: 130px;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.usa-disclaimer {
+  background-color: lighten($color-gray-dark, 10);
+  color: $color-white;
+  font-size: 0.8em;
+
+  .usa-grid {
+    padding: 0;
+  }
+}
+
+.usa-disclaimer-official{
+  padding-left:2rem;
+}
+.usa-disclaimer-stage {
+  padding-right:3rem;
+}
+
+.usa-hero-navbar{
+  @include clearfix;
+  padding-top: 1.5em;
+
+  h1{
+    display:inline;
+    float:left;
+    font-family:$font-sans;
+    font-size: 2em;
+    line-height: 0.7em;
+    margin: 0;
+  }
+
+  p{
+    display:inline;
+  }
+
+  .usa-button-gray,
+  .usa-button-outline-inverse {
+    color: $color-white;
+    float: right;
+    margin-bottom: 0;
+    margin-top: 0;
+
+    &:visited {
+      color: $color-white;
+    }
+  }
+
+  ul{
+    float:right;
+    color:#fff;
+    display:inline;
+    margin-bottom: 0;
+
+    li{
+      float: left;
+      margin: 0;
+
+      &:before{
+        content:"";
+      }
+
+      button{
+        margin-top:0px;
+      }
+
+      form{
+        margin-top:2px;
+      }
+
+      &:last-child{
+        margin-left:15px;
+      }
+    }
+  }
+
+  a{
+
+    &:visited{
+      color:$color-primary;
+    }
+
+    &:hover{
+      text-decoration:none;
+    }
+  }
+}

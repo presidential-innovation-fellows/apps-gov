@@ -1,40 +1,28 @@
 ---
 layout: default
-title: All Applications
+title: Products
 permalink: products/
 ---
-
-
-<div class="usa-hero-navbar">
-  <h1><a href="{{ site.url }}">Apps.Gov</a></h1>
-  <ul>
-    <li>
-      <form class="usa-search">
-        <div role="search">
-          <label class="usa-sr-only" for="search-field">Search medium</label>
-          <input id="search-field" type="search" name="search">
-          <button type="submit">
-            <span class="usa-search-submit-text">Search</span>
-          </button>
-        </div>
-      </form>
-    </li>
-    <li><button class="usa-button-gray" type="button">List your Product</button></li>
-  </ul>
-</div>
-<div class="usa-products">
-  <div class="usa-grid">
+<section class="usa-products">
+  <header class="products-header">
+    <h1>Products</h1>
+    <p>Discover products that can make your team more productive.</p>
+  </header>
+  <ul class="usa-grid">
     {% for product_hash in site.data.products %}{% assign product = product_hash[1] %}
-    <div class="usa-width-one-third">
-      <img src="/product_images/{{ product.logo }}">
-      <div class="product-title">
-        <h4><a href="/products/{{ product.url }}/">{{ product.name }}</a></h4>
-        <span class="usa-label">{{ product.category }}</span>
-      </div>
-      <div>
-      insert buttons contracting, fedramp, 18f
-      </div>
-    </div>
+    <li class="product-list-item">
+      <a href="/products/{{ product.slug }}/">
+        <div class="logo">
+          <img src="{{ product.logo_url }}">
+        </div>
+        <div class="product-content">
+          <h3>{{ product.name }}</h3>
+          <p>
+            {{ product.short_description }}
+          </p>
+        </div>
+      </a>
+    </li>
     {% endfor %}
   </div>
-</div>
+</section>

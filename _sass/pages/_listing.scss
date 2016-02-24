@@ -1,0 +1,18 @@
+.listing{
+  margin-top:50px;
+  margin-bottom:125px;
+  h3{
+  	color:#e31c3d;
+  	text-align:center;
+  	font-size:3rem;
+  	margin-top:25px;
+  }
+  #listing-button{
+  	text-align:center;
+  }
+  a.usa-button-big{
+  	&:visited{
+  		color:#fff;
+  	}
+  }
+}

@@ -1,29 +1,28 @@
 ---
-layout: default
+layout: home
 ---
 
 <div class="usa-hero">
   <div class="usa-hero-overlay">
-    <div class="usa-hero-navbar">
-      <h1>Apps.Gov</h1>
-      <button class="usa-button-outline-inverse" type="button">List your Product</button>
-    </div>
+    {% include header.html %}
     <div class="usa-grid">
       <div class="usa-width-one-whole">
         <h2>BE MORE PRODUCTIVE</h2>
         <h5>Search and compare cloud technologies.</h5>
-        <button class="usa-button-secondary" id="products-button">Explore Products</button>
-        <div class="hero-search">
-          <form class="usa-search usa-search-big">
-            <div role="search">
-              <label class="usa-sr-only" for="search-field-big">Search big</label>
-              <input id="search-field-big" type="search" name="search">
-              <button type="submit">
-                <span class="usa-search-submit-text">Search</span>
-              </button>
-            </div>
-          </form>
-        </div>
+        <a href="/products" class="usa-button usa-button-secondary" id="products-button">Explore Products</a>
+      </div>
+    </div>
+    <div class="hero-search">
+      <div class="hero-search-container">
+        <form class="usa-search usa-search-big">
+          <div role="search">
+            <label class="usa-sr-only" for="search-field-big">Search big</label>
+            <input id="search-field-big" type="search" name="search" placeholder="what are you looking for?">
+            <button type="submit">
+              <span class="usa-search-submit-text">Search</span>
+            </button>
+          </div>
+        </form>
       </div>
     </div>
   </div>
@@ -33,21 +32,21 @@ layout: default
   <h2>Find the right product for your team.</h2>
   <div class="usa-grid">
     <div class="usa-width-one-third">
-      <h4>1. What problem are you trying to solve?</h4>
+      <h4>1. What are you looking for?</h4>
     </div>
     <div class="usa-width-one-third">
-      <h4>2. Review products based on your search.</h4>
+      <h4>2. Review and compare products.</h4>
     </div>
     <div class="usa-width-one-third">
-      <h4>3. Quickly procure and deploy a solution.</h4>
+      <h4>3. Quickly procure and deploy.</h4>
     </div>
   </div>
   <h2>How are products selected?</h2>
   <div class="usa-grid">
     <div class="usa-width-one-whole">
-      <p>The goal of Apps.Gov is to facilitate an active marketplace to inform government buyers when procuring cloud technologies. This is accomplished by: 1) listing products that have either been through the GSA <a href="cloud-proving-ground/">Cloud Proving Ground</a> program OR been sourced from industry partners who are hosting these products on their FedRamp approved infrastructure and 2) partnering with 18F Consulting to support procurement needs across the federal government.</p>
-      <p>Information on the product, company, existing contract vehicles, and security reviews is listed on the <a href="products/">products</a> page. Companies who have or would like products listed on Apps.Gov can elect to have their product further reviewed and tested via the FedRamp process or by the 18F team. Companies are encouraged to update their product information via <a href="https://github.com/presidential-innovation-fellows/apps-gov" target="blank">GitHub</a> for accuracy and competitive advantage.</p>
-      <p>If you have any questions regarding Apps.Gov or the Cloud Proving Ground, please reach out to <a href="mailto:cpg@gsa.gov" target="blank">cpg@gsa.gov</a></p>
+      <p>The goal of Apps.Gov is to facilitate an active marketplace to support government buyers when procuring cloud technologies. Join the community to learn more and get help with selling to the federal government at <a href="https://discuss.apps.gov" target="blank">http://discuss.apps.gov</a>.</p>
+      <p>Information on the product, company, existing contract vehicles, and government approvals is listed on the <a href="products/">products</a> page. Companies are encouraged to submit or update their product information via the open source <a href="https://github.com/presidential-innovation-fellows/apps-gov" target="blank">GitHub repository</a> for accuracy and competitive advantage.</p>
+      <p>If you have any questions regarding Apps.Gov or information listed, please reach out to <a href="mailto:apps-gov@gsa.gov" target="blank">apps-gov@gsa.gov</a></p>
     </div>
   </div>
 </div>

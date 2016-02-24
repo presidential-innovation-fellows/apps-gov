@@ -1,0 +1,103 @@
+body {
+  background-color: lighten($color-gray-light, 28);
+  -webkit-font-smoothing: antialias;
+}
+
+a {
+  &:focus {
+    box-shadow: none;
+    outline: 0;
+  }
+}
+
+ul {
+  display: block;
+
+  li {
+
+    &::before {
+      content: "";
+    }
+  }
+}
+
+.usa-hero{
+  background-attachment: scroll;
+  background-image: url('/img/white-house.jpg');
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  position: relative;
+  text-align:center;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $color-white;
+  }
+
+  h2{
+    font-family: $font-sans;
+    font-size: 5.5rem;
+    margin-bottom: 0;
+    margin-top: 2.25em;
+  }
+
+  h5 {
+    font-family: $font-sans;
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+
+  .usa-button {
+    padding: 0.75em 1.1em;
+  }
+
+  .usa-hero-overlay{
+    background-color: rgba(0,0,0,0.5);
+  }
+}
+
+.hero-search {
+  background-color: rgba(0,0,0,0.6);
+  margin-top: 6em;
+  padding: 2.5em 0;
+  width: 100%;
+
+  input {
+
+    &[type="search"] {
+      max-width: none;
+    }
+  }
+}
+
+.hero-search-container {
+  margin: 0 auto;
+  max-width: 40em;
+}
+
+.home-layout {
+
+  .search-products {
+    display: none;
+  }
+
+  .usa-button-gray {
+    background: transparent;
+    box-shadow: $button-stroke $color-white;
+    margin: 0;
+  }
+
+  .usa-disclaimer {
+    background-color: lighten($color-gray-light, 20);
+    color: $color-gray-dark;
+  }
+}

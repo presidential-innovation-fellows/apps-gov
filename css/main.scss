@@ -6,63 +6,20 @@
 
 @import 'all';
 
+// Modules
+@import 'modules/footer';
+@import 'modules/header';
+
+//Pages
+@import 'pages/index';
+@import 'pages/products';
+@import 'pages/product';
+@import 'pages/listing';
+
 // general
 h1, h2, h3, h4, h5, h6 {
   color: #205493;
 }
-
-// header
-.usa-disclaimer-official{
-  padding-left:2rem;
-}
-.usa-disclaimer-stage {
-  padding-right:3rem;
-}
-
-// general
-.usa-hero-navbar{
-  padding-left:3rem;
-  padding-right:3rem;
-  padding-top:1rem;
-  h1{
-    margin-top:0;
-    display:inline;
-    float:left;
-    font-family:$font-sans;
-  }
-  .usa-button-outline-inverse, .usa-button-gray{
-    float:right;
-  }
-
-  ul{
-    float:right;
-    color:#fff;
-    display:inline;
-    li{
-      float:left;
-      margin-top:10px;
-      &:before{
-        content:"";
-      }
-      button{
-        margin-top:0px;
-      }
-      form{
-        margin-top:2px;
-      }
-      &:last-child{
-        margin-left:15px;
-      }
-    }
-  }
-  a{
-    &:visited{
-      color:$color-primary;
-    }
-    &:hover{
-      text-decoration:none;
-    }
-  }
 
 }
 .hero-search{
@@ -77,91 +34,11 @@ h1, h2, h3, h4, h5, h6 {
     margin-top:40px;
   }
 }
-
-// footer
-footer {
-  padding-left:3rem;
-  padding-right:3rem;
-  .usa-footer-secondary_section{
-    background-color:#323a45;
-    color:#fff;
-    a {
-      color:#d6d7d9;
-    }
-  }
-  .usa-grid-full{
-    max-width:none;
-  }
-  .usa-footer-logo-img{
-    max-height:10rem;
-    max-width:10rem;
-    vertical-align:middle;
-    margin-right:3rem;
-  }
-  h1, h2, h3, h4, h5, h6 {
-    color: #fff;
-  }
-  h3{
-    font-family:$font-sans;
-  }
-}
-
-// main
-.usa-hero{
-  background-image:url('/img/white-house.jpg');
-  background-attachment:scroll;
-  background-repeat:no-repeat;
-  background-position:center 0;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  position:relative;
-  height:650px;
-  text-align:center;
-  .usa-hero-overlay{
-    background-color:rgba(0,0,0,0.5);
-    height:650px;
-  }
-  h1, h2, h3, h4, h5, h6 {
-    color: #fff;
-  }
-  h2{
-    margin-top:200px;
-    margin-bottom:0;
-    font-family:$font-sans;
-    font-size:5.5rem;
-  }
-  h5{
-    margin-top:0;
-    margin-bottom:10px;
-    font-family:$font-sans;
-    font-size:2.4rem;
-  }
-  
-}
 .usa-content{
   text-align:center;
   margin-bottom:75px;
   p{
     max-width:100%;
-  }
-}
-.usa-products{
-  margin-top:100px;
-  margin-bottom:75px;
-  img{
-    width:50px;
-    height:50px;
-    display:inline;
-  }
-  .product-title{
-    display:inline-block;
-    vertical-align:top;
-  }
-  h4{
-    margin-top:2px;
-    margin-bottom:2px;
   }
 }
 
