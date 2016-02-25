@@ -5,7 +5,7 @@ $(document).ready(function() {
     $(this).addClass('usa-current');
   });
 
-  $('#contracts, #certs, #ato, #testing').on('click', function() {
+  $('#proc, #certs, #ato, #testing').on('click', function() {
     if ($('#' + $(this).attr('id') + '-list').css('display') == 'none'){
       submenu_selector(this, 'show')
     } else {

@@ -42,7 +42,7 @@ skip_index: false
 			{% endif %}
 			<h2>{{ app.name }}</h2>
 			<h4><a href="http://{{ app.url }}"target="blank">{{ app.url }}</a></h4>
-			<p>{{ app.short_description }}</p>
+			<p>{{ app.long_description }}</p>
 			{% if app.gov_customers %}
 				{% assign customers = app.gov_customers %}
 				<p class="customers-title"><strong>Government Customers: (full <a href="https://www.fpds.gov/fpdsng_cms/index.php/en/" target="blank">FPDS</a> list)</strong></p>
