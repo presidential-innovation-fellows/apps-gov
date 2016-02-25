@@ -1,24 +1,24 @@
 ---
 layout: default
-title: Products
-permalink: products/
+title: Apps
+permalink: apps/
 ---
-<section class="usa-products">
-  <header class="products-header">
-    <h1>Products</h1>
-    <p>Discover products that can make your team more productive.</p>
+<section class="usa-apps">
+  <header class="apps-header">
+    <h1>Applications</h1>
+    <p>Discover apps that will help your team be more productive.</p>
   </header>
   <ul class="usa-grid">
-    {% for product_hash in site.data.products %}{% assign product = product_hash[1] %}
-    <li class="product-list-item">
-      <a href="/products/{{ product.slug }}/">
+    {% for app_hash in site.data.apps %}{% assign app = app_hash[1] %}
+    <li class="app-list-item">
+      <a href="/apps/{{ app.slug }}/">
         <div class="logo">
-          <img src="{{ product.logo_url }}">
+          <img src="{{ app.logo_url }}">
         </div>
-        <div class="product-content">
-          <h3>{{ product.name }}</h3>
+        <div class="app-content">
+          <h3>{{ app.name }}</h3>
           <p>
-            {{ product.short_description }}
+            {{ app.short_description }}
           </p>
         </div>
       </a>

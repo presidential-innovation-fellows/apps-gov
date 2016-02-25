@@ -1,4 +1,4 @@
-.product-list-item {
+.app-list-item {
   @include span-columns(4);
   @include transition(all 0.2s ease);
   background-color: $color-white;
@@ -44,13 +44,13 @@
     width: 18%;
   }
 
-  .product-content {
+  .app-content {
     float: right;
     width: 75%;
   }
 }
 
-.products-header {
+.apps-header {
   margin-bottom: 2em;
   text-align: center;
 
@@ -60,7 +60,7 @@
   }
 }
 
-.usa-products{
+.usa-apps{
   @include outer-container;
   display: block;
   margin-bottom: 4em;
@@ -83,7 +83,7 @@
     width: 100%;
   }
 
-  .product-title{
+  .app-title{
     display:inline-block;
     vertical-align:top;
   }
