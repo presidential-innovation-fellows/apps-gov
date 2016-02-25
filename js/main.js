@@ -1,5 +1,9 @@
 $(document).ready(function() {
-  $('#products-button').on("click", function() {
-    window.location.href = "/products";
-  })
+  
+  $('.usa-sidenav-list > a').on('click', function(){
+    console.log('test');
+    $('.usa-sidenav-list a.usa-current').removeClass('usa-current');
+    $(this).addClass('usa-current');
+  });
+
 });
