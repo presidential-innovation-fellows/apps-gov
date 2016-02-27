@@ -18,7 +18,16 @@ skip_index: false
 				<form>
 				  <select name="options" id="options">
 			      {% for contract in contracts %}
-		        	<option value="value-{{ forloop.index }}">{{ contract | strip }}</option>
+			      	{% case contract %}
+							  {% when 'micro' %}
+		        			<option value="value-{{ forloop.index }}">Micro-Purchase</option>
+							  {% when 's70' %}
+		        			<option value="value-{{ forloop.index }}">GSA Schedule 70</option>
+							  {% when 'sewp' %}
+		        			<option value="value-{{ forloop.index }}">NASA SEWP</option>
+							  {% when 'nitaac' %}
+		        			<option value="value-{{ forloop.index }}">NIH NITAAC</option>
+							{% endcase %}
 			      {% endfor %}
 				  </select>
 				  <button>Procurement Details</button>
