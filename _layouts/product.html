@@ -30,7 +30,7 @@ skip_index: false
 							{% endcase %}
 			      {% endfor %}
 				  </select>
-				  <button>Procurement Details</button>
+				  <button class="usa-button-secondary">Procurement Details</button>
 				</form>
 			{% else %}
 				<p><strong>NONE AVAILABLE</strong></p>
@@ -41,6 +41,7 @@ skip_index: false
 				<li>{% if product.slug %}<a href="https://angellist.com/{{ product.slug }}" target="blank"><i class="fa fa-angellist fa-2x"></i></a>{% else %}<i class="fa fa-angellist fa-2x disabled-icon"></i></li>{% endif %}
 				<li>{% if product.sales_poc %}<a href="mailto:{{ product.sales_poc }}" target="blank"><i class="fa fa-envelope-o fa-2x"></i></a>{% else %}<i class="fa fa-envelope-o fa-2x disabled-icon"></i></li>{% endif %}
 			</ul>
+			<!-- {% if product.sales_poc %}<a href="mailto:{{ product.sales_poc }}" target="blank" class="usa-button">Request demo</a>{% else %}<button class="usa-button-disabled">Request demo</button>{% endif %} -->
 			<hr/>
 			<a href="https://github.com/presidential-innovation-fellows/products-gov/blob/master/_data/products/{{ product.slug | downcase }}.json" target="blank">Edit this product in Github</a><br/>
 			<a href="mailto:products-gov+abuse@gsa.gov" target="blank">Report this product</a>
@@ -53,15 +54,9 @@ skip_index: false
 			<h4><a href="http://{{ product.url }}"target="blank">{{ product.url }}</a></h4>
 			<p>{{ product.long_description }}</p>
 			{% if product.gov_customers %}
-				{% assign customers = product.gov_customers %}
 				<p class="customers-title"><strong>Government Customers: (full <a href="https://www.fpds.gov/fpdsng_cms/index.php/en/" target="blank">FPDS</a> list)</strong></p>
 				<ul class="customers">
-					{% for customer in customers %}<li><img src="/img/customers/{{ customer.name }}.png">
-						<ul class="customer-info">
-							<li><i class="fa fa-users"></i></li>
-							<li><i class="fa fa-envelope"></i></li>
-						</ul>
-					</li>{% endfor %}
+					{% assign customers = product.gov_customers %}{% for customer in customers %}<li><img src="/img/customers/{{ customer }}.png"></li>{% endfor %}
 				</ul>
 			{% endif %}
 			<h4>Additional Company Info</h4>
