@@ -54,7 +54,7 @@ skip_index: false
 			<h4><a href="http://{{ product.url }}"target="blank">{{ product.url }}</a></h4>
 			<p>{{ product.long_description }}</p>
 			{% if product.gov_customers %}
-				<p class="customers-title"><strong>Government Customers: (full <a href="https://www.fpds.gov/fpdsng_cms/index.php/en/" target="blank">FPDS</a> list)</strong></p>
+				<h4 class="customers-title">Government Customers: <small>(full FPDS list <a href="https://www.fpds.gov/fpdsng_cms/index.php/en/" target="blank">here</a>)</small></h4>
 				<ul class="customers">
 					{% assign customers = product.gov_customers %}{% for customer in customers %}<li><img src="/img/customers/{{ customer }}.png"></li>{% endfor %}
 				</ul>
