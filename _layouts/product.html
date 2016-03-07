@@ -17,6 +17,12 @@ skip_index: false
 			<div class="product-logo">
 				<img src="{{ product.logo_url }}">
 			</div>
+			<ul>
+				<li><strong>location:</strong> {{ product.location }}</li>
+				<li><strong>founded:</strong> {{ product.founded_year }}</li>
+				<li><strong>employees:</strong> {{product.number_of_employees}}</li>
+				<li><strong>type:</strong> {{product.status}}</li>
+			</ul>
 			{% if product.contracts %}
 			  <a class="usa-button usa-button-secondary">Procurement Options</a>
 			{% endif %}
@@ -70,7 +76,7 @@ skip_index: false
 	      {% for keyword in product.top_keywords %}
 	        <li>
 	        	<a href="{{ site.baseurl }}/products/?={{ keyword | strip }}" id="hashtag">
-	        		{{ keyword | strip | replace: ' ', '_' }}
+	        		{{ keyword }}
 	      		</a>
 	    		</li>
 	      {% endfor %}
@@ -78,13 +84,6 @@ skip_index: false
 		</div>
 		<div class="center-content">
 			<section class="product-info">
-				{% if product.youtube_video_id %}
-					<div class="max-width-video">
-						<div class="video-wrapper">
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ product.youtube_video_id }}" frameborder="0" allowfullscreen></iframe>
-						</div>
-					</div>
-				{% endif %}
 				<h2>{{ product.name }}</h2>
 				<h4>
 					<a href="http://{{ product.url }}"target="blank">
@@ -93,13 +92,20 @@ skip_index: false
 					</a>
 				</h4>
 				<p>{{ product.long_description }}</p>
+				{% if product.youtube_video_id %}
+					<div class="max-width-video">
+						<div class="video-wrapper">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ product.youtube_video_id }}" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
+				{% endif %}
 				{% if product.gov_customers %}
 					<h4 class="customers-title">Government Customers: <small>(full FPDS list <a href="https://www.fpds.gov/fpdsng_cms/index.php/en/" target="blank">here</a>)</small></h4>
 					<ul class="customers">
 						{% assign customers = product.gov_customers %}{% for customer in customers %}<li><img src="/img/customers/{{ customer }}.png"></li>{% endfor %}
 					</ul>
 				{% endif %}
-				<h4>Additional Company Info</h4>
+				<!-- <h4>Additional Company Info</h4>
 				<ul>
 					<li><strong>location:</strong> {{ product.location }}</li>
 					<li><strong>founded:</strong> {{ product.founded_year }}</li>
@@ -114,7 +120,7 @@ skip_index: false
 					      {{ investor }},
 					    {% endif %}
 			      {% endfor %}</li>
-				</ul>
+				</ul> -->
 			</section>
 			<section class="certifications">
 				<h4>Certifications</h4>

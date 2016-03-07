@@ -79,6 +79,7 @@
 
       li {
         display:inline-block;
+        margin-left:7px;
 
         &:before {
           content:"";
@@ -86,6 +87,10 @@
 
         img {
           width:60px;
+        }
+
+        &:first-child{
+          margin-left:0px;
         }
       }
     }
@@ -107,8 +112,16 @@
     }
 
     .usa-button {
-      margin-top: 1.5em;
+      margin-top: .75em;
       width: 100%;
+    }
+
+    ul{
+      margin-top:1em;
+      margin-bottom:0px;
+      li{
+        line-height:1;
+      }
     }
   }
 
