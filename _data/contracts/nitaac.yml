@@ -1,11 +1,11 @@
 name: NIH NITAAC
 description: |
-he National Institute of Health (NIH) <a href="https://nitaac.nih.gov/nitaac/" target="blankl">NIH Information Technology Acquisition and Assessment Center</a> 
-is an Office of Management and Budget (OMB) GWAC for IT procurement, 
-which consists of: CIO-SP3, CIO-SP3 Small Business and CIO-CS. If 
-you have questions, please reach out to the NITAAC team via 
-<a href="mailto:NITAACsupport@nih.gov" target="blank">NITAACsupport@nih.gov</a>.
+  The National Institute of Health (NIH) <a href="https://nitaac.nih.gov/nitaac/" target="blankl">NIH Information Technology Acquisition and Assessment Center</a> 
+  is an Office of Management and Budget (OMB) GWAC for IT procurement, 
+  which consists of: CIO-SP3, CIO-SP3 Small Business and CIO-CS. If 
+  you have questions, please reach out to the NITAAC team via 
+  <a href="mailto:NITAACsupport@nih.gov" target="blank">NITAACsupport@nih.gov</a>.
 poc:
 steps:
 - |
-Some steps that are required to purchase a product off this GWAC.
+    Some steps that are required to purchase a product off this GWAC.
