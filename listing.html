@@ -1,41 +1,44 @@
 ---
 layout: default
-title: Product Listing
+title: How to List Your Product
 permalink: listing/
 ---
 <div class="listing">
 	<div class="usa-grid">
     <aside class="usa-width-one-fourth">
       <ul class="usa-sidenav-list">
-        <li><a class="usa-current" href="#">Getting Started</a></li>
+        <li><a class="usa-current" href="#started">Getting Started</a></li>
         <li><a href="#">Facts &amp; Case Studies</a></li>
         <li>
         	<a href="#" id="proc">Procurement <i class="fa fa-angle-down"></i></a>
         	<ul class="usa-sidenav-sub_list" id="proc-list">
-            <li><a href="#">Micro-Purchase Threshold</a></li>
-            <li><a href="#">Schedule 70</a></li>
-            <li><a href="#">NASA SEWP</a></li>
-            <li><a href="#">NIH NITAAC</a></li>
+            <li><a href="#micro">Micro-Purchase Threshold</a></li>
+            <li><a href="#s70">Schedule 70</a></li>
+            <li><a href="#sewp">NASA SEWP</a></li>
+            <li><a href="#nitaac">NIH NITAAC</a></li>
           </ul>
         </li>
 
         <li>
-        	<a href="#" id="certs">Certifications <i class="fa fa-angle-down"></i></a>
+        	<a href="#certifications" id="certs">Certifications <i class="fa fa-angle-down"></i></a>
         	<ul class="usa-sidenav-sub_list" id="certs-list">
-            <li><a href="#">Negotiated ToS</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Privacy Impact Assessment</a></li>
+            <li><a href="#tos">Negotiated ToS</a></li>
+            <li><a href="#pia">Privacy Impact Assessment</a></li>
+            <li><a href="#sorn">Systems of Record Notice</a></li>
             <li>
             	<a href="#" id="ato">Authority to Operate <i class="fa fa-angle-down"></i></a>
             	<ul class="usa-sidenav-sub_list" id="ato-list">
                 <li><a href="#">Agency Approval</a></li>
                 <li><a href="#">FedRamp (Agency)</a></li>
-                <li><a class="usa-current" href="#">FedRamp (JAB)</a></li>
+                <li><a href="#">FedRamp (JAB)</a></li>
+                <li><a href="#">FedRamp (CSP Supplied Packages)</a></li>
               </ul>
             </li>
             <li>
             	<a href="#" id="testing">Additional Testing <i class="fa fa-angle-down"></i></a>
             	<ul class="usa-sidenav-sub_list" id="testing-list">
+                <li><a href="#">FedRamp In-Process</a></li>
+                <li><a href="#">FedRamp Ready</a></li>
                 <li><a href="#">Compliance Masonry</a></li>
                 <li><a href="#">DHS SWAMP</a></li>
                 <li><a href="#">NCCoE Review</a></li>
@@ -79,18 +82,49 @@ permalink: listing/
       <p>To use SEWP, a government contract officer will submit a Request for Quote (RFQ) to the SEWP team, which is then sent out to the 147 vendors. They will identify the appropriate technology, negotiate terms, and compete the prices, which will then be returned to the government contract officer to make a selection. The turn around for this process is estimated to take 4-7 business days.</p>
       <h4>NIH NITAAC</h4>
       <p>The National Institute of Health (NIH) <a href="https://nitaac.nih.gov/nitaac/" target="blankl">NIH Information Technology Acquisition and Assessment Center</a> is an Office of Management and Budget (OMB) GWAC for IT procurement, which consists of: CIO-SP3, CIO-SP3 Small Business and CIO-CS. If you have questions, please reach out to the NITAAC team via <a href="mailto:NITAACsupport@nih.gov" target="blank">NITAACsupport@nih.gov</a>.</p>
-      <h2>Certifications</h2>
-      <h4>Negotiated Terms of Service</h4>
+      <h2 name="certifications">Certifications</h2>
+      <h4 name="tos">Negotiated Terms of Service</h4>
       <p>When selling to the federal government, companies will often be required to negotiate a federal-compatible Terms of Service. A list of approved negotiated ToS can be found at <a href="http://www.digitalgov.gov/resources/negotiated-terms-of-service-agreements/" target="blank">digitalgov.gov</a>, which may not be fully encompassing. Additionally, because negotiated TOS are often determined at the agency level (requiring agency legal review), there are POCs for each agency, identified <a href="http://www.digitalgov.gov/resources/agency-points-of-contact-for-federal-compatible-terms-of-service-agreements/" target="blank">here</a>.</p>
-      <h4>Privacy Impact Assessment</h4>
-      <p>Noah to fill out and/or review</h4>
-      <h4>Systems of Record Notice (SORN)</h4>
-      <p>Noah to fill out and/or review</h4>
+      <h4 name="pia">Privacy Impact Assessment</h4>
+      <p>When personal information on individuals is collected and used as a part of a system, the product team is required to conduct a Privacy Impact Assessment (reference: <a href="https://www.whitehouse.gov/omb/memoranda_m03-22" target="blank">E-Government Act of 2002</a>). A PIA or Adapted PIA may need to be written for any IT system that collects, stores, and makes retrievable people’s personally identifiable information. Further work and approval from the agency’s Chief Privacy Officer may be required. The PIA explains:</p>
+      <ul>
+        <li>The information collected is used only for the intended purpose;</li>
+        <li>The information is timely and accurate;</li>
+        <li>The information is protected according to applicable laws and regulations while in GSA’s possession;</li>
+        <li>The impact of the information systems on individual privacy is fully addressed; and</li>
+        <li>The public is aware of the information GSA collects and how the information is used.</li>
+        <li>Further work and approval from the agency’s Chief Privacy Officer may be required.</li>
+      </ul>
+      <h4 name="sorn">Systems of Record Notice (SORN)</h4>
+      <p>Regulates the collection, maintenance, use, and dissemination of personally identifiable information (PII) about people (referred to as a “system of records”) by the government. A SORN may be required when collecting, storing, and making retrievable people’s personally identifiable information. More information regarding SORNs can be found <a href="http://www.gsa.gov/portal/content/104265" target="blank">here</a>.</p>
+      <ul>
+        <li>A System of Record is created when a group of information is collected and stored in a way that can be retrieved by the name of an individual, or by any number, symbol, or other unique identifier assigned to that individual.</li>
+        <li>The Privacy Act requires that any system of record be publicized via a SORN, which is a notice published to the Federal Register for public comment. This process lasts a minimum of 60 days.</li>
+        <li>Further work and approval from the agency’s Chief Privacy Officer may be required.</li>
+      </ul>
       <h4>Authority to Operate</h4>
-      <p>Each agency will typically require an Authority to Operate (ATO) by the CIO or delegated authority before an IT system is approved to be used. The ATO represents the agency conducting security review of the IT system and accepting the approrpiate level of risk by using the service. There are various types of ATOs, which have different requirements, noted below.</p>
+      <p>Each agency will typically require an Authority to Operate (ATO) before an IT system is approved to be used. The ATO represents the agency conducting security review of the IT system and accepting the approrpiate level of risk by using the service. There are various types of ATOs, which have different requirements, noted below.</p>
       <p><strong>Agency ATO</strong></p>
       <p>Agency ATOs are issued at the agency level and are approved at the CIO or delegated authority level. The process in which agencies follow to appropriately assess an IT system may vary based on the controls and mechanisms each agency. Typically an associated level of risk</p>
-      <p>https://www.fedramp.gov/marketplace/accredited-3paos/</p>
+      <p><strong>FedRamp</strong></p>
+      <p>The Federal Risk and Authorization Management Program, or <a href="https://www.fedramp.gov" target="blank">FedRAMP</a>, is a government-wide program that provides a standardized approach to security assessment, authorization, and continuous monitoring for cloud products and services. This approach uses a “do once, use many times” framework that saves an estimated 30-40% of government costs, as well as both time and staff required to conduct redundant agency security assessments. FedRAMP is the result of close collaboration with cybersecurity and cloud experts from the General Services Administration (GSA), National Institute of Standards and Technology (NIST), Department of Homeland Security (DHS), Department of Defense (DOD), National Security Agency (NSA), Office of Management and Budget (OMB), the Federal Chief Information Officer (CIO) Council and its working groups, as well as private industry.</p>
+      <p>The cloud systems can take one of three paths to become FedRAMP compliant: JAB Provisional Authorization (P-ATO), Agency Authorization, and CSP Supplied Package. No matter which path a CSP has taken — JAB, Agency, or CSP Supplied — all cloud systems listed here have demonstrate FedRAMP compliance and can be leveraged by any agency. Additional details for each path is listed below.</p>
+      <ul>
+        <li><strong>JAB Provisional Authorizations:</strong> Cloud systems listed under the FedRAMP P-ATO path have undergone a rigorous technical review by the FedRAMP PMO, been assessed by a FedRAMP accredited 3PAO, and received a P-ATO from the DHS, DOD, and GSA CIOs.</li>
+        <li><strong>Agency FedRAMP Authorizations:</strong> Cloud systems listed under the Agency Authorization have worked directly with a customer agency to achieve a FedRAMP compliant ATO that has been verified by the FedRAMP PMO.<br/><br/>FedRAMP Compliant (In PMO Review) is a designation for Agency ATO Authorization Packages only. This designation signifies that the CSP’s cloud system has been granted an ATO by an agency and has submitted all required documentation for review to the FedRAMP PMO. Once the FedRAMP PMO completes an Initial Review of the package the CSP will be listed as FedRAMP Compliant.</li>
+        <li><strong>CSP Supplied Packages:</strong> Cloud systems listed under the CSP Supplied Package path have submitted to the FedRAMP PMO a completed Security Assessment Package (SAP) that has been assessed by a FedRAMP accredited 3PAO.</li>
+      </ul>
+      <h4>Additional Testing</h4>
+      <p>To assist government buyers in making informed descisions and providing strong 
+      <p><strong>FedRamp In-Process</strong></p>
+      <p><strong>FedRamp Ready</strong></p>
+      <p><strong>Compliance Masonry</strong></p>
+      <p><strong>DHS SWAMP</strong></p>
+      <p><strong>NCCoE Review</strong></p>
+      <p><strong>NIST SP 800-53A</strong></p>
+      <p><strong>ICD 503</strong></p>
+      <p><strong>HIPAA</strong></p>
+      <p><strong>PCI</strong></p>
 		</div>
 	</div>
 </div>
