@@ -179,6 +179,24 @@ skip_index: false
 					</li>
 				</ul>
 			</section>
+			<section class="proc-options">
+				<h3>Procurement Options</h3>
+				{% assign product_contracts = product.contracts %}
+				{% for product_contract in product_contracts %}
+					{% for contracts_hash in site.data.contracts %}{% assign contract = contracts_hash[1] %}
+						{% if product_contract == contract.id %}
+							<h4>{{ contract.name }}</h4>
+							<p>{{ contract.description }}</p>
+							<a href="mailto:{{ contract.poc }}" target="blank">{{ contract.poc }}</a>
+							<ul>
+								{% for contract_step in contract.steps %}
+									<li>{{ contract_step }}</li>
+								{% endfor %}
+							</ul>
+						{% endif %}
+					{% endfor %}
+				{% endfor %}
+			</section>
 		</div>
 	</div>
 </div>

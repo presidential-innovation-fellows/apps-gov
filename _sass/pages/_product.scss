@@ -190,51 +190,6 @@
     }
   }
 
-  .right-content {
-
-    h4{
-      margin-bottom: 15px;
-    }
-
-    ul {
-
-      li {
-
-        &:before {
-          content: "";
-        }
-
-        p {
-          margin: 0;
-          color: #d6d7d9;
-        }
-
-        img {
-          height: 17px;
-          width: 17px;
-        }
-
-        .complete {
-          color: #323a45;
-
-          i {
-            color: #2e8540;
-          }
-        }
-
-        .ato-title {
-          color: #5b616b;
-        }
-
-        ul.ato {
-          margin-bottom: 0px;
-          margin-left: 10px;
-          margin-top: 10px;
-        }
-      }
-    }
-  }
-
   .social-icons {
     @include clearfix;
     font-size: 0.85em;
