@@ -19,7 +19,7 @@ skip_index: false
 				<div class="product-logo">
 					<img src="{{ product.logo_url }}">
 				</div>
-				<ul class="product-info">
+				<ul class="product-details">
 					<li><strong>Location:</strong> {{ product.location }}</li>
 					<li><strong>Founded:</strong> {{ product.founded_year }}</li>
 					<li><strong>Employees:</strong> {{product.number_of_employees}}</li>
@@ -174,9 +174,11 @@ skip_index: false
 						{% if product_contract == contract.id %}
 							<li id="contract-{{ contract.id }}">
 								<h4>{{ contract.name }}</h4>
+								{% if contract.poc %}
+									<p>POC: <a href="mailto:{{ contract.poc }}" target="blank">{{ contract.poc }}</a></p>
+								{% endif %}
 								<p>{{ contract.description }}</p>
-								<a href="mailto:{{ contract.poc }}" target="blank">{{ contract.poc }}</a>
-								<ul>
+								<ul class="contract-steps">
 									{% for contract_step in contract.steps %}
 										<li>{{ contract_step }}</li>
 									{% endfor %}
