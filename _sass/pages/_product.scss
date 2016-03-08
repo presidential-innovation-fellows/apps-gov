@@ -6,13 +6,38 @@
     margin-top:0px;
   }
 
-  .additional-testing,
-  .certifications {
+  .additional-testing{
+    @include span-columns(12);
+  }
+  
+  .atos, .certifications {
     @include span-columns(6);
   }
 
+  .additional-testing-items{
+    li{
+      display:inline-block;
+      margin-top:0;
+      margin-bottom:0;
+      &::before{
+        padding-right:0;
+      }
+      &::after{
+        margin-bottom:0;
+      }
+    }
+    .usa-label{
+      background-color:#d0d0d0;
+    }
+    .label-active{
+      background-color:#5b616b;
+    }
+  }
+
   .additional-testing-items,
-  .certification-items {
+  .certification-items,
+  .ato-items {
+    margin-top:15px;
 
     p {
       color: $color-gray-light;

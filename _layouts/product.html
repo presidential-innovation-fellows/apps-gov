@@ -134,49 +134,30 @@ skip_index: false
 					<li>
 						<p {% if product.sorn == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>System or Records Notice (SORN)</strong></p>
 					</li>
-					<li>
-						<h5 class="ato-title">Authority to Operate (ATO)</h5>
-						<ul class="ato">
-							<li><p {% if product.ato[0].agency == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>Agency Approval</strong></li>
-							<li><p {% if product.ato[0].fedramp == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>FedRamp (Agency)</strong></li>
-							<li><p {% if product.ato[0].jab == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>FedRamp (JAB)</strong></li>
-							<li><p {% if product.ato[0].fedramp_ready == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>FedRamp Ready</strong></li>
-						</ul>
-					</li>
+				</ul>
+			</section>
+			<section class="atos">
+				<h4>Authority to Operate (ATO)</h4>
+				<ul class="ato-items">
+					<li><p {% if product.ato[0].agency == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>Agency Approval</strong></li>
+					<li><p {% if product.ato[0].fedramp == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>FedRamp (Agency)</strong></li>
+					<li><p {% if product.ato[0].jab == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>FedRamp (JAB)</strong></li>
+					<li><p {% if product.ato[0].csp == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>FedRamp (CSP Supplied Package)</strong></li>
 				</ul>
 			</section>
 			<section class="additional-testing">
 				<h4>Additional Testing</h4>
 				<ul class="additional-testing-items">
-					<li>
-						<p
-							{% if product.masonry == true %}class="complete">
-								<i class="fa fa-check-circle"></i>
-							{% else %}
-								>
-								<i class="fa fa-circle-o"></i>
-							{% endif %}
-							<strong>Compliance Masonry</strong>
-						</p>
-					</li>
-					<li>
-						<p {% if product.swamp == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>DHS SWAMP</strong></p>
-					</li>
-					<li>
-						<p {% if product.nccoe == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>NCCoE Review</strong></p>
-					</li>
-					<li>
-						<p {% if product.800_53A == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>NIST SP 800-53A</strong></p>
-					</li>
-					<li>
-						<p {% if product.icd_503 == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>ICD 503</strong></p>
-					</li>
-					<li>
-						<p {% if product.hipaa == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>HIPAA</strong></p>
-					</li>
-					<li>
-						<p {% if product.pci == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>PCI</strong></p>
-					</li>
+					<li><span class="usa-label {% if product.fedramp_inprocess %}label-active{% endif %}">FedRamp In-Process</span></li>
+					<li><span class="usa-label {% if product.fedramp_ready %}label-active{% endif %}">FedRamp Ready</span></li>
+					<li><span class="usa-label {% if product.fedramp_infra %}label-active{% endif %}">FedRamp Infrastructure</span></li>
+					<li><span class="usa-label {% if product.masonry %}label-active{% endif %}">Product Masonry</span></li>
+					<li><span class="usa-label {% if product.swamp %}label-active{% endif %}">DHS SWAMP</span></li>
+					<li><span class="usa-label {% if product.nccoe %}label-active{% endif %}">NCCoE Review</span></li>
+					<li><span class="usa-label {% if product.800_53A %}label-active{% endif %}">NIST SP 800-53A</span></li>
+					<li><span class="usa-label {% if product.icd_503 %}label-active{% endif %}">ICD 503</span></li>
+					<li><span class="usa-label {% if product.hipaa %}label-active{% endif %}">HIPAA</span></li>
+					<li><span class="usa-label {% if product.pci %}label-active{% endif %}">PCI</span></li>
 				</ul>
 			</section>
 			<section class="proc-options">
