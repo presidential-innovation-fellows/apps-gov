@@ -189,7 +189,14 @@
         }
 
         &::before {
-          display: none;
+          display:none;
+        }
+      }
+    }
+    .contract-steps{
+      li{
+        &::before {
+          content:"•";
         }
       }
     }
@@ -236,6 +243,13 @@
   }
 
   .product-info {
+    h2 {
+      color: $color-gray-dark;
+      font-size: 2.25em;
+    }
+  }
+
+  .product-details{
     font-size: 0.9em;
     margin: 1em 0 0.25em;
 
@@ -243,6 +257,7 @@
       color: $color-gray-dark;
       font-size: 2.25em;
     }
+    
   }
 
   .product-logo {
