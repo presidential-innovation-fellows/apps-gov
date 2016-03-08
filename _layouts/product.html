@@ -23,10 +23,7 @@ skip_index: false
 				<li><strong>employees:</strong> {{product.number_of_employees}}</li>
 				<li><strong>type:</strong> {{product.status}}</li>
 			</ul>
-			{% if product.contracts %}
-			  <a class="usa-button usa-button-secondary">Procurement Options</a>
-			{% endif %}
-
+		  <a class="usa-button usa-button-secondary" href="#procurement-options">Procurement Options</a>
 			<ul class="social-icons">
 				<li>
 					{% if product.twitter_handle %}
@@ -65,7 +62,6 @@ skip_index: false
 					{% endif %}
 				</li>
 			</ul>
-			<!-- {% if product.sales_poc %}<a href="mailto:{{ product.sales_poc }}" target="blank" class="usa-button">Request demo</a>{% else %}<button class="usa-button-disabled">Request demo</button>{% endif %} -->
 			<hr/>
 			<a href="https://github.com/presidential-innovation-fellows/apps-gov/blob/master/_data/products/{{ product.slug | downcase }}.json" target="blank">Edit this product in Github</a><br/>
 			<a href="mailto:products-gov+abuse@gsa.gov" target="blank">Report this product</a>
@@ -105,22 +101,6 @@ skip_index: false
 						{% assign customers = product.gov_customers %}{% for customer in customers %}<li><img src="/img/customers/{{ customer }}.png"></li>{% endfor %}
 					</ul>
 				{% endif %}
-				<!-- <h4>Additional Company Info</h4>
-				<ul>
-					<li><strong>location:</strong> {{ product.location }}</li>
-					<li><strong>founded:</strong> {{ product.founded_year }}</li>
-					<li><strong>employees:</strong> {{product.number_of_employees}}</li>
-					<li><strong>type:</strong> {{product.status}}</li>
-					<li><strong>investors:</strong>
-			      {% assign investors = product.investors %}
-			      {% for investor in investors %}
-			        {% if forloop.last == true %}
-					      {{ investor }}
-					    {% else %}
-					      {{ investor }},
-					    {% endif %}
-			      {% endfor %}</li>
-				</ul> -->
 			</section>
 			<section class="certifications">
 				<h4>Certifications</h4>
@@ -161,7 +141,7 @@ skip_index: false
 				</ul>
 			</section>
 			<section class="proc-options">
-				<h3>Procurement Options</h3>
+				<h3 id="procurement-options">Procurement Options</h3>
 				{% assign product_contracts = product.contracts %}
 				{% for product_contract in product_contracts %}
 					{% for contracts_hash in site.data.contracts %}{% assign contract = contracts_hash[1] %}
