@@ -1,35 +1,46 @@
 .usa-product {
-  margin-top: 50px;
+  margin-top: 25px;
   margin-bottom: 75px;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $color-gray-dark;
+  }
 
   h4 {
     margin-top:0px;
   }
 
   .additional-testing{
-    @include span-columns(12);
-  }
-  
-  .atos, .certifications {
-    @include span-columns(6);
+    margin-top: 1em;
   }
 
   .additional-testing-items{
-    li{
+
+    li {
       display:inline-block;
+      margin-bottom: 0.5em;
+      margin-right: 0.5em;
       margin-top:0;
-      margin-bottom:0;
-      &::before{
+
+      &::before {
         padding-right:0;
       }
-      &::after{
+
+      &::after {
         margin-bottom:0;
       }
     }
-    .usa-label{
+
+    .usa-label {
       background-color:#d0d0d0;
     }
-    .label-active{
+
+    .label-active {
       background-color:#5b616b;
     }
   }
@@ -51,6 +62,22 @@
     .fa-check-circle {
       color: $color-green;
     }
+  }
+
+  .ato-items {
+    margin-bottom: 0;
+  }
+
+  .atos, .certifications {
+    @include span-columns(6);
+
+    li {
+      font-size: 0.95em;
+    }
+  }
+
+  .atos {
+    margin-right: 0;
   }
 
   .center-content{
@@ -103,15 +130,15 @@
       margin-bottom:0;
 
       li {
-        display:inline-block;
-        margin-left:7px;
+        display: inline-block;
+        margin-left: 1em;
 
         &:before {
           content:"";
         }
 
         img {
-          width:60px;
+          width:50px;
         }
 
         &:first-child{
@@ -137,20 +164,80 @@
     }
 
     .usa-button {
-      margin-top: .75em;
       width: 100%;
     }
+  }
 
-    ul{
-      margin-top:1em;
-      margin-bottom:0px;
-      li{
-        line-height:1;
+  .proc-options {
+    @include clearfix;
+    margin-top: 1em;
+  }
+
+  .procurement-content {
+    @include span-columns(9);
+
+    h3 {
+      font-size: 1.5em;
+      margin-top: 0;
+    }
+
+    ul {
+
+      li {
+        &::after {
+          display: none;
+        }
+
+        &::before {
+          display: none;
+        }
       }
     }
   }
 
+  .procurement-nav {
+    @include span-columns(3);
+    margin-top: 2em;
+
+
+    li {
+      font-size: 0.9em;
+    }
+  }
+
+  .product-actions {
+    font-size: 0.9em;
+    margin: 2em 0 0;
+
+    a {
+      color: $color-gray;
+    }
+
+    li {
+      display: block;
+      margin-bottom: 0.25em;
+      margin-left: 0;
+      margin-top: 0;
+
+      &::after {
+        display: none;
+        padding: 0;
+      }
+
+      &::before {
+        display: none;
+        padding: 0;
+      }
+    }
+  }
+
+  .product-content {
+    @include clearfix;
+  }
+
   .product-info {
+    font-size: 0.9em;
+    margin: 1em 0 0.25em;
 
     h2 {
       color: $color-gray-dark;
@@ -175,7 +262,7 @@
 
   .product-nav {
     color: $color-gray-light;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 
     a {
       color: $color-gray-dark;
@@ -208,6 +295,7 @@
       }
 
       a {
+        color: $color-gray;
         font-size: 0.9em;
         font-weight: 500;
         line-height: 0.85em;
@@ -224,6 +312,17 @@
       @include span-columns(3);
       margin-bottom: 0;
       text-align: center;
+    }
+  }
+
+  .usa-sidenav-list {
+
+    li {
+      border-top: 1px solid lighten($color-gray-light, 10);
+
+      &:first-child {
+        border-top: 0;
+      }
     }
   }
 }

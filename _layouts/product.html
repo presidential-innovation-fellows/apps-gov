@@ -13,151 +13,180 @@ skip_index: false
 			<i class="fa fa-caret-right"></i>
 			{{ product.name }}
 		</div>
-		<div class="left-content">
-			<div class="product-logo">
-				<img src="{{ product.logo_url }}">
-			</div>
-			<ul>
-				<li><strong>location:</strong> {{ product.location }}</li>
-				<li><strong>founded:</strong> {{ product.founded_year }}</li>
-				<li><strong>employees:</strong> {{product.number_of_employees}}</li>
-				<li><strong>type:</strong> {{product.status}}</li>
-			</ul>
-		  <a class="usa-button usa-button-secondary" href="#procurement-options">Procurement Options</a>
-			<ul class="social-icons">
-				<li>
-					{% if product.twitter_handle %}
-						<a href="https://twitter.com/{{ product.twitter_handle }}" target="blank">
-							<i class="fa fa-twitter fa-2x"></i>
-						</a>
-					{% else %}
-						<i class="fa fa-twitter fa-2x disabled-icon"></i>
-					{% endif %}
-				</li>
-				<li>
-					{% if product.linkedin_in %}
-						<a href="https://linkedin.com/company/{{ product.linkedin_id }}" target="blank">
-							<i class="fa fa-linkedin fa-2x"></i>
-						</a>
-					{% else %}
-						<i class="fa fa-linkedin fa-2x disabled-icon"></i>
-					{% endif %}
-				</li>
-				<li>
-					{% if product.slug %}
-						<a href="https://angellist.com/{{ product.slug }}" target="blank">
-							<i class="fa fa-angellist fa-2x"></i>
-						</a>
-					{% else %}
-						<i class="fa fa-angellist fa-2x disabled-icon"></i>
-					{% endif %}
-				</li>
-				<li>
-					{% if product.sales_poc %}
-						<a href="mailto:{{ product.sales_poc }}" target="blank">
-							<i class="fa fa-envelope-o fa-2x"></i>
-						</a>
-					{% else %}
-						<i class="fa fa-envelope-o fa-2x disabled-icon"></i>
-					{% endif %}
-				</li>
-			</ul>
-			<hr/>
-			<a href="https://github.com/presidential-innovation-fellows/apps-gov/blob/master/_data/products/{{ product.slug | downcase }}.json" target="blank">Edit this product in Github</a><br/>
-			<a href="mailto:products-gov+abuse@gsa.gov" target="blank">Report this product</a>
 
-			<ul class="product-tags">
-				<h4>Product Tags</h4>
-	      {% assign keywords = product.top_keywords | split: ',' %}
-	      {% for keyword in product.top_keywords %}
-	        <li>
-	        	<a href="{{ site.baseurl }}/products/?={{ keyword | strip }}" id="hashtag">
-	        		{{ keyword }}
-	      		</a>
-	    		</li>
-	      {% endfor %}
-			</ul>
-		</div>
-		<div class="center-content">
-			<section class="product-info">
-				<h2>{{ product.name }}</h2>
-				<h4>
-					<a href="http://{{ product.url }}"target="blank">
-						{{ product.url }}
-						<i class="fa fa-external-link"></i>
-					</a>
-				</h4>
-				<p>{{ product.long_description }}</p>
-				{% if product.youtube_video_id %}
-					<div class="max-width-video">
-						<div class="video-wrapper">
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ product.youtube_video_id }}" frameborder="0" allowfullscreen></iframe>
+		<div class="product-content">
+			<div class="left-content">
+				<div class="product-logo">
+					<img src="{{ product.logo_url }}">
+				</div>
+				<ul class="product-info">
+					<li><strong>Location:</strong> {{ product.location }}</li>
+					<li><strong>Founded:</strong> {{ product.founded_year }}</li>
+					<li><strong>Employees:</strong> {{product.number_of_employees}}</li>
+					<li><strong>Type:</strong> {{product.status}}</li>
+				</ul>
+			  <a class="usa-button usa-button-secondary" href="#procurement-options">Procurement Options</a>
+				<ul class="social-icons">
+					<li>
+						{% if product.twitter_handle %}
+							<a href="https://twitter.com/{{ product.twitter_handle }}" target="blank">
+								<i class="fa fa-twitter fa-2x"></i>
+							</a>
+						{% else %}
+							<i class="fa fa-twitter fa-2x disabled-icon"></i>
+						{% endif %}
+					</li>
+					<li>
+						{% if product.linkedin_in %}
+							<a href="https://linkedin.com/company/{{ product.linkedin_id }}" target="blank">
+								<i class="fa fa-linkedin fa-2x"></i>
+							</a>
+						{% else %}
+							<i class="fa fa-linkedin fa-2x disabled-icon"></i>
+						{% endif %}
+					</li>
+					<li>
+						{% if product.slug %}
+							<a href="https://angellist.com/{{ product.slug }}" target="blank">
+								<i class="fa fa-angellist fa-2x"></i>
+							</a>
+						{% else %}
+							<i class="fa fa-angellist fa-2x disabled-icon"></i>
+						{% endif %}
+					</li>
+					<li>
+						{% if product.sales_poc %}
+							<a href="mailto:{{ product.sales_poc }}" target="blank">
+								<i class="fa fa-envelope-o fa-2x"></i>
+							</a>
+						{% else %}
+							<i class="fa fa-envelope-o fa-2x disabled-icon"></i>
+						{% endif %}
+					</li>
+				</ul>
+
+				<ul class="product-actions">
+					<li>
+						<a href="https://github.com/presidential-innovation-fellows/apps-gov/blob/master/_data/products/{{ product.slug | downcase }}.json" target="blank">Edit this product in Github</a><br/>
+					</li>
+					<li>
+						<a href="mailto:products-gov+abuse@gsa.gov" target="blank">Report this product</a>
+					</li>
+				</ul>
+
+				<ul class="product-tags">
+					<h4>Product Tags</h4>
+		      {% assign keywords = product.top_keywords | split: ',' %}
+		      {% for keyword in product.top_keywords %}
+		        <li>
+		        	<a href="{{ site.baseurl }}/products/?={{ keyword | strip }}" id="hashtag">
+		        		{{ keyword }}
+		      		</a>
+		    		</li>
+		      {% endfor %}
+				</ul>
+			</div>
+			<div class="center-content">
+				<section class="product-info">
+					<h2>{{ product.name }}</h2>
+					<h4>
+						<a href="http://{{ product.url }}"target="blank">
+							{{ product.url }}
+							<i class="fa fa-external-link"></i>
+						</a>
+					</h4>
+					<p>{{ product.long_description }}</p>
+					{% if product.youtube_video_id %}
+						<div class="max-width-video">
+							<div class="video-wrapper">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ product.youtube_video_id }}" frameborder="0" allowfullscreen></iframe>
+							</div>
 						</div>
-					</div>
-				{% endif %}
-				{% if product.gov_customers %}
-					<h4 class="customers-title">Government Customers: <small>(full FPDS list <a href="https://www.fpds.gov/fpdsng_cms/index.php/en/" target="blank">here</a>)</small></h4>
-					<ul class="customers">
-						{% assign customers = product.gov_customers %}{% for customer in customers %}<li><img src="/img/customers/{{ customer }}.png"></li>{% endfor %}
+					{% endif %}
+					{% if product.gov_customers %}
+						<h4 class="customers-title">Government Customers: <small>(full FPDS list <a href="https://www.fpds.gov/fpdsng_cms/index.php/en/" target="blank">here</a>)</small></h4>
+						<ul class="customers">
+							{% assign customers = product.gov_customers %}{% for customer in customers %}<li><img src="/img/customers/{{ customer }}.png"></li>{% endfor %}
+						</ul>
+					{% endif %}
+				</section>
+				<section class="certifications">
+					<h4>Certifications</h4>
+					<ul class="certification-items">
+						<li>
+							<p {% if product.gov_tos == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} Negotiated TOS</p>
+						</li>
+						<li>
+							<p {% if product.pia == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} Privacy Impact Assessment (PIA)</p>
+						</li>
+						<li>
+							<p {% if product.sorn == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} System or Records Notice (SORN)</p>
+						</li>
 					</ul>
-				{% endif %}
-			</section>
-			<section class="certifications">
-				<h4>Certifications</h4>
-				<ul class="certification-items">
-					<li>
-						<p {% if product.gov_tos == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>Negotiated TOS</strong></p>
-					</li>
-					<li>
-						<p {% if product.pia == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>Privacy Impact Assessment (PIA)</strong></p>
-					</li>
-					<li>
-						<p {% if product.sorn == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>System or Records Notice (SORN)</strong></p>
-					</li>
-				</ul>
-			</section>
-			<section class="atos">
-				<h4>Authority to Operate (ATO)</h4>
-				<ul class="ato-items">
-					<li><p {% if product.ato[0].agency == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>Agency Approval</strong></li>
-					<li><p {% if product.ato[0].fedramp == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>FedRamp (Agency)</strong></li>
-					<li><p {% if product.ato[0].jab == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>FedRamp (JAB)</strong></li>
-					<li><p {% if product.ato[0].csp == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} <strong>FedRamp (CSP Supplied Package)</strong></li>
-				</ul>
-			</section>
-			<section class="additional-testing">
-				<h4>Additional Testing</h4>
-				<ul class="additional-testing-items">
-					<li><span class="usa-label {% if product.fedramp_inprocess %}label-active{% endif %}">FedRamp In-Process</span></li>
-					<li><span class="usa-label {% if product.fedramp_ready %}label-active{% endif %}">FedRamp Ready</span></li>
-					<li><span class="usa-label {% if product.fedramp_infra %}label-active{% endif %}">FedRamp Infrastructure</span></li>
-					<li><span class="usa-label {% if product.masonry %}label-active{% endif %}">Product Masonry</span></li>
-					<li><span class="usa-label {% if product.swamp %}label-active{% endif %}">DHS SWAMP</span></li>
-					<li><span class="usa-label {% if product.nccoe %}label-active{% endif %}">NCCoE Review</span></li>
-					<li><span class="usa-label {% if product.800_53A %}label-active{% endif %}">NIST SP 800-53A</span></li>
-					<li><span class="usa-label {% if product.icd_503 %}label-active{% endif %}">ICD 503</span></li>
-					<li><span class="usa-label {% if product.hipaa %}label-active{% endif %}">HIPAA</span></li>
-					<li><span class="usa-label {% if product.pci %}label-active{% endif %}">PCI</span></li>
-				</ul>
-			</section>
-			<section class="proc-options">
-				<h3 id="procurement-options">Procurement Options</h3>
-				{% assign product_contracts = product.contracts %}
+				</section>
+				<section class="atos">
+					<h4>Authority to Operate (ATO)</h4>
+					<ul class="ato-items">
+						<li><p {% if product.ato[0].agency == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} Agency Approval</li>
+						<li><p {% if product.ato[0].fedramp == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} FedRamp (Agency)</li>
+						<li><p {% if product.ato[0].jab == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} FedRamp (JAB)</li>
+						<li><p {% if product.ato[0].csp == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} FedRamp (CSP Supplied Package)</li>
+					</ul>
+				</section>
+				<section class="additional-testing">
+					<h4>Additional Testing</h4>
+					<ul class="additional-testing-items">
+						<li><span class="usa-label {% if product.fedramp_inprocess %}label-active{% endif %}">FedRamp In-Process</span></li>
+						<li><span class="usa-label {% if product.fedramp_ready %}label-active{% endif %}">FedRamp Ready</span></li>
+						<li><span class="usa-label {% if product.fedramp_infra %}label-active{% endif %}">FedRamp Infrastructure</span></li>
+						<li><span class="usa-label {% if product.masonry %}label-active{% endif %}">Product Masonry</span></li>
+						<li><span class="usa-label {% if product.swamp %}label-active{% endif %}">DHS SWAMP</span></li>
+						<li><span class="usa-label {% if product.nccoe %}label-active{% endif %}">NCCoE Review</span></li>
+						<li><span class="usa-label {% if product.800_53A %}label-active{% endif %}">NIST SP 800-53A</span></li>
+						<li><span class="usa-label {% if product.icd_503 %}label-active{% endif %}">ICD 503</span></li>
+						<li><span class="usa-label {% if product.hipaa %}label-active{% endif %}">HIPAA</span></li>
+						<li><span class="usa-label {% if product.pci %}label-active{% endif %}">PCI</span></li>
+					</ul>
+				</section>
+			</div>
+		</div>
+		<section class="proc-options">
+			{% assign product_contracts = product.contracts %}
+			<div class="procurement-nav">
+				<ul class="usa-sidenav-list">
 				{% for product_contract in product_contracts %}
 					{% for contracts_hash in site.data.contracts %}{% assign contract = contracts_hash[1] %}
 						{% if product_contract == contract.id %}
-							<h4>{{ contract.name }}</h4>
-							<p>{{ contract.description }}</p>
-							<a href="mailto:{{ contract.poc }}" target="blank">{{ contract.poc }}</a>
-							<ul>
-								{% for contract_step in contract.steps %}
-									<li>{{ contract_step }}</li>
-								{% endfor %}
-							</ul>
+							<li>
+								<a href="#contract-{{ contract.id }}">{{ contract.name }}</a>
+							</li>
 						{% endif %}
 					{% endfor %}
 				{% endfor %}
-			</section>
-		</div>
+				</ul>
+			</div>
+
+			<div class="procurement-content">
+				<h3 id="procurement-options">Procurement Options</h3>
+				<ul>
+				{% for product_contract in product_contracts %}
+					{% for contracts_hash in site.data.contracts %}{% assign contract = contracts_hash[1] %}
+						{% if product_contract == contract.id %}
+							<li id="contract-{{ contract.id }}">
+								<h4>{{ contract.name }}</h4>
+								<p>{{ contract.description }}</p>
+								<a href="mailto:{{ contract.poc }}" target="blank">{{ contract.poc }}</a>
+								<ul>
+									{% for contract_step in contract.steps %}
+										<li>{{ contract_step }}</li>
+									{% endfor %}
+								</ul>
+							</li>
+						{% endif %}
+					{% endfor %}
+				{% endfor %}
+				</ul>
+			</div>
+		</section>
 	</div>
 </div>
