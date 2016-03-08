@@ -5,10 +5,19 @@ description: |
   multiple award schedule, which allows federal, state, local and 
   tribal government entities to procure approve technologies. To be 
   listed on Schedule 70, please check out the following information 
-  at <a href="http://www.gsa.gov/portal/content/104506" target="blank">http://www.gsa.gov/portal/content/104506</a>.
-poc: inquiry-schedule-70@gsa.gov
+  at <a href="http://www.gsa.gov/portal/content/104506" target="blank">http://www.gsa.gov/portal/content/104506</a>. 
+  The steps for procuring a product listed on Schedule 70 varies 
+  based on the dollar amount, in accordance with FAR part 6 - Publicizing 
+  Contract Actions.
+poc: raymond.mccollum@gsa.gov
 steps:
 - |
-    To purchase a product using Schedule 70, please contact 
-    inquiry-schedule-70@gsa.gov and initiative a purchase order to include 
-    the name of the product and quantity.
+    $3,500 and below (Micro-Purchase Threshold) - an email or verbal communication 
+    to the SEWP POC will be sufficient to initiate the procurement process.
+- |
+    $3,501 to $150,000 (Simplified Acquisition Treshold) - an email or verbal 
+    communication to at least three vendors will be sufficient to intiative 
+    the procurement process
+- |
+    greater than $150,001 - must be procured through the Government Purchase 
+    system, <a href="https://www.fbo.gov" target="blank">FedBizOpps</a>
