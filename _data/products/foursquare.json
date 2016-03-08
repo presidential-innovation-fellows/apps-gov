@@ -1,0 +1,20 @@
+{
+    "slug": "foursquare",
+    "name": "Foursquare",
+    "url": "foursquare.com",
+    "icon_url": "//datafox-data.s3.amazonaws.com/favicons/5130efed8989846a36007ac0.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_b35956143d1173f32cd6051b7bc648ca.png",
+    "founded_year": 2009,
+    "location": "New York, NY",
+    "status": "Private",
+    "top_keywords": [
+        "mobile",
+        "location based services",
+        "social media",
+        "internet",
+        "consumer services and mobile applications"
+    ],
+    "number_of_employees": 175,
+    "short_description": "Foursquare is a geo-technology platform that helps people explore the world with\nFoursquare/Swarm and powers Pinpoint's ad tech solutions.",
+    "long_description": "Foursquare makes apps that help people keep up and meet up with friends, and\ndiscover great places. Swarm is for people who want the fastest and easiest way\nto connect with their friends. The Foursquare app is for explorers who want to\nknow about the best spots, and to share what they’ve found with others. Whether\nyou're setting off on a trip around the world, coordinating a night out with\nfriends, or trying to pick out the best dish at your local restaurant,\nFoursquare is the perfect companion."
+}

@@ -1,0 +1,20 @@
+{
+    "slug": "pinterest",
+    "name": "Pinterest",
+    "url": "pinterest.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130f03d8989846a360182ba.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_8f83e283e00b8101d79bbf2dd6914d6e.image/png",
+    "founded_year": 2009,
+    "location": "San Francisco, CA",
+    "status": "Private",
+    "top_keywords": [
+        "social media",
+        "social bookmarking",
+        "curated web",
+        "ecommerce",
+        "social commerce"
+    ],
+    "number_of_employees": 175,
+    "short_description": "Pinterest is a visual bookmarking tool for saving and discovering creative\nideas.",
+    "long_description": "Pinterest is a visual discovery and planning tool. People (\"Pinners\") use the\nsite and apps to get ideas for their future, such as recipes, places to travel,\nand products to buy, and save the things they love to their own boards. Pinners\nalso follow the boards of others who they find interesting. The site experienced\n[rapid growth](http://techcrunch.com/2011/12/22/pinterest-40-fold/) in the\nsecond half of 2011 and is now a widely used social media application."
+}

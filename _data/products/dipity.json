@@ -1,0 +1,20 @@
+{
+    "slug": "dipity",
+    "name": "Dipity",
+    "url": "dipity.com",
+    "icon_url": null,
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_ce073dde3d5a4952c6a21039df71d081.image/png",
+    "founded_year": 2007,
+    "location": "San Francisco, CA",
+    "status": "Private",
+    "top_keywords": [
+        "applications",
+        "curated web",
+        "social media",
+        "timelines",
+        "flipbook"
+    ],
+    "number_of_employees": 7,
+    "short_description": "Dipity is a free digital timeline management website enabling publishers to\norganize the web content by date and time.",
+    "long_description": "Dipity is a management platform for publishers to organize articles, blog posts,\npictures, videos and other content. Interactive views show are used for anything\nfrom online news features to museum kiosks. Dipity allows customers to work with\ncontent directly or automatically pull highly relevant content from\nsocially-curated sites like YouTube, Wikipedia, Digg and others using RSS and\nAPI integrations. Once created, the interactive tools stays up-to-date, and can\nbe embedded in blogs, social networks, and websites to add an interactive,\nengaging element to any site."
+}

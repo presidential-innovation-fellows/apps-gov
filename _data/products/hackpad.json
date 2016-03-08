@@ -1,0 +1,19 @@
+{
+    "slug": "hackpad",
+    "name": "HackPad",
+    "url": "hackpad.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5291d3a577bc1f2070069c80.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_a874e35ed14b81510701534e36415691.png",
+    "founded_year": 2011,
+    "location": null,
+    "status": "Acquired",
+    "top_keywords": [
+        "productivity software",
+        "business productivity",
+        "document management",
+        "real time"
+    ],
+    "number_of_employees": null,
+    "short_description": "Smart collaborative documents. Company wiki. Personal notes. Event planning.\nClassroom collaboration.",
+    "long_description": "Smart collaborative documents. Company wiki. Personal notes. Event planning.\nClassroom collaboration."
+}

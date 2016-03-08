@@ -1,0 +1,20 @@
+{
+    "slug": "eventbrite",
+    "name": "Eventbrite",
+    "url": "eventbrite.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130efc38989846a36000162.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_ead31184841376a0f70ff8dcd489cdc6.png",
+    "founded_year": 2006,
+    "location": "San Francisco, CA",
+    "status": "Private",
+    "top_keywords": [
+        "events",
+        "ticketing",
+        "online reservations",
+        "event management",
+        "curated web"
+    ],
+    "number_of_employees": 375,
+    "short_description": "Eventbrite is for anyone planning or attending an event.",
+    "long_description": "Eventbrite is for anyone planning or attending an event. We empower event\norganizers to become more efficient and effective when bringing people together,\nand people everywhere are searching Eventbrite to discover great events that\nmatter to them."
+}

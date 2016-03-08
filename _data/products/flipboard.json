@@ -1,0 +1,20 @@
+{
+    "slug": "flipboard",
+    "name": "Flipboard",
+    "url": "flipboard.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130f0238989846a36012ef2.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_efd5f1fa5bec19767e243d2e35aad7f4.image/png",
+    "founded_year": 2010,
+    "location": "Palo Alto, CA",
+    "status": "Private",
+    "top_keywords": [
+        "news",
+        "social media",
+        "ipad",
+        "iphone",
+        "android"
+    ],
+    "number_of_employees": 175,
+    "short_description": "Flipboard is the world's most popular social magazine. It gives people a single\nplace to keep up on the topics, news and events.",
+    "long_description": "Flipboard is the world's most popular social magazine. It gives people a single\nplace to keep up on the topics, news and events they care about. People using\nFlipboard can follow their favorite sources from around the world and then\ncollect stories, images and videos into their own Flipboard magazines - sharing\nitems that reflect their interests, express their perspectives or are simply\nthings they want to read later. Start by downloading Flipboard at\nwww.flipboard.com."
+}

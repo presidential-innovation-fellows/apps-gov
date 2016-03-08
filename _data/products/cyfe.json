@@ -1,0 +1,20 @@
+{
+    "slug": "cyfe",
+    "name": "Cyfe",
+    "url": "cyfe.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130f0838989846a36027b70.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_d4df2e67c403735c272ad3565528bbed.image/png",
+    "founded_year": 2012,
+    "location": "Framingham, MA",
+    "status": "Private",
+    "top_keywords": [
+        "curated web",
+        "web development",
+        "saas",
+        "software",
+        "analytics"
+    ],
+    "number_of_employees": 7,
+    "short_description": "Cyfe provides a cloud-based service that enables users to monitor and share\nvital business data from one single location in real-time.",
+    "long_description": "Cyfe is an all-in-one dashboard that helps you monitor and analyze data found\nacross all your online services like Google Analytics, Salesforce, AdSense,\nMailChimp, Amazon, Facebook, WordPress, Zendesk, Twitter and more from one\nsingle location in real-time. No more wasting countless hours tracking down your\ndata from all over the web every day!"
+}

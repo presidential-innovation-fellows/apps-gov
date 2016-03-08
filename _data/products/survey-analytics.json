@@ -1,0 +1,20 @@
+{
+    "slug": "survey-analytics",
+    "name": "Survey Analytics",
+    "url": "surveyanalytics.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130efc88989846a36000cce.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_199be61148ae3aee61ad3c2ae266f65c.image/png",
+    "founded_year": 2003,
+    "location": "Seattle, WA",
+    "status": "Private",
+    "top_keywords": [
+        "curated web",
+        "market research",
+        "online surveys",
+        "questionnaires",
+        "survey applications"
+    ],
+    "number_of_employees": 35,
+    "short_description": "Survey Analytics offers data collection and analysis tools, including online\nsurveys, mobile data collection, and more for enterprises.",
+    "long_description": "Survey Analytics offers user-friendly, robust and affordable online tools that\nhelp businesses and organizations communicate with customers and prospects to\ngain key insights and drive sales."
+}

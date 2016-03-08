@@ -1,0 +1,20 @@
+{
+    "slug": "blogger",
+    "name": "Blogger",
+    "url": "blogger.com",
+    "icon_url": "//datafox-data.s3.amazonaws.com/favicons/52107279bdfe6c4d780c7812.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_85bafb2aae520f3d5b7284e233c784ac.image/png",
+    "founded_year": 1999,
+    "location": null,
+    "status": "Acquired",
+    "top_keywords": [
+        "developer tools",
+        "project management",
+        "enterprise software",
+        "financial services",
+        "blogging platforms"
+    ],
+    "number_of_employees": null,
+    "short_description": "Pyra Labs is an e-blogging web application that integrates project manager,\ncontact manager and to do list functionalities.",
+    "long_description": "Pyra Labs' first product, also named 'Pyra', was a web application which would\ncombine a project manager, contact manager, and to-do list. In 1999, while still\nin beta, the rudiments of Pyra were repurposed into an in-house tool which\nbecame Blogger."
+}

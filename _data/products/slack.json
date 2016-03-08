@@ -1,0 +1,26 @@
+{
+    "slug": "Slack",
+    "name": "Slack",
+    "url": "slack.com",
+    "icon_url": "//datafox-data.s3.amazonaws.com/favicons/535b48185bf2732308000209.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_6a2859a6e096926aee81871ccbd16da8.png",
+    "founded_year": 2013,
+    "location": "San Francisco, CA",
+    "status": "Private",
+    "top_keywords": [
+        "enterprise software",
+        "collaboration",
+        "unifed communications",
+        "computer software",
+        "workplace messaging"
+    ],
+    "number_of_employees": 125,
+    "short_description": "Slack is a team communication application providing services such as real-time\nmessaging, archiving, and search for modern teams.",
+    "long_description": "Slack is a team communication application providing services such as real-time\nmessaging, archiving, and to search for modern teams. It offers one-on-one\nmessaging, private groups, persistent chat rooms, and direct messaging as well\nas group chats organized by topic. All content inside Slack is searchable from\none search box and it integrates with a number of third-party services,\nincluding Google Docs, Dropbox,\nHeroku,\nCrashlytics,\nGitHub, and Zendesk. Slack was\nlaunched in 2013 by Serguei Mourachov, Eric\nCostello, Cal Henderson, and\nStewart Butterfield. It is based in San\nFrancisco, C.A. The\napplication is available for Mac, PC, iOS, and\nAndroid.",
+    "tos": true,
+    "contracts":[
+        "micro",
+        "s70",
+        "sewp"
+    ]
+}

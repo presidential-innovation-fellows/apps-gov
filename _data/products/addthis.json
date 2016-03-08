@@ -1,0 +1,20 @@
+{
+    "slug": "addthis",
+    "name": "AddThis",
+    "url": "addthis.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130efc18989846a3600004e.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_fc89cfdea28ee12c443cedccb6c93fd4.png",
+    "founded_year": 2004,
+    "location": "McLean, VA",
+    "status": "Acquired",
+    "top_keywords": [
+        "mobile",
+        "advertising",
+        "file sharing",
+        "social media",
+        "analytics"
+    ],
+    "number_of_employees": 175,
+    "short_description": "AddThis provides social engagement tools, APIs and services personalizing\nwebsites for engagement, monetization and traffic boosting.",
+    "long_description": "AddThis provide online marketers easy-to-use tools to deliver personalized\nexperiences to users across the web. Over 15 million domains reaching 2B unique\nusers, leverage the AddThis platform to drive traffic and engagement. The\ncompany leverages a footprint of 1 trillion page views yearly to power their\nunique offering."
+}

@@ -1,0 +1,20 @@
+{
+    "slug": "google",
+    "name": "Google",
+    "url": "google.com",
+    "icon_url": "//datafox-data.s3-us-west-1.amazonaws.com/favicons/5130efc28989846a3600008e.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_6acfa7da1dbd936ed985cf07a1b27711.png",
+    "founded_year": 1998,
+    "location": "Mountain View, CA",
+    "status": "Public",
+    "top_keywords": [
+        "search",
+        "email",
+        "blogging platforms",
+        "information technology",
+        "video streaming"
+    ],
+    "number_of_employees": 53600,
+    "short_description": "Google’s mission is to organize the world’s information and make it universally\naccessible and useful.",
+    "long_description": "Google is a multinational corporation that is specialized in internet-related\nservices and products. The company’s product portfolio includes Google Search,\nwhich provides users with access to information online; Knowledge Graph that\nallows users to search for things, people, or places as well as builds systems\nrecognizing speech and understanding natural language; Google Now, which\nprovides information to users when they need it; Product Listing Ads that offer\nproduct image, price, and merchant information; AdWords, an auction-based\nadvertising program; AdSense, which enables websites that are part of the Google\nNetwork to deliver ads; Google Display, a display advertising network;\nDoubleClick Ad Exchange, a marketplace for the trading display ad space; and\nYouTube that offers video, interactive, and other ad formats. Additionally, the\ncompany offers Android, an open-source mobile software platform; hardware\nproducts, including Chromebook, Chrome, Chromecast, and Nexus devices; Google+ ,\na social platform for sharing content with others; Google Play, a cloud-based\ndigital entertainment store for apps, music, books, and movies; Google Drive, a\nplace for users to create, share, collaborate, and keep their stuff; and Google\nWallet, a virtual wallet for in-store contactless payments. Further, it provides\nGoogle Apps, which include Gmail, Calendar, and Google Sites that are built for\npeople to work anywhere, anytime, on any device without loss of security or\ncontrol; Google Maps Application Programming Interface; Google Earth Enterprise,\na software solution for imagery and data visualization; Google App Engine, a\nPlatform-as-a-service; Google Cloud Storage; Google BigQuery for real-time\nanalytics; Google Cloud SQL for structured query language; and Google Compute\nEngine, an Infrastructure-as-a-service-Platform. It also offers mobile wireless\ndevices, and related products and services. Google was founded by Larry Page and\nSergey Brin in 1996 while they were Ph.D. students at Stanford University."
+}

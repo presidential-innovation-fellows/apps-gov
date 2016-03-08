@@ -1,0 +1,20 @@
+{
+    "slug": "flickr",
+    "name": "Flickr",
+    "url": "flickr.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130efc28989846a36000128.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_c750db1b559a058341dc2fa27a64af61.image/png",
+    "founded_year": 2004,
+    "location": "Ithaca, NY",
+    "status": "Acquired",
+    "top_keywords": [
+        "photography",
+        "social media",
+        "photo sharing",
+        "video",
+        "photos"
+    ],
+    "number_of_employees": 571,
+    "short_description": "Flickr is a mobile application and social network that offers an online photo\nsharing network for its users.",
+    "long_description": "Flickr is a mobile application and social network that offers an online photo\nsharing network for its users. It provides its users with the ability to\ncapture, share, and view a number of images related to many categories. The\napplication also provides its users with the ability to integrate the\napplication with the camera of the device and capture professional photographs\nin high resolution. In addition, it provides free editing tools, live filters,\nHD video recording, and more. Flickr enables its users to store over 500,000\nphotographs. It is available for Android and iOS devices. Currently owned by\n[Yahoo!](http://www.crunchbase.com/organization/yahoo), Flickr was founded in\n2004 by [Caterina Fake]( http://www.crunchbase.com/person/caterina-fake) and\n[Stewart Butterfield]( http://www.crunchbase.com/person/stewart-butterfield) in\nSunnyvale, California."
+}

@@ -1,0 +1,20 @@
+{
+    "slug": "bitly",
+    "name": "Bitly",
+    "url": "bitly.com/",
+    "icon_url": "//datafox-data.s3.amazonaws.com/favicons/52106495bdfe6c4d7802a6d7.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_a16874027594f085f1520cca6f958b8f.png",
+    "founded_year": 2008,
+    "location": "New York, NY",
+    "status": "Private",
+    "top_keywords": [
+        "curated web",
+        "brand marketing",
+        "analytics",
+        "software",
+        "publishing"
+    ],
+    "number_of_employees": 35,
+    "short_description": "Bitly is the world's leading link management platform, powering billions of\nclicks each month across both web and mobile.",
+    "long_description": "Bitly’s link management platform helps the world's leading brands deliver and\nmeasure their efforts across all marketing channels. Through the power of the\nlink, Bitly connects customers to the best digital experience possible,\nharnessing functionality like branded Bitlinks, mobile deep linking and\nomnichannel campaign tracking to provide a complete marketing solution that\ndrives customer experience. Processing more than 10B clicks each month across\ntheir network of links, Bitly is headquartered in New York City, with additional\noffices in San Francisco and Denver, and a customer list that includes leading\nbrands like IBM, eBay, Nike, GE, BuzzFeed and hundreds more."
+}

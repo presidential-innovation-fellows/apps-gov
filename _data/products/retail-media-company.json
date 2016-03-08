@@ -1,0 +1,20 @@
+{
+    "slug": "retail-media-company",
+    "name": "Retail Media Company",
+    "url": "bing.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/52b124750749c8597f009f6c.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_5c6f4d9edc72e018ee2171cd23f698ad.image/png",
+    "founded_year": 2003,
+    "location": "Seattle, WA",
+    "status": "Acquired",
+    "top_keywords": [
+        "finance",
+        "travel",
+        "transportation",
+        "online travel",
+        "hotels"
+    ],
+    "number_of_employees": null,
+    "short_description": "Farecast is an online service that provides users with intelligent airfare\npredictions.",
+    "long_description": "Farecast offers a unique service by providing its users with intelligent airfare\npredictions. Founded in 2003, Farecast has since gained very healthy funding\nfrom several venture funds totaling $20.6 million. Unlike other travel\ncompanies, Farecast predicts when a user should buy a ticket based upon 175\nbillion points of previous airfare data. Its engine can currently predict\nwhether airfare goes up or down up to a week into the future with a claimed\nsuccess rate of 70-75%. While Farecast has a lot of competition, they claim it\nis the only company which can predict future prices. The site has recently\nexpanded to providing the best deals on hotel room as well. Results from travel\nsearch sites like ReserveTravel, Orbitz, and CheapTicket, are shown on a map\nwith prices and other hotel information. Farecase gives deal finders an idea if\na specific hotel is overpriced or a good deal by marking overpriced hotels blue\nand attractively-priced hotels red."
+}

@@ -1,0 +1,17 @@
+{
+    "slug": "department-of-better-technology",
+    "name": "Department of Better Technology",
+    "url": "dobt.co",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/52f156888429774e16145101.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_12d9bf2943ba797e748705c0a5a1b03f.image/png",
+    "founded_year": 2013,
+    "location": "Atlanta, GA",
+    "status": null,
+    "top_keywords": [
+        "enterprise software",
+        "software"
+    ],
+    "number_of_employees": null,
+    "short_description": "Awesome government software",
+    "long_description": "We make great software for government. We build software that not only meets\ncompliance standards, security standards and can operate in the enterprise, but\nalso is beautiful, well designed, and easy to learn and use."
+}

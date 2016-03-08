@@ -1,0 +1,20 @@
+{
+    "slug": "instagram",
+    "name": "Instagram",
+    "url": "instagram.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130f01b8989846a36011118.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_08644a6976edce2dafffb236a22efa69.image/png",
+    "founded_year": 2010,
+    "location": "San Francisco, CA",
+    "status": "Acquired",
+    "top_keywords": [
+        "photography",
+        "photo sharing",
+        "mobile",
+        "social media",
+        "photo editing"
+    ],
+    "number_of_employees": 269,
+    "short_description": "Instagram is a free photo sharing application that enables its users to take\nphotos, apply filters, and share them on social networks.",
+    "long_description": "Instagram is a free photo sharing application that enables its users to take\nphotos, apply filters, and share them on social networks such as Facebook,\nTwitter, Foursquare, Tumblr, Flickr, and Posterous. It allows its users to\ncapture and customize their photos and videos with several custom-built filter\neffects. Developed by Kevin Systrom and Mike Krieger, Instagram is compatible\nwith all iOS and Android devices. It is currently used by over 200 million users\nworldwide. Instagram was founded in 2010 in San Francisco, California. It was\nacquired by Facebook in April 2012."
+}
