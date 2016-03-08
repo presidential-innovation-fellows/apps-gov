@@ -30,6 +30,13 @@
   @include clearfix;
   padding-top: 1.5em;
 
+  button {
+
+    &[type="submit"] {
+      margin: 0;
+    }
+  }
+
   h1{
     display:inline;
     float:left;
@@ -41,6 +48,10 @@
 
   p{
     display:inline;
+  }
+
+  .search-products {
+    margin-left: 0;
   }
 
   .usa-button-gray,
@@ -75,10 +86,6 @@
 
       form{
         margin-top:2px;
-      }
-
-      &:last-child{
-        margin-left:15px;
       }
     }
   }

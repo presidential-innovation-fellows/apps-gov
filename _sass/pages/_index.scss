@@ -101,3 +101,11 @@ ul {
     color: $color-gray-dark;
   }
 }
+
+.usa-grid {
+  padding: 0 1rem;
+
+  @include media($medium-screen) {
+    padding: 0 3rem;
+  }
+}

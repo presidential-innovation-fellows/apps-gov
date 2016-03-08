@@ -1,21 +1,45 @@
 .product-list-item {
-  @include span-columns(4);
   @include transition(all 0.2s ease);
   background-color: $color-white;
   border: 1px solid lighten($color-gray-light, 15);
   border-radius: 0.25em;
+  display: block;
   margin-bottom: 1.5em;
+
+  @include media($small-screen) {
+    @include span-columns(6);
+
+    &:nth-child(2n) {
+      @include omega;
+    }
+
+    &:nth-child(2n+1) {
+      clear: left;
+    }
+  }
+
+  @include media($medium-screen) {
+    @include span-columns(4);
+
+    &:nth-child(2n) {
+      margin-right: flex-gutter();
+    }
+
+    &:nth-child(2n+1) {
+      clear: none;
+    }
+
+    &:nth-child(3n) {
+      @include omega;
+    }
+
+    &:nth-child(3n+1) {
+      clear: left;
+    }
+  }
 
   &:hover {
     box-shadow: 0 0 5px rgba($color-primary, 0.75);
-  }
-
-  &:nth-child(3n) {
-    @include omega;
-  }
-
-  &:nth-child(3n+1) {
-    clear: left;
   }
 
   a {
@@ -40,13 +64,21 @@
   }
 
   .logo {
-    float: left;
-    width: 18%;
+    margin: 0 auto;
+    width: 35%;
+
+    @include media($medium-screen) {
+      float: left;
+      margin: 0;
+      width: 18%;
+    }
   }
 
   .product-content {
-    float: right;
-    width: 75%;
+    @include media($medium-screen) {
+      float: right;
+      width: 75%;
+    }
   }
 }
 
