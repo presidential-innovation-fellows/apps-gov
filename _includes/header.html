@@ -12,10 +12,10 @@
     </h1>
     <ul>
       <li class="search-products">
-        <form class="usa-search">
+        <form action="/products" class="usa-search">
           <div role="search">
             <label class="usa-sr-only" for="search-field">Search medium</label>
-            <input id="search-field" type="search" name="search">
+            <input id="search-field" type="search" name="q">
             <button type="submit">
               <span class="usa-search-submit-text">Search</span>
             </button>
@@ -26,4 +26,3 @@
     </ul>
   </div>
 </nav>
-{% jekyll_pages_api_search_interface %}

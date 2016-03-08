@@ -9,7 +9,7 @@ skip_index: true
     <h1>Products</h1>
     <p>Discover products that will help your team be more productive.</p>
   </header>
-  <ul class="usa-grid">
+  <ul id="search-results" class="usa-grid">
     {% for product_hash in site.data.products %}{% assign product = product_hash[1] %}
     <li class="product-list-item">
       <a href="/products/{{ product.slug }}/">

@@ -2,3 +2,5 @@ _site
 .sass-cache
 .jekyll-metadata
 slack.yml
+node_modules/
+js/products-bundle.js

@@ -23,6 +23,17 @@ markdown: kramdown
 gems:
   - jekyll-sitemap
 
+exclude:
+- CONTRIBUTING.md
+- Gemfile
+- Gemfile.lock
+- LICENSE.md
+- README.md
+- Staticfile
+- go
+- nginx.conf
+- package.json
+- vendor
 
 page_gen:
   - data: apps
