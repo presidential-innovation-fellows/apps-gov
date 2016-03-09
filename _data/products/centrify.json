@@ -1,0 +1,24 @@
+{
+    "slug": "centrify",
+    "name": "Centrify Identity Services & Centrify Privilege Services",
+    "url": "centrify.com",
+    "icon_url": "//datafox-data.s3.amazonaws.com/favicons/5130efd78989846a3600387c.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_3286787f29c973f0b16f84b66b89a294.jpg",
+    "founded_year": 2004,
+    "location": "Santa Clara, CA",
+    "status": "Private",
+    "twitter_handle": "CentrifyCorp",
+    "linkedin_id": 30501,
+    "top_keywords": [
+        "saas",
+        "security",
+        "identity management",
+        "web hosting",
+        "saas single sign on"
+    ],
+    "number_of_employees": 450,
+    "short_description": "Centrify secures enterprise identities against cyberthreats that target today’s\nhybrid IT environment .",
+    "long_description": "Centrify secures enterprise identities against cyberthreats that target today’s\nhybrid IT environment of cloud, mobile and on-premises. The Centrify Identity\nPlatform protects against the leading point of attack used in data breaches ―\ncompromised credentials — by securing an enterprise’s internal and external\nusers as well as its privileged accounts. Centrify delivers stronger security,\ncontinuous compliance and enhanced user productivity through single sign-on,\nmulti-factor authentication, mobile and Mac management, privileged access\nsecurity and session monitoring. Centrify is trusted by over 5000 customers,\nincluding more than half of the Fortune 50.",
+    "sales_poc":"greg.cranley@centrify.com",
+    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/centrify-centrify-identity-services-centrify-privilege-services/"
+}

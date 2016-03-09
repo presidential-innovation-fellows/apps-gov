@@ -1,0 +1,24 @@
+{
+    "slug": "tibco-software-inc",
+    "name": "TIBCO tibbr",
+    "url": "www.tibco.com/",
+    "icon_url": "//datafox-data.s3.amazonaws.com/favicons/5130efcf8989846a36001d66.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/al_39578.jpg%3Fbuster%3D1326848434",
+    "founded_year": 1997,
+    "location": "Palo Alto, CA",
+    "status": "Public",
+    "twitter_handle": "TIBCO",
+    "linkedin_id": 3420,
+    "top_keywords": [
+        "big data",
+        "analytics",
+        "software",
+        "enterprise software",
+        "infrastructure"
+    ],
+    "number_of_employees": 3000,
+    "short_description": "tibbr enables users to post news and updates, ask questions, make announcements, or share ideas using a familiar, social network user interface, while restricting who can see the posts to just specific individuals, certain groups, or the whole agency, depending upon the use case and privacy required.",
+    "long_description": "tibbr enables users to post news and updates, ask questions, make announcements, or share ideas using a familiar, social network user interface, while restricting who can see the posts to just specific individuals, certain groups, or the whole agency, depending upon the use case and privacy required.  tibbr connects geographically dispersed teams and leverages collective expertise to solve problems, improve employee engagement, capture corporate knowledge and all in a highly secure collaborative platform.",
+    "sales_poc":"aobermay@tibco.com",
+    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/tibco-tibbr/"
+}

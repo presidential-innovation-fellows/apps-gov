@@ -1,0 +1,33 @@
+{
+    "slug": "unisys-edge",
+    "name": "Unisys Edge",
+    "url": "unisys.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130f0198989846a36011010.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_25143d6196c34bdd8aee16ea90d16899.jpg",
+    "founded_year": null,
+    "location": "Blue Bell, PA",
+    "status": "Acquired",
+    "twitter_handle": "UnisysCorp",
+    "linkedin_id": 1281,
+    "top_keywords": [
+        "software",
+        "security",
+        "end user outsourcing and support services",
+        "data center transformation and outsourcing",
+        "application modernization and outsourcing"
+    ],
+    "number_of_employees": 20737,
+    "short_description": "Unisys Edge Service Management features a modern Information Technology Service Management (ITSM) Core that bundles our deep expertise with business-ready BMC Remedy technology and pre-built functionality.",
+    "long_description": "Unisys Edge Service Management features a modern Information Technology Service Management (ITSM) Core that bundles our deep expertise with business-ready BMC Remedy technology and pre-built functionality. Edge is delivered through a SaaS model, thus avoiding large capital outlays while delivering rapid time to savings to achieve greater value to the business.
+        <ul>
+        <li>Every component of Service Management is driven by data</li>
+        <li>Greater visibility for faster incident remediation</li>
+        <li>Optimized resource allocation</li>
+        <li>Analysis tools and techniques and customizable service views</li>
+        </ul>
+        Unisys Edge consolidates data streams from across the enterprise and applies Service Management best practices to ensure that service data is flowing into the ITSM Core where it can be properly analyzed and acted upon. The Unisys Edge Integration Engine includes pre-built connections to a wide variety of monitoring tools, eliminating the hidden time and costs associated with API development and integration common among solutions from platform vendors.
+        <br/><br/>
+        All of this is bundled and delivered in a flexible and scalable SaaS model, eliminating large capital expenditures and hidden integration and maintenance costs often experienced with other platform vendors. When everything is up and running  we use the Unisys VantagePoint executive dashboard to deliver quantifiable results right to the IT leader’s desktop or tablet screen.",
+    "sales_poc":"james.leake@unisys.com",
+    "fedramp_ready":"https://www.fedramp.gov/marketplace/fedramp-ready-systems/unisys-unisys-edge-for-government/"
+}

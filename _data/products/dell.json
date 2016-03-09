@@ -1,0 +1,24 @@
+{
+    "slug": "dell",
+    "name": "Dell Services (IaaS)",
+    "url": "dell.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130efc98989846a3600100a.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_e83b8f688bc96b56220c0ffbd470b931.image/x-png",
+    "founded_year": 1984,
+    "location": "Round Rock, TX",
+    "status": "Private",
+    "twitter_handle": "Dell",
+    "linkedin_id": 1093,
+    "top_keywords": [
+        "software",
+        "hardware",
+        "consumer electronics",
+        "manufacturing",
+        "enterprise software"
+    ],
+    "number_of_employees": 111300,
+    "short_description": "The Dell Cloud for US Government (DCG) multi-tenant Infrastructure as a Service (IaaS), community cloud intended for sole use of U.S federal, tribal, state, and local government customers, US higher education, U.S. government contractors, and Federally Funded Research and Development Centers (FFRDCs) organizations that have requirements for a FISMA moderate or FISMA low level of assurance.",
+    "long_description": "The Dell Cloud for US Government (DCG) multi-tenant Infrastructure as a Service (IaaS), community cloud intended for sole use of U.S federal, tribal, state, and local government customers, US higher education, U.S. government contractors, and Federally Funded Research and Development Centers (FFRDCs) organizations that have requirements for a FISMA moderate or FISMA low level of assurance.",
+    "sales_poc":"jeff_bivens@dell.com",
+    "fedramp_inprocess_jab":"https://www.fedramp.gov/marketplace/in-process-systems/dell-dell-services-federal-government/"
+}

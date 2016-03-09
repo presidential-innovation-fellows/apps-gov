@@ -1,0 +1,24 @@
+{
+    "slug": "knight-point-systems",
+    "name": "Knight Point Systems CloudSeed",
+    "url": "knightpoint.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5254d4859f309cd304001be2.ico",
+    "logo_url": null,
+    "founded_year": 2005,
+    "location": "Reston, VA",
+    "status": "Private",
+    "twitter_handle": null,
+    "linkedin_id": 425356,
+    "top_keywords": [
+        "datacenter relocation",
+        "optimization",
+        "green it",
+        "information technology and services",
+        "inc 5000 2014 it services"
+    ],
+    "number_of_employees": 112,
+    "short_description": "Knight Point Systems’ Cloudseed is a portfolio of solutions that spans a customer’s technology needs across multiple phases of cloud adoption.",
+    "long_description": "Knight Point Systems’ Cloudseed is a portfolio of solutions that spans a customer’s technology needs across multiple phases of cloud adoption.  The KPS Federal Community Cloud is an off-premise IaaS solution that leverages Cisco hardware, world-class Equinix facilities, and open-source technology to provide compute, storage, and network resources to Federal customers in a secure manner.  Customers can engage resources in an a la carte, and “pay for performance” model that allows them to know exactly what to expect – It’s the technology you need, when you need it.  The resources are managed and monitored through the KPS tool “Zeus”, which allows management of cloud resources across all of a customer’s cloud deployments – Public, Community, and Private – giving them the ability to have true “hybrid” cloud solutions that are right-sized for their needs.",
+    "sales_poc":"mash@knightpoint.com",
+    "fedramp_ready":"https://www.fedramp.gov/marketplace/fedramp-ready-systems/knight-point-systems-cloudseed/"
+}

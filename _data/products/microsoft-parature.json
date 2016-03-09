@@ -1,0 +1,24 @@
+{
+    "slug": "microsoft-parature",
+    "name": "Microsoft Parature Customer Service Application",
+    "url": "microsoft.com",
+    "icon_url": "//datafox-data.s3.amazonaws.com/favicons/5130efc68989846a3600083e.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_fd80725f53fc70099878aeecf1e9ffbb.image/jpeg",
+    "founded_year": 1974,
+    "location": "Redmond, WA",
+    "status": "Public",
+    "twitter_handle": "Microsoft",
+    "linkedin_id": 1035,
+    "top_keywords": [
+        "software",
+        "video games",
+        "startups",
+        "business software",
+        "design tools"
+    ],
+    "number_of_employees": 128000,
+    "short_description": "The Parature application is Web-based customer service and support software.",
+    "long_description": "The Parature application is Web-based customer service and support software. The Parature Customer Service Application (CSA) integrates a customer portal, rich knowledgebase, ticketing application, service desk, and a host of additional modules in one dynamic, unified system that provides organizations with a comprehensive, multi-channel way to meet the growing expectations of their customers.  The SaaS delivery and integrated, intuitive design enable organizations to get up and running quickly, easily and efficiently.",
+    "sales_poc":"akibria@microsoft.com",
+    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/microsoft-parature-customer-service-application-csa/"
+}

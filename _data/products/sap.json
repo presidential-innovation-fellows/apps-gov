@@ -1,0 +1,24 @@
+{
+    "slug": "sap",
+    "name": "SAP Natoinal Security Services",
+    "url": "sap.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130efcb8989846a360013de.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/5130efcb8989846a360013de-1455246052",
+    "founded_year": 1972,
+    "location": "Walldorf, Germany",
+    "status": "Public",
+    "twitter_handle": "SAP",
+    "linkedin_id": 1115,
+    "top_keywords": [
+        "services",
+        "information technology",
+        "information services",
+        "software",
+        "enterprise software"
+    ],
+    "number_of_employees": 68319,
+    "short_description": "The SAP National Security Services (SAP NS2) Federal Secure Node delivers the Success Factors HCM Suite SaaS for the Federal Community.",
+    "long_description": "The SAP National Security Services (SAP NS2) Federal Secure Node delivers the Success Factors HCM Suite SaaS for the Federal Community.  The SuccessFactors HCM Suite includes a complete set of tightly integrated talent management solutions, robust workforce analytics and planning, plus a next generation core HR solution. This Software as a Service (SaaS) solution is delivered by SAP NS2.",
+    "sales_poc":"carmen.krueger@sapns2.com",
+    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/sap-national-security-services-inc-sap-ns2-sap-ns2-secure-node-with-successfactors-suite/"
+}

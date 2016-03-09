@@ -1,0 +1,36 @@
+{
+    "slug": "csc",
+    "name": "CSC Community Cloud Service",
+    "url": "csc.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130efd88989846a36003b2a.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_5a90b0fbe0326d0afbaa558de8389919.jpg",
+    "founded_year": 1959,
+    "location": "Falls Church, VA",
+    "status": "Public",
+    "twitter_handle": "CSCNews",
+    "linkedin_id": 1120,
+    "top_keywords": [
+        "software",
+        "information services",
+        "information technology",
+        "consulting",
+        "banking"
+    ],
+    "number_of_employees": 70000,
+    "short_description": "The NX Infrastructure-as-a-Service (NX IaaS) cloud system is a government-owned, contractor-managed General Support System (GSS) using VCE vBlock technology hosted entirely within two contractor data centers: CSC Norwich, Connecticut (Primary Host Facility) and CSC Newark, Delaware (Alternate Processing Facility).",
+    "long_description": "The NX Infrastructure-as-a-Service (NX IaaS) cloud system is a government-owned, contractor-managed General Support System (GSS) using VCE vBlock technology hosted entirely within two contractor data centers: CSC Norwich, Connecticut (Primary Host Facility) and CSC Newark, Delaware (Alternate Processing Facility). The system supports DHS/FEMA and future tenants by providing a platform on which to host major/minor applications using Windows-based and UNIX/Linux-based operating systems in a virtualized environment via VMware and relies upon Virtual Local Area Network (VLAN) isolation to separate tenants from one-another.
+        <br/><br/>
+        All system access to NX IaaS for authorized personnel is managed using a mixture of Smart Card authentication based upon Homeland Security Presidential Directive (HSPD)-12 requirements and Password Authentication in accordance with FedRAMP requirements.
+        <br/><br/>
+        CSC utilizes their Government Security Operations Center (GovSOC) to provide, but not limited to, the following services to support NX IaaS operations:
+        <ul>
+        <li>Network/Host Intrusion Detection & Prevention Systems</li>
+        <li>Security Incident & Event Management (SIEM)</li>
+        <li>Audit Log Storage & Monitoring</li>
+        <li>Vulnerability Scanning & Alerting</li>
+        <li>Security Incident Response Services</li>
+        </ul>
+        For more information about CSC and its services, visit www.csc.com",
+    "sales_poc":"christos.skeadas@fema.dhs.gov",
+    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/fema-nx/"
+}

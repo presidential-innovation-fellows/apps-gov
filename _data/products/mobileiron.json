@@ -1,0 +1,53 @@
+{
+    "slug": "mobileiron",
+    "name": "MobileIron Government Cloud",
+    "url": "mobileiron.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130f0008989846a3600b93c.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_21b531137d66c6a457c737443e596363.image/jpeg",
+    "founded_year": 2007,
+    "location": "Mountain View, CA",
+    "status": "Public",
+    "twitter_handle": "mobileiron",
+    "linkedin_id": 644123,
+    "top_keywords": [
+        "mobile",
+        "security",
+        "applications",
+        "mobile devices",
+        "mobile security"
+    ],
+    "number_of_employees": 783,
+    "short_description": "MobileIron Government Cloud provides Government agencies with a secure foundation to transform their mission-critical operations into Mobile First organizations.",
+    "long_description": "MobileIron Government Cloud provides Government agencies with a secure foundation to transform their mission-critical operations into Mobile First organizations.  WithMobileIron, Government agencies can secure and manage data on any device across multiple operating systems such as iOS, Android and Windows Phone.
+        <br/><br/>
+        MobileIron technology automatically provisions enterprise settings such as Wi-Fi and VPN, secures corporate email and email attachments, applications and content delivery for both GSE and BYOD programs.  With MobileIron, IT departments can deliver the right resources to authorized personnel while protecting sensitive government data, preserving the privacy of end-user data, and maintaining the native device experience.
+        <br/><br/>
+        MobileIron Government Cloud has been purpose built to provide a cloud-based, scalable architecture that enables rapid deployment and scales up to millions of users.  The MobileIron Enterprise Mobility Management (EMM) platform incorporates identity, context, and privacy enforcement to set the appropriate level of access to data and services while allowing IT departments to securely manage their global mobile workforce from a single pane of glass.  With MobileIron, Agencies can support:
+        <ul>
+        <li>Mobile Device Management (MDM)</li>
+        <ul>
+        <li>Over-the-air provisioning</li>
+        <li>Role-based access</li>
+        <li>User and device group-based actions</li>
+        <li>BYOD controls and end user self service</li>
+        <li>Secure ruggedized devices</li>
+        <li>Quarantine and selective wipe</li>
+        </ul>
+        <li>Mobile Application Management (MAM)</li>
+        <ul>
+        <li>Application security and access control</li>
+        <li>Securely push government apps to employee devices</li>
+        <li>App inventory – global and per device</li>
+        <li>App catalog with featured apps</li>
+        <li>App Data-at-rest encryption</li>
+        <li>Single Sign On for apps in catalog</li>
+        <li>Per app VPN with Tunnel</li>
+        </ul>
+        <li>Mobile Content Management (MCM)</li>
+        <ul>
+        <li>Secure content repository on device</li>
+        <li>Selective wipe of content repository</li>
+        <li>Policy control to restrict open-in, copy & paste</li></ul></ul>",
+    "sales_poc":"bmansfield@mobileiron.com",
+    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/mobileiron-mobileiron-government-cloud/"
+}

@@ -1,0 +1,25 @@
+{
+    "slug": "trapwire",
+    "name": "TRAPWIRE Threat Detection and Analysis System",
+    "url": "www.trapwire.com",
+    "icon_url": null,
+    "logo_url": null,
+    "founded_year": null,
+    "location": null,
+    "status": null,
+    "twitter_handle": null,
+    "linkedin_id": null,
+    "top_keywords": [
+    ],
+    "number_of_employees": null,
+    "short_description": "TRAPWIRE is the preeminent software platform for detecting and alerting on real threats against your assets and personnel.",
+    "long_description": "TRAPWIRE is the preeminent software platform for detecting and alerting on real threats against your assets and personnel. It provides a comprehensive suite of tools all synchronized and accessible in one centralized, highly secure and encrypted platform, including:
+        <ul>
+        <li>Incident reporting</li>
+        <li>Pattern analysis and threat detection</li>
+        <li>Originator-controlled information sharing</li>
+        <li>Mass warning and notifications</li>
+        <li>Cross-organizational collaboration</li></ul>",
+    "sales_poc":"paul.chadha@trapwire.com",
+    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/trapwire-threat-detection-and-analysis-system/"
+}

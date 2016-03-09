@@ -1,0 +1,24 @@
+{
+    "slug": "connectsolutions",
+    "name": "ConnectSolutions MeetingCloud",
+    "url": "connectsolutions.com",
+    "icon_url": "//datafox-data.s3.amazonaws.com/favicons/5130efd98989846a36003e62.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_17473d7b84be91d939a39c94cc0b5318.jpg",
+    "founded_year": 2007,
+    "location": "San Francisco, CA",
+    "status": "Private",
+    "twitter_handle": "connectsolutns",
+    "linkedin_id": 203073,
+    "top_keywords": [
+        "enterprise software",
+        "video conferencing",
+        "services",
+        "saas",
+        "collaboration"
+    ],
+    "number_of_employees": 175,
+    "short_description": "ConnectSolutions SaaS is the trusted private-cloud solutions provider for Adobe Connect and Microsoft Skype for Business offering collaborative communications.",
+    "long_description": "ConnectSolutions SaaS is the trusted private-cloud solutions provider for Adobe Connect and Microsoft Skype for Business offering collaborative communications. As a Software as a Service (SaaS) provider, ConnectSolutions software platform includes e-mail, virtual desktop and communications applications. Systems implementations include the federal government sector and Fortune 1000 global enterprises that require the highest levels of security, reliability, and scalability in their mission-critical collaborative communications.<br/><br/>ConnectSolutions SaaS deploys and manages mission-critical collaboration solutions, and MeetingCloud is their managed private-cloud service that utilizes Adobe Connect and Microsoft Skype for Business. This cloud solution is primarily intended to support application hosting and services for government agency customers. The service is designed to allow for rapid growth and ease of management for any number of government customers and any sized government organization by providing dedicated cloud deployments of Adobe Connect for each government customer.",
+    "sales_poc":"cyrus.mirakhor@connectsolutoins.com",
+    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/compliant-systems/connectsolutions-connectsolutions-fedramp-meetingcloud/"
+}

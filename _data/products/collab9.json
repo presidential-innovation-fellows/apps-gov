@@ -1,0 +1,31 @@
+{
+    "slug": "collab9",
+    "name": "Collab9 Secure Voice and Collaboration",
+    "url": "collab9.com",
+    "icon_url": "//datafox-data.s3-us-west-1.amazonaws.com/favicons/563e73aa611014626b006edc.ico",
+    "logo_url": null,
+    "founded_year": null,
+    "location": null,
+    "status": null,
+    "twitter_handle": "collab9",
+    "linkedin_id": 3221411,
+    "top_keywords": [
+        "telephony and wireless",
+        "telecommunications"
+    ],
+    "number_of_employees": null,
+    "short_description": null,
+    "long_description": "Collab9 offers cloud-based unified communications services including:
+        <ul>
+        <li>Voice</li>
+        <li>Voicemail and Unified Messaging (voicemail delivered to email)</li>
+        <li>Video (point-to-point)</li>
+        <li>Presence and Instant Messaging</li>
+        <li>Mobility Services (ability to use multiple types of phone devices to</li>
+        <li>access phone services) (Jabber)</li>
+        <li>Integration with Microsoft Exchange and Lync</li>
+        </ul>
+        The service is offered in a monthly, usage-based subscription model where a Customer / Agency subscribes to the services based on the number of users in its organization.",
+    "sales_poc":"mabaig@collab9.com",
+    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/collab9-secure-voice-and-collaboration/"
+}

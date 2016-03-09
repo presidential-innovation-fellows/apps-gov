@@ -1,0 +1,19 @@
+{
+    "slug": "isite",
+    "name": "iSite Contract Management Portal",
+    "url": "www.msm-isite.com",
+    "icon_url": null,
+    "logo_url": null,
+    "founded_year": null,
+    "location": null,
+    "status": null,
+    "twitter_handle": null,
+    "linkedin_id": null,
+    "top_keywords": [
+    ],
+    "number_of_employees": null,
+    "short_description": "The iSite® Contract Management Portal is a web-based system that provides easy-to-use functionality for your task performers, task managers, program managers and finance managers for viewing and managing the day-to-day progress of your Federal Government contracts.",
+    "long_description": "The iSite® Contract Management Portal is a web-based system that provides easy-to-use functionality for your task performers, task managers, program managers and finance managers for viewing and managing the day-to-day progress of your Federal Government contracts.",
+    "sales_poc":"swickham@msmgroupinc.com",
+    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/isite-llc-isite-contract-management-portal/"
+}
