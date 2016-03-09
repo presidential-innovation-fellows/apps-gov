@@ -7,6 +7,8 @@
     "founded_year": 2013,
     "location": null,
     "status": null,
+    "twitter_handle": "tint",
+    "linkedin_id": null,
     "top_keywords": [
         "software",
         "social media",
@@ -16,5 +18,9 @@
     ],
     "number_of_employees": null,
     "short_description": "Tint is a self-service platform helping brands aggregate, curate and display\nsocial feeds in their websites and social networks.",
-    "long_description": "Our vision is to help brands drive deeper engagement with their audience by\nallowing them to integrate any social feeds into any of their digital\nproperties. Tint (formerly Hypemarks) is a self-service platform that helps\nbrands aggregate, curate, and display any any social feeds onto their websites,\nFB pages, mobile apps, retail displays, and event walls. Over 20,000 brands\ntrust Tint today after 8 months of launch, and our company hit profitability in\n3 months."
+    "long_description": "Our vision is to help brands drive deeper engagement with their audience by\nallowing them to integrate any social feeds into any of their digital\nproperties. Tint (formerly Hypemarks) is a self-service platform that helps\nbrands aggregate, curate, and display any any social feeds onto their websites,\nFB pages, mobile apps, retail displays, and event walls. Over 20,000 brands\ntrust Tint today after 8 months of launch, and our company hit profitability in\n3 months.",
+    "contracts":[
+        "sewp"
+    ],
+    "gov_tos":"http://www.tintup.com/termsofservice/amendment"
 }

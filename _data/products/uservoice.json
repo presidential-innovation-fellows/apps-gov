@@ -7,6 +7,8 @@
     "founded_year": 2008,
     "location": "San Francisco, CA",
     "status": "Private",
+    "twitter_handle": "UserVoice",
+    "linkedin_id": 356606,
     "top_keywords": [
         "software",
         "customer service",
@@ -16,5 +18,9 @@
     ],
     "number_of_employees": 31,
     "short_description": "UserVoice integrates easy-to-use feedback, helpdesk, and knowledge base\nmanagement tools in one platform to empower customer support.",
-    "long_description": "UserVoice creates simple customer engagement tools that help companies\nunderstand and interact with their customers more positively and build customer\nrelationships that last. With more than 90,000 organizations signed up and\nthousands of customers, UserVoice products include: UserVoice Feedback - a\nhosted tool for gathering and prioritizing product ideas directly from a\ncompany's customers. UserVoice Helpdesk - a simple-to-use ticketing system that\nhelps companies solve more customer issues in less time. UserVoice Full Service\n- a complete customer service solution that bundles Feedback and Helpdesk into a\nsingle, easy-to-manage environment."
+    "long_description": "UserVoice creates simple customer engagement tools that help companies\nunderstand and interact with their customers more positively and build customer\nrelationships that last. With more than 90,000 organizations signed up and\nthousands of customers, UserVoice products include: UserVoice Feedback - a\nhosted tool for gathering and prioritizing product ideas directly from a\ncompany's customers. UserVoice Helpdesk - a simple-to-use ticketing system that\nhelps companies solve more customer issues in less time. UserVoice Full Service\n- a complete customer service solution that bundles Feedback and Helpdesk into a\nsingle, easy-to-manage environment.",
+    "contracts":[
+        "sewp"
+    ],
+    "gov_tos":"https://www.uservoice.com/tos/federal/"
 }

@@ -7,6 +7,8 @@
     "founded_year": 2010,
     "location": "Washington, DC",
     "status": "Private",
+    "twitter_handle": "Mapbox",
+    "linkedin_id": 3302167,
     "top_keywords": [
         "enterprise software",
         "geospatial",
@@ -16,5 +18,10 @@
     ],
     "number_of_employees": 175,
     "short_description": "Mapbox is mapping platform for developers. Our building blocks make it easy for\nlocation to be core to any mobile or online application.",
-    "long_description": "Mapbox is a platform for designing and publishing custom maps that are fast at\nscale. Our technology makes it possible to pin travel spots on Pinterest, find\nrestaurants on Foursquare, and visualize data on GitHub. We're building our\nstack using open source tech and working with open data."
+    "long_description": "Mapbox is a platform for designing and publishing custom maps that are fast at\nscale. Our technology makes it possible to pin travel spots on Pinterest, find\nrestaurants on Foursquare, and visualize data on GitHub. We're building our\nstack using open source tech and working with open data.",
+    "contracts":[
+        "micro",
+        "sewp"
+    ],
+    "gov_tos":"https://www.mapbox.com/usg-tos/"
 }

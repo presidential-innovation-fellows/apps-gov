@@ -7,6 +7,8 @@
     "founded_year": 2006,
     "location": "Emeryville, CA",
     "status": "Public",
+    "twitter_handle": "tubemogul",
+    "linkedin_id": 127551,
     "top_keywords": [
         "advertising",
         "analytics",
@@ -16,5 +18,9 @@
     ],
     "number_of_employees": 468,
     "short_description": "TubeMogul is an enterprise software company for digital branding. Brands use the\nTubeMogul Platform to execute their global video ad spend.",
-    "long_description": "TubeMogul is the leading enterprise software company for digital branding. The\nworld’s largest brands and agencies unify their video advertising on TubeMogul’s\nprogrammatic platform. By using a single, integrated solution, TubeMogul’s\nclients gain control over their video spend, simplify their workflow and verify\nthe success of their campaigns. Founded in 2006, TubeMogul is based in\nEmeryville, California with offices across North America, Europe, Asia and\nAustralia."
+    "long_description": "TubeMogul is the leading enterprise software company for digital branding. The\nworld’s largest brands and agencies unify their video advertising on TubeMogul’s\nprogrammatic platform. By using a single, integrated solution, TubeMogul’s\nclients gain control over their video spend, simplify their workflow and verify\nthe success of their campaigns. Founded in 2006, TubeMogul is based in\nEmeryville, California with offices across North America, Europe, Asia and\nAustralia.",
+    "contracts":[
+        "sewp"
+    ],
+    "gov_tos":"http://www.digitalgov.gov/files/2014/01/tubemogul-tos-amendment.pdf"
 }

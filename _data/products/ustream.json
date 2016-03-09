@@ -7,6 +7,8 @@
     "founded_year": 2007,
     "location": "San Francisco, CA",
     "status": "Acquired",
+    "twitter_handle": "USTREAM",
+    "linkedin_id": 156299,
     "top_keywords": [
         "games",
         "video streaming",
@@ -16,5 +18,10 @@
     ],
     "number_of_employees": 15,
     "short_description": "Ustream provides a live interactive broadcast platform.",
-    "long_description": "Ustream provides a live interactive broadcast platform. Its platform enables to\nview and broadcast content, including high school sporting events and red carpet\nmovie premieres, political events, concerts, conferences, talk shows,\ninteractive games, and personal milestones. The company also offers advertising\nand digital campaign solutions; solutions for mobile devices, streaming players,\nconnected TVs, and other devices; production and event services such as event\nproduction, event and program development, account management/tech support and\nperformance metrics, transmission and connectivity, and custom mobile\napplications services; and broadcaster services. The company was founded in 2007\nby John Ham, Brad Hunstable, and Gyula Feher. Its clientele and partners include\nCisco, Sony, Discovery Communications, Georgetown University, and Samsung. Based\nin Francisco, California, Ustream has additional offices in Los Angeles,\nCalifornia; Tokyo, Japan; and Budapest, Hungary."
+    "long_description": "Ustream provides a live interactive broadcast platform. Its platform enables to\nview and broadcast content, including high school sporting events and red carpet\nmovie premieres, political events, concerts, conferences, talk shows,\ninteractive games, and personal milestones. The company also offers advertising\nand digital campaign solutions; solutions for mobile devices, streaming players,\nconnected TVs, and other devices; production and event services such as event\nproduction, event and program development, account management/tech support and\nperformance metrics, transmission and connectivity, and custom mobile\napplications services; and broadcaster services. The company was founded in 2007\nby John Ham, Brad Hunstable, and Gyula Feher. Its clientele and partners include\nCisco, Sony, Discovery Communications, Georgetown University, and Samsung. Based\nin Francisco, California, Ustream has additional offices in Los Angeles,\nCalifornia; Tokyo, Japan; and Budapest, Hungary.",
+    "contracts":[
+        "micro",
+        "sewp"
+    ],
+    "gov_tos":"http://www.digitalgov.gov/files/2014/07/delib-dialog-tos-amendment.pdf"
 }

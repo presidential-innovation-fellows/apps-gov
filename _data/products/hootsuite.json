@@ -7,6 +7,8 @@
     "founded_year": 2008,
     "location": "Vancouver, Canada",
     "status": "Private",
+    "twitter_handle": "HootSuite",
+    "linkedin_id": 288540,
     "top_keywords": [
         "big data",
         "applications",
@@ -16,5 +18,10 @@
     ],
     "number_of_employees": 375,
     "short_description": "Hootsuite is the most widely used platform for managing social media, loved by\nover 10 million people around the globe.",
-    "long_description": "Hootsuite is the most widely used platform for managing social media, loved by\nover 10 million people around the globe and trusted by 744 of the Fortune 1000.\nWith Hootsuite, brands harness the power of social. Our platform brings together\nyour social networks and integrates with hundreds of business applications. It’s\nthe one place to build customer relationships, listen to the needs of the market\nand grow your revenue."
+    "long_description": "Hootsuite is the most widely used platform for managing social media, loved by\nover 10 million people around the globe and trusted by 744 of the Fortune 1000.\nWith Hootsuite, brands harness the power of social. Our platform brings together\nyour social networks and integrates with hundreds of business applications. It’s\nthe one place to build customer relationships, listen to the needs of the market\nand grow your revenue.",
+    "contracts":[
+        "micro",
+        "sewp"
+    ],
+    "gov_tos":"http://www.digitalgov.gov/files/2015/02/hootsuite-tos-amendment.pdf"
 }

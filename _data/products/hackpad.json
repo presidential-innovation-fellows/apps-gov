@@ -7,6 +7,8 @@
     "founded_year": 2011,
     "location": null,
     "status": "Acquired",
+    "twitter_handle": "hackpad",
+    "linkedin_id": null,
     "top_keywords": [
         "productivity software",
         "business productivity",
@@ -15,5 +17,9 @@
     ],
     "number_of_employees": null,
     "short_description": "Smart collaborative documents. Company wiki. Personal notes. Event planning.\nClassroom collaboration.",
-    "long_description": "Smart collaborative documents. Company wiki. Personal notes. Event planning.\nClassroom collaboration."
+    "long_description": "Smart collaborative documents. Company wiki. Personal notes. Event planning.\nClassroom collaboration.",
+    "contracts":[
+        "sewp"
+    ],
+    "gov_tos":"https://hackpad.com/AMENDMENT-TO-HACKPAD-TERMS-OF-SERVICE-MwTzlQre2hE"
 }

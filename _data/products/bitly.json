@@ -7,6 +7,8 @@
     "founded_year": 2008,
     "location": "New York, NY",
     "status": "Private",
+    "twitter_handle": "Bitly",
+    "linkedin_id": 552285,
     "top_keywords": [
         "curated web",
         "brand marketing",
@@ -16,5 +18,10 @@
     ],
     "number_of_employees": 35,
     "short_description": "Bitly is the world's leading link management platform, powering billions of\nclicks each month across both web and mobile.",
-    "long_description": "Bitly’s link management platform helps the world's leading brands deliver and\nmeasure their efforts across all marketing channels. Through the power of the\nlink, Bitly connects customers to the best digital experience possible,\nharnessing functionality like branded Bitlinks, mobile deep linking and\nomnichannel campaign tracking to provide a complete marketing solution that\ndrives customer experience. Processing more than 10B clicks each month across\ntheir network of links, Bitly is headquartered in New York City, with additional\noffices in San Francisco and Denver, and a customer list that includes leading\nbrands like IBM, eBay, Nike, GE, BuzzFeed and hundreds more."
+    "long_description": "Bitly’s link management platform helps the world's leading brands deliver and\nmeasure their efforts across all marketing channels. Through the power of the\nlink, Bitly connects customers to the best digital experience possible,\nharnessing functionality like branded Bitlinks, mobile deep linking and\nomnichannel campaign tracking to provide a complete marketing solution that\ndrives customer experience. Processing more than 10B clicks each month across\ntheir network of links, Bitly is headquartered in New York City, with additional\noffices in San Francisco and Denver, and a customer list that includes leading\nbrands like IBM, eBay, Nike, GE, BuzzFeed and hundreds more.",
+    "contracts":[
+        "micro",
+        "sewp"
+    ],
+    "gov_tos":"http://www.digitalgov.gov/files/2014/07/bitly-enterprise-services-agreement-fully-executed.pdf"
 }

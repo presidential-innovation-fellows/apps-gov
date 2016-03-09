@@ -7,6 +7,8 @@
     "founded_year": 2012,
     "location": "New York, NY",
     "status": null,
+    "twitter_handle": "cartoDB",
+    "linkedin_id": 5084329,
     "top_keywords": [
         "business intelligence",
         "enterprise software",
@@ -16,5 +18,10 @@
     ],
     "number_of_employees": 35,
     "short_description": "Extract insights of your location data and create amazing data-driven customized\nvisualizations",
-    "long_description": "CartoDB is the next generation location intelligence and data visualization\nengine that enables the transformation of location data into insights. CartoDB\ncloud-based platform enables the connection and mapping of data, creation of\ndata-driven customized visualizations, and development of geospatial\napplications, to discover and extract insights to understand the world and make\nbetter, faster decisions. Our mission it to build the ecosystem that will enable\nindividuals and businesses to map their world's data and become more\nknowledgeable and successful."
+    "long_description": "CartoDB is the next generation location intelligence and data visualization\nengine that enables the transformation of location data into insights. CartoDB\ncloud-based platform enables the connection and mapping of data, creation of\ndata-driven customized visualizations, and development of geospatial\napplications, to discover and extract insights to understand the world and make\nbetter, faster decisions. Our mission it to build the ecosystem that will enable\nindividuals and businesses to map their world's data and become more\nknowledgeable and successful.",
+    "contracts":[
+        "micro",
+        "sewp"
+    ],
+    "gov_tos":"https://cartodb.com/terms/gov-users/"
 }

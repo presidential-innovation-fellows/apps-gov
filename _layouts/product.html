@@ -37,7 +37,7 @@ skip_index: false
 						{% endif %}
 					</li>
 					<li>
-						{% if product.linkedin_in %}
+						{% if product.linkedin_id %}
 							<a href="https://linkedin.com/company/{{ product.linkedin_id }}" target="blank">
 								<i class="fa fa-linkedin fa-2x"></i>
 							</a>
@@ -114,7 +114,7 @@ skip_index: false
 					<h4>Certifications</h4>
 					<ul class="certification-items">
 						<li>
-							<p {% if product.gov_tos == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} Negotiated TOS</p>
+							<p {% if product.gov_tos %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} Negotiated TOS{% if product.gov_tos %} (<a href="{{ product.gov_tos }}" target="blank">link</a>){% endif %}</p>
 						</li>
 						<li>
 							<p {% if product.pia == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} Privacy Impact Assessment (PIA)</p>

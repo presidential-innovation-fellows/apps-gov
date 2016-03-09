@@ -7,6 +7,8 @@
     "founded_year": 2009,
     "location": "San Francisco, CA",
     "status": "Acquired",
+    "twitter_handle": "Storify",
+    "linkedin_id": 1233728,
     "top_keywords": [
         "curated web",
         "media",
@@ -16,5 +18,9 @@
     ],
     "number_of_employees": 10,
     "short_description": "Storify is a social network service allowing users to create stories and\ntimelines using social media platforms.",
-    "long_description": "Turn what people post on social media into compelling stories. With Storify, you\ncollect the best photos, video, quotes from Twitter, Instagram, YouTube and more\nto publish them as simple, beautiful stories that can be embedded anywhere. It's\nthe best way to capture an event whether it's a news event, a conference, a\nproduct launch, a wedding, ... Social media streams flow, but stories last."
+    "long_description": "Turn what people post on social media into compelling stories. With Storify, you\ncollect the best photos, video, quotes from Twitter, Instagram, YouTube and more\nto publish them as simple, beautiful stories that can be embedded anywhere. It's\nthe best way to capture an event whether it's a news event, a conference, a\nproduct launch, a wedding, ... Social media streams flow, but stories last.",
+    "contracts":[
+        "sewp"
+    ],
+    "gov_tos":"https://storify.com/tos/amendment"
 }

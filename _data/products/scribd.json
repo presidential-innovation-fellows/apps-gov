@@ -7,6 +7,8 @@
     "founded_year": 2007,
     "location": "San Francisco, CA",
     "status": "Private",
+    "twitter_handle": "scribd",
+    "linkedin_id": 129665,
     "top_keywords": [
         "ebooks",
         "news",
@@ -16,5 +18,9 @@
     ],
     "number_of_employees": 74,
     "short_description": "Scribd is a digital library, featuring e-book subscription services on iPhone,\niPad, Kindle Fire and Nook Tablet.",
-    "long_description": "Scribd is the premier subscription reading service with more than 500,000\ntitles, including New York Times bestsellers, classics, and reader favorites in\nevery genre. A pioneer of the all-you-can-read model, Scribd's subscriptions\nservice allows readers to have unlimited access to more than 500,000 books from\nnearly 1,000 publishers, including Harper Collins, [Simon &\nSchuster](/organization/simon-schuster), Open Road Media, [Lonely\nPlanet](/organization/lonely-planet), National Geographic, Rosetta,\n[Workman](/workman-publishing), Wiley and more. Launched in 2007 by [Trip\nAdler](/person/john-adler) and [Jared Friedman](/person/jared-friedman) in [San\nFrancisco, CA](/location/san-francisco/528f5e3c90d111115d1c2e4ff979d58e), Scribd\nis backed by [Y Combinator](/organization/y-combinator), [Charles River\nVentures](/organization/charles-river-ventures), and [Redpoint\nVentures](/organization/redpoint-ventures). Scribd has more than 80 million\nactive readers visiting the site each month, and its document reader has been\nembedded more than 10 million times across the web on sites like [The New York\nTimes](/organization/newyorktimes), [USA Today](/organization/usa-today),\nGuardian, and [TechCrunch](/organization/techcrunch)."
+    "long_description": "Scribd is the premier subscription reading service with more than 500,000\ntitles, including New York Times bestsellers, classics, and reader favorites in\nevery genre. A pioneer of the all-you-can-read model, Scribd's subscriptions\nservice allows readers to have unlimited access to more than 500,000 books from\nnearly 1,000 publishers, including Harper Collins, [Simon &\nSchuster](/organization/simon-schuster), Open Road Media, [Lonely\nPlanet](/organization/lonely-planet), National Geographic, Rosetta,\n[Workman](/workman-publishing), Wiley and more. Launched in 2007 by [Trip\nAdler](/person/john-adler) and [Jared Friedman](/person/jared-friedman) in [San\nFrancisco, CA](/location/san-francisco/528f5e3c90d111115d1c2e4ff979d58e), Scribd\nis backed by [Y Combinator](/organization/y-combinator), [Charles River\nVentures](/organization/charles-river-ventures), and [Redpoint\nVentures](/organization/redpoint-ventures). Scribd has more than 80 million\nactive readers visiting the site each month, and its document reader has been\nembedded more than 10 million times across the web on sites like [The New York\nTimes](/organization/newyorktimes), [USA Today](/organization/usa-today),\nGuardian, and [TechCrunch](/organization/techcrunch).",
+    "contracts":[
+        "sewp"
+    ],
+    "gov_tos":"http://www.digitalgov.gov/files/2014/01/scribd-tos-amendment.pdf"
 }

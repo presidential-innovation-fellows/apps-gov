@@ -7,6 +7,8 @@
     "founded_year": 2010,
     "location": "San Francisco, CA",
     "status": "Private",
+    "twitter_handle": "IFTTT",
+    "linkedin_id": 1785718,
     "top_keywords": [
         "internet",
         "curated web",
@@ -16,5 +18,10 @@
     ],
     "number_of_employees": 35,
     "short_description": "Put the internet to work for you",
-    "long_description": "IFTTT lets you create powerful connections \u0003with one simple statement — if this\nthen that."
+    "long_description": "IFTTT lets you create powerful connections \u0003with one simple statement — if this\nthen that.",
+    "contracts":[
+        "micro",
+        "sewp"
+    ],
+    "gov_tos":"https://ifttt.com/terms_for_government_agencies"
 }

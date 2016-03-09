@@ -7,6 +7,8 @@
     "founded_year": 2013,
     "location": null,
     "status": null,
+    "twitter_handle": "plotlygraphs",
+    "linkedin_id": 3327684,
     "top_keywords": [
         "analytics",
         "big data",
@@ -16,5 +18,10 @@
     ],
     "number_of_employees": null,
     "short_description": "Collaborative data analysis and visualization for Python, R, MATLAB, & Excel.\n2D, 3D, and live-streaming graphs.",
-    "long_description": "Plotly is a web-based graphing and analytics platform. Plotly offers paid plans\nand on-premise instances of Plotly for private collaboration and free accounts\nfor public projects. Plotly helps its users share data, graphs, and code with\nteammates, collaborators, and the world."
+    "long_description": "Plotly is a web-based graphing and analytics platform. Plotly offers paid plans\nand on-premise instances of Plotly for private collaboration and free accounts\nfor public projects. Plotly helps its users share data, graphs, and code with\nteammates, collaborators, and the world.",
+    "contracts":[
+        "micro",
+        "sewp"
+    ],
+    "gov_tos":"https://plot.ly/amendment-to-plotly-terms-of-service-applicable-to-government-users/"
 }

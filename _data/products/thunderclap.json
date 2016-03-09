@@ -7,6 +7,8 @@
     "founded_year": 2012,
     "location": "New York, NY",
     "status": null,
+    "twitter_handle": "ThunderclapIt",
+    "linkedin_id": null,
     "top_keywords": [
         "social media",
         "advertising",
@@ -16,5 +18,10 @@
     ],
     "number_of_employees": null,
     "short_description": "Social media amplify platform",
-    "long_description": "Thunderclap is the world's first crowdspeaking platform that allows anyone with\na message to amplify it with the power of their networks. Anyone with a\ntweet-sized message about something they care about can create a Thunderclap\ncampaign with that message. They can then invite their network to lend their\nvoices and support the message on Thunderclap. If enough people support the\nmessage, Thunderclap will blast out the original message on Twitter, Facebook,\nor Tumblr from all of the supporters’ social media accounts at the same time,\nautomatically creating a wave of activity."
+    "long_description": "Thunderclap is the world's first crowdspeaking platform that allows anyone with\na message to amplify it with the power of their networks. Anyone with a\ntweet-sized message about something they care about can create a Thunderclap\ncampaign with that message. They can then invite their network to lend their\nvoices and support the message on Thunderclap. If enough people support the\nmessage, Thunderclap will blast out the original message on Twitter, Facebook,\nor Tumblr from all of the supporters’ social media accounts at the same time,\nautomatically creating a wave of activity.",
+    "contracts":[
+        "micro",
+        "sewp"
+    ],
+    "gov_tos":"https://www.thunderclap.it/federal_tou"
 }

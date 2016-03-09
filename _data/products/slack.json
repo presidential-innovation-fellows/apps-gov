@@ -7,6 +7,8 @@
     "founded_year": 2013,
     "location": "San Francisco, CA",
     "status": "Private",
+    "twitter_handle": "SlackHQ",
+    "linkedin_id": 1612748,
     "top_keywords": [
         "enterprise software",
         "collaboration",
@@ -20,7 +22,7 @@
     "tos": true,
     "contracts":[
         "micro",
-        "s70",
         "sewp"
-    ]
+    ],
+    "gov_tos":"https://slack.com/terms-of-service/government"
 }

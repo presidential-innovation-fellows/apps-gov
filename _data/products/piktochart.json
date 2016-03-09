@@ -7,6 +7,8 @@
     "founded_year": 2011,
     "location": "Bayan Lepas, Malaysia",
     "status": "Private",
+    "twitter_handle": "piktochart",
+    "linkedin_id": 2362723,
     "top_keywords": [
         "curated web",
         "data visualization",
@@ -16,5 +18,10 @@
     ],
     "number_of_employees": 26,
     "short_description": "Piktochart offers an infographics app that allows non-designers to create visual\ngraphics to better engage their web audience.",
-    "long_description": "Piktochart offers an infographics app that allows non-designers to create visual\ngraphics to better engage their web audience. It is software which allows users\nwithout intensive experience as graphic designers to create professional-grade\ninfographics by using templates. A particularly critical feature of Piktochart\nis its HTML publishing capability, which generates infographics with multiple\nclickable elements for users, cutting out the necessity of hiring a developer in\norder to create a professional-grade interactive infographic. Piktochart was\nlaunched in March 2012 and is based in Penang, Malaysia. Current stats of number\nof created infographics and sign ups to Piktochart can be found at\nmagic.piktochart.com"
+    "long_description": "Piktochart offers an infographics app that allows non-designers to create visual\ngraphics to better engage their web audience. It is software which allows users\nwithout intensive experience as graphic designers to create professional-grade\ninfographics by using templates. A particularly critical feature of Piktochart\nis its HTML publishing capability, which generates infographics with multiple\nclickable elements for users, cutting out the necessity of hiring a developer in\norder to create a professional-grade interactive infographic. Piktochart was\nlaunched in March 2012 and is based in Penang, Malaysia. Current stats of number\nof created infographics and sign ups to Piktochart can be found at\nmagic.piktochart.com",
+    "contracts":[
+        "micro",
+        "sewp"
+    ],
+    "gov_tos":"http://www.digitalgov.gov/files/2015/05/Piktochart-Commerce-Amended-TOS-3_15.pdf"
 }
