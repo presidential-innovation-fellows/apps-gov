@@ -4,7 +4,7 @@
   "description": "This is the public repo for apps.gov, which is an active marketplace that helps gov employees evlauate and compare cloud-based products. Information on product's description, certifications, and contract vehicles are listed. Additionally, resources for tech comapnies to list their products and how to get started selling to the federal government can be found.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "make-bundle": "browserify -g uglifyify js/products.js -s renderJekyllPagesApiSearchResults -o js/products-bundle.js"
   },
   "repository": {
     "type": "git",
@@ -18,10 +18,6 @@
   "homepage": "https://github.com/presidential-innovation-fellows/apps-gov#readme",
   "devDependencies": {
     "browserify": "^13.0.0",
-    "lunr": "^0.6.0",
     "uglifyify": "^3.0.1"
-  },
-  "scripts": {
-    "make-bundle": "browserify -g uglifyify js/products.js -o js/products-bundle.js"
   }
 }

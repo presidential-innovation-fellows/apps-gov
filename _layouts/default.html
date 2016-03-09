@@ -39,6 +39,12 @@ skip_index: true
     <!-- End Google Tag Manager -->
 
   </body>
-<script>var SEARCH_BASEURL = '{{ site.baseurl }}';</script>
-<script async src="{{ site.baseurl }}/js/products-bundle.js"></script>
+<script src="{{ site.baseurl }}/js/products-bundle.js"></script>
+<script>
+var JEKYLL_PAGES_API_SEARCH_UI_OPTIONS = {
+  inputElementId: 'search-field',
+  emptyResultsMessagePrefix: 'No products found matching'
+};
+</script>
+{% jekyll_pages_api_search_load %}
 </html>
