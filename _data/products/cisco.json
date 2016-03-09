@@ -1,0 +1,42 @@
+{
+    "slug": "cisco",
+    "name": "Cisco WebEx Conference Service (Saas)",
+    "url": "cisco.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130efc18989846a36000044.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/5130efc18989846a36000044-1455243171",
+    "founded_year": 1984,
+    "location": "San Jose, CA",
+    "status": "Public",
+    "twitter_handle": "cisco",
+    "linkedin_id": 1063,
+    "top_keywords": [
+        "internet",
+        "internet of things",
+        "hardware",
+        "software",
+        "communications infrastructure"
+    ],
+    "number_of_employees": 74042,
+    "short_description": "Cisco WebEx industry-leading web and video conferencing helps people to easily meet, collaborate, and stay productive anywhere, anytime, on any device.",
+    "long_description": "Cisco WebEx industry-leading web and video conferencing helps people to easily meet, collaborate, and stay productive anywhere, anytime, on any device.
+        <br/><br/>
+        Cisco WebEx Meeting Center is a cost-effective alternative to face-to-face meetings.
+        <br/><br/>
+        Use it to:
+        <ul>
+        <li>Collaborate with customers, partners, and employees worldwide in an online meeting</li>
+        <li>Share information and ideas with integrated audio, HD video, and content sharing</li>
+        <li>Enhance productivity</li>
+        <li>Accelerate business processes</li>
+        <li>Keep connected on the go from every major mobile platform</li>
+        </ul>
+        Cisco WebEx Meeting Center helps you:
+        <ul>
+        <li>Facilitate project reviews and team meetings, and keep deadlines on track</li>
+        <li>Deepen prospect and customer relationships and speed up the sales process</li>
+        <li>Accelerate product development and problem resolution</li>
+        <li>Make faster, better-informed decisions</li>
+        <li>Manage national or global teams more efficiently, and save time and money on travel</li></ul>",
+    "sales_poc":"sanjkhan@cisco.com",
+    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/cisco-cisco-webex-conferencing-service/"
+}

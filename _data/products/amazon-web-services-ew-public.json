@@ -1,0 +1,23 @@
+{
+    "slug": "amazon-web-services-ew-public",
+    "name": "Amazon Web Services East/West US Public Cloud (IaaS)",
+    "url": "aws.amazon.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130f03a8989846a36017806.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/al_54424.jpg%3Fbuster%3D1389639194",
+    "founded_year": 2006,
+    "location": null,
+    "status": "Public",
+    "twitter_handle": "awscloud",
+    "linkedin_id": 2382910,
+    "top_keywords": [
+        "search",
+        "services",
+        "internet",
+        "software",
+        "web development"
+    ],
+    "number_of_employees": null,
+    "short_description": "Amazon US East/West is a multi-tenant public cloud for Federal, State and Local Government customers, as well as commercial customers, designed to meet a wide range of regulatory requirements, to include government compliance and security requirements.",
+    "long_description": "Amazon US East/West is a multi-tenant public cloud for Federal, State and Local Government customers, as well as commercial customers, designed to meet a wide range of regulatory requirements, to include government compliance and security requirements. AWS leverages the Infrastructure-as-a-Service (IaaS) cloud computing model, which enables convenient, on-demand Internet access to a shared pool of configurable computing resources such as servers, storage, network infrastructure, and various other web services. Customers can rapidly provision or release computing resources on demand.",
+    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/amazon-web-services-aws-eastwest-us-public-cloud/"
+}

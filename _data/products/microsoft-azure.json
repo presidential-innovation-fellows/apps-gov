@@ -1,0 +1,30 @@
+{
+    "slug": "microsoft-azure",
+    "name": "Microsoft Azure Public and Government Community Cloud Solution (Iaas, Paas)",
+    "url": "microsoft.com",
+    "icon_url": "//datafox-data.s3.amazonaws.com/favicons/5130efc68989846a3600083e.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_fd80725f53fc70099878aeecf1e9ffbb.image/jpeg",
+    "founded_year": 1974,
+    "location": "Redmond, WA",
+    "status": "Public",
+    "twitter_handle": "Microsoft",
+    "linkedin_id": 1035,
+    "top_keywords": [
+        "software",
+        "video games",
+        "startups",
+        "business software",
+        "design tools"
+    ],
+    "number_of_employees": 128000,
+    "short_description": "Microsoft Azure Government is a government-community cloud that offers hyper-scale compute, storage, networking, and identity management services, with world-class security.",
+    "long_description": "Microsoft Azure Government is a government-community cloud that offers hyper-scale compute, storage, networking, and identity management services, with world-class security. A physically and network-isolated instance of Microsoft Azure, operated by screened U.S. citizens, Azure Government provides standards-compliant IaaS and PaaS that has now received a FedRAMP JAB P-ATO .  All services are available immediately for supporting secure US government workloads, including CJIS, IRS 1075 FTI, HIPAA, DoD, and federal agency data.
+        <br/><br/>
+        Azure Government infrastructure is provided by Microsoft Global Foundation Services (GFS), which has also achieved a FedRAMP JAB P-ATO supporting in-scope services, including Azure Active Directory.
+        <br/><br/>
+        In addition, the Azure public cloud platform had previously received a FedRAMP JAB P-ATO, enabling government agencies and partners to deploy moderately sensitive data to the cloud. Customers can choose either compliant environment to best meet their needs for security and isolation, with assurance that control requirements are being met by comprehensive continuous monitoring and a standardized approach to risk management in both the public and government-community clouds.
+        <br/><br/>
+        For additional information, visit the Microsoft Compliance blog and Azure Trust Center, or refer to Azure FedRAMP Package ID# F1209051525.",
+    "sales_poc":"adamsoh@microsoft.com",
+    "fedramp_jab":"http://www.fedramp.gov/marketplace/compliant-systems/microsoft-azure-public-and-government-community-cloud-solution/"
+}

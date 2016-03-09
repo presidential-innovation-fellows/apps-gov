@@ -1,0 +1,28 @@
+{
+    "slug": "usda-it-center",
+    "name": "USDA National Information Technology Center (PaaS/IaaS)",
+    "url": null,
+    "icon_url": null,
+    "logo_url": null,
+    "founded_year": null,
+    "location": null,
+    "status": null,
+    "twitter_handle": null,
+    "linkedin_id": null,
+    "top_keywords": [
+    ],
+    "number_of_employees": null,
+    "short_description": "The USDA’s National Information Technology Center (NITC) is a federally-owned Cloud Service Provider for systems that are owned by Federal, State, and Local governments.",
+    "long_description": "The USDA’s National Information Technology Center (NITC) is a federally-owned Cloud Service Provider for systems that are owned by Federal, State, and Local governments. The NITC offers both IaaS and PaaS services.
+        <ul>
+        <li>Additional information is available at: http://www.ocio.usda.gov/about-ocio/data-center-operations-dco</li>
+        <li>The NITC Service Catalog is available at:http://www.ocio.usda.gov/document/nitc-service-catalog</li>
+        </ul>
+        The NITC’s Infrastructure as a Service (IaaS) cloud offering provides customers with the ability to deploy virtual systems using rapid on-demand self-service, flexible networking capabilities, resource pooling, rapid elasticity and a robust disaster recovery infrastructure within a Virtual Datacenter (VDC) construct on a hybrid cloud infrastructure.  The IaaS VDC product is currently available in OpenStack and VMware based configurations.
+        <br/><br/>
+        The NITC’s Platform as a Service (PaaS) offering provides standard hardened virtualized operating systems leveraging advanced server virtualization technologies, compliant security and build standards, and economies of scale.  The PaaS offering enablesrapid delivery of cost-effective, fully-managed operating platforms offering expanded controls to securely host customer’s mission critical applications. This NITC PaaS offering is currently available formultiple operating systems, including:  RedHat Linux,Microsoft Windows, Oracle Solaris, and IBM AIX.
+        <br/><br/>
+        In addition to the FedRAMP Moderate security control baseline, the NITC has implemented FISMA High security controls within both service offerings.",
+    "sales_poc":"NITCServiceDesk@ocio.usda.gov",
+    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/united-states-department-of-agriculture-usda-national-information-technology-center/"
+}

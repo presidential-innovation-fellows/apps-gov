@@ -1,0 +1,30 @@
+{
+    "slug": "adobe-exp-govcloud",
+    "name": "Adobe Experience Manager Managed Services GovCloud (EMMS-GC)",
+    "url": "www.adobe.com/",
+    "icon_url": "//datafox-data.s3.amazonaws.com/favicons/5130efc38989846a36000228.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/al_37773.jpg%3Fbuster%3D1326846962",
+    "founded_year": 1982,
+    "location": null,
+    "status": "Public",
+    "twitter_handle": "Adobe",
+    "linkedin_id": 1480,
+    "top_keywords": [
+        "software",
+        "creative",
+        "photo editing",
+        "design",
+        "image recognition"
+    ],
+    "number_of_employees": null,
+    "short_description": "Create, manage and deliver digital experiences across websites, mobile sites and on-site screens that are global in reach, yet personally relevant and engaging.",
+    "long_description": "Create, manage and deliver digital experiences across websites, mobile sites and on-site screens that are global in reach, yet personally relevant and engaging.  Forrester ranks Adobe as the  leader in web content management;  Adobe received the highest scores possible for its current offering, strategy and market presence.  This platform as a service (PaaS) capability is FedRAMP certified and allows customers to:
+        <ul>
+        <li>Increase Efficiency:  Build, share and deliver content from the same place</li>
+        <li>Support Agile Delivery:  Quickly deliver personalized experiences across different screens, geos and channels</li>
+        <li>Promote Consistency:  Use a library of content that can be easily reused enterprise-wide</li>
+        </ul>
+        Entirely managed and maintained by Adobe; organizations can rely on Adobe’s expertise managing the most complex and mission-critical Experience Manager deployments all over the world. Adobe provides cloud hosting and expert application support enabling enterprises to concentrate on citizen engagement and digital transformation. A single, named point of contact (customer success engineer) is assigned to each customer to support “go-live” operations, as well as steady state continuous delivery and continuous diagnostics and mitigation.  Adobe Experienced Manager Managed Services (AEMMS) is available for GovCloud (AEMMS-GC) and US East-US West (AEMMS-EW).",
+    "sales_poc": "mnelson@adobe.com",
+    "fedramp_agency": "http://www.fedramp.gov/marketplace/compliant-systems/adobe-adobe-experience-manager-managed-services-emms/"
+}

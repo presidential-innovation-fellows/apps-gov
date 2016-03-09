@@ -1,0 +1,17 @@
+{
+    "slug": "ains",
+    "name": "AINS eCase (PaaS/SaaS)",
+    "url": "ains.com",
+    "icon_url": "//datafox-data.s3-us-west-1.amazonaws.com/favicons/55fc74328fb743574b00d361.ico",
+    "logo_url": null,
+    "founded_year": null,
+    "location": null,
+    "status": null,
+    "twitter_handle": null,
+    "linkedin_id": null,
+    "top_keywords": [],
+    "number_of_employees": null,
+    "short_description": "eCase is a robust Platform as a Service for implementing multiple, coexisting adaptive case management SaaS solutions including eCase-Correspondence, eCase-HR, eCase-Audit and FOIAXpress (the industry leading purpose-built FOIA case processing software) within a single commercial off-the-shelf (COTS) solution.",
+    "long_description": "eCase is a robust Platform as a Service for implementing multiple, coexisting adaptive case management SaaS solutions including eCase-Correspondence, eCase-HR, eCase-Audit and FOIAXpress (the industry leading purpose-built FOIA case processing software) within a single commercial off-the-shelf (COTS) solution. eCase provides a dynamic case management framework with the capability to power a wide range of workflow-driven processes and core case management functions, tracking and reporting around a wide range of business process verticals and can help agencies manage their business information efficiently and automate workflow processes, gaining a valuable competitive advantage.",
+    "fedramp_agency": "http://www.fedramp.gov/marketplace/compliant-systems/ains-inc/"
+}

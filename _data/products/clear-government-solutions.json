@@ -1,0 +1,24 @@
+{
+    "slug": "clear-government-solutions",
+    "name": "Clear Government Solutions FedGRID Government Community Cloud (IaaS)",
+    "url": "cleargovsolutions.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/52b7c4d284da09615d0072d5.ico",
+    "logo_url": null,
+    "founded_year": null,
+    "location": "Beltsville, MD",
+    "status": "Private",
+    "twitter_handle": null,
+    "linkedin_id": 2410893,
+    "top_keywords": [
+        "government cloud computing",
+        "software as a service",
+        "platform as a service",
+        "infrastructure as a service",
+        "cloud storage"
+    ],
+    "number_of_employees": 13,
+    "short_description": "FedGRID is an Infrastructure as a Service  (IaaS) Government Community cloud purpose built to meet the demands of the U.S. Federal Government – specifically FedRAMP JAB security controls.",
+    "long_description": "FedGRID is an Infrastructure as a Service  (IaaS) Government Community cloud purpose built to meet the demands of the U.S. Federal Government – specifically FedRAMP JAB security controls. FedGRID was also designed to meet the contractual requirements of the GSA Infrastructure as a Service Blanket Purchase Agreement (BPA) – established to help agencies achieve efficiencies and savings, and to comply with federal mandates such as ‘Cloud First’.",
+    "sales_poc": "chris.grady@cleargovsolutions.com",
+    "fedramp_jab": "https://www.fedramp.gov/marketplace/compliant-systems/clear-government-solutions-cgs/"
+}

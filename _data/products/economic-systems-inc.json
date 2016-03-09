@@ -1,0 +1,23 @@
+{
+    "slug": "economic-systems-inc",
+    "name": "Economic Systems Federal Human Resources Navigator (SaaS)",
+    "url": "www.econsys.com",
+    "icon_url": "//datafox-data.s3-us-west-1.amazonaws.com/favicons/56662e292587201b5406d533.ico",
+    "logo_url": null,
+    "founded_year": null,
+    "location": "Falls Church, VA",
+    "status": null,
+    "twitter_handle": null,
+    "linkedin_id": null,
+    "top_keywords": [
+        "software development and design",
+        "software",
+        "human resources and staffing",
+        "business services"
+    ],
+    "number_of_employees": 35,
+    "short_description": "Federal Human Resources (FHR) Navigator is a SaaS enterprise application available by subscription to Federal agencies.",
+    "long_description": "Federal Human Resources (FHR) Navigator is a SaaS enterprise application available by subscription to Federal agencies.  The application is provided as a COTS application that runs in a single enclave with multiple agency tenants.  All customer data is stored in the same database instance. Shared tenancy is built into the database with customer data so that each customer’s data is separated logically and protected from unauthorized access. Shared tenancy is built into the database architecture of the software. Economic Systems (EconSys) operates one instance for all customers in a virtual environment hosted in the Autonomic Resources ARC-P IaaS.",
+    "sales_poc": "kimberly@econsys.com",
+    "fedramp_jab": "http://www.fedramp.gov/marketplace/compliant-systems/economic-systems-federal-human-resources-navigator/"
+}

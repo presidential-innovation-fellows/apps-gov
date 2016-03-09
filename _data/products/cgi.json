@@ -1,0 +1,24 @@
+{
+    "slug": "cgi",
+    "name": "CGI Federal Cloud (IaaS)",
+    "url": "cgifederal.com",
+    "icon_url": null,
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_e3fbf2ab4862b7cc1b4e9382668c0836.png",
+    "founded_year": null,
+    "location": "Montreal, Canada",
+    "status": null,
+    "twitter_handle": null,
+    "linkedin_id": null,
+    "top_keywords": [
+        "information technology",
+        "service providers",
+        "consulting",
+        "outsourcing",
+        "data onboarding"
+    ],
+    "number_of_employees": null,
+    "short_description": "The CGI IaaS Cloud service provides Virtual Machine and Web Hosting services in the cloud enabling scalable, redundant, dynamic computing services and Web hosting services.",
+    "long_description": "The CGI IaaS Cloud service provides Virtual Machine and Web Hosting services in the cloud enabling scalable, redundant, dynamic computing services and Web hosting services. The CGI IaaS Cloud service allows Federal agencies, local and state governments, and tribal organizations to procure and provision computing services and Web hosting services online via the Internet. The CGI IaaS Cloud service also allows users to securely load applications and data onto the CGI IaaS Cloud service remotely from the Internet. Configuration of CGI IaaS Cloud services are configured via a Web browser over the Internet.",
+    "sales_poc": "john.nemoto@cgifederal.com",
+    "fedramp_jab": "https://www.fedramp.gov/marketplace/compliant-systems/cgi-federal/"
+}

@@ -1,0 +1,28 @@
+{
+    "slug": "avue-technologies-corporation",
+    "name": "Avue Digital Services (SaaS)",
+    "url": "avuetech.com",
+    "icon_url": "//datafox-data.s3.amazonaws.com/favicons/52b52172237004a020009645.ico",
+    "logo_url": null,
+    "founded_year": 1983,
+    "location": "Tacoma, WA",
+    "status": "Private",
+    "twitter_handle": null,
+    "linkedin_id": 263764,
+    "top_keywords": [
+        "human capital management services to the federal government",
+        "integrated technology solutions that dramatically increase enterprise wide visibility",
+        "exceeds all security requirements for federal information systems",
+        "software as a service",
+        "information technology and services"
+    ],
+    "number_of_employees": 30,
+    "short_description": "Avue is a web-based, outsourced, digital service delivery system offered by Avue Technologies Corporation; remotely-hosted in the Amazon GovCloud, and remotely-managed by Avue Technologies Corporation in Tacoma, Washington.",
+    "long_description": "Avue is a web-based, outsourced, digital service delivery system offered by Avue Technologies Corporation; remotely-hosted in the Amazon GovCloud, and remotely-managed by Avue Technologies Corporation in Tacoma, Washington.  The Avue service is provided through a single interface to handle all aspects of human capital management.  Avue is a Software-as-a-Service (SaaS) cloud-based Human Capital Management and Operations Management platform.  Avue is the leader in federal talent acquisition, talent management, talent science, and human capital technology solutions.  The platform serves include a diverse array of agencies that include Title 5 and alternative personnel systems such as Title 38, Title 10, Title 32, and FIRREA.  Avue is a native-federal HCM platform offered as a SaaS/cloud solution, with 99.9% uptime, since 2001.
+        <br/><br/>
+        Avue’s firm-fixed price offering includes a five component solution: (1) the native federal enterprise SaaS platform, (2) highly expert Avue staff available online and onsite to ensure the platform is responsive to the client’s operational needs, (3) embedded IT services that ensure all elements of the technology and data flow and operate seamlessly with the client’s IT environment, (4) social media, communications, and marketing services for online-, mobile-, and social-media based talent acquisition, and (5) on-demand HR staff augmentation to add capacity and assist agency HR staff with Avue HR experts, in any location at any time.  Avue’s database contains job duties, skills, and competencies, developmental activities, training courses, performance standards, recruitment criteria and applicant assessment criteria, along with a range of other associated content.  This database and its companion rules engines allow Avue to deliver services in a rapid and efficient manner while at the same time ensuring compliance with statutes and regulations, notably the Uniform Guidelines on Employee Selection Procedures, governing OPM and delegated examining regulations, and the federal Merit System.  Avue’s services are bundled with the database and technology platform in a manner that ensures delivery of the services are not only compliant but responsive to management’s needs, quick, and superior in quality and result.
+        <br/><br/>
+        Avue is HRLOB certified by OPM, OMB, and GSA for both Core and Non-Core HR services including Classification, Staffing and Recruitment, Performance Management, Enterprise Learning Management, Worker Compensation, Payroll, Time and Attendance, Benefits and Retirement Management, Organization Optimization, and Workforce  Planning and Management – a total of 15 modules.  Avue Technologies is currently interconnected to electronically post vacancies to USAJOBs and receive online application and with the National Finance Center (NFC) for personnel actions and workforce management activities.",
+    "sales_poc":"rpayne@avuetech.com",
+    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/avue-technologies-avue-digital-services/"
+}

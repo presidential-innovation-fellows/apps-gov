@@ -1,0 +1,45 @@
+{
+    "slug": "datapipe",
+    "name": "Datapipe Government Solutions Federal Community Cloud Platform (PaaS)",
+    "url": "datapipe.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130efd48989846a36002fb0.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_3d03289da857bc80e73e6cd18964dbf6.jpg",
+    "founded_year": 1998,
+    "location": "Jersey City, NJ",
+    "status": "Private",
+    "twitter_handle": "Datapipe",
+    "linkedin_id": 21475,
+    "top_keywords": [
+        "web hosting",
+        "managed hosting",
+        "managed cloud computing",
+        "managed security",
+        "managed storage"
+    ],
+    "number_of_employees": 225,
+    "short_description": "The Datapipe Government Solutions Federal Community Cloud Platform (FCCP) provides a unique approach to security that allows federal agencies to have more control and flexibility to meet their unique security needs.",
+    "long_description": "The Datapipe Government Solutions Federal Community Cloud Platform (FCCP) provides a unique approach to security that allows federal agencies to have more control and flexibility to meet their unique security needs. This platform is one of the first P-ATOs issued to a PaaS cloud service provider covering management through the virtual operating system.
+        <br/><br/>
+        FCCP brings together the benefits of standardized cloud elements such as common tools, processes, and training while affording agencies a level of flexibility that is not normally available in existing public cloud environments. Government agencies can layer on agency-specific controls in addition to those certified by FedRAMP.
+        <br/><br/>
+        Designed from the ground up for security sensitive U.S. Government customers, FCCP provides customers with a fully managed cloud environment including:
+        <ul>
+        <li>Virtual Operating System Administration</li>
+        <li>Continuous Monitoring</li>
+        <li>Disaster Recovery</li>
+        <li>World-Class Data Centers</li>
+        <li>Backups</li>
+        <li>Vulnerability Scanning</li>
+        <li>Multi-factor Authentication</li>
+        <li>Change and Configuration  Management</li>
+        <li>Network and Operating System Patching</li>
+        <li>Performance Monitoring in Real-Time</li>
+        <li>Antivirus</li>
+        <li>FISMA/FedRAMPSM Security  Documentation</li>
+        <li>Secure Cloud Module with the Ability to Support Agency-Specific Controls</li>
+        <li>Zero-overlap Architecture Allowing for Faster Deployment and Auditing Times</li>
+        <li>Continuous Monitoring</li>
+        <li>Software-as-a-Service (SaaS) Enablement</li></ul>",
+    "sales_poc": "dtudahl@datapipe.com",
+    "fedramp_jab": "http://www.fedramp.gov/marketplace/compliant-systems/datapipe-government-solutions-federal-community-cloud-platform/"
+}

@@ -1,0 +1,32 @@
+{
+    "slug": "adobe-live-govcloud",
+    "name": "Adobe LiveCycle Managed Services GovCloud (LCMS-GC)",
+    "url": "www.adobe.com/",
+    "icon_url": "//datafox-data.s3.amazonaws.com/favicons/5130efc38989846a36000228.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/al_37773.jpg%3Fbuster%3D1326846962",
+    "founded_year": 1982,
+    "location": null,
+    "status": "Public",
+    "twitter_handle": "Adobe",
+    "linkedin_id": 1480,
+    "top_keywords": [
+        "software",
+        "creative",
+        "photo editing",
+        "design",
+        "image recognition"
+    ],
+    "number_of_employees": null,
+    "short_description": "Simplify the creation, processing, and securing of electronic forms and documents.",
+    "long_description": "Simplify the creation, processing, and securing of electronic forms and documents.   The Adobe solution supports employee / citizen enrollments and other communications, and integrates them into an engaging, digital experience.   This platform as a service (PaaS) capability is FedRAMP certified and allows customers to:
+        <ul>
+        <li>Streamline form discovery:  Make forms easy to find, and deliver based on device, location or customer profile.</li>
+        <li>Simplify form filling:  Complete forms using pre-filled fields, help text and videos, and electronic signing</li>
+        <li>Increase process efficiency:  Develop automated workflows</li>
+        <li>Personalize responses:  Create personalized, interactive statements to support access from anywhere</li>
+        <li>Proactively secure and track:  Secure sensitive documents, control and track their use with digital rights management (DRM)</li>
+        </ul>
+        Entirely managed and maintained by Adobe; organizations can rely on Adobe’s expertise managing the most complex and mission-critical Experience Manager deployments all over the world. Adobe provides cloud hosting and expert application support enabling enterprises to concentrate on citizen engagement and digital transformation. A single, named point of contact (customer success engineer) is assigned to each customer to support “go-live” operations, as well as steady state continuous delivery and continuous diagnostics and mitigation.  Adobe LiveCycle Managed Services (LCMS) is available for GovCloud (LCMS-GC) and US East-US West (LCMS-EW).",
+    "sales_poc": "mnelson@adobe.com",
+    "fedramp_agency": "http://www.fedramp.gov/marketplace/compliant-systems/adobe-adobe-livecycle-managed-services-govcloud-lcms-gc/"
+}

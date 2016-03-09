@@ -1,0 +1,23 @@
+{
+    "slug": "micropact",
+    "name": "MicroPact Product Suite (PaaS)",
+    "url": "micropact.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130f0c18989846a36035f06.ico",
+    "logo_url": null,
+    "founded_year": 1997,
+    "location": "Herndon, VA",
+    "status": "Private",
+    "twitter_handle": "MicroPact",
+    "linkedin_id": 93298,
+    "top_keywords": [
+        "software",
+        "business development",
+        "information technology and services",
+        "inc 5000 2014 software",
+        "business process management software"
+    ],
+    "number_of_employees": 157,
+    "short_description": "The MicroPact Product Suite, which includes icomplaints® and entellitrak®, is delivered via a Platform as a Service (PaaS) model to U.S. federal, state and local government customers.",
+    "long_description": "The MicroPact Product Suite, which includes icomplaints® and entellitrak®, is delivered via a Platform as a Service (PaaS) model to U.S. federal, state and local government customers. MicroPact’s icomplaints is the leading standard for federal EEO case management and is used by most major federal agencies. MicroPact’s entellitrak, which takes a Data-First™ approach to dynamic case management and Business Process Management (BPM), is available with fully integrated Document Management, Natural Language Analytics, and Mobile Modules. Whether based on-premises or in the cloud, entellitrak can be implemented immediately and configured continuously, enabling customers to get to work quickly while keeping costs low.<br/><br/>MicroPact is unique as a developer of commercial off-the-shelf (COTS) case management and BPM software in that 97 percent of all federal agencies with more than 500 employees currently use one or more solution from the MicroPact Product Suite.",
+    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/micropact-micropact-product-suite/"
+}

@@ -1,0 +1,35 @@
+{
+    "slug": "ibm-maas360",
+    "name": "IBM MaaS360 Enterprise Mobility Management (SaaS)",
+    "url": "ibm.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130efcb8989846a360013e2.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_fc5fbe7a562dd577b05e46797caa134c.image/png",
+    "founded_year": 1911,
+    "location": "Armonk New York, NY",
+    "status": "Public",
+    "twitter_handle": "IBM",
+    "linkedin_id": 1009,
+    "top_keywords": [
+        "information technology",
+        "information services",
+        "software",
+        "cloud computing",
+        "cloud data services"
+    ],
+    "number_of_employees": 412775,
+    "short_description": "IBM’s MaaS360 is a comprehensive, cloud-based security and management platform for devices, applications and content.",
+    "long_description": "IBM’s MaaS360 is a comprehensive, cloud-based security and management platform for devices, applications and content. Government agencies use MaaS360 to protect data and optimize productivity, enabling employees to work anytime and anywhere through trusted mobile interactions. Through a single console, agencies can:
+        <br/><br/>
+        <ul>
+        <li>Activate and configure devices over the air for instant set-up</li>
+        <li>Monitor and control the security posture of smartphones, tablets, and laptops</li>
+        <li>Distribute, secure and manage mobile apps for easy employee</li>
+        <li>Enforce policy compliance for stronger data protection</li>
+        <li>Access, sync and share business documents for seamless collaboration</li>
+        <li>Enable secure mobile web browsing and simple access to intranet sites</li>
+        <li>Contain email and attachments with data loss prevention controls</li>
+        <ul>
+        MaaS360 provides a true, on-demand software-as-a-service delivery model, built on a secure, multi-tenant architecture. It offers immediate insight and control without the added costs and complexities of deploying hardware and software, dealing with intricate configurations, and dedicating additional resources to support the solution on an ongoing basis.",
+    "sales_poc":"jeff.ward@us.ibm.com",
+    "fedramp_jab":"http://www.fedramp.gov/marketplace/compliant-systems/ibm-maas360-enterprise-mobility-management-saas/"
+}

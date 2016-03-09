@@ -1,0 +1,28 @@
+{
+    "slug": "securekey-technologies",
+    "name": "SecureKey Briidge.net Exchange (SaaS)",
+    "url": "securekey.com",
+    "icon_url": null,
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_b87c695d0cb5b1ef52e71c6f8ee3336c.image/png",
+    "founded_year": 2008,
+    "location": "Toronto, Canada",
+    "status": "Private",
+    "twitter_handle": "SecureKey",
+    "linkedin_id": 481905,
+    "top_keywords": [
+        "security",
+        "authentication",
+        "payment",
+        "identity",
+        "federated authentication"
+    ],
+    "number_of_employees": 175,
+    "short_description": "SecureKey’s briidge.net™ Exchange is a cloud-based, privacy-assured identity and authentication service that allows users to conveniently access online services (or Relying Parties – RPs) through a network of pre-approved Identity Providers (IDPs).",
+    "long_description": "SecureKey’s briidge.net™ Exchange is a cloud-based, privacy-assured identity and authentication service that allows users to conveniently access online services (or Relying Parties – RPs) through a network of pre-approved Identity Providers (IDPs).  It provides a single connection point between RPs and IDPs, alleviating the need for RPs to connect to multiple IDPs, and vice versa, while at the same time, abstracting specific RP End User credentials being used for strong authentication.
+        <br/><br/>
+        Connect.Gov is a SaaS implementation of SecureKey’s briidge.net Exchange for the United States Postal Service that allows users to log into a wide range of US Federal Agency online services using existing credentials already established with an approved IDP for all NIST defined and Connect.Gov required Levels of Assurance (LOA).  It includes a Federal Public Key Infrastructure Certificate Validation Service (FPKI CVS) solution that allows FPKI credentials within the service.
+        <br/><br/>
+        Connect.Gov was established to support The National Strategy for Trusted Identities in Cyberspace (NSTIC), which seeks to help address the issues of enabling online accessibility of Federal applications while reducing a burden on an individual to manage multiple credentials.",
+    "sales_poc":"sk-security@securekey.com",
+    "fedramp_jab":"http://www.fedramp.gov/marketplace/compliant-systems/securekey-briidge-net-exchange-for-connect-gov/"
+}

@@ -1,0 +1,24 @@
+{
+    "slug": "autonomic-resources-arcwrx",
+    "name": "Autonomic Resources ARCWRX (PaaS)",
+    "url": "autonomicresources.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/52b51f06237004a020008bbf.ico",
+    "logo_url": null,
+    "founded_year": 2001,
+    "location": "Cary, NC",
+    "status": "Private",
+    "twitter_handle": "Autonomic_CLOUD",
+    "linkedin_id": 711723,
+    "top_keywords": [
+        "public cloud provider gsa iaas",
+        "private cloud solutions",
+        "public cloud provider gsa eaas",
+        "oracle services",
+        "open source (products and services"
+    ],
+    "number_of_employees": 19,
+    "short_description": "The ARCWRX Platform-as-a-Service (PaaS) offering, built on RedHat OpenShift, provides an application development platform within a multi-tenant virtual environment leveraging the ARC-P IaaS system.",
+    "long_description": "The ARCWRX Platform-as-a-Service (PaaS) offering, built on RedHat OpenShift, provides an application development platform within a multi-tenant virtual environment leveraging the ARC-P IaaS system. Provisioning, automatic scaling, and management of application containers are inherent platform features. The ARCWRX platform allows customer agency and mission developers to design, build, publish, manage, and scale government applications in a secure virtual container runtime environment utilizing programing languages such as Java, PHP, Ruby, Node.js, and Perl with database options including MongoDb, MySQL, and PostgreSQL. Agency and mission customers are afforded the ability to concentrate efforts on application code development while the operation and maintenance of the underlying infrastructure is abstracted. Additional benefits of the ARCWRX PaaS offering include on demand self-service provisioning, broad network access, resource pooling, rapid elasticity, measured service, and the ability to scale applications automatically to handle increased traffic load and demand. A complete set of continuous integration and revision control tools include Git, Jenkins, and Cron and allow for streamlined application development.",
+    "sales_poc": "jfk@autonomicresources.com",
+    "fedramp_jab": "http://www.fedramp.gov/marketplace/compliant-systems/autonomic-resources-llc-arcwrx/"
+}

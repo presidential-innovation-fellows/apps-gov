@@ -1,0 +1,41 @@
+{
+    "slug": "hpe-helion",
+    "name": "Hewlett Package Enterprise Helion for Public Sector (SaaS)",
+    "url": "www.hpe.com",
+    "icon_url": ,
+    "logo_url": ,
+    "founded_year": ,
+    "location": ,
+    "status": ,
+    "twitter_handle": ,
+    "linkedin_id": ,
+    "top_keywords": [
+    ],
+    "number_of_employees": ,
+    "short_description": "Hewlett Packard Enterprise (HPE) Helion for Public Sector is an Infrastructure-as-a-Service (IaaS) cloud service that implements the complete FedRAMP Risk Management Framework by establishing controls for security, privacy, and IT governance to fulfill the NIST requirements for U.S. government agencies.",
+    "long_description": "Hewlett Packard Enterprise (HPE) Helion for Public Sector is an Infrastructure-as-a-Service (IaaS) cloud service that implements the complete FedRAMP Risk Management Framework by establishing controls for security, privacy, and IT governance to fulfill the NIST requirements for U.S. government agencies. This infrastructure and platform service offering is a highly secure, enterprise-class, cloud computing environment enabling government agencies, contractors and non-government organizations governed by federal regulations (e.g.: educational institutions, HIPAA-governed entities, and critical infrastructure ) to operate in the cloud with greater agility and flexibility while adhering to rigorous security, privacy, and IT governance controls required by the federal government.
+        <br/><br/>
+        HPE Helion for Public Sector consists of multiple components that can exist in a single cloud or operate within multiple clouds:
+        <ul>
+        <li>Infrastructure-as-a-Service (IaaS): allows consumers to build and manage Windows, Linux and/or UNIX services to host system middleware or applications they install and manage themselves. The service enables users to quickly provision both virtual and physical servers in a consumption- based model. The service also allows clients to co-locate customer-owned physical devices such as RISC chipset servers or hardware security modules (MSM) in the same data center as their cloud servers.</li>
+        <li>Disaster Recovery-as-a-Service (DRaaS): enables consumers to implement a disaster recovery capability to meet federal, state and local requirements for contingency planning. This solution automatically collects and maintains complete images of the servers and network in their cloud, and can restore the entire cloud without client intervention. This managed service also includes assistance with disaster recovery planning and annual DR rehearsals.</li>
+        </ul>
+        Government agencies can benefit from HPE’s service excellence and over 50 years of public sector experience, with a solution built from the ground up with security and best practices in mind. The service is hosted exclusively in auditable data centers in the continental United States, and is staffed by U.S. persons.
+        <br/><br/>
+        HPE Helion for Public Sector complies with the following regulatory standards:
+        <ul>
+        <li>FIPS 140-2 encryption (Federal Information Processing Standards 140-2 encryption)</li>
+        <li>FedRAMP tailored CIS Level 1 configuration benchmarks (Center for Internet Security Level 1)</li>
+        <li>HIPAA/HITECH Security and Privacy (Health Insurance Portability and Accountability Act/ Health Information Technology for Economic and Clinical Health)</li>
+        <li>ITAR (International Traffic in Arms Regulations)</li>
+        <li>FERPA (Family Educational Rights and Privacy Act)</li>
+        <li>PCI-DSS (Payment Card Industry Data Security Standard)</li>
+        <li>CJIS (Criminal Justice Information System)</li>
+        <li>FISMA (Federal Information Security Management Act)</li>
+        <li>DIACAP/DIARMF (DoD Information Assurance Certification and Accreditation Process/Defense Information Assurance Risk Management Framework)</li>
+        <li>DoD Cloud Security Reference Guide (SRG) Information Impact level 2 (authorized 10/27/14)</li>
+        </ul>
+        For more information, visit our web site for the U.S. public sector at www.hpe.com/gov/transformation or our worldwide web site at www.hpe.com.",
+    "sales_poc": "marilyn.hays@hpe.com",
+    "fedramp_jab":"http://www.fedramp.gov/marketplace/compliant-systems/hewlett-packard-enterprise-hpe-helion-for-public-sector-helion/"
+}

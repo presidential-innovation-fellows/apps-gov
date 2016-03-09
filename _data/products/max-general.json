@@ -1,0 +1,27 @@
+{
+    "slug": "max-general",
+    "name": "MAX General Support Services (IaaS)",
+    "url": "max.gov",
+    "icon_url": null,
+    "logo_url": null,
+    "founded_year": null,
+    "location": null,
+    "status": null,
+    "twitter_handle": null,
+    "linkedin_id": null,
+    "top_keywords": [
+    ],
+    "number_of_employees": null,
+    "short_description": "MAX General Support Services (MAX GSS) is the cloud infrastructure that powers MAX.gov Shared Services.",
+    "long_description": "MAX General Support Services (MAX GSS) is the cloud infrastructure that powers MAX.gov Shared Services (https://MAX.gov). MAX GSS is leveraged as a common control provider.
+        <br/><br/>
+        MAX GSS and MAX.gov Shared Services provide government-wide advanced collaboration, information sharing, data collection, publishing, and analytical capabilities for federal agencies and partners. MAX GSS includes:
+        <ul>
+        <li>MAX GSS – Physical and Environmental infrastructure, Servers, Virtual Machines, Databases, Networking, and Security</li>
+        <li>MAX Authentication (MAX Auth) – Single Sign-On (SSO) and 2-Factor Authentication as a Service with HSPD-12 (CAC/PIV) integration</li>
+        <li>MAX is built upon an integrated database that maintains the wide range of data necessary to meet multiple production and policy support demands.</li>
+        </ul>
+        MAX is managed by the Budget Systems Branch (BSB), Budget Review Division (BRD), of the Office of Management and Budget (OMB), in conjunction with the Budget Formulation and Execution Line of Business (BFELoB) Program Management Office (PMO) at the Department of Education (ED).",
+    "sales_poc": "MAXSupport@omb.eop.gov",
+    "fedramp_agency": "http://www.fedramp.gov/marketplace/compliant-systems/omb-max-general-support-services/"
+}

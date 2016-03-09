@@ -1,0 +1,24 @@
+{
+    "slug": "akamai-technologies",
+    "name": "Akamai Content Delivery Services (IaaS)",
+    "url": "akamai.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130efc38989846a36000338.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_6827f18b09a058e4ab120c26b8d2bda5.png",
+    "founded_year": 1998,
+    "location": "Cambridge, MA",
+    "status": "Public",
+    "twitter_handle": "Akamai",
+    "linkedin_id": 3925,
+    "top_keywords": [
+        "cyber security",
+        "enterprise software",
+        "business services",
+        "cloud computing",
+        "content delivery"
+    ],
+    "number_of_employees": 2710,
+    "short_description": "The Akamai globally distributed intelligent platform provides delivery benefits for all content types – HTML, images, dynamic Web 2.0, SSL, live and on-demand streaming media.",
+    "long_description": "The Akamai globally distributed intelligent platform provides delivery benefits for all content types – HTML, images, dynamic Web 2.0, SSL, live and on-demand streaming media. The Akamai solution provides 100% availability, significant performance benefits, and scalable on-demand network. Akamai also offers Luna Control Center (customer portal), NetStorage, Edgecomputing, Enhanced DNS, DNSSEC, IPv6, and “always-on” defenses for maximum protection of uptime of customer’s Web sites. Additional Akamai services can be integrated to offer a robust set of defenses against a variety of attack vectors that threaten complex Web infrastructures.",
+    "sales_poc": "fedramp_info@akamai.com",
+    "fedramp_jab": "https://www.fedramp.gov/marketplace/compliant-systems/akamai-content-delivery-services/"
+}

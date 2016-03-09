@@ -1,0 +1,30 @@
+{
+    "slug": "blackmesh",
+    "name": "BlackMesh SecureCloud (PaaS)",
+    "url": "blackmesh.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/52b7467a53f449dd61008e5d.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_2689661bb0e7e88202fd3e5f0142b525.png",
+    "founded_year": 2003,
+    "location": "Herndon, VA",
+    "status": "Private",
+    "twitter_handle": null,
+    "linkedin_id": 357286,
+    "top_keywords": [
+        "managed web hosting",
+        "drupal",
+        "high availability",
+        "drupal hosting",
+        "cloud solutions"
+    ],
+    "number_of_employees": 25,
+    "short_description": "SecureCloud is provided by BlackMesh as a FedRAMP Moderate Platform as a Service (PaaS) offering.",
+    "long_description": "SecureCloud is provided by BlackMesh as a FedRAMP Moderate Platform as a Service (PaaS) offering. The offering consists several managed services to facilitate hosting federal applications in a secure environment. The solution provided is a multi-tenant cloud-based environment, with the option for deployment of single-tenant environments if required by specific customers and system owners. BlackMesh is able to provide hosting environments compliant with requirements including, but not limited to, FedRAMP, FISMA, PCI DSS, and HIPAA.
+        <br/><br/>
+        BlackMesh offers a managed hosting service that empowers customers to retain complete control over the application environment, while dramatically reducing the time and cost associated with in-house administration. BlackMesh solutions are designed to provide end-to-end managed hosting – from software, server, and network support, including setup, configuration, upgrades, monitoring, and troubleshooting. SecureCloud supports the following technologies within the tenant space: CentOS, Red Hat Enterprise Linux, Oracle Linux, Ubuntu, and Microsoft Windows Server. BlackMesh provisions customers instances with Apache, PHP, MySQL, IIS, .net, Active Directory, SQL Server, Oracle Database, LDAP and other technologies on behalf of the customer.
+        <br/><br/>
+        BlackMesh manages the customer tenant from the application down to the infrastructure as defined by Platform as a Service (PaaS). Within SecureCloud, tenants automatically get monitoring, security hardening, Operating System management and patching, managed backups, and managed firewalls. BlackMesh manages up to the application code including approved configuration changes for the system owner.
+        <br/><br/>
+        The managed hosting solution provided by BlackMesh is based upon virtualized hosts, and provides support for on-demand creation of virtual machines. Individual tenant environments within SecureCloud are isolated from one another through security capabilities at both the network and host levels.",
+    "sales_poc":"sales@blackmesh.com",
+    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/blackmesh-securecloud/"
+}
