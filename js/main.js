@@ -14,56 +14,56 @@ $(document).ready(function() {
   });
 
   /* Isotope stuff */
-  // var $container = $('#product-list');
+  var $container = $('#product-list');
 
-  // $container.imagesLoaded(function(){
-  //   $container.isotope({
-  //     itemSelector: '.product-list-item',
-  //     layoutMode: 'masonry'
-  //   });
-  // });
+  $container.imagesLoaded(function(){
+    $container.isotope({
+      itemSelector: '.product-list-item',
+      layoutMode: 'masonry'
+    });
+  });
 
-  // var filters = {};
+  var filters = {};
 
-  // $('#filters').on( 'click', 'button', function() {
-  //   var $this = $(this);
+  $('#filters').on( 'click', 'button', function() {
+    var $this = $(this);
 
-  //   // get group key
-  //   var $buttonGroup = $this.parents('.button-group');
-  //   var filterGroup = $buttonGroup.attr('data-filter-group');
-  //   // set filter for group
-  //   filters[ filterGroup ] = $this.attr('data-filter');
-  //   // combine filters
-  //   var filterValue = '';
-  //   for (var prop in filters) {
-  //     filterValue += filters[ prop ];
-  //   }
-  //   // set filter for Isotope
-  //   $container.isotope({ filter: filterValue });
-  // });
+    // get group key
+    var $buttonGroup = $this.parents('.button-group');
+    var filterGroup = $buttonGroup.attr('data-filter-group');
+    // set filter for group
+    filters[ filterGroup ] = $this.attr('data-filter');
+    // combine filters
+    var filterValue = '';
+    for (var prop in filters) {
+      filterValue += filters[ prop ];
+    }
+    // set filter for Isotope
+    $container.isotope({ filter: filterValue });
+  });
   
-  // // change active class on buttons
-  // $('#filter-service-type').each(function(i,buttonGroup){
-  //   var $buttonGroup = $(buttonGroup);
-  //   $buttonGroup.on('click', 'button', function(){
-  //    $buttonGroup.find('.active').removeClass('active').removeClass('btn-primary').addClass('btn-default');
-  //    $(this).addClass('active').removeClass('btn-default').addClass('btn-primary').blur();
-  //   })
-  // })
-  // $('#filter-category').each(function(i,buttonGroup){
-  //   var $buttonGroup = $(buttonGroup);
-  //   $buttonGroup.on('click', 'button', function(){
-  //    $buttonGroup.find('.active').removeClass('active').removeClass('btn-primary').addClass('btn-default');
-  //    $(this).addClass('active').removeClass('btn-default').addClass('btn-primary').blur();
-  //   })
-  // })
-  // $('#filter-certification').each(function(i,buttonGroup){
-  //   var $buttonGroup = $(buttonGroup);
-  //   $buttonGroup.on('click', 'button', function(){
-  //    $buttonGroup.find('.active').removeClass('active').removeClass('btn-primary').addClass('btn-default');
-  //    $(this).addClass('active').removeClass('btn-default').addClass('btn-primary').blur();
-  //   })
-  // })
+  // change active class on buttons
+  $('#filter-service-type').each(function(i,buttonGroup){
+    var $buttonGroup = $(buttonGroup);
+    $buttonGroup.on('click', 'button', function(){
+     $buttonGroup.find('.active').removeClass('active').removeClass('btn-primary').addClass('btn-default');
+     $(this).addClass('active').removeClass('btn-default').addClass('btn-primary').blur();
+    })
+  })
+  $('#filter-category').each(function(i,buttonGroup){
+    var $buttonGroup = $(buttonGroup);
+    $buttonGroup.on('click', 'button', function(){
+     $buttonGroup.find('.active').removeClass('active').removeClass('btn-primary').addClass('btn-default');
+     $(this).addClass('active').removeClass('btn-default').addClass('btn-primary').blur();
+    })
+  })
+  $('#filter-certification').each(function(i,buttonGroup){
+    var $buttonGroup = $(buttonGroup);
+    $buttonGroup.on('click', 'button', function(){
+     $buttonGroup.find('.active').removeClass('active').removeClass('btn-primary').addClass('btn-default');
+     $(this).addClass('active').removeClass('btn-default').addClass('btn-primary').blur();
+    })
+  })
 
 
   // isotope condition for tablet and phone

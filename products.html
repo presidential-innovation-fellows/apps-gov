@@ -9,7 +9,7 @@ skip_index: true
     <h1>Products</h1>
     <p>Discover products that will help your team be more productive.</p>
   </header>
-  <!-- <div class="usa-grid">
+  <div class="usa-grid">
     <div id="filters">
       <div class="usa-width-one-third" data-filter-group="service-type" id="filter-service-type">
         <button class="usa-button-outline" type="button" data-filter="">All Services</button><br/>
@@ -36,7 +36,7 @@ skip_index: true
         <button class="usa-button-outline" type="button" data-filter=".filter-ato">ATO</button>
       </div>
     </div>
-  </div> -->
+  </div>
   <ul class="usa-grid" id="product-list">
     {% for product_hash in site.data.products %}{% assign product = product_hash[1] %}
     <li class="product-list-item {% for tag in product.tags %}filter-{{ tag }} {% endfor %}">
