@@ -1,0 +1,35 @@
+{
+    "slug": "mixedink",
+    "name": "MixedInk",
+    "url": "mixedink.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130efe48989846a360062e4.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_298c52a9a8e9c5650e7383f033265b81.image/jpeg",
+    "founded_year": 2007,
+    "location": "Byron Bay, Australia",
+    "status": "Private",
+    "stage": null,
+    "top_keywords": [
+        "curated web",
+        "web tools",
+        "collaboration",
+        "internet",
+        "collaborate"
+    ],
+    "number_of_employees": 7,
+    "short_description": "MixedInk's platform allows massive groups to weave their ideas and opinions into\na single text.",
+    "long_description": "MixedInk's platform allows massive groups to weave their ideas and opinions into\na single text.",
+    "investors": [],
+    "gov_tos": true,
+    "privacy": false,
+    "pia": false,
+    "masonry": false,
+    "ato": [{
+        "agency": false,
+        "fedramp": false,
+        "jab": false
+    }],
+    "icd_503": false,
+    "800_53A": false,
+    "swamp": false,
+    "nccoe": false,
+}

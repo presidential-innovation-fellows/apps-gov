@@ -1,0 +1,41 @@
+{
+    "slug": "crowdhall",
+    "name": "CrowdHall",
+    "url": "crowdhall.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130f09c8989846a3602d426.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_3b419ba90ec2362ea7d46a3a125f7115.image/png",
+    "founded_year": 2012,
+    "location": "Las Vegas, NV",
+    "status": "Closed Down",
+    "stage": "Closed Down",
+    "top_keywords": [
+        "curated web",
+        "social media",
+        "politics",
+        "celebrity",
+        "brand marketing"
+    ],
+    "number_of_employees": 4,
+    "short_description": "CrowdHall allows users to host crowd-sourced town halls, empowering the crowd to\narticulate its questions and voice its perspective.",
+    "long_description": "CrowdHall allows users to host crowd-sourced town halls, empowering the crowd to\narticulate its questions and voice its perspective.",
+    "investors": [
+        "The Brandery",
+        "VegasTechFund",
+        "Vine St. Ventures",
+        "Northwestern Capital",
+        "Social Starts"
+    ],
+    "gov_tos": true,
+    "privacy": false,
+    "pia": false,
+    "masonry": false,
+    "ato": [{
+        "agency": false,
+        "fedramp": false,
+        "jab": false
+    }],
+    "icd_503": false,
+    "800_53A": false,
+    "swamp": false,
+    "nccoe": false,
+}

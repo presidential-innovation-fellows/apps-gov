@@ -1,0 +1,42 @@
+{
+    "slug": "stack-exchange",
+    "name": "Stack Exchange",
+    "url": "stackexchange.com",
+    "icon_url": "//datafox-data.s3.amazonaws.com/favicons/5130efd78989846a360038dc.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_280af8870abaa8fe7fde146e6d53e29a.image/png",
+    "founded_year": 2008,
+    "location": "New York, NY",
+    "status": "Private",
+    "stage": "Late Stage",
+    "top_keywords": [
+        "software",
+        "databases",
+        "technology",
+        "recruiting",
+        "software engineering"
+    ],
+    "number_of_employees": 175,
+    "short_description": "Stack Exchange is an online network of community-driven question and answer\nsites for programmers and software developers.",
+    "long_description": "Stack Exchange is an online network of community-driven question and answer\nsites for programmers and software developers.",
+    "investors": [
+        "Andreessen Horowitz",
+        "Bezos Expeditions",
+        "Spark Capital",
+        "Union Square Ventures",
+        "Index Ventures",
+        " Founder Collective "
+    ],
+    "gov_tos": true,
+    "privacy": false,
+    "pia": false,
+    "masonry": false,
+    "ato": [{
+        "agency": false,
+        "fedramp": false,
+        "jab": false
+    }],
+    "icd_503": false,
+    "800_53A": false,
+    "swamp": false,
+    "nccoe": false,
+}

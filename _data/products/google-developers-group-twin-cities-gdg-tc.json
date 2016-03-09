@@ -1,0 +1,34 @@
+{
+    "slug": "google-developers-group-twin-cities-gdg-tc",
+    "name": "Google Developers Group",
+    "url": "developers.google.com/",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/52b8af69f2dc83044f001b88.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_2846ebaaca73567383cbf68f882cd824.svg",
+    "founded_year": 2015,
+    "location": "Minneapolis, MN",
+    "status": null,
+    "stage": null,
+    "top_keywords": [
+        "google technologies",
+        "developer relations",
+        "technology advocacy",
+        "computer software"
+    ],
+    "number_of_employees": null,
+    "short_description": "Helping startups from around the world develop the world’s greatest apps",
+    "long_description": "Helping startups from around the world develop the world’s greatest apps",
+    "investors": [],
+    "gov_tos": true,
+    "privacy": false,
+    "pia": false,
+    "masonry": false,
+    "ato": [{
+        "agency": false,
+        "fedramp": false,
+        "jab": false
+    }],
+    "icd_503": false,
+    "800_53A": false,
+    "swamp": false,
+    "nccoe": false,
+}

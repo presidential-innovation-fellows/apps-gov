@@ -1,0 +1,35 @@
+{
+    "slug": "classmarker",
+    "name": "ClassMarker",
+    "url": "classmarker.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130efd08989846a360023fc.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_e0b0e9c74c86d269e99cfa34cdf3a563.image/gif",
+    "founded_year": 2006,
+    "location": null,
+    "status": null,
+    "stage": null,
+    "top_keywords": [
+        "curated web",
+        "online testing",
+        "create online quizzes",
+        "free quiz maker",
+        "web based tests"
+    ],
+    "number_of_employees": null,
+    "short_description": "ClassMarker is an online testing website facilitating and grading online exams\nfor a vast range of global customers.",
+    "long_description": "ClassMarker is an online testing website facilitating and grading online exams\nfor a vast range of global customers.",
+    "investors": [],
+    "gov_tos": true,
+    "privacy": false,
+    "pia": false,
+    "masonry": false,
+    "ato": [{
+        "agency": false,
+        "fedramp": false,
+        "jab": false
+    }],
+    "icd_503": false,
+    "800_53A": false,
+    "swamp": false,
+    "nccoe": false,
+}

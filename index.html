@@ -28,29 +28,51 @@ layout: home
   </div>
 </div>
 <div class="usa-content">
-  <div class="usa-grid">
-    <h2>Find the right product for your team.</h2>
+  <section class="features">
     <div class="usa-grid">
-      <div class="usa-width-one-third">
-        <h4>1. What are you looking for?</h4>
-      </div>
-      <div class="usa-width-one-third">
-        <h4>2. Review and compare products.</h4>
-      </div>
-      <div class="usa-width-one-third">
-        <h4>3. Quickly procure and deploy.</h4>
+      <h1>Find the right product for your team.</h1>
+      <div class="usa-grid">
+        <div class="usa-width-one-half features-description">
+          <ul>
+            <li>
+              <h2>Review and compare products.</h2>
+              <p>
+                Apps.gov features over 100 cutting-edge products to make your
+                team more productive.
+              </p>
+            </li>
+            <li>
+              <h2>Quickly procure and deploy.</h2>
+              <p>
+                Each product page features information about certifications, ATO’s,
+                and contracting vehicles.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="home-products-list usa-width-one-half">
+          <ul class="product-logos">
+            {% for product_hash in site.data.products | limit: 30 %}{% assign product = product_hash[1] %}
+              <li class="product-logo">
+                 <img src="{{ product.logo_url }}">
+              </li>
+            {% endfor %}
+          </ul>
+          <div class="gradient">
+          </div>
+        </div>
       </div>
     </div>
+  </section>
+  <section class="list-product">
     <div class="usa-grid">
-      <div class="usa-width-one-half">
-        <h2>What is a "product"?</h2>
-        <p>A product on Apps.Gov is a cloud-hosted technology or service that utilizes centralized servers to store and serve data to their users.<br/><br/>This allows the product to be more cost effective and easy to maintain as well as accessible from multiple devices and locations. Products are typically categorized as a Software as a Service (SaaS), Platform as a Service (PaaS), Infrastructure as a Service (IaaS), or any other X as a Service.</p>
-      </div>
-      <div class="usa-width-one-half">
-      <h2>How are products selected?</h2>
-        <p>Information on the product, company, existing contract vehicles, and government approvals is listed for each product on the <a href="products/">products</a> page. Companies are encouraged to submit or update their product information via the open source <a href="https://github.com/presidential-innovation-fellows/apps-gov" target="blank">GitHub repository</a>.</p>
-        <a href="/listing" class="usa-button">List your Product <i class="fa fa-angle-double-right"></i></a>
-      </div>
+      <h1>List Your Product</h1>
+      <p>
+        Apps.gov is a marketplace serving 4.2 million federal employees. Learn
+        more about listing your product.
+      </p>
+
+      <a href="/listing" class="usa-button usa-button-secondary">List your Product <i class="fa fa-angle-double-right"></i></a>
     </div>
-  </div>
+  </section>
 </div>

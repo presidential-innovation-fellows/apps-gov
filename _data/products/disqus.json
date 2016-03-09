@@ -1,0 +1,41 @@
+{
+    "slug": "disqus",
+    "name": "Disqus",
+    "url": "disqus.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130efc68989846a36000818.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_27d016413631883664dab3148580c4df.image/png",
+    "founded_year": 2007,
+    "location": "San Francisco, CA",
+    "status": "Private",
+    "stage": "Series B",
+    "top_keywords": [
+        "curated web",
+        "forums",
+        "blogging platforms",
+        "venture capital",
+        "opinions"
+    ],
+    "number_of_employees": 64,
+    "short_description": "Disqus is a blog comment hosting service offering a platform for social\nintegration, social networking, user profiles, analytics and more.",
+    "long_description": "Disqus is a blog comment hosting service offering a platform for social\nintegration, social networking, user profiles, analytics and more.",
+    "investors": [
+        "North Bridge Venture Partners",
+        "Union Square Ventures",
+        "Felicis Ventures",
+        "Knight's Bridge Capital Partners",
+        "Y Combinator"
+    ],
+    "gov_tos": true,
+    "privacy": false,
+    "pia": false,
+    "masonry": false,
+    "ato": [{
+        "agency": false,
+        "fedramp": false,
+        "jab": false
+    }],
+    "icd_503": false,
+    "800_53A": false,
+    "swamp": false,
+    "nccoe": false,
+}
