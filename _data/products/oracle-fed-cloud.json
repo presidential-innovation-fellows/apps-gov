@@ -1,6 +1,6 @@
 {
     "slug": "oracle-fed-cloud",
-    "name": "Oracle Federal Managed Cloud Services (PaaS)",
+    "name": "Oracle Federal Managed Cloud Services",
     "url": "oracle.com",
     "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130efc98989846a3600107a.ico",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_bef5bd4b72c67877d7ab8bbe43f7bda7.png",
@@ -22,5 +22,8 @@
         <br/><br/>
         The FMCS Infrastructure information system resides in a physically and logically isolated Federal Government Zone within the general security perimeter of Oracle’s U.S. Data Centers. The environment has been architected following FISMA and NIST guidance to help Federal customers achieve and maintain Authority To Operate (accreditation) for their relevant information systems or data hosted at Oracle.",
     "sales_poc":"lindsey.orrick@oracle.com",
-    "fedramp_jab":"http://www.fedramp.gov/marketplace/compliant-systems/oracle-corporation-federal-managed-cloud-services/"
+    "fedramp_jab":"http://www.fedramp.gov/marketplace/compliant-systems/oracle-corporation-federal-managed-cloud-services/",
+    "tags":[
+        "paas"
+    ]
 }

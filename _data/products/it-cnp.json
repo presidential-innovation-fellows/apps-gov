@@ -1,6 +1,6 @@
 {
     "slug": "itcnp",
-    "name": "GovDataHosting Cloud Platform (IaaS)",
+    "name": "GovDataHosting Cloud Platform",
     "url": "www.govdatahosting.com",
     "icon_url": null,
     "logo_url": null,
@@ -17,5 +17,8 @@
         <br/><br/>
         GCP certified support personnel manage the underlying components of datacenter infrastructure (physical security, redundant power/cooling, network, storage, physical hypervisor servers, access/authentication, operating system, backup, disaster recovery and security compliance) allowing customers to focus on their system mission, software application implementation and system performance fine-tuning. 100% of GCP datacenters and 24/7/365 mission critical support is provided from the continental United States and is available exclusively to U.S. Federal, state, and local government entities and their respective authorized contractors. GCP offers government customers the ability to quickly and cost effectively deploy FedRAMP and NIST SP 800-53 compliant information systems while leveraging elastic network, connectivity, as well as virtual server memory, disk and CPU resources that can be scaled up or down to accommodate periodic spikes in processing demand.",
     "sales_poc": "fedramp@govdatahosting.com",
-    "fedramp_jab": "http://www.fedramp.gov/marketplace/compliant-systems/it-cnp-inc-govdatahosting-cloud-platform/"
+    "fedramp_jab": "http://www.fedramp.gov/marketplace/compliant-systems/it-cnp-inc-govdatahosting-cloud-platform/",
+    "tags":[
+        "iaas"
+    ]
 }

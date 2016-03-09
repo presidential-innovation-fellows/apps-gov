@@ -1,6 +1,6 @@
 {
     "slug": "service-now-com",
-    "name": "ServiceNow Service Automation Government Cloud Suite (SaaS)",
+    "name": "ServiceNow Service Automation Government Cloud Suite",
     "url": "www.servicenow.com/",
     "icon_url": "//datafox-data.s3.amazonaws.com/favicons/5130efd68989846a360034f6.ico",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_5732f882ce884954eb911f5f65907e4b.image/png",
@@ -20,5 +20,9 @@
     "short_description": "ServiceNow is changing the way people work, offering service management for\nevery department in the enterprise.",
     "long_description": "ServiceNow automates and manages global IT service relationships. Create a\nsingle system of record for IT, automate manual tasks, consolidate legacy ITIL\nsystems.",
     "sales_poc": "carri.thompson@servicenow.com",
-    "fedramp_jab":"https://www.fedramp.gov/marketplace/compliant-systems/servicenow-inc-servicenow-service-automation-government-cloud-suite/"
+    "fedramp_jab":"https://www.fedramp.gov/marketplace/compliant-systems/servicenow-inc-servicenow-service-automation-government-cloud-suite/",
+    "tags":[
+        "saas",
+        "cx"
+    ]
 }

@@ -19,5 +19,8 @@
     "number_of_employees": null,
     "short_description": "AWS GovCloud (US) is an AWS Region designed to allow US government agencies and customers supporting the US government to move more sensitive workloads into the cloud.",
     "long_description": "AWS GovCloud (US) is an AWS Region designed to allow US government agencies and customers supporting the US government to move more sensitive workloads into the cloud.  In addition to complying with FedRAMP requirements, the AWS GovCloud (US) framework adheres to U.S. International Traffic in Arms Regulations (ITAR) regulations.  Additional information is available at http://aws.amazon.com/govcloud-us/.",
-    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/amazon-web-services-aws-government-community-cloud/"
+    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/amazon-web-services-aws-government-community-cloud/",
+    "tags":[
+        "iaas"
+    ]
 }

@@ -1,6 +1,6 @@
 {
     "slug": "general-dynamics-information-technology",
-    "name": "General Dynamics Information Technology OMNI Cloud (IaaS)",
+    "name": "GDIT OMNI Cloud",
     "url": "gdit.com",
     "icon_url": null,
     "logo_url": null,
@@ -20,5 +20,8 @@
     "short_description": "The purpose of the OMNI Cloud is to provide Infrastructure-as-a-Service (IaaS) to our customers.",
     "long_description": "The purpose of the OMNI Cloud is to provide Infrastructure-as-a-Service (IaaS) to our customers. The OMNI Cloud information system is delivered as an IaaS offering using a multi-tenant Government Community Cloud computing environment that is owned/leased and operated by GDIT and hosted in GDIT leased Data Centers located in the continental United States.",
     "sales_poc":"david.pizzano@gdit.com",
-    "fedramp_jab":"https://www.fedramp.gov/marketplace/compliant-systems/gdit-omni-cloud/"
+    "fedramp_jab":"https://www.fedramp.gov/marketplace/compliant-systems/gdit-omni-cloud/",
+    "tags":[
+        "iaas"
+    ]
 }

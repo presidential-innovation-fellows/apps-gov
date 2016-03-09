@@ -1,6 +1,6 @@
 {
     "slug": "concurrent-technologies-corporation",
-    "name": "Concurrent Technologies Corporation Unclassified Remote Hosted Desktops (URHD) (SaaS)",
+    "name": "Concurrent Technologies Corporation Unclassified Remote Hosted Desktops (URHD)",
     "url": "ctc.com",
     "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130f0c08989846a360357bc.ico",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_20b00711e3fafb24a1b3aff164bd9a78.image/jpeg",
@@ -20,5 +20,9 @@
     "short_description": "Concurrent Technologies Corporation (CTC) provides the customer the ability to access their applications and data through a user-definable virtual workspace, full virtual desktop, mobile cloud or a light-weight client from many different client types including PCs, Tablets and Smartphones.",
     "long_description": "Concurrent Technologies Corporation (CTC) provides the customer the ability to access their applications and data through a user-definable virtual workspace, full virtual desktop, mobile cloud or a light-weight client from many different client types including PCs, Tablets and Smartphones.",
     "sales_poc": "heckm@ctc.com",
-    "fedramp_jab": "http://www.fedramp.gov/marketplace/compliant-systems/concurrent-technologies-corporation/"
+    "fedramp_jab": "http://www.fedramp.gov/marketplace/compliant-systems/concurrent-technologies-corporation/",
+    "tags":[
+        "saas"
+        "remote"
+    ]
 }

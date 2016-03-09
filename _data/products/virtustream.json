@@ -1,6 +1,6 @@
 {
     "slug": "virtustream",
-    "name": "Virtustream Federal Cloud (IaaS)",
+    "name": "Virtustream Federal Cloud",
     "url": "virtustream.com",
     "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130f0038989846a3600c1d8.ico",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_f2a75305a61470bd8aa1f85f247a0102.image/pjpeg",
@@ -22,5 +22,8 @@
         <br/><br/>
         xStream enables enterprises to run private clouds, manage hybrid clouds and use managed services. xStream enables service providers to offer enterprise cloud services and governments to run secure public clouds – all backed by workload performance SLAs, consumption pricing and cloud efficiency.",
     "sales_poc":"kevin.bookman@virtustream.com",
-    "fedramp_jab":"http://www.fedramp.gov/marketplace/compliant-systems/virtustream-inc-federal-cloud-services-vfc/"
+    "fedramp_jab":"http://www.fedramp.gov/marketplace/compliant-systems/virtustream-inc-federal-cloud-services-vfc/",
+    "tags":[
+        "iaas",
+    ]
 }

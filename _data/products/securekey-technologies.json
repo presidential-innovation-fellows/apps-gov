@@ -1,6 +1,6 @@
 {
     "slug": "securekey-technologies",
-    "name": "SecureKey Briidge.net Exchange (SaaS)",
+    "name": "SecureKey Briidge.net Exchange",
     "url": "securekey.com",
     "icon_url": null,
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_b87c695d0cb5b1ef52e71c6f8ee3336c.image/png",
@@ -24,5 +24,9 @@
         <br/><br/>
         Connect.Gov was established to support The National Strategy for Trusted Identities in Cyberspace (NSTIC), which seeks to help address the issues of enabling online accessibility of Federal applications while reducing a burden on an individual to manage multiple credentials.",
     "sales_poc":"sk-security@securekey.com",
-    "fedramp_jab":"http://www.fedramp.gov/marketplace/compliant-systems/securekey-briidge-net-exchange-for-connect-gov/"
+    "fedramp_jab":"http://www.fedramp.gov/marketplace/compliant-systems/securekey-briidge-net-exchange-for-connect-gov/",
+    "tags":[
+        "saas",
+        "security"
+    ]
 }

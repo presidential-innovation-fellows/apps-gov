@@ -1,6 +1,6 @@
 {
     "slug": "lockheed-martin",
-    "name": "Lockheed Martin Solutions as a Service (Solas) Community Cloud (IaaS)",
+    "name": "Lockheed Martin Solutions as a Service (Solas) Community Cloud",
     "url": "lockheedmartin.com",
     "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130efd78989846a360039ea.ico",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_ff2a52e33edd66ca0607598d8d8b74c6.png",
@@ -20,5 +20,8 @@
     "short_description": "Lockheed Martin SolaS-I Cloud is a secure government community cloud computing platform that enables multiple federal and state agencies to operate cloud computing programs or host applications in a cloud environment.",
     "long_description": "Lockheed Martin SolaS-I Cloud is a secure government community cloud computing platform that enables multiple federal and state agencies to operate cloud computing programs or host applications in a cloud environment. SolaS Cloud is built to meet FISMA Moderate and FedRAMP certification requirements. SolaS offers Infrastructure as a Service (IaaS) Virtual Machine (VM) cloud services utilizing an on-demand pricing model to our federal and state agencies in a secure, managed hosting environment. A subscription-based service catalog is provided to government clients to address and augment their IT cloud requirements and deliverables.",
     "sales_poc":"michelle.a.horn@lmco.com",
-    "fedramp_jab":"http://www.fedramp.gov/marketplace/compliant-systems/lockheed-martin-solutions-as-a-service-solas-community-cloud/"
+    "fedramp_jab":"http://www.fedramp.gov/marketplace/compliant-systems/lockheed-martin-solutions-as-a-service-solas-community-cloud/",
+    "tags":[
+        "iaas"
+    ]
 }

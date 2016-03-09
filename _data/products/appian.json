@@ -20,5 +20,10 @@
     "short_description": "Appian delivers an enterprise application platform that unites users with all their data, processes, and collaborations – in one environment, on any mobile device, through a simple social interface.",
     "long_description": "As the market leader in modern Business Process Management (BPM) and Case Management software, Appian delivers an enterprise application platform that unites users with all their data, processes, and collaborations – in one environment, on any mobile device, through a simple social interface. With Appian Cloud, Federal Agencies can rapidly build, deploy, use, and scale innovative apps. Appian Cloud’s easy integration with on-premise systems allows Agencies to build cohesive solutions that increase efficiency, accelerate mission attainment and improve service delivery.",
     "sales_poc":"fedramp@appian.com",
-    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/appian-corporation-appian-cloud-2/"
+    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/appian-corporation-appian-cloud-2/",
+    "tags":[
+        "paas",
+        "productivity",
+        "dev"
+    ]
 }
