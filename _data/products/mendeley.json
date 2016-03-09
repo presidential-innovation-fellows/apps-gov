@@ -1,0 +1,39 @@
+{
+    "slug": "mendeley",
+    "name": "Mendeley",
+    "url": "mendeley.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130efea8989846a36007562.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_e5e4cf09a1a50c214e6f5cc74a0f90f7.image/png",
+    "founded_year": 2008,
+    "location": "London, United Kingdom",
+    "status": "Acquired",
+    "stage": "Acquired",
+    "top_keywords": [
+        "social media",
+        "social network media",
+        "life sciences",
+        "big data",
+        "collaboration"
+    ],
+    "number_of_employees": 136,
+    "short_description": "Mendeley is an academic social network and program that enables users to\ncollaborate online, and discover, manage and share research papers.",
+    "long_description": "Mendeley is an academic social network and program that enables users to\ncollaborate online, and discover, manage and share research papers.",
+    "investors": [
+        "Alfred P. Sloan Foundation",
+        "Ambient Sound Investments",
+        "Andurance Ventures LLP"
+    ],
+    "gov_tos": true,
+    "privacy": false,
+    "pia": false,
+    "masonry": false,
+    "ato": [{
+        "agency": false,
+        "fedramp": false,
+        "jab": false
+    }],
+    "icd_503": false,
+    "800_53A": false,
+    "swamp": false,
+    "nccoe": false,
+}

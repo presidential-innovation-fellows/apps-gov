@@ -1,0 +1,42 @@
+{
+    "slug": "retail-media-company",
+    "name": "Retail Media Company",
+    "url": "bing.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/52b124750749c8597f009f6c.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_5c6f4d9edc72e018ee2171cd23f698ad.image/png",
+    "founded_year": 2003,
+    "location": "Seattle, WA",
+    "status": "Acquired",
+    "stage": "Acquired",
+    "top_keywords": [
+        "finance",
+        "travel",
+        "transportation",
+        "online travel",
+        "hotels"
+    ],
+    "number_of_employees": null,
+    "short_description": "Farecast is an online service that provides users with intelligent airfare\npredictions.",
+    "long_description": "Farecast is an online service that provides users with intelligent airfare\npredictions.",
+    "investors": [
+        "PAR Capital Management",
+        "Madrona Venture Group",
+        "Greylock Partners",
+        "WRF Capital",
+        "Sutter Hill Ventures",
+        "Pinnacle Ventures"
+    ],
+    "gov_tos": true,
+    "privacy": false,
+    "pia": false,
+    "masonry": false,
+    "ato": [{
+        "agency": false,
+        "fedramp": false,
+        "jab": false
+    }],
+    "icd_503": false,
+    "800_53A": false,
+    "swamp": false,
+    "nccoe": false,
+}

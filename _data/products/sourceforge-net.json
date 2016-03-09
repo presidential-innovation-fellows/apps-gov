@@ -1,0 +1,35 @@
+{
+    "slug": "sourceforge-net",
+    "name": "SourceForge.net",
+    "url": "sourceforge.net",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/52baab03824565a6410090d5.ico",
+    "logo_url": null,
+    "founded_year": 1999,
+    "location": "Mountain View, CA",
+    "status": null,
+    "stage": null,
+    "top_keywords": [
+        "computer software",
+        "open source in uc components",
+        "open source",
+        "open source software",
+        "development"
+    ],
+    "number_of_employees": 32,
+    "short_description": "Free, secure and fast downloads from the largest Open Source applications and\nsoftware directory - SourceForge.net",
+    "long_description": "Free, secure and fast downloads from the largest Open Source applications and\nsoftware directory - SourceForge.net",
+    "investors": [],
+    "gov_tos": true,
+    "privacy": false,
+    "pia": false,
+    "masonry": false,
+    "ato": [{
+        "agency": false,
+        "fedramp": false,
+        "jab": false
+    }],
+    "icd_503": false,
+    "800_53A": false,
+    "swamp": false,
+    "nccoe": false,
+}

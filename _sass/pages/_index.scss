@@ -34,36 +34,46 @@ ul {
   text-align:center;
   min-height:550px;
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    color: $color-white;
-  }
-
-  h2{
-    font-family: $font-sans;
-    font-size: 5.5rem;
-    margin-bottom: 0;
-    margin-top: 2.25em;
-  }
-
-  h5 {
-    font-family: $font-sans;
-    font-size: 2.4rem;
-    margin-bottom: 10px;
-    margin-top: 0;
-  }
-
-  .usa-button {
-    padding: 0.75em 1.1em;
-  }
-
-  .usa-hero-overlay{
+  .usa-hero-overlay {
     background-color: rgba(0,0,0,0.5);
     min-height:550px;
+  }
+}
+
+.features {
+
+  h2 {
+    font-size: 1.75em;
+    text-align: left;
+  }
+
+  p {
+    text-align: left;
+  }
+
+  .product-logo {
+    @extend %card;
+    border-radius: 0.5em;
+    float: left;
+    display: block;
+    height: 60px;
+    margin-right: 10px;
+    padding: 0.5em;
+    width: 60px;
+
+    &:nth-child(6n) {
+      margin-right: 0;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .product-logos {
+    @include clearfix;
+    float: right;
+    width: 410px;
   }
 }
 
@@ -102,6 +112,38 @@ ul {
     background-color: lighten($color-gray-light, 20);
     color: $color-gray-dark;
   }
+
+  .usa-content {
+    margin-bottom: 0;
+  }
+}
+
+.home-products-list {
+  position: relative;
+
+  .gradient {
+    @include background-image(linear-gradient(bottom, lighten($color-gray-light, 28) 10%, transparent));
+    bottom: 0;
+    height: 300px;
+    left: 0;
+    position: absolute;
+    right: 0;
+  }
+}
+
+.list-product {
+  background-color: lighten($color-gray, 15);
+  padding: 3em 0;
+
+  h1 {
+    color: $color-white;
+    margin: 0;
+  }
+
+  p {
+    color: $color-white;
+    font-size: 1.2em;
+  }
 }
 
 .usa-grid {
@@ -109,5 +151,49 @@ ul {
 
   @include media($medium-screen) {
     padding: 0 3rem;
+  }
+}
+
+.usa-hero{
+  background-attachment: scroll;
+  background-image: url('/img/white-house.jpg');
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  position: relative;
+  text-align:center;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $color-white;
+  }
+
+  h2{
+    font-family: $font-sans;
+    font-size: 5.5rem;
+    margin-bottom: 0;
+    margin-top: 2.25em;
+  }
+
+  h5 {
+    font-family: $font-sans;
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+
+  .usa-button {
+    padding: 0.75em 1.1em;
+  }
+
+  .usa-hero-overlay{
+    background-color: rgba(0,0,0,0.5);
   }
 }

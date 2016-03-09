@@ -1,0 +1,43 @@
+{
+    "slug": "quora",
+    "name": "Quora",
+    "url": "quora.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130f0128989846a3600f4ca.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_9e322184791733278df912871dcc886f.image/png",
+    "founded_year": 2009,
+    "location": "Mountain View, CA",
+    "status": "Private",
+    "stage": "Series C",
+    "top_keywords": [
+        "curated web",
+        "semantic search",
+        "social media",
+        "search",
+        "q & a"
+    ],
+    "number_of_employees": 166,
+    "short_description": "Quora is a question-and-answer website created, edited, and organized by its\ncommunity of users.",
+    "long_description": "Quora is a question-and-answer website created, edited, and organized by its\ncommunity of users.",
+    "investors": [
+        "Matrix Partners",
+        "North Bridge Venture Partners",
+        "Tiger Global Management",
+        "Benchmark",
+        "Y Combinator",
+        "SV Angel",
+        "Techammer"
+    ],
+    "gov_tos": true,
+    "privacy": false,
+    "pia": false,
+    "masonry": false,
+    "ato": [{
+        "agency": false,
+        "fedramp": false,
+        "jab": false
+    }],
+    "icd_503": false,
+    "800_53A": false,
+    "swamp": false,
+    "nccoe": false,
+}

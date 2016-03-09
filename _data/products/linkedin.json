@@ -1,0 +1,45 @@
+{
+    "slug": "linkedin",
+    "name": "LinkedIn",
+    "url": "www.linkedin.com/",
+    "icon_url": "//datafox-data.s3.amazonaws.com/favicons/5130efc38989846a36000164.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_86da62135b4364194047472102ccf66f.png",
+    "founded_year": 2003,
+    "location": "Mountain View, CA",
+    "status": "Public",
+    "stage": "Public",
+    "top_keywords": [
+        "social media",
+        "networking",
+        "software",
+        "social recruiting",
+        "online professional network"
+    ],
+    "number_of_employees": 6897,
+    "short_description": "LinkedIn, a professional networking site, allows its members to create business\nconnections, search for jobs, and find potential clients.",
+    "long_description": "LinkedIn, a professional networking site, allows its members to create business\nconnections, search for jobs, and find potential clients.",
+    "investors": [
+        "Sapphire Ventures",
+        "Goldman Sachs",
+        "McGraw Hill Financial",
+        "SAP",
+        "Sequoia Capital",
+        "Bain Capital Ventures",
+        "Greylock Partners",
+        "Bessemer Venture Partners",
+        "European Founders Fund"
+    ],
+    "gov_tos": true,
+    "privacy": false,
+    "pia": false,
+    "masonry": false,
+    "ato": [{
+        "agency": false,
+        "fedramp": false,
+        "jab": false
+    }],
+    "icd_503": false,
+    "800_53A": false,
+    "swamp": false,
+    "nccoe": false,
+}

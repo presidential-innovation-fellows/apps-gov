@@ -1,0 +1,40 @@
+{
+    "slug": "yelp",
+    "name": "Yelp",
+    "url": "yelp.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130efc28989846a360000f8.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_e4d10a5e9ec188b69acfd8585c89bcb3.image/png",
+    "founded_year": 2004,
+    "location": "San Francisco, CA",
+    "status": "Public",
+    "stage": "Public",
+    "top_keywords": [
+        "search",
+        "reviews and recommendations",
+        "customer service",
+        "local",
+        "local search"
+    ],
+    "number_of_employees": 3367,
+    "short_description": "Yelp is an online urban guide that helps people find recommended destinations\nbased on the informed opinions and reviews of a community.",
+    "long_description": "Yelp is an online urban guide that helps people find recommended destinations\nbased on the informed opinions and reviews of a community.",
+    "investors": [
+        "Elevation Partners",
+        "DAG Ventures",
+        "Benchmark",
+        "Bessemer Venture Partners"
+    ],
+    "gov_tos": true,
+    "privacy": false,
+    "pia": false,
+    "masonry": false,
+    "ato": [{
+        "agency": false,
+        "fedramp": false,
+        "jab": false
+    }],
+    "icd_503": false,
+    "800_53A": false,
+    "swamp": false,
+    "nccoe": false,
+}

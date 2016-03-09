@@ -1,0 +1,35 @@
+{
+    "slug": "chatwing",
+    "name": "Chatwing",
+    "url": "chatwing.com",
+    "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130f08b8989846a360296de.ico",
+    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_e40e001b0789f0ca070bb98d1ff787da.image/png",
+    "founded_year": 2012,
+    "location": null,
+    "status": null,
+    "stage": null,
+    "top_keywords": [
+        "messaging",
+        "chat",
+        "chat box",
+        "chatbox",
+        "free chat box"
+    ],
+    "number_of_employees": null,
+    "short_description": "Chatwing is free live chat software for any blog, social network or website.",
+    "long_description": "Chatwing is free live chat software for any blog, social network or website.",
+    "investors": [],
+    "gov_tos": true,
+    "privacy": false,
+    "pia": false,
+    "masonry": false,
+    "ato": [{
+        "agency": false,
+        "fedramp": false,
+        "jab": false
+    }],
+    "icd_503": false,
+    "800_53A": false,
+    "swamp": false,
+    "nccoe": false,
+}
