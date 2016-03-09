@@ -19,6 +19,6 @@
     "number_of_employees": 18,
     "short_description": "OnCloud is an identity and access management (IAM) Software as a Service (SaaS) available to Federal Government customers and designed to be hosted in a virtualized, cloud-computing environment.",
     "long_description": "OnCloud is an identity and access management (IAM) Software as a Service (SaaS) available to Federal Government customers and designed to be hosted in a virtualized, cloud-computing environment. OnCloud user management capabilities include policy-based provisioning, workflow, reporting, auditing, recertification, and self-service.  OnCloud authentication and authorization services include single-sign-on, federation, and strong authentication.<br/><br/>OnCloud can be offered as an Identity Provider (IDP), Service Provider (SP), Broker, or Proxy on behalf of customers.<br/><br/>OnCloud is infrastructure agnostic and can be deployed in a customer’s infrastructure of choice.",
-    "sales_poc":"chonly@onwireco.com",
+    "sales_poc":"tyler.lambert@onwireco.com",
     "fedramp_ready":"https://www.fedramp.gov/marketplace/fedramp-ready-systems/onwire-oncloud/"
 }
