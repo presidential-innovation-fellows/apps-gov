@@ -81,7 +81,7 @@ skip_index: false
 		      {% assign keywords = product.top_keywords | split: ',' %}
 		      {% for keyword in product.top_keywords %}
 		        <li>
-		        	<a href="{{ site.baseurl }}/products/?={{ keyword | strip }}" id="hashtag">
+		        	<a href="{{ site.baseurl }}/products/?q={{ keyword | strip }}" id="hashtag">
 		        		{{ keyword }}
 		      		</a>
 		    		</li>
