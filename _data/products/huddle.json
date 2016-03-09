@@ -1,6 +1,6 @@
 {
     "slug": "huddle",
-    "name": "Huddle (SaaS)",
+    "name": "Huddle",
     "url": "huddle.com",
     "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130efcc8989846a3600184a.ico",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_080d922c318d5f556b7a5cb1c7b410bc.image/png",
@@ -28,5 +28,10 @@
         <li>Instant note taking facility with mark-down formatting</li>
         <li>Dashboard feature to provide a quick overview of activity within the tea</li></ul>",
     "sales_poc":"ed.kleiser@huddle.com",
-    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/huddle/"
+    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/huddle/",
+    "tags":[
+        "saas",
+        "collaboration",
+        "project"
+    ]
 }

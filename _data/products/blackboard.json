@@ -20,5 +20,10 @@
     "short_description": "Blackboard’s Learn and Collaborate SaaS solution offers government and military agencies next-generation online, social and mobile tools that create a continuous learning environment, built around peer-to-peer interaction, content and discussions.",
     "long_description": "Blackboard’s Learn and Collaborate SaaS solution offers government and military agencies next-generation online, social and mobile tools that create a continuous learning environment, built around peer-to-peer interaction, content and discussions.",
     "sales_poc":"bruce.shim@blackboard.com",
-    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/blackboard-blackboard-learn-collaborate-saas/"
+    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/blackboard-blackboard-learn-collaborate-saas/",
+    "tags":[
+        "saas",
+        "collaboration",
+        "education"
+    ]
 }

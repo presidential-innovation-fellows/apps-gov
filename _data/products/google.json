@@ -1,6 +1,6 @@
 {
     "slug": "google",
-    "name": "Google Services (PaaS/SaaS)",
+    "name": "Google Services",
     "url": "google.com",
     "icon_url": "//datafox-data.s3-us-west-1.amazonaws.com/favicons/5130efc28989846a3600008e.ico",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_6acfa7da1dbd936ed985cf07a1b27711.png",
@@ -20,5 +20,10 @@
     "short_description": "Google Services is comprised of Google’s multi-tenant public and hybrid Google Apps cloud instances and multi-tenant public cloud Google App Engine.",
     "long_description": "Google Services is comprised of Google’s multi-tenant public and hybrid Google Apps cloud instances and multi-tenant public cloud Google App Engine. These services are built atop the Google Common Infrastructure. Google Apps is a Software-as-a-Service (SaaS) cloud deployment model that allows customers the ability to communicate, store files and collaborate with Gmail, Hangouts, Talk, Calendar, Drive, Docs, Sheets, Slides, Vault, Sites, Groups, Contacts and Classroom while managing their domain with the Admin Console. Google App Engine is a Platform-as-a-Service (PaaS) cloud deployment model, providing customers an environment to easily build, run and manage their applications on Google’s infrastructure.",
     "sales_poc":"fedramp@google.com",
-    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/google-google-services/"
+    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/google-google-services/",
+    "tags":[
+        "paas",
+        "saas",
+        "productivity"
+    ]
 }

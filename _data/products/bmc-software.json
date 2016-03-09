@@ -19,5 +19,8 @@
     "number_of_employees": 6100,
     "short_description": "They transform digital enterprises for the ultimate competitive business\nadvantage.",
     "long_description": "From mainframe to cloud to mobile, BMC Software helps businesses around the\nworld manage complex technology to deliver extraordinary business performance.",
-    "fedramp_inprocess_agency":"ace/in-process-systems/bmc-software-bmc-remedy-fed-saas-bmc-remedy-ondemand-for-public-sector/"
+    "fedramp_inprocess_agency":"ace/in-process-systems/bmc-software-bmc-remedy-fed-saas-bmc-remedy-ondemand-for-public-sector/",
+    "tags":[
+        "saas"
+    ]
 }

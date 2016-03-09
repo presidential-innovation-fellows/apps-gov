@@ -1,6 +1,6 @@
 {
     "slug": "max-general",
-    "name": "MAX General Support Services (IaaS)",
+    "name": "MAX General Support Services",
     "url": "max.gov",
     "icon_url": null,
     "logo_url": null,
@@ -23,5 +23,8 @@
         </ul>
         MAX is managed by the Budget Systems Branch (BSB), Budget Review Division (BRD), of the Office of Management and Budget (OMB), in conjunction with the Budget Formulation and Execution Line of Business (BFELoB) Program Management Office (PMO) at the Department of Education (ED).",
     "sales_poc": "MAXSupport@omb.eop.gov",
-    "fedramp_agency": "http://www.fedramp.gov/marketplace/compliant-systems/omb-max-general-support-services/"
+    "fedramp_agency": "http://www.fedramp.gov/marketplace/compliant-systems/omb-max-general-support-services/",
+    "tags":[
+        "iaas"
+    ]
 }

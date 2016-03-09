@@ -1,6 +1,6 @@
 {
     "slug": "esri",
-    "name": "Esri Managed Cloud Services (PaaS/SaaS)",
+    "name": "Esri Managed Cloud Services",
     "url": "esri.com",
     "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/5130efda8989846a360042d8.ico",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_cc32709a92ad3cadf2af5f09c02ae696.image/jpeg",
@@ -20,5 +20,10 @@
     "short_description": "Esri is a leading provider of geographic information systems (GIS) with decades of experience hosting solutions for customers.",
     "long_description": "Esri is a leading provider of geographic information systems (GIS) with decades of experience hosting solutions for customers. Esri Managed Cloud Services provides organizations with ready-to-use instances of ArcGIS running in the cloud and includes the infrastructure (facilities, hardware, network, and security), the software (Esri and third party), application deployment, testing, ongoing data management (data updates, backup, and archive), technical support, monitoring, and supporting 24/7 Security Operations Center. The environment has been architected following FISMA, NIST, and CIS guidance to facilitate FedRAMP moderate geospatial Platform-as-a-Service (PaaS) and Software-as-a-Service (SaaS) authorizations of our customer environments. EMCS enables quickly sharing geospatial content and providing access to critical information while the organization maintains complete control over the access to their services and maps. EMCS leverages the Amazon Web Services East / West Regions FedRAMP moderate cloud infrastructure.",
     "sales_poc":"myoung@esri.com",
-    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/esri-esri-managed-cloud-services/"
+    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/esri-esri-managed-cloud-services/",
+    "tags":[
+        "paas",
+        "saas",
+        "gis"
+    ]
 }

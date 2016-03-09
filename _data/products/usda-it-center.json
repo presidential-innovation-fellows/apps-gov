@@ -1,6 +1,6 @@
 {
     "slug": "usda-it-center",
-    "name": "USDA National Information Technology Center (PaaS/IaaS)",
+    "name": "USDA National Information Technology Center",
     "url": null,
     "icon_url": null,
     "logo_url": null,
@@ -24,5 +24,9 @@
         <br/><br/>
         In addition to the FedRAMP Moderate security control baseline, the NITC has implemented FISMA High security controls within both service offerings.",
     "sales_poc":"NITCServiceDesk@ocio.usda.gov",
-    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/united-states-department-of-agriculture-usda-national-information-technology-center/"
+    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/united-states-department-of-agriculture-usda-national-information-technology-center/",
+    "tags":[
+        "iaas",
+        "paas"
+    ]
 }

@@ -27,5 +27,9 @@
         </ul>
         The service is offered in a monthly, usage-based subscription model where a Customer / Agency subscribes to the services based on the number of users in its organization.",
     "sales_poc":"mabaig@collab9.com",
-    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/collab9-secure-voice-and-collaboration/"
+    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/collab9-secure-voice-and-collaboration/",
+    "tags":[
+        "saas",
+        "communications"
+    ]
 }

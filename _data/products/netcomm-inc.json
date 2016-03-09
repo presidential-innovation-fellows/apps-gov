@@ -1,6 +1,6 @@
 {
     "slug": "netcomm-inc",
-    "name": "Netcomm Beacon (SaaS)",
+    "name": "Netcomm Beacon",
     "url": "netcomm.net",
     "icon_url": "//datafox-data.s3-us-west-1.amazonaws.com/favicons/563e7432611014626b008d92.ico",
     "logo_url": null,
@@ -22,5 +22,10 @@
         </ul>
         Beacon leverages the Amazon Web Services GovCloud region FedRAMP moderate cloud Infrastructure as a Service (IaaS).",
     "sales_poc":"laurel.fielding@netcomm.net",
-    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/netcomm-beacon/"
+    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/netcomm-beacon/",
+    "tags":[
+        "saas",
+        "productivity",
+        "data-viz"
+    ]
 }

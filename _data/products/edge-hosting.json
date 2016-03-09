@@ -1,6 +1,6 @@
 {
     "slug": "edge-hosting",
-    "name": "Edge Hosting CloudPlus (PaaS/SaaS)",
+    "name": "Edge Hosting CloudPlus",
     "url": "www.edgehosting.com",
     "icon_url": null,
     "logo_url": null,
@@ -15,5 +15,9 @@
     "short_description": "Edge’s CloudPlus provides a cost effective multi-tenant secure public, dedicated private, and hybrid Cloud computing platforms designed to meet a wide range regulatory requirements including FISMA, FedRAMP, HIPAA and PCI.",
     "long_description":"Edge’s CloudPlus provides a cost effective multi-tenant secure public, dedicated private, and hybrid Cloud computing platforms designed to meet a wide range regulatory requirements including FISMA, FedRAMP, HIPAA and PCI.<br/><br/>The Edge Hosting team helps federal agencies significantly lower operating costs, eliminate capital expenditures and drastically improve service delivery at a predictable monthly cost. By combining best of bread technology from VMWare, EMC, Cisco, F5 and Dell Edge reduces the time it takes to adopt new cloud IT capabilities. CloudPlus delivers highly availability and secured cloud hosting, which includes monitoring, backups and recovery and 24x7x365 technical support.<br/><br/>CloudPlus includes all of the hardware infrastructure, software licenses, bandwidth, load balancers, clustering infrastructure, storage, security software and tools along with the experts responsible for installing, configuring and maintaining global scale application platforms with support for the majority of Windows and Linux application stacks and database platforms.",
     "sales_poc":"vfriedman@edgehosting.com",
-    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/united-states-department-of-the-treasury-workplace-gov-community-cloud-wc2/"
+    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/united-states-department-of-the-treasury-workplace-gov-community-cloud-wc2/",
+    "tags":[
+        "paas",
+        "iaas"
+    ]
 }

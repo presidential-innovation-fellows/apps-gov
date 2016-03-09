@@ -1,6 +1,6 @@
 {
     "slug": "project-hosts",
-    "name": "Project Hosts Federal Private Cloud (SaaS)",
+    "name": "Project Hosts Federal Private Cloud",
     "url": "www.projecthosts.com/",
     "icon_url": "//datafox-data.s3.amazonaws.com/favicons/5130f05c8989846a3601f08c.ico",
     "logo_url": null,
@@ -20,5 +20,11 @@
     "short_description": "The Federal Private Cloud for Windows and Linux Applications (FPC) provides cloud-based access to Microsoft applications.",
     "long_description": "The Federal Private Cloud for Windows and Linux Applications (FPC) provides cloud-based access to Microsoft applications including SharePoint, Project Server, Dynamics CRM, Power BI, Visual Studio, TFS, Remote Desktop, and Office; applications from other commercial software vendors such as AvePoint, BrightWork, Gimmal, Innovative-e, Nintex, eSignLive, UMT360, and Urban Turtle; and open source applications such as Drupal, WordPress and Joomla for agency website content management. A hybrid cloud architecture allows agencies to leverage shared services for some functions (e.g. authentication, monitoring, scanning) while still having the option to choose dedicated servers for applications and databases. The option for dedicated virtual or physical servers allows agencies to meet compliance requirements and also provides them with greater flexibility to implement customizations to meet their functional requirements.",
     "sales_poc":"sean.barkey@projecthosts.com",
-    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/project-hosts-federal-private-cloud-for-windows-and-linux-applications/"
+    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/project-hosts-federal-private-cloud-for-windows-and-linux-applications/",
+    "tags":[
+        "saas",
+        "productivity",
+        "colaboration",
+        "project"
+    ]
 }

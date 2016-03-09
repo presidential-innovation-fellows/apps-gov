@@ -1,6 +1,6 @@
 {
     "slug": "blackmesh",
-    "name": "BlackMesh SecureCloud (PaaS)",
+    "name": "BlackMesh SecureCloud",
     "url": "blackmesh.com",
     "icon_url": "//datafox-favicons.s3.amazonaws.com/favicons/52b7467a53f449dd61008e5d.ico",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_2689661bb0e7e88202fd3e5f0142b525.png",
@@ -26,5 +26,8 @@
         <br/><br/>
         The managed hosting solution provided by BlackMesh is based upon virtualized hosts, and provides support for on-demand creation of virtual machines. Individual tenant environments within SecureCloud are isolated from one another through security capabilities at both the network and host levels.",
     "sales_poc":"sales@blackmesh.com",
-    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/blackmesh-securecloud/"
+    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/blackmesh-securecloud/",
+    "tags":[
+        "paas"
+    ]
 }

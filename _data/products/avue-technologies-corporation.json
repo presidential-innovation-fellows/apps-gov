@@ -1,6 +1,6 @@
 {
     "slug": "avue-technologies-corporation",
-    "name": "Avue Digital Services (SaaS)",
+    "name": "Avue Digital Services",
     "url": "avuetech.com",
     "icon_url": "//datafox-data.s3.amazonaws.com/favicons/52b52172237004a020009645.ico",
     "logo_url": null,
@@ -10,11 +10,9 @@
     "twitter_handle": null,
     "linkedin_id": 263764,
     "top_keywords": [
-        "human capital management services to the federal government",
-        "integrated technology solutions that dramatically increase enterprise wide visibility",
-        "exceeds all security requirements for federal information systems",
+        "human capital management",
+        "integrated technology",
         "software as a service",
-        "information technology and services"
     ],
     "number_of_employees": 30,
     "short_description": "Avue is a web-based, outsourced, digital service delivery system offered by Avue Technologies Corporation; remotely-hosted in the Amazon GovCloud, and remotely-managed by Avue Technologies Corporation in Tacoma, Washington.",
@@ -24,5 +22,9 @@
         <br/><br/>
         Avue is HRLOB certified by OPM, OMB, and GSA for both Core and Non-Core HR services including Classification, Staffing and Recruitment, Performance Management, Enterprise Learning Management, Worker Compensation, Payroll, Time and Attendance, Benefits and Retirement Management, Organization Optimization, and Workforce  Planning and Management – a total of 15 modules.  Avue Technologies is currently interconnected to electronically post vacancies to USAJOBs and receive online application and with the National Finance Center (NFC) for personnel actions and workforce management activities.",
     "sales_poc":"rpayne@avuetech.com",
-    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/avue-technologies-avue-digital-services/"
+    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/avue-technologies-avue-digital-services/",
+    "tags":[
+        "saas"
+        "hr"
+    ]
 }

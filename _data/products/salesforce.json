@@ -19,5 +19,11 @@
     "number_of_employees": 15651,
     "short_description": "The Salesforce Government Cloud is a partitioned instance of salesforce.com’s multi-tenant public cloud infrastructure.",
     "long_description": "The Salesforce Government Cloud is a partitioned instance of salesforce.com’s multi-tenant public cloud infrastructure, specifically for use by U.S federal, state, and local government customers, U.S. government contractors, and Federally Funded Research and Development Centers (FFRDCs).  The service model for the Salesforce Government Cloud is Platform-as-a-Service (PaaS) and Software-as-a-Service (SaaS). The Salesforce Government Cloud, is comprised of the Salesforce Services (Force.com Platform, Sales Cloud, Service Cloud, Chatter), Analytics Services (Analytics Cloud), and the backend infrastructure that support the operations of these products.",
-    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/salesforce-salesforce-government-cloud-force-platform-salesforce-cloud-service-cloud-analytics-cloud-chatter/"
+    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/salesforce-salesforce-government-cloud-force-platform-salesforce-cloud-service-cloud-analytics-cloud-chatter/",
+    "tags":[
+        "paas",
+        "saas",
+        "crm",
+        "analytics"
+    ]
 }
