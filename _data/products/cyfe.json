@@ -23,5 +23,9 @@
         "micro",
         "sewp"
     ],
-    "gov_tos":"http://www.cyfe.com/terms-government"
+    "gov_tos":"http://www.cyfe.com/terms-government",
+    "tags":[
+        "saas",
+        "analytics"
+    ]
 }

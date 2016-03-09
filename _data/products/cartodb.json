@@ -23,5 +23,9 @@
         "micro",
         "sewp"
     ],
-    "gov_tos":"https://cartodb.com/terms/gov-users/"
+    "gov_tos":"https://cartodb.com/terms/gov-users/",
+    "tags":[
+        "saas",
+        "gis"
+    ]
 }

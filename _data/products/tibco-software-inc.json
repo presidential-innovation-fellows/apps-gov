@@ -20,5 +20,10 @@
     "short_description": "tibbr enables users to post news and updates, ask questions, make announcements, or share ideas using a familiar, social network user interface, while restricting who can see the posts to just specific individuals, certain groups, or the whole agency, depending upon the use case and privacy required.",
     "long_description": "tibbr enables users to post news and updates, ask questions, make announcements, or share ideas using a familiar, social network user interface, while restricting who can see the posts to just specific individuals, certain groups, or the whole agency, depending upon the use case and privacy required.  tibbr connects geographically dispersed teams and leverages collective expertise to solve problems, improve employee engagement, capture corporate knowledge and all in a highly secure collaborative platform.",
     "sales_poc":"aobermay@tibco.com",
-    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/tibco-tibbr/"
+    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/tibco-tibbr/",
+    "tags":[
+        "saas",
+        "analytics",
+        "social"
+    ]
 }

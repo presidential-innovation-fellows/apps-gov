@@ -20,5 +20,8 @@
     "short_description": "AT&T STaaS is a storage platform that enables an Agency to pay only for storage they use.",
     "long_description": "AT&T STaaS is a storage platform that enables an Agency to pay only for storage they use.  STaaS provides elastic storage capacity on demand and allows the Agency to access their stored data from virtually anywhere and at any time.  Protection and access to Agency data objects is accomplished using policy-based data storage.  STaaS service administration is through a web-based portal enabling the Agency to easily manage their cloud-based storage resources.  Access to the STaaS web portal is secured through two-factor authentication.",
     "sales_poc":"fhkeel@att.com",
-    "fedramp_jab": "http://www.fedramp.gov/marketplace/compliant-systems/att-storage-as-a-service-iaas/"
+    "fedramp_jab": "http://www.fedramp.gov/marketplace/compliant-systems/att-storage-as-a-service-iaas/",
+    "tags":[
+        "iaas"
+    ]
 }

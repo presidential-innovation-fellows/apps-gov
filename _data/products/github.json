@@ -23,5 +23,9 @@
         "micro",
         "sewp"
     ],
-    "gov_tos":"https://help.github.com/articles/amendment-to-github-terms-of-service-applicable-to-u-s-federal-government-users/"
+    "gov_tos":"https://help.github.com/articles/amendment-to-github-terms-of-service-applicable-to-u-s-federal-government-users/",
+    "tags":[
+        "saas",
+        "developer-tools"
+    ]
 }

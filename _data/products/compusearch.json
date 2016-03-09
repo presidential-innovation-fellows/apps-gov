@@ -1,6 +1,6 @@
 {
     "slug": "compusearch",
-    "name": "Compusearch FedConnect",
+    "name": "FedConnect",
     "url": "www.compusearch.com/",
     "icon_url": "//datafox-data.s3.amazonaws.com/favicons/5551a9b3adc8e875790053cc.ico",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_0baa015be329e025c57641b583159a13.png",
@@ -20,6 +20,7 @@
     "sales_poc":"cdicker@compusearch.com",
     "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/compusearch-compusearch-fedconnect/",
     "tags":[
-        "saas"
+        "saas",
+        "procurement"
     ]
 }

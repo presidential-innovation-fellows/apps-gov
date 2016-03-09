@@ -23,5 +23,9 @@
         "sewp"
     ],
     "gov_tos":"http://www.digitalgov.gov/files/2014/01/socrata-tos-amendment_0.pdf",
-    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/socrata-socrata-open-data-platform/"
+    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/socrata-socrata-open-data-platform/",
+    "tags":[
+        "saas",
+        "analytics"
+    ]
 }

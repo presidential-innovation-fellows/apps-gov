@@ -20,5 +20,9 @@
     "short_description": "The Qualys Cloud Platform consists of a suite of IT Security and compliance solutions delivered via a SaaS deployment model that leverages shared and extensible core services and a highly scalable multi-tenant cloud infrastructure.",
     "long_description": "The Qualys Cloud Platform consists of a suite of IT Security and compliance solutions delivered via a SaaS deployment model that leverages shared and extensible core services and a highly scalable multi-tenant cloud infrastructure.  The purpose of this system is to provide Qualys services to customers where customers can continuously monitor their assets for vulnerabilities, compliance, and misconfigurations; automate remediation; and reduce organizational risk from their Qualys accounts via a secure interface, where all gathered data will be available for reporting and remediation. The system is supported by physical and virtual appliances that can be installed in minutes and require no maintenance or software updates by the user.   The services are accessible to customers via API calls or any modern web browser with Internet connectivity.",
     "sales_poc":"mdorsi@qualys.com",
-    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/qualys-qualys-cloud-platform/"
+    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/qualys-qualys-cloud-platform/",
+    "tags":[
+        "saas",
+        "security"
+    ]
 }

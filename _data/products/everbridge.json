@@ -20,5 +20,9 @@
     "short_description": "Everbridge Suite enables users to send notifications to individuals or groups using lists, locations, and visual intelligence.",
     "long_description": "Everbridge Suite enables users to send notifications to individuals or groups using lists, locations, and visual intelligence. Our notification system keeps everyone informed before, during, and after events. Everbridge Suite provides robust analytics, GIS targeting, flexible group management, distributed contact data, language localization, multiple options for contact data management, and a “globally local” approach to optimize voice and SMS routing.",
     "sales_poc":"nathan.chan@everbridge.com",
-    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/everbridge-everbridge-suite-saas/"
+    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/everbridge-everbridge-suite-saas/",
+    "tags":[
+        "saas",
+        "communications"
+    ]
 }

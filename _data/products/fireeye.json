@@ -35,5 +35,9 @@
         </ul>
         For added accessibility and ease-of-use, the dashboard shows region- and industry-based malware trends, and audit logging.",
     "sales_poc":"mahesh.venugopala@fireeye.com",
-    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/fireye-fireye-email-threat-prevention-etp-service/"
+    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/fireye-fireye-email-threat-prevention-etp-service/",
+    "tags":[
+        "saas",
+        "security"
+    ]
 }

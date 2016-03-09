@@ -52,5 +52,9 @@
         <br/><br/>
         Veracode’s mobile application security solution combines automated code assessments with expert remediation services that enable IT teams to rapidly secure mobile applications in agile development environments, without slowing innovation.",
     "sales_poc":"jhoran@veracode.com",
-    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/veracode-veracode-application-security-services-system/"
+    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/veracode-veracode-application-security-services-system/",
+    "tags":[
+        "saas",
+        "security"
+    ]
 }

@@ -49,5 +49,10 @@
         <li>Selective wipe of content repository</li>
         <li>Policy control to restrict open-in, copy & paste</li></ul></ul>",
     "sales_poc":"bmansfield@mobileiron.com",
-    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/mobileiron-mobileiron-government-cloud/"
+    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/mobileiron-mobileiron-government-cloud/",
+    "tags":[
+        "saas",
+        "mobile",
+        "security"
+    ]
 }

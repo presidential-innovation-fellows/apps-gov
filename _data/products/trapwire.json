@@ -21,5 +21,9 @@
         <li>Mass warning and notifications</li>
         <li>Cross-organizational collaboration</li></ul>",
     "sales_poc":"paul.chadha@trapwire.com",
-    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/trapwire-threat-detection-and-analysis-system/"
+    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/trapwire-threat-detection-and-analysis-system/",
+    "tags":[
+        "saas",
+        "security"
+    ]
 }

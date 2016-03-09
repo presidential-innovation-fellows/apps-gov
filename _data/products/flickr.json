@@ -23,5 +23,9 @@
         "micro",
         "sewp"
     ],
-    "gov_tos":"http://www.digitalgov.gov/files/2014/07/flickr-tos-amendment.pdf"
+    "gov_tos":"http://www.digitalgov.gov/files/2014/07/flickr-tos-amendment.pdf",
+    "tags":[
+        "saas",
+        "social"
+    ]
 }

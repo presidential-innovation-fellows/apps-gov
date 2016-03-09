@@ -32,5 +32,8 @@
         </ul>
         For more information about CSC and its services, visit www.csc.com",
     "sales_poc":"christos.skeadas@fema.dhs.gov",
-    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/fema-nx/"
+    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/fema-nx/",
+    "tags":[
+        "iaas"
+    ]
 }

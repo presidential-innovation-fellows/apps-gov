@@ -24,5 +24,10 @@
         <li>Comprehensive user management that is integrated with Active Directory, including user provisioning and de-provisioning, enabling IT to accelerate adoption of online services or SaaS applications</li>
         <li>Authentication analytics spanning usage, utilization, and cost that provide IT the insight needed to optimize their application investments and address their compliance needs</li></ul>",
     "sales_poc":"chris.niggel@okta.com",
-    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/okta-idaas/"
+    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/okta-idaas/",
+    "tags":[
+        "saas",
+        "security",
+        "iam"
+    ]
 }
