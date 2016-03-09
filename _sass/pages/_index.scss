@@ -32,6 +32,7 @@ ul {
   -o-background-size: cover;
   position: relative;
   text-align:center;
+  min-height:550px;
 
   h1,
   h2,
@@ -62,6 +63,7 @@ ul {
 
   .usa-hero-overlay{
     background-color: rgba(0,0,0,0.5);
+    min-height:550px;
   }
 }
 
