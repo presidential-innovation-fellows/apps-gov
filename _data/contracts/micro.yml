@@ -2,5 +2,5 @@ id: micro
 name: Micro-Purchase Agreement
 description: |
   If a product costs less than $3,500 / year you can use a purchase card
-  to buy it directly. If the annual cost will exceed that amount, you'll
-  need to use a contract vehicle.
+  to procure the product. If the annual cost exceeds that amount, you'll
+  need to use another procurement option.
