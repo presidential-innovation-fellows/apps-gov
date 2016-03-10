@@ -22,9 +22,12 @@
     display:none;
   }
   ul{
-    margin-bottom:0px;
+    margin-bottom:17px;
     li::before{
       content:"•";
+    }
+    li::after{
+      display:none;
     }
   }
 }
