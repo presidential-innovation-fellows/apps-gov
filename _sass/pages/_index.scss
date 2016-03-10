@@ -41,6 +41,11 @@ ul {
 }
 
 .features {
+  margin-bottom:50px;
+
+  h1{
+    margin-bottom:40px;
+  }
 
   h2 {
     font-size: 1.75em;
@@ -133,7 +138,7 @@ ul {
 
 .list-product {
   background-color: lighten($color-gray, 15);
-  padding: 3em 0;
+  padding: 2em 0;
 
   h1 {
     color: $color-white;
@@ -143,7 +148,14 @@ ul {
   p {
     color: $color-white;
     font-size: 1.2em;
+
+    #gov-stat{
+      color:#e31c3d;
+      font-size:1.7em;
+      font-weight:bold;
+    }
   }
+
 }
 
 .usa-grid {

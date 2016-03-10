@@ -169,6 +169,7 @@
 
     hr{
       margin-bottom:0;
+      border-color:#5b616b;
     }
   }
 
@@ -180,22 +181,10 @@
       font-size: 1.5em;
       margin-top: 0;
     }
-    ul {
-      li {
-        &::after {
-          display: none;
-        }
-
-        &::before {
-          display:none;
-        }
-      }
-    }
     .contract-steps{
+      padding-left:25px;
       li{
-        &::before {
-          content:"•";
-        }
+        list-style-type:initial;
       }
     }
   }
@@ -287,6 +276,15 @@
     h2 {
       color: $color-gray-dark;
       font-size: 2.25em;
+    }
+    ul{
+      margin-bottom:0.5em;
+      li{
+        line-height:1.25;
+        &:before{
+          content: "•";
+        }
+      }
     }
   }
 
