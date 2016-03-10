@@ -38,7 +38,8 @@
     }
   }
 
-  &:hover, &.focused {
+  &:hover,
+  &.focused {
     box-shadow: 0 0 5px rgba($color-primary, 0.75);
   }
 
