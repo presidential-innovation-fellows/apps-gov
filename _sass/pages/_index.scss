@@ -63,6 +63,7 @@ ul {
     display: block;
     float: left;
     height: 60px;
+    line-height: 30px;
     margin-right: 10px;
     padding: 0.5em;
     width: 60px;
@@ -92,6 +93,7 @@ ul {
     }
 
     img {
+      vertical-align: middle;
       width: 100%;
     }
   }
