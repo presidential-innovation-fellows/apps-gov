@@ -110,9 +110,9 @@ skip_index: false
 						</ul>
 					{% endif %}
 				</section>
-				<section class="requirements">
-					<h4>Requirements</h4>
-					<ul class="requirements-items">
+				<section class="reviews">
+					<h4>Reviews</h4>
+					<ul class="reviews-items">
 						<li>
 							<p {% if product.gov_tos %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} Negotiated TOS{% if product.gov_tos %} (<a href="{{ product.gov_tos }}" target="blank">link</a>){% endif %}</p>
 						</li>
@@ -140,13 +140,11 @@ skip_index: false
 						<li><span class="usa-label {% if product.fedramp_inprocess_agency %}label-active{% endif %}">FedRamp In-Process (Agency)</span></li>
 						<li><span class="usa-label {% if product.fedramp_ready %}label-active{% endif %}">FedRamp Ready</span></li>
 						<li><span class="usa-label {% if product.fedramp_infra %}label-active{% endif %}">FedRamp Infrastructure</span></li>
-						<li><span class="usa-label {% if product.masonry %}label-active{% endif %}">Product Masonry</span></li>
 						<li><span class="usa-label {% if product.swamp %}label-active{% endif %}">DHS SWAMP</span></li>
 						<li><span class="usa-label {% if product.nccoe %}label-active{% endif %}">NCCoE Review</span></li>
-						<li><span class="usa-label {% if product.800_53A %}label-active{% endif %}">NIST SP 800-53A</span></li>
 						<li><span class="usa-label {% if product.icd_503 %}label-active{% endif %}">ICD 503</span></li>
-						<li><span class="usa-label {% if product.hipaa %}label-active{% endif %}">HIPAA</span></li>
-						<li><span class="usa-label {% if product.pci %}label-active{% endif %}">PCI</span></li>
+						<li><span class="usa-label {% if product.hipaa %}label-active{% endif %}">HIPAA Compliant</span></li>
+						<li><span class="usa-label {% if product.pci %}label-active{% endif %}">PCI Compliant</span></li>
 					</ul>
 				</section>
 				<div class="proc-options">
