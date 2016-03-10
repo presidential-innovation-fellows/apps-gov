@@ -52,10 +52,18 @@ layout: home
         </div>
         <div class="home-products-list usa-width-one-half">
           <ul class="product-logos">
-            {% for product_hash in site.data.products | limit: 30 %}{% assign product = product_hash[1] %}
-              <li class="product-logo">
-                 <img src="{{ product.logo_url }}">
-              </li>
+            {% assign urlList = ',' %}
+            {% for product_hash in site.data.products | limit: 46 %}{% assign product = product_hash[1] %}
+              {% if product.logo_url %}
+                {% capture compareUrl %},{{ product.logo_url }},{% endcapture %}
+                {% if urlList contains compareUrl %}{% else %}
+                  <li class="product-logo">
+                     <img src="{{ product.logo_url }}">
+                  </li>
+                  {% capture tempList %}{{ urlList }}{{ product.logo_url }},{% endcapture %}
+                  {% assign urlList = tempList %}
+                {% endif %}
+              {% endif %}
             {% endfor %}
           </ul>
           <div class="gradient">
