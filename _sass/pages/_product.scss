@@ -46,7 +46,7 @@
   }
 
   .additional-testing-items,
-  .certification-items,
+  .requirements-items,
   .ato-items {
     margin-top:15px;
 
@@ -68,7 +68,7 @@
     margin-bottom: 15px;
   }
 
-  .atos, .certifications {
+  .atos, .requirements {
     @include span-columns(6);
 
     li {
