@@ -65,7 +65,7 @@
   }
 
   .ato-items {
-    margin-bottom: 0;
+    margin-bottom: 15px;
   }
 
   .atos, .certifications {
@@ -170,19 +170,15 @@
 
   .proc-options {
     @include clearfix;
-    margin-top: 1em;
-  }
-
-  .procurement-content {
     @include span-columns(9);
+    @include shift(3);
+    margin-top: 0;
 
     h3 {
       font-size: 1.5em;
       margin-top: 0;
     }
-
     ul {
-
       li {
         &::after {
           display: none;
@@ -202,15 +198,44 @@
     }
   }
 
-  .procurement-nav {
-    @include span-columns(3);
-    margin-top: 2em;
+  // .procurement-content {
+  //   @include span-columns(6);
+
+  //   h3 {
+  //     font-size: 1.5em;
+  //     margin-top: 0;
+  //   }
+
+  //   ul {
+
+  //     li {
+  //       &::after {
+  //         display: none;
+  //       }
+
+  //       &::before {
+  //         display:none;
+  //       }
+  //     }
+  //   }
+  //   .contract-steps{
+  //     li{
+  //       &::before {
+  //         content:"•";
+  //       }
+  //     }
+  //   }
+  // }
+
+  // .procurement-nav {
+  //   @include span-columns(3);
+  //   margin-top: 2em;
 
 
-    li {
-      font-size: 0.9em;
-    }
-  }
+  //   li {
+  //     font-size: 0.9em;
+  //   }
+  // }
 
   .product-actions {
     font-size: 0.9em;
