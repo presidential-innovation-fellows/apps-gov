@@ -173,10 +173,8 @@
   }
 
   .proc-options {
-    @include clearfix;
-    @include span-columns(9);
-    @include shift(3);
     margin-top: 0;
+    margin-bottom:5em;
 
     h3 {
       font-size: 1.5em;
