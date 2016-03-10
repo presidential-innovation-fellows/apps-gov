@@ -21,13 +21,13 @@
   #contracts-list, #certs-list, #ato-list, #testing-list{
     display:none;
   }
-  ul{
+  ul, ol{
     margin-bottom:17px;
-    li::before{
-      content:"•";
-    }
     li::after{
       display:none;
     }
+  }
+  ul li:before{
+    content:"•";
   }
 }

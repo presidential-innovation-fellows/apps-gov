@@ -46,7 +46,7 @@
   }
 
   .additional-testing-items,
-  .requirements-items,
+  .reviews-items,
   .ato-items {
     margin-top:15px;
 
@@ -68,7 +68,7 @@
     margin-bottom: 15px;
   }
 
-  .atos, .requirements {
+  .atos, .reviews {
     @include span-columns(6);
 
     li {

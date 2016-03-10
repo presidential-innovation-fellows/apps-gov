@@ -11,7 +11,7 @@ permalink: listing/
         <li><a href="#facts">Facts &amp; Case Studies</a></li>
         <li>
         	<a href="#procurement" id="proc">Procurement <i class="fa fa-angle-down"></i></a>
-        	<ul class="usa-sidenav-sub_list" id="proc-list">
+        	<ul class="usa-sidenav-sub_list" id="proc-list" style="display:none">
             <li><a href="#micro">Micro-Purchase Threshold</a></li>
             <li><a href="#s70">Schedule 70</a></li>
             <li><a href="#sewp">NASA SEWP</a></li>
@@ -20,11 +20,11 @@ permalink: listing/
         </li>
 
         <li>
-        	<a href="#certifications" id="certs">Certifications <i class="fa fa-angle-down"></i></a>
-        	<ul class="usa-sidenav-sub_list" id="certs-list">
-            <li><a href="#">Negotiated ToS</a></li>
-            <li><a href="#">Privacy Impact Assessment</a></li>
-            <li><a href="#">Systems of Record Notice</a></li>
+        	<a href="#reviews" id="revs">Reviews <i class="fa fa-angle-down"></i></a>
+        	<ul class="usa-sidenav-sub_list" id="revs-list" style="display:none">
+            <li><a href="#tos">Negotiated ToS</a></li>
+            <li><a href="#pia">Privacy Impact Assessment</a></li>
+            <li><a href="#sorn">Systems of Record Notice</a></li>
             <li>
             	<a href="#id-overview" id="ato">Authority to Operate <i class="fa fa-angle-down"></i></a>
             	<ul class="usa-sidenav-sub_list" id="ato-list">
@@ -56,15 +56,21 @@ permalink: listing/
     </aside>
 		<div class="usa-width-three-fourths">
 			<h2 id="started">How to List Your Product</h2>
+      <p>The following items are required to be listed on Apps.Gov to maintain the integrity and quality of product offerings:</p>
+      <ul>
+        <li>The product must be hosted or provide hosting in the cloud.</li>
+        <li>The product must be a type of service (e.g. SaaS, PaaS, IaaS).</li>
+        <li>The product must have a tier that requires to be purchased. If you are a free service, all you need is a federally-negotiated Terms of Service (agency dependent), see <a href="#tos">here</a>.</li>
+      </ul>
+      <p>If you meet these requirements and would like to be listed on Apps.Gov, please follow the steps below:</p>
 			<ol>
-				<li>Click on the button to submit your product, which asks for your product's name/url and POC name/email.</li>
-				<li>The <a href="/">apps.gov</a> team will review the application and respond to the POC with a decision.</li>
-				<li>If approved, follow on information will be requested to appropriately list the product, which will compile into a JSON file hosted on our public <a href="https://github.com/presidential-innovation-fellows/apps-gov" target="blank">GitHub repository</a>.</li>
+				<li>Click on the button below which will navigate you to the Apps.Gov open-source git repository. In the README.md section, you'll find instructions on how to add a product.</li>
+				<li>Once submitted, the Apps.Gov team will review the pull request (submission) and respond to the POC with a decision.</li>
+				<li>If approved, follow on information will be requested to appropriately list the product.</li>
 			</ol>
 			<div id='listing-button'>
-				<a class="typeform-share usa-button-big" type="button" href="https://pif.typeform.com/to/ObIM8s" data-mode="1" target="_blank">Submit your Application <i class="fa fa-angle-double-right"></i></a>
+				<a class="usa-button-big" type="button" href="https://github.com/presidential-innovation-fellows/apps-gov/blob/master/README.md" target="_blank">Submit your Application <i class="fa fa-angle-double-right"></i></a>
 			</div>
-			<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
 
 			<h2 id="facts">Market Size</h2>
 			<p>Based on <a href="https://www.opm.gov/policy-data-oversight/data-analysis-documentation/federal-employment-reports/historical-tables/total-government-employment-since-1962/" target="blank">2014 data</a> from the Office of Personnel Management, the federal government consists of</p>
@@ -116,7 +122,7 @@ permalink: listing/
       <p>If you'd like to preemptively list your product with SEWP vendors to expedite the RFQ process, please reach out to <a href="mailto:help@sewp.nasa.gov">help@nasa.gov</a>.</p>
       <h4 id="nitaac">NIH NITAAC</h4>
       <p>The National Institute of Health (NIH) <a href="https://nitaac.nih.gov/nitaac/" target="blankl">NIH Information Technology Acquisition and Assessment Center</a> is an Office of Management and Budget (OMB) GWAC for IT procurement, which consists of: CIO-SP3, CIO-SP3 Small Business and CIO-CS. If you have questions, please reach out to the NITAAC team via <a href="mailto:NITAACsupport@nih.gov" target="blank">NITAACsupport@nih.gov</a>.</p>
-      <h2 id="certifications">Reviews</h2>
+      <h2 id="reviews">Reviews</h2>
       <h4 id="tos">Negotiated Terms of Service</h4>
       <p>When selling to the federal government, companies will often be required to negotiate a federal-compatible Terms of Service. A list of approved negotiated ToS can be found at <a href="http://www.digitalgov.gov/resources/negotiated-terms-of-service-agreements/" target="blank">digitalgov.gov</a>, which may not be fully encompassing. Additionally, because negotiated TOS are often determined at the agency level (requiring agency legal review), there are POCs for each agency, identified <a href="http://www.digitalgov.gov/resources/agency-points-of-contact-for-federal-compatible-terms-of-service-agreements/" target="blank">here</a>.</p>
       <h4 id="pia">Privacy Impact Assessment</h4>
