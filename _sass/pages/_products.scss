@@ -83,7 +83,7 @@
 }
 
 .products-header {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   text-align: center;
 
   p {
@@ -106,8 +106,13 @@
   }
 
   h4 {
-    margin-bottom: 0;
-    margin-top: 0;
+    text-align:center;
+    padding:5px 0;
+    margin:0 10em 1em 10em;
+    background-color:#f9c642;
+    border:1px solid #f9c642;
+    border-radius:4px;
+    color:white;
   }
 
   img {

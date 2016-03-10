@@ -48,6 +48,15 @@ skip_index: false
 						{% endif %}
 					</li>
 					<li>
+						{% if product.angellist_id %}
+							<a href="https://angellist.com/{{ product.angellist_id }}" target="blank">
+								<i class="fa fa-angellist fa-2x"></i>
+							</a>
+						{% else %}
+							<i class="fa fa-angellist fa-2x disabled-icon"></i>
+						{% endif %}
+					</li>
+					<li>
 						{% if product.sales_poc %}
 							<a href="mailto:{{ product.sales_poc }}" target="blank">
 								<i class="fa fa-envelope-o fa-2x"></i>
@@ -57,13 +66,13 @@ skip_index: false
 						{% endif %}
 					</li>
 				</ul>
-
+				<hr/>
 				<ul class="product-actions">
 					<li>
-						<a href="https://github.com/presidential-innovation-fellows/apps-gov/blob/master/_data/products/{{ product.slug | downcase }}.json" target="blank">Edit this product in Github</a><br/>
+						<a href="https://github.com/presidential-innovation-fellows/apps-gov/blob/master/_data/products/{{ product.slug | downcase }}.json" target="blank"><i class="fa fa-chevron-right pull-right"></i>Edit in Github</a>
 					</li>
 					<li>
-						<a href="mailto:products-gov+abuse@gsa.gov" target="blank">Report this product</a>
+						<a href="mailto:products-gov+abuse@gsa.gov" target="blank"><i class="fa fa-chevron-right pull-right"></i>Report this product</a>
 					</li>
 				</ul>
 

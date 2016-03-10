@@ -166,6 +166,10 @@
     .usa-button {
       width: 100%;
     }
+
+    hr{
+      margin-bottom:0;
+    }
   }
 
   .proc-options {
@@ -239,17 +243,31 @@
 
   .product-actions {
     font-size: 0.9em;
-    margin: 2em 0 0;
+    margin: 0 0 0;
 
     a {
       color: $color-gray;
+      border-bottom:1px solid #5b616b;
+      display:block;
+      padding-bottom:10px;
+      padding-top:10px;
+      padding-left:5px;
+      &:hover{
+        text-decoration:none;
+        background-color:#eee;
+      }
+      i{
+        float:right;
+        margin-right:5px;
+      }
     }
 
     li {
       display: block;
-      margin-bottom: 0.25em;
+      margin-bottom: 0;
       margin-left: 0;
       margin-top: 0;
+      line-height:1;
 
       &::after {
         display: none;
