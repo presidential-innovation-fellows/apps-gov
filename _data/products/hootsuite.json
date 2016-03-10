@@ -23,5 +23,9 @@
         "micro",
         "sewp"
     ],
-    "gov_tos":"http://www.digitalgov.gov/files/2015/02/hootsuite-tos-amendment.pdf"
+    "gov_tos":"http://www.digitalgov.gov/files/2015/02/hootsuite-tos-amendment.pdf",
+    "tags":[
+        "saas",
+        "social"
+    ]
 }

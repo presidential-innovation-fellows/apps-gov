@@ -22,5 +22,9 @@
     "contracts":[
         "sewp"
     ],
-    "gov_tos":"https://storify.com/tos/amendment"
+    "gov_tos":"https://storify.com/tos/amendment",
+    "tags":[
+        "saas",
+        "social"
+    ]
 }

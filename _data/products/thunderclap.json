@@ -23,5 +23,9 @@
         "micro",
         "sewp"
     ],
-    "gov_tos":"https://www.thunderclap.it/federal_tou"
+    "gov_tos":"https://www.thunderclap.it/federal_tou",
+    "tags":[
+        "saas",
+        "social"
+    ]
 }

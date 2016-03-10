@@ -24,5 +24,9 @@
         "micro",
         "sewp"
     ],
-    "gov_tos":"https://slack.com/terms-of-service/government"
+    "gov_tos":"https://slack.com/terms-of-service/government",
+    "tags":[
+        "saas",
+        "communication"
+    ]
 }

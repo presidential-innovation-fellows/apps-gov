@@ -20,5 +20,9 @@
     "short_description": "Unisys Secure Private Cloud for Government (SPCG) is an Infrastructure-as-a-Service (IaaS) and Platform-as-a-Service (PaaS) that provides a community cloud to host Government workloads in a secure caged environment.",
     "long_description": "Unisys Secure Private Cloud for Government (SPCG) is an Infrastructure-as-a-Service (IaaS) and Platform-as-a-Service (PaaS) that provides a community cloud to host Government workloads in a secure caged environment. The SPCG cloud environment leverages NIST controls and standards, NIST Risk Management Framework (RMF), Federal Risk and Authorization Management Program (FedRAMP) assessment framework, as well as Department of Defense (DoD) standards to keep Government confidential and proprietary information safe and secure. By enhancing the application of the key cloud characteristics, Unisys SPCG promotes, optimizes, and assures the customer’s vision for secure, agile and flexible cloud hosting.",
     "sales_poc":"james.leake@unisys.com",
-    "fedramp_ready":"https://www.fedramp.gov/marketplace/fedramp-ready-systems/unisys-unisys-spcg-secure-private-cloud-for-government/"
+    "fedramp_ready":"https://www.fedramp.gov/marketplace/fedramp-ready-systems/unisys-unisys-spcg-secure-private-cloud-for-government/",
+    "tags":[
+        "saas",
+        "security"
+    ]
 }

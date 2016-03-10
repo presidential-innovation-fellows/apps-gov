@@ -21,5 +21,9 @@
     "contracts":[
         "sewp"
     ],
-    "gov_tos":"https://hackpad.com/AMENDMENT-TO-HACKPAD-TERMS-OF-SERVICE-MwTzlQre2hE"
+    "gov_tos":"https://hackpad.com/AMENDMENT-TO-HACKPAD-TERMS-OF-SERVICE-MwTzlQre2hE",
+    "tags":[
+        "saas",
+        "productivity"
+    ]
 }

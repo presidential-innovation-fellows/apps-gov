@@ -22,5 +22,9 @@
     "contracts":[
         "sewp"
     ],
-    "gov_tos":"https://www.uservoice.com/tos/federal/"
+    "gov_tos":"https://www.uservoice.com/tos/federal/",
+    "tags":[
+        "saas",
+        "cx"
+    ]
 }

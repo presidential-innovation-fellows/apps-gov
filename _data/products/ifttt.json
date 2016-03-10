@@ -23,5 +23,9 @@
         "micro",
         "sewp"
     ],
-    "gov_tos":"https://ifttt.com/terms_for_government_agencies"
+    "gov_tos":"https://ifttt.com/terms_for_government_agencies",
+    "tags":[
+        "saas",
+        "productivity"
+    ]
 }

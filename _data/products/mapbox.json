@@ -23,5 +23,9 @@
         "micro",
         "sewp"
     ],
-    "gov_tos":"https://www.mapbox.com/usg-tos/"
+    "gov_tos":"https://www.mapbox.com/usg-tos/",
+    "tags":[
+        "saas",
+        "gis"
+    ]
 }

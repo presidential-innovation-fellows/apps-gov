@@ -22,5 +22,9 @@
     "contracts":[
         "sewp"
     ],
-    "gov_tos":"http://www.tintup.com/termsofservice/amendment"
+    "gov_tos":"http://www.tintup.com/termsofservice/amendment",
+    "tags":[
+        "saas",
+        "social"
+    ]
 }

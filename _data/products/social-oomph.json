@@ -23,5 +23,9 @@
         "micro",
         "sewp"
     ],
-    "gov_tos":"https://www.socialoomph.com/termsfederal"
+    "gov_tos":"https://www.socialoomph.com/termsfederal",
+    "tags":[
+        "saas",
+        "social"
+    ]
 }

@@ -23,5 +23,9 @@
         "micro",
         "sewp"
     ],
-    "gov_tos":"http://measuredvoice.com/terms/"
+    "gov_tos":"http://measuredvoice.com/terms/",
+    "tags":[
+        "saas",
+        "social"
+    ]
 }

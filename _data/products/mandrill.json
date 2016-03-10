@@ -1,5 +1,5 @@
 {
-    "slug": "mandrill-1",
+    "slug": "mandrill",
     "name": "Mandrill",
     "url": "mandrill.com",
     "icon_url": "//datafox-data.s3.amazonaws.com/favicons/558dc03d15c6fda83b002732.ico",
@@ -10,10 +10,6 @@
     "twitter_handle": "mandrillapp",
     "linkedin_id": null,
     "top_keywords": [
-        "mobile enablers landscape 2015 api layer",
-        "mobile enablers landscape 2015 api layer email",
-        "marketplace tools communication and email",
-        "custom software and technical consulting",
         "software"
     ],
     "number_of_employees": 12,
@@ -23,5 +19,9 @@
         "micro",
         "sewp"
     ],
-    "gov_tos":"http://mailchimp.com/legal/terms//"
+    "gov_tos":"http://mailchimp.com/legal/terms//",
+    "tags":[
+        "saas",
+        "developer-tools"
+    ]
 }

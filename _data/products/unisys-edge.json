@@ -29,5 +29,9 @@
         <br/><br/>
         All of this is bundled and delivered in a flexible and scalable SaaS model, eliminating large capital expenditures and hidden integration and maintenance costs often experienced with other platform vendors. When everything is up and running  we use the Unisys VantagePoint executive dashboard to deliver quantifiable results right to the IT leader’s desktop or tablet screen.",
     "sales_poc":"james.leake@unisys.com",
-    "fedramp_ready":"https://www.fedramp.gov/marketplace/fedramp-ready-systems/unisys-unisys-edge-for-government/"
+    "fedramp_ready":"https://www.fedramp.gov/marketplace/fedramp-ready-systems/unisys-unisys-edge-for-government/",
+    "tags":[
+        "saas",
+        "security"
+    ]
 }
