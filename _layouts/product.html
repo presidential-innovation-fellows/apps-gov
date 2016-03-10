@@ -160,10 +160,10 @@ skip_index: false
 					{% for contracts_hash in site.data.contracts %}{% assign contract = contracts_hash[1] %}
 						{% if product_contract == contract.id %}
 				      <li>
-				        <button class="usa-button-unstyled" aria-expanded="true" aria-controls="collapsible-0">
+				        <button class="usa-button-unstyled" aria-expanded="{% if forloop.first == true %}true{% else %}false{% endif %}" aria-controls="collapsible-{{ forloop.index }}">
 				          {{ contract.name }}
 				        </button>
-				        <div id="collapsible-0" aria-hidden="false" class="usa-accordion-content">
+				        <div id="collapsible-{{ forloop.index }}" aria-hidden="{% if forloop.first == true %}false{% else %}true{% endif %}" class="usa-accordion-content">
 				          {% if contract.poc %}
 										<p>POC: <a href="mailto:{{ contract.poc }}" target="blank">{{ contract.poc }}</a></p>
 									{% endif %}
