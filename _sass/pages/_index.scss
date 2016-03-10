@@ -49,6 +49,7 @@ ul {
 
   h2 {
     font-size: 1.75em;
+    margin-top: 0;
     text-align: left;
   }
 
@@ -59,15 +60,35 @@ ul {
   .product-logo {
     @extend %card;
     border-radius: 0.5em;
-    float: left;
     display: block;
+    float: left;
     height: 60px;
     margin-right: 10px;
     padding: 0.5em;
     width: 60px;
 
-    &:nth-child(6n) {
-      margin-right: 0;
+    &:nth-child(n+11) {
+      display: none;
+
+      @include media(435px) {
+        display: block;
+      }
+    }
+
+    &:nth-child(n+15) {
+      display: none;
+
+      @include media(750px) {
+        display: block;
+      }
+    }
+
+    &:nth-child(n+21) {
+      display: none;
+
+      @include media(800px) {
+        display: block;
+      }
     }
 
     img {
@@ -77,15 +98,27 @@ ul {
 
   .product-logos {
     @include clearfix;
-    float: right;
-    width: 410px;
+    margin-top: 1em;
+  }
+
+  .usa-width-one-half {
+    @include clearfix;
+    display: block;
+    float: left;
+    max-width: 500px;
+    width: 100%;
+
+    @include media(750px) {
+      @include span-columns(6);
+      max-width: none;
+    }
   }
 }
 
 .hero-search {
   background-color: rgba(0,0,0,0.6);
   margin-top: 6em;
-  padding: 2.5em 0;
+  padding: 2.5em 1em;
   width: 100%;
 
   input {
@@ -129,10 +162,15 @@ ul {
   .gradient {
     @include background-image(linear-gradient(bottom, lighten($color-gray-light, 28) 10%, transparent));
     bottom: 0;
+    display: none;
     height: 300px;
     left: 0;
     position: absolute;
     right: 0;
+
+    @include media(750px) {
+      display: block;
+    }
   }
 }
 
