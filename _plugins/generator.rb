@@ -13,6 +13,8 @@ module PIF
         read_yaml(File.join(@base, '_layouts'), 'product.html')
         @data = @data.merge('product_info' => product_info)
         @data['title'] = product_info['name']
+        @data['tags'] = (product_info['top_keywords'] || []) +
+          (product_info['tags'] || [])
       end
     end
 
