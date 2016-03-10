@@ -11,6 +11,9 @@ footer {
   .usa-grid-full{
     max-width:none;
   }
+  .usa-footer-logo{
+    margin-bottom:25px;
+  }
   .usa-footer-logo-img{
     max-height:10rem;
     max-width:10rem;
@@ -22,5 +25,8 @@ footer {
   }
   h3{
     font-family:$font-sans;
+  }
+  .usa-footer-contact-heading{
+    margin-top:0px;
   }
 }
