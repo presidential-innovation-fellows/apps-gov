@@ -16,11 +16,9 @@ skip_index: false
 
 		<div class="product-content">
 			<div class="left-content">
-				{% if product.logo_url %}
-					<div class="product-logo">
-						<img src="{{ product.logo_url }}">
-					</div>
-				{% endif %}
+				<div class="product-logo">
+					<img src="{% if product.logo_url %}{{ product.logo_url }}{% else %}/img/apps-logo.svg{% endif %}">
+				</div>
 				<ul class="product-details">
 					{% if product.location %}<li><strong>Location:</strong> {{ product.location }}</li>{% endif %}
 					{% if product.founded_year %}<li><strong>Founded:</strong> {{ product.founded_year }}</li>{% endif %}

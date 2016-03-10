@@ -14,7 +14,7 @@ skip_index: true
     <li class="product-list-item {% for tag in product.tags %}filter-{{ tag }} {% endfor %}">
       <a href="/products/{{ product.slug }}/">
         <div class="logo">
-          <img {% if product.logo_url %}src="{{ product.logo_url }}"{% endif %}>
+          <img src="{% if product.logo_url %}{{ product.logo_url }}{% else %}/img/apps-logo.svg{% endif %}">
         </div>
         <div class="product-content">
           <h3>{{ product.name }}</h3>
