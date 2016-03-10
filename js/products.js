@@ -41,15 +41,28 @@ function replaceListItemsWithMatchingItems(resultsList, matchingItems) {
 
 function setTabIndices(resultsList) {
   var i,
+      item,
       anchor;
 
   for (i = 0; i !== resultsList.children.length; ++i) {
-    anchor = resultsList.children[i].getElementsByTagName('a')[0];
+    item = resultsList.children[i];
+    anchor = item.getElementsByTagName('a')[0];
     anchor.tabindex = i;
+    addAnchorEventListeners(anchor, item);
+
     if (i === 0) {
       anchor.focus();
     }
   }
+}
+
+function addAnchorEventListeners(anchor, parentItem) {
+  anchor.addEventListener('focus', function() {
+    parentItem.classList.add('focused');
+  });
+  anchor.addEventListener('blur', function() {
+    parentItem.classList.remove('focused');
+  });
 }
 
 module.exports = function(query, results, doc, resultsList) {
