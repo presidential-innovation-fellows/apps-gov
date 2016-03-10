@@ -23,5 +23,8 @@
     "fedramp_jab": "http://www.fedramp.gov/marketplace/compliant-systems/autonomic-resources-llc-arc-p-iaas/",
     "tags":[
         "iaas"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

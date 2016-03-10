@@ -25,5 +25,8 @@
         "paas",
         "saas",
         "gis"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

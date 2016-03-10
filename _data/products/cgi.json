@@ -23,5 +23,8 @@
     "fedramp_jab": "https://www.fedramp.gov/marketplace/compliant-systems/cgi-federal/",
     "tags":[
         "iaas"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

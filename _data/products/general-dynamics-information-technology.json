@@ -23,5 +23,8 @@
     "fedramp_jab":"https://www.fedramp.gov/marketplace/compliant-systems/gdit-omni-cloud/",
     "tags":[
         "iaas"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

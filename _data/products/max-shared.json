@@ -35,5 +35,8 @@
         "remote",
         "iam",
         "collaboration"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

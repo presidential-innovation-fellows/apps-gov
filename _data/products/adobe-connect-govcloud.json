@@ -32,5 +32,8 @@
     "fedramp_agency": "http://www.fedramp.gov/marketplace/compliant-systems/adobe-adobe-connect-managed-services-acms/",
     "tags":[
         "paas"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

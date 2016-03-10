@@ -20,5 +20,8 @@
     "fedramp_jab": "http://www.fedramp.gov/marketplace/compliant-systems/it-cnp-inc-govdatahosting-cloud-platform/",
     "tags":[
         "iaas"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

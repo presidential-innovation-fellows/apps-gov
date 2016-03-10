@@ -56,5 +56,8 @@
     "tags":[
         "saas",
         "security"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

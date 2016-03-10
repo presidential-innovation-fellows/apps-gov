@@ -29,5 +29,8 @@
         "saas",
         "security",
         "iam"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

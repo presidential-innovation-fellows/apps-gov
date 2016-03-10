@@ -29,5 +29,8 @@
     "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/blackmesh-securecloud/",
     "tags":[
         "paas"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

@@ -54,5 +54,8 @@
         "saas",
         "mobile",
         "security"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

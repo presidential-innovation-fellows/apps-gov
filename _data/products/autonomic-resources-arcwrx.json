@@ -23,5 +23,8 @@
     "fedramp_jab": "http://www.fedramp.gov/marketplace/compliant-systems/autonomic-resources-llc-arcwrx/",
     "tags":[
         "paas"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

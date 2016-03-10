@@ -32,5 +32,8 @@
     "fedramp_agency": "http://www.fedramp.gov/marketplace/compliant-systems/adobe-connect-managed-services-us-east-us-west-acms-ew/",
     "tags":[
         "paas"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

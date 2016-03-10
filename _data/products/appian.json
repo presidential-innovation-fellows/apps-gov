@@ -25,5 +25,8 @@
         "paas",
         "productivity",
         "dev_tools",
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

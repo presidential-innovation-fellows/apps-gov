@@ -24,5 +24,8 @@
     "tags":[
         "saas",
         "storage"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

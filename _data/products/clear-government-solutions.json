@@ -23,5 +23,8 @@
     "fedramp_jab": "https://www.fedramp.gov/marketplace/compliant-systems/clear-government-solutions-cgs/",
     "tags":[
         "iaas"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

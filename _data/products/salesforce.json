@@ -25,5 +25,8 @@
         "saas",
         "crm",
         "analytics"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

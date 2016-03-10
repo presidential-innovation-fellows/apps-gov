@@ -23,5 +23,8 @@
     "fedramp_inprocess_jab":"https://www.fedramp.gov/marketplace/in-process-systems/dell-dell-services-federal-government/",
     "tags":[
         "iaas"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

@@ -23,5 +23,8 @@
     "fedramp_ready":"https://www.fedramp.gov/marketplace/fedramp-ready-systems/knight-point-systems-cloudseed/",
     "tags":[
         "paas"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

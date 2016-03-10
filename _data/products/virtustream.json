@@ -25,5 +25,8 @@
     "fedramp_jab":"http://www.fedramp.gov/marketplace/compliant-systems/virtustream-inc-federal-cloud-services-vfc/",
     "tags":[
         "iaas",
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

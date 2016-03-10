@@ -27,5 +27,8 @@
         "saas",
         "productivity",
         "data-viz"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

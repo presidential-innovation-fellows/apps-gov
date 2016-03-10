@@ -23,5 +23,8 @@
     "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/1901-group-llc-in3sight-service-system-i3ss-in3sight/",
     "tags":[
         "paas",
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

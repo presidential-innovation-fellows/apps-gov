@@ -18,5 +18,8 @@
     "fedramp_agency":"http://www.fedramp.gov/united-states-department-of-agriculture-usda-national-finance-center/",
     "tags":[
         "paas"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

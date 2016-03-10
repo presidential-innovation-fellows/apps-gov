@@ -26,5 +26,8 @@
     "fedramp_agency": "http://www.fedramp.gov/marketplace/compliant-systems/omb-max-general-support-services/",
     "tags":[
         "iaas"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

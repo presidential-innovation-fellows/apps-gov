@@ -26,5 +26,8 @@
         "saas",
         "cms",
         "social"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

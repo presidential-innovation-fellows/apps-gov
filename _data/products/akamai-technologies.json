@@ -23,5 +23,8 @@
     "fedramp_jab": "https://www.fedramp.gov/marketplace/compliant-systems/akamai-content-delivery-services/",
     "tags":[
         "iaas"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

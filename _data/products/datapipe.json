@@ -44,5 +44,8 @@
     "fedramp_jab": "http://www.fedramp.gov/marketplace/compliant-systems/datapipe-government-solutions-federal-community-cloud-platform/",
     "tags":[
         "paas"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

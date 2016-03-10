@@ -25,5 +25,8 @@
     "fedramp_jab":"http://www.fedramp.gov/marketplace/compliant-systems/oracle-corporation-federal-managed-cloud-services/",
     "tags":[
         "paas"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

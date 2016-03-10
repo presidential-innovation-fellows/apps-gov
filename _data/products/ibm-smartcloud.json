@@ -23,5 +23,8 @@
     "fedramp_jab":"http://www.fedramp.gov/marketplace/compliant-systems/ibm-smartcloud-for-government/",
     "tags":[
         "iaas"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

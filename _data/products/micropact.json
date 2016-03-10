@@ -22,5 +22,8 @@
     "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/micropact-micropact-product-suite/",
     "tags":[
         "paas"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

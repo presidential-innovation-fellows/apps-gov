@@ -26,5 +26,8 @@
         "saas",
         "productivity",
         "iam"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

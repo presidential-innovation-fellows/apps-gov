@@ -27,5 +27,8 @@
     "fedramp_jab":"http://www.fedramp.gov/marketplace/compliant-systems/copt-connect-llc-powered-by-vazata-virtual-federal-image/",
     "tags":[
         "iaas"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

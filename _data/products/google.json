@@ -25,5 +25,8 @@
         "paas",
         "saas",
         "productivity"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

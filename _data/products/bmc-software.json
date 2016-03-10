@@ -22,5 +22,8 @@
     "fedramp_inprocess_agency":"ace/in-process-systems/bmc-software-bmc-remedy-fed-saas-bmc-remedy-ondemand-for-public-sector/",
     "tags":[
         "saas"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

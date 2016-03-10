@@ -23,5 +23,8 @@
     "fedramp_jab": "http://www.fedramp.gov/marketplace/compliant-systems/att-storage-as-a-service-iaas/",
     "tags":[
         "iaas"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

@@ -40,5 +40,8 @@
     "fedramp_jab":"http://www.fedramp.gov/marketplace/compliant-systems/hewlett-packard-enterprise-hpe-helion-for-public-sector-helion/",
     "tags":[
         "iaas"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

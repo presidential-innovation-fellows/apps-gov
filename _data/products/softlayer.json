@@ -24,5 +24,8 @@
     "fedramp_inprocess_jab":"https://www.fedramp.gov/marketplace/in-process-systems/softlayer-softlayer-federal-cloud/",
     "tags":[
         "iaas"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

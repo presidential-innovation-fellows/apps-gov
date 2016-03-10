@@ -30,5 +30,8 @@
     "tags":[
         "iaas",
         "paas"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

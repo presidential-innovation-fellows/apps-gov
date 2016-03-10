@@ -23,5 +23,8 @@
     "fedramp_inprocess_jab": "https://www.fedramp.gov/marketplace/in-process-systems/att-att-government-cloud/",
     "tags":[
         "iaas"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

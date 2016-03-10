@@ -26,5 +26,8 @@
         "saas",
         "project",
         "collaboration"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

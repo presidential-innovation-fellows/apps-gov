@@ -31,5 +31,8 @@
     "fedramp_agency": "http://www.fedramp.gov/marketplace/compliant-systems/adobe-adobe-livecycle-managed-services-lcms/",
     "tags":[
         "paas"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

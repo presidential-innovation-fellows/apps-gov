@@ -23,5 +23,8 @@
     "fedramp_jab":"http://www.fedramp.gov/marketplace/compliant-systems/lockheed-martin-solutions-as-a-service-solas-community-cloud/",
     "tags":[
         "iaas"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

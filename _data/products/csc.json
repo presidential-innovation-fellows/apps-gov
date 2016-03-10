@@ -35,5 +35,8 @@
     "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/fema-nx/",
     "tags":[
         "iaas"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

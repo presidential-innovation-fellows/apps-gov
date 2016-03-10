@@ -23,5 +23,8 @@
     "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/proofpoint-inc-proofpoint-email-archive/",
     "tags":[
         "saas"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

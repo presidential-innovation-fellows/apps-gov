@@ -23,5 +23,8 @@
     "fedramp_jab":"http://www.fedramp.gov/marketplace/compliant-systems/vmware-vmware-vcloud-government-service-provided-by-carpathia-vcgs/",
     "tags":[
         "iaas",
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }

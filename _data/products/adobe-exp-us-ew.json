@@ -29,5 +29,8 @@
     "fedramp_agency": "http://www.fedramp.gov/marketplace/compliant-systems/adobe-adobe-experience-manager-managed-services-emms/",
     "tags":[
         "paas"
-    ]
+    ],
+    "contracts":[
+        "sewp"
+    ],
 }
