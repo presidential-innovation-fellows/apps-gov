@@ -19,13 +19,7 @@ skip_index: false
 				<div class="product-logo">
 					<img src="{% if product.logo_url %}{{ product.logo_url }}{% else %}/img/apps-logo.svg{% endif %}">
 				</div>
-				<ul class="product-details">
-					{% if product.location %}<li><strong>Location:</strong> {{ product.location }}</li>{% endif %}
-					{% if product.founded_year %}<li><strong>Founded:</strong> {{ product.founded_year }}</li>{% endif %}
-					{% if product.number_of_employees %}<li><strong>Employees:</strong> {{product.number_of_employees}}</li>{% endif %}
-					{% if product.status %}<li><strong>Type:</strong> {{product.status}}</li>{% endif %}
-				</ul>
-			  <a class="usa-button usa-button-secondary" href="#procurement-options">Procurement Options</a>
+
 				<ul class="social-icons">
 					<li>
 						{% if product.twitter_handle %}
@@ -64,7 +58,9 @@ skip_index: false
 						{% endif %}
 					</li>
 				</ul>
-				<hr/>
+
+				<a class="usa-button usa-button-secondary" href="#procurement-options">Procurement Options</a>
+
 				<ul class="product-actions">
 					<li>
 						<a href="https://github.com/presidential-innovation-fellows/apps-gov/blob/master/_data/products/{{ product.slug | downcase }}.json" target="blank"><i class="fa fa-chevron-right pull-right"></i>Edit in Github</a>
