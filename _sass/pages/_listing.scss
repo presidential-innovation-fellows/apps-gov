@@ -1,33 +1,66 @@
-.listing{
-  margin-top:50px;
-  margin-bottom:125px;
-  h3{
-  	color:#e31c3d;
-  	text-align:center;
-  	font-size:3rem;
-  	margin-top:25px;
+.listing {
+  margin-bottom: 125px;
+  margin-top: 50px;
+
+  aside {
+    margin-top: 50px;
   }
-  aside{
-    margin-top:50px;
-  }
-  #listing-button{
-  	text-align:center;
-  }
-  a.usa-button-big{
-  	&:visited{
-  		color:#fff;
+
+  .usa-button-big {
+
+    &:visited {
+  		color: $color-white;
   	}
   }
-  #contracts-list, #certs-list, #ato-list, #testing-list{
-    display:none;
+
+  h3 {
+    color: #e31c3d;
+    font-size: 3rem;
+    margin-top: 25px;
+    text-align: center;
   }
-  ul, ol{
-    margin-bottom:17px;
+
+  ol,
+  ul {
+    margin-bottom: 17px;
+
     li::after{
-      display:none;
+      display: none;
     }
   }
-  ul li:before{
-    content:"•";
+
+  ul {
+    li {
+      &::before {
+        content: "•";
+      }
+    }
+  }
+
+  #ato-list,
+  #contracts-list,
+  #certs-list,
+  #testing-list {
+    display: none;
+  }
+
+  .left-col {
+    @include media($medium-screen) {
+      @include span-columns(3);
+    }
+  }
+
+  #listing-button {
+    text-align: center;
+  }
+
+  .right-col {
+    @include media($medium-screen) {
+      @include span-columns(9);
+    }
+  }
+
+  .usa-grid {
+    @include outer-container;
   }
 }
