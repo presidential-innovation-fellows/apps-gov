@@ -37,6 +37,7 @@ Optional:
 
     "twitter_handle": "twitter_handle",
     "linkedin_id": "linkedin_id",
+    "youtube_id": "youtube_id",
     "tags": [
         "up to",
         "five tags",
