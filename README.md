@@ -14,21 +14,68 @@ To get started selling ot the federal government, check out [https://apps.gov/li
 
 All products are listed in `JSON` format. Updates can be made and submitted via a pull request, which will be reviewed by the Apps.Gov team. The link to where all products are at https://github.com/presidential-innovation-fellows/apps-gov/tree/master/_data/products
 
-### Contracts
+The format for listing your product `JSON` includes three sections: 1) required, 2) optional, and 3) attributes.
 
-Below is a list of contract vehicles and mechanisms intended to be used by all agencies. Use the below terms to add them to your product page. If you are on other contracts, please email the Apps.Gov team at apps-gov@gsa.gov to have them reviewed and added. You can find the format and information required at https://github.com/presidential-innovation-fellows/apps-gov/tree/master/_data/contracts
+Required:
 
-Code | Contract
---- | ---
-micro | Micro-Purchase Agreement
-s70 | Schedule 70
-sewp | NASA SEWP (GWAC)
-nitaac | NIH NITAAC (GWAC)
+    "slug": "product-file-name",
+    "name": "product-name",
+    "url": "product-url",
+    "logo_url": "logo-url",
+    "top_keywords": [
+        "add"
+        "up to"
+        "five"
+        "key"
+        "words"
+    ],
+    "short_description": "High level product description, up to 140 characters.",
+    "long_description": "Longer description of the product, which will be found on the product page.",
+    "sales_poc": "sales-poc-email",
+    
+Optional:
 
-### Agencies
+    "twitter_handle": "twitter_handle",
+    "linkedin_id": "linkedin_id",
+    "tags": [
+        "up to",
+        "five tags",
+        "from the",
+        "approved list",
+        "which will be used for search"
+    ],
+    
+Attributes: (add the appropriate ones that apply to your product)
 
-When adding customers, please use the following terms to appropriately populate the agency images. If an agency customer isn't listed, please reach out to the Apps.Gov team to have it added.
+    "contracts": [
+        "add from the approved list below",
+        "e.g. micro",
+        "sewp is universal and should be added by default"
+    ],
 
+
+    "gov_tos": "gov-tos-url",
+    "pta": "add the value "true" OR the url to PTA",
+    "pia": "add the value "true" OR the url to PIA",
+    "sorn": "add the value "true" OR the url to SORN",
+
+
+    "fedramp_jab": "fedramp-jab-url",
+    "fedramp_agency": "fedramp-agency-url",
+    "fedramp_csp": "fedramp-csp-url",
+    "fedramp_inprocess_jab": "fedramp-inprocess-jab-url",
+    "fedramp_inprocess_agency": "fedramp-inprocess-agency-url",
+    "agency_ato": "link-to-ato",
+    
+
+    "fedramp_ready": "fedramp-ready-url",
+    "fedramp_infrastructure": true,
+    "dhs_swamp": "add the value "true" or url to test results",
+    "nccoe": "add the value "true" or url to test results",
+    "icd_503": "add the value "true" or url to certification",
+    "hipaa": "add the value "true" or url to compliance doc",
+    "pci": "add the value "true" or url to compliance doc"
+    
 ### How to run this locally
 
 Clone this repo https://github.com/mbland/jekyll_pages_api_search/ and update your `Gemfile` to set the url path to this gem in your local directory
@@ -39,11 +86,22 @@ Then, run `./go build` and `./go serve` to run the `bundler-aware` Jekyll build 
     
 Navigate to 
 
-### Appendix
+## Appendix
 
-Agency list
+### Contracts
 
-Need to add an agency customer? Please email apps-gov@gsa.gov to add them in or commit a pull request.
+Below is a list of contract vehicles and mechanisms intended to be used by all agencies. Use the below terms to add them to your product page. If your product is being procured via other cross-agency contracts, please email the Apps.Gov team at apps-gov@gsa.gov to have them reviewed and added. You can find the format and information required at https://github.com/presidential-innovation-fellows/apps-gov/tree/master/_data/contracts
+
+Code | Contract
+--- | ---
+micro | Micro-Purchase Agreement
+s70 | Schedule 70
+sewp | NASA SEWP (GWAC)
+nitaac | NIH NITAAC (GWAC)
+
+### Agencies
+
+When adding customers, please use the following terms to appropriately populate the agency images. If an agency customer isn't listed, please reach out to the Apps.Gov team to have it added. Need to add an agency customer? Please email apps-gov@gsa.gov to add them in or commit a pull request.
 
 Code | Name
 --- | ---
