@@ -29,6 +29,24 @@ nitaac | NIH NITAAC (GWAC)
 
 When adding customers, please use the following terms to appropriately populate the agency images. If an agency customer isn't listed, please reach out to the Apps.Gov team to have it added.
 
+### How to run this locally
+
+install jekyll
+
+    bundle install
+
+clone this repo https://github.com/mbland/jekyll_pages_api_search/
+
+Within the apps-gov repo, run `./go init` which installs the npm modules (specified in package.json). Specifically, we need browserify and uglifyify to compile the custom js/products.js code into js/products-bundle.js, as specified in the jekyll_pages_api_search: browserify: property of _config.yml.
+
+Then, run `./go` build and `./go` serve to run the bundler-aware Jekyll build and serve commands, respectively. The .go script also sets the NODE_PATH environment variable to add the node_modules directory, so that the locally-installed browserify and uglifyify modules are discoverable.
+
+    jekyll serve
+    
+Navigate to 
+
+### Appendix
+
 Code | Name
 --- | ---
 DOC | Department of Commerce
