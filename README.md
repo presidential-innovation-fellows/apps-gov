@@ -16,7 +16,7 @@ All products are listed in `JSON` format. Updates can be made and submitted via 
 
 The format for listing your product `JSON` includes three sections: 1) required, 2) optional, and 3) attributes.
 
-Required:
+####Required:
 
     "slug": "product-file-name",
     "name": "product-name",
@@ -33,7 +33,7 @@ Required:
     "long_description": "Longer description of the product, which will be found on the product page.",
     "sales_poc": "sales-poc-email",
     
-Optional:
+####Optional:
 
     "twitter_handle": "twitter_handle",
     "linkedin_id": "linkedin_id",
@@ -46,7 +46,9 @@ Optional:
         "which will be used for search"
     ],
     
-Attributes: (add the appropriate ones that apply to your product)
+####Attributes: (add the appropriate ones that apply to your product)
+
+**Contract Vehicles:**
 
     "contracts": [
         "add from the approved list below",
@@ -54,12 +56,14 @@ Attributes: (add the appropriate ones that apply to your product)
         "sewp is universal and should be added by default"
     ],
 
+**Reviews:**
 
     "gov_tos": "gov-tos-url",
     "pta": "add the value "true" OR the url to PTA",
     "pia": "add the value "true" OR the url to PIA",
     "sorn": "add the value "true" OR the url to SORN",
 
+**Authority to Operate:**
 
     "fedramp_jab": "fedramp-jab-url",
     "fedramp_agency": "fedramp-agency-url",
@@ -67,7 +71,8 @@ Attributes: (add the appropriate ones that apply to your product)
     "fedramp_inprocess_jab": "fedramp-inprocess-jab-url",
     "fedramp_inprocess_agency": "fedramp-inprocess-agency-url",
     "agency_ato": "link-to-ato",
-    
+   
+**Additional Testing:**
 
     "fedramp_ready": "fedramp-ready-url",
     "fedramp_infrastructure": true,
