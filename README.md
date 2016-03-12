@@ -36,6 +36,7 @@ The format for listing your product `JSON` includes three sections: 1) required,
 ####Optional:
 
     "twitter_handle": "twitter_handle",
+    "facebook_url": "facebook_url",
     "linkedin_id": "linkedin_id",
     "angellist_name": "angellist_name",
     "youtube_id": "youtube_id",
