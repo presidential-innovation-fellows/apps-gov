@@ -126,7 +126,9 @@ licenses:
   go:
     name: CC-BY-3.0
     url: https://golang.org/LICENSE
-  
+  jekyll_pages_api_search:
+    name: CC0-1.0
+    url: https://github.com/18F/jekyll_pages_api_search/blob/master/LICENSE.md
 
 # Tag to use when blogging about this project
 #blogTag:
