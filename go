@@ -52,7 +52,7 @@ ENV['NODE_PATH'] = "#{File.join(File.dirname(__FILE__), 'node_modules')}"
 command_group :dev, 'Development commands'
 
 def_command :init, 'Set up the development environment' do
-  npm install
+  exec_cmd 'npm install'
 end
 
 def_command :serve, 'Serve the site at localhost:4000' do |args|
