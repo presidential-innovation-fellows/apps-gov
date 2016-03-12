@@ -93,9 +93,37 @@ impact: The marketplace will help inform contracting and security policy
 #     name: Name of the license from the Software Package Data Exchange (SPDX): https://spdx.org/licenses/
 #     url: URL for the text of the license
 licenses:
-  tool:
-    name: CC0-1.0
-    url: https://github.com/18F/team_api/blob/master/LICENSE.md
+  jquery-1.11.3.min.js:
+    name: MIT
+    url: https://jquery.org/license/
+  html5shiv.js:
+    name: MIT and GPL2
+    url: https://github.com/aFarkas/html5shiv/blob/master/MIT%20and%20GPL2%20licenses.md
+  ren.min.js:
+    name: MIT
+    url: https://github.com/chuckcarpenter/REM-unit-polyfill/blob/master/LICENSE.md
+  respond.js:
+    name: MIT
+    url: https://github.com/scottjehl/Respond/blob/master/LICENSE-MIT
+  selectivizr-min.js:
+    name: MIT
+    url: https://opensource.org/licenses/mit-license.php
+  jekyll:
+    name: MIT
+    url: https://github.com/jekyll/jekyll/blob/master/LICENSE
+  node.js:
+    name: MIT
+    url: https://raw.githubusercontent.com/nodejs/node/master/LICENSE
+  ruby:
+    name: BSD
+    url: https://www.ruby-lang.org/en/about/license.txt
+  nginx:
+    name: BSD
+    url: http://nginx.org/LICENSE
+  us-web-design-standards:
+    name: mutliple
+    url: https://github.com/18F/web-design-standards/blob/18f-pages-staging/LICENSE.md
+  
 
 # Tag to use when blogging about this project
 #blogTag:
