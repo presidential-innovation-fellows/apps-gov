@@ -136,13 +136,13 @@ skip_index: false
 					<section class="additional-testing">
 						<h4>Additional Testing</h4>
 						<ul class="additional-testing-items">
-							<li><span class="usa-label {% if product.fedramp_ready %}label-active{% endif %}">FedRamp Ready</span></li>
-							<li><span class="usa-label {% if product.fedramp_infra %}label-active{% endif %}">FedRamp Infrastructure</span></li>
-							<li><span class="usa-label {% if product.swamp %}label-active{% endif %}">DHS SWAMP</span></li>
-							<li><span class="usa-label {% if product.nccoe %}label-active{% endif %}">NCCoE Review</span></li>
-							<li><span class="usa-label {% if product.icd_503 %}label-active{% endif %}">ICD 503</span></li>
-							<li><span class="usa-label {% if product.hipaa %}label-active{% endif %}">HIPAA Compliant</span></li>
-							<li><span class="usa-label {% if product.pci %}label-active{% endif %}">PCI Compliant</span></li>
+							{% if product.fedramp_ready %}<li><span class="usa-label">FedRamp Ready</span></li>{% endif %}
+							{% if product.fedramp_infra %}<li><span class="usa-label">FedRamp Infrastructure</span></li>{% endif %}
+							{% if product.swamp %}<li><span class="usa-label">DHS SWAMP</span></li>{% endif %}
+							{% if product.nccoe %}<li><span class="usa-label">NCCoE Review</span></li>{% endif %}
+							{% if product.icd_503 %}<li><span class="usa-label">ICD 503</span></li>{% endif %}
+							{% if product.hipaa %}<li><span class="usa-label">HIPAA Compliant</span></li>{% endif %}
+							{% if product.pci %}<li><span class="usa-label">PCI Compliant</span></li>{% endif %}
 						</ul>
 					</section>
 				{% endif %}
