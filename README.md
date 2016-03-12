@@ -8,7 +8,7 @@ This repo is open source, maintained by the [Presidential Innovation Fellows](pi
 
 ## How to list your product
 
-To get started selling ot the federal government, check out [https://apps.gov/listing](https://apps.gov/listing) to learn more about steps to get listed, contract vehicles available, and security reviews to get started.
+To get started selling ot the federal government, check out [https://apps.gov/listing](https://apps.gov/listing) to learn more about steps to get listed, contract vehicles available, and security reviews when selling to the federal government.
 
 ## Editing your product
 
@@ -16,12 +16,12 @@ All products are listed in `JSON` format. Updates can be made and submitted via 
 
 ### Contracts
 
-Below is a list of approved contracts, use the below tearms to populate the right content on your product page. If you are on other contracts, please email the Apps.Gov team to have it reviewed and added.
+Below is a list of contract vehicles and mechanisms intended to be used by all agencies. Use the below terms to add them to your product page. If you are on other contracts, please email the Apps.Gov team at apps-gov@gsa.gov to have them reviewed and added. You can find the format and information required at https://github.com/presidential-innovation-fellows/apps-gov/tree/master/_data/contracts
 
 Code | Contract
 --- | ---
 micro | Micro-Purchase Agreement
-s70 | Schedule 70 (GWAC)
+s70 | Schedule 70
 sewp | NASA SEWP (GWAC)
 nitaac | NIH NITAAC (GWAC)
 
@@ -46,6 +46,10 @@ Then, run `./go build` and `./go serve` to run the `bundler-aware` Jekyll build 
 Navigate to 
 
 ### Appendix
+
+Agency list
+
+Need to add an agency customer? Please email apps-gov@gsa.gov to add them in or commit a pull request.
 
 Code | Name
 --- | ---
