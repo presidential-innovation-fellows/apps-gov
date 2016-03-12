@@ -12,7 +12,7 @@ To get started selling ot the federal government, check out [https://apps.gov/li
 
 ## Editing your product
 
-All products are listed in `JSON` format. Updates can be made and submitted via a pull request, which will be reviewed by the Apps.Gov team.
+All products are listed in `JSON` format. Updates can be made and submitted via a pull request, which will be reviewed by the Apps.Gov team. The link to where all products are at https://github.com/presidential-innovation-fellows/apps-gov/tree/master/_data/products
 
 ### Contracts
 
@@ -31,17 +31,11 @@ When adding customers, please use the following terms to appropriately populate 
 
 ### How to run this locally
 
-install jekyll
-
-    bundle install
-
-clone this repo https://github.com/mbland/jekyll_pages_api_search/
+Clone this repo https://github.com/mbland/jekyll_pages_api_search/ and update your `Gemfile` to set the url path to this gem in your local directory
 
 Within the apps-gov repo, run `./go init` which installs the npm modules (specified in package.json). Specifically, we need browserify and uglifyify to compile the custom js/products.js code into js/products-bundle.js, as specified in the jekyll_pages_api_search: browserify: property of _config.yml.
 
 Then, run `./go build` and `./go serve` to run the `bundler-aware` Jekyll build and serve commands, respectively. The .go script also sets the `NODE_PATH environment` variable to add the `node_modules` directory, so that the locally-installed browserify and uglifyify modules are discoverable.
-
-    jekyll serve
     
 Navigate to 
 
