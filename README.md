@@ -40,13 +40,6 @@ The format for listing your product `JSON` includes three sections: 1) required,
     "linkedin_id": "linkedin_id",
     "angellist_name": "angellist_name",
     "youtube_id": "youtube_id",
-    "tags": [
-        "up to",
-        "five tags",
-        "from the",
-        "approved list",
-        "which will be used for search"
-    ],
     
 ####Attributes: (add the appropriate ones that apply to your product)
 
