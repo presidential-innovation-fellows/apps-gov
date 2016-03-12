@@ -58,7 +58,7 @@ The format for listing your product `JSON` includes three sections: 1) required,
 
 **Reviews:**
 
-    "gov_tos": "gov-tos-url",
+    "gov_tos": "add the value "true" OR the url to TOS",
     "pta": "add the value "true" OR the url to PTA",
     "pia": "add the value "true" OR the url to PIA",
     "sorn": "add the value "true" OR the url to SORN",
