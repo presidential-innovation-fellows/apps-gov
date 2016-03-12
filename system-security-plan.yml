@@ -26,8 +26,8 @@ staff:
         email: devops@gsa.gov
     system-management:
         name: Andrew Stroup
-        title: 18F Infrastructure Director
-        org: General Services Administration
+        title: Director of Product and Technology
+        org: Presidential Innovation Fellows
         unit: 18F
         email: pif@gsa.gov
     system-security-officer:
@@ -38,9 +38,9 @@ staff:
         email: devops@gsa.gov
     technical-lead:
         name: Andrew Stroup
-        title: 18F Infrastructure Director
+        title: Director of Product and Technology
         org: General Services Administration
-        unit: 18F
+        unit: Presidential Innovation Fellows
         email: pif@gsa.gov
 leveraged-authorizations: 
 - https://www.fedramp.gov/marketplace/compliant-systems/amazon-web-services-aws-eastwest-us-public-cloud/
@@ -50,10 +50,11 @@ diagram: https://github.com/presidential-innovation-fellows/apps-gov/blob/master
 network-architecture: https://github.com/presidential-innovation-fellows/apps-gov/blob/master/README.md
 environments:
 - Amazon Web Services East / West
+- Cloud Foundry
 user-types:
     developer:
         functions: 
         - deployment
         - engineering
-controls: [url]
+controls: https://compliance.cloud.gov/ 
 ---

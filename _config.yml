@@ -31,10 +31,12 @@ exclude:
 - README.md
 - Staticfile
 - go
-- nginx.conf
 - node_modules
 - package.json
 - vendor
+- system-security-plan.yml
+- about.yml
+- nginx.conf
 
 page_gen:
   - data: apps
