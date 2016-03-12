@@ -121,8 +121,11 @@ licenses:
     name: BSD
     url: http://nginx.org/LICENSE
   us-web-design-standards:
-    name: mutliple
+    name: OFL-1.0, OFL-1.1, MIT, CC0-1.0
     url: https://github.com/18F/web-design-standards/blob/18f-pages-staging/LICENSE.md
+  go:
+    name: CC-BY-3.0
+    url: https://golang.org/LICENSE
   
 
 # Tag to use when blogging about this project
