@@ -2,6 +2,7 @@
 layout: default
 skip_index: false
 ---
+
 <div class="usa-product">
 	<div class="usa-grid product-grid">
 		{% assign product = page.product_info %}
@@ -60,14 +61,14 @@ skip_index: false
 				</ul>
 
 				{% if product.sales_poc %}
-					<a class="usa-button usa-button-secondary" href="mailto:{{ product.sales_poc }}" target="blank">Contact</a>
+					<a class="usa-button usa-button-secondary" href="mailto:{{ product.sales_poc }}" target="blank" id="contact">Contact</a>
 				{% else %}
-					<a class="usa-button usa-button-disabled">Contact</a>
+					<a class="usa-button usa-button-disabled" id="contact">Contact</a>
 				{% endif %}
 
 				<ul class="product-actions">
 					<li>
-						<a href="https://github.com/presidential-innovation-fellows/apps-gov/blob/master/_data/products/{{ product.slug | downcase }}.json" target="blank"><i class="fa fa-chevron-right pull-right"></i>Edit in Github</a>
+						<a href="https://github.com/presidential-innovation-fellows/apps-gov/blob/master/_data/products/{{ product.slug | downcase }}.json" target="blank" id="github"><i class="fa fa-chevron-right pull-right"></i>Edit in Github</a>
 					</li>
 					<li>
 						<a href="mailto:products-gov+abuse@gsa.gov" target="blank"><i class="fa fa-chevron-right pull-right"></i>Report this product</a>
@@ -75,11 +76,11 @@ skip_index: false
 				</ul>
 
 				<ul class="product-tags">
-					<h4>Product Tags</h4>
+					<h4>Product Keywords</h4>
 		      {% assign keywords = product.top_keywords | split: ',' %}
 		      {% for keyword in product.top_keywords %}
 		        <li>
-		        	<a href="{{ site.baseurl }}/products/?q={{ keyword | strip }}" id="hashtag">
+		        	<a href="{{ site.baseurl }}/products/?q={{ keyword | strip }}" id="tag">
 		        		{{ keyword }}
 		      		</a>
 		    		</li>
