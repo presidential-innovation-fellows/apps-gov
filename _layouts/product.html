@@ -31,6 +31,15 @@ skip_index: false
 						{% endif %}
 					</li>
 					<li>
+						{% if product.facebook_url %}
+							<a href="{{ product.facebook_url }}" target="blank">
+								<i class="fa fa-facebook fa-2x"></i>
+							</a>
+						{% else %}
+							<i class="fa fa-facebook fa-2x disabled-icon"></i>
+						{% endif %}
+					</li>
+					<li>
 						{% if product.linkedin_id %}
 							<a href="https://linkedin.com/company/{{ product.linkedin_id }}" target="blank">
 								<i class="fa fa-linkedin fa-2x"></i>
@@ -48,18 +57,13 @@ skip_index: false
 							<i class="fa fa-angellist fa-2x disabled-icon"></i>
 						{% endif %}
 					</li>
-					<li>
-						{% if product.sales_poc %}
-							<a href="mailto:{{ product.sales_poc }}" target="blank">
-								<i class="fa fa-envelope-o fa-2x"></i>
-							</a>
-						{% else %}
-							<i class="fa fa-envelope-o fa-2x disabled-icon"></i>
-						{% endif %}
-					</li>
 				</ul>
 
-				<a class="usa-button usa-button-secondary" href="#procurement-options">Procurement Options</a>
+				{% if product.sales_poc %}
+					<a class="usa-button usa-button-secondary" href="mailto:{{ product.sales_poc }}" target="blank">Contact</a>
+				{% else %}
+					<a class="usa-button usa-button-disabled">Contact</a>
+				{% endif %}
 
 				<ul class="product-actions">
 					<li>
