@@ -110,7 +110,10 @@ skip_index: false
 					<h4>Reviews</h4>
 					<ul class="reviews-items">
 						<li>
-							<p {% if product.gov_tos %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} Negotiated TOS{% if product.gov_tos %} (<a href="{{ product.gov_tos }}" target="blank">link</a>){% endif %}</p>
+							<p {% if product.gov_tos %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} Federal-Negotiated TOS{% if product.gov_tos %} (<a href="{{ product.gov_tos }}" target="blank">link</a>){% endif %}</p>
+						</li>
+						<li>
+							<p {% if product.pta == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} Privacy Threshold Analysis (PTA)</p>
 						</li>
 						<li>
 							<p {% if product.pia == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} Privacy Impact Assessment (PIA)</p>
@@ -123,26 +126,26 @@ skip_index: false
 				<section class="atos">
 					<h4>Authority to Operate (ATO)</h4>
 					<ul class="ato-items">
-						<li><p {% if product.fedramp_jab %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} FedRamp (JAB){% if product.fedramp_jab %} (<a href="{{ product.fedramp_jab }}" target="blank">link</a>){% endif %}</li>
-						<li><p {% if product.fedramp_agency %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} FedRamp (Agency){% if product.fedramp_agency %} (<a href="{{ product.fedramp_agency }}" target="blank">link</a>){% endif %}</li>
+						<li><p {% if product.fedramp_jab %}class="complete"><i class="fa fa-check-circle"></i>{% else %}{% if product.fedramp_inprocess_jab %}class="complete"><i class="fa fa-check-circle inprocess"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %}{% endif %} FedRamp (JAB){% if product.fedramp_jab %} (<a href="{{ product.fedramp_jab }}" target="blank">link</a>){% endif %}{% if product.fedramp_inprocess_jab %} (<a href="{{ product.fedramp_inprocess_jab }}" target="blank">link</a>){% endif %}</li>
+						<li><p {% if product.fedramp_agency %}class="complete"><i class="fa fa-check-circle"></i>{% else %}{% if product.fedramp_inprocess_agency %}class="complete"><i class="fa fa-check-circle inprocess"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %}{% endif %} FedRamp (Agency){% if product.fedramp_agency %} (<a href="{{ product.fedramp_agency }}" target="blank">link</a>){% endif %}{% if product.fedramp_inprocess_agency %} (<a href="{{ product.fedramp_inprocess_agency }}" target="blank">link</a>){% endif %}</li>
 						<li><p {% if product.fedramp_csp %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} FedRamp (CSP Package){% if product.fedramp_csp %} (<a href="{{ product.fedramp_csp }}" target="blank">link</a>){% endif %}</li>
 						<li><p {% if product.ato_agency %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} Agency Approval{% if product.ato_agency %} (<a href="{{ product.ato_agency }}" target="blank">link</a>){% endif %}</li>
 					</ul>
 				</section>
-				<section class="additional-testing">
-					<h4>Additional Testing</h4>
-					<ul class="additional-testing-items">
-						<li><span class="usa-label {% if product.fedramp_inprocess_jab %}label-active{% endif %}">FedRamp In-Process (JAB)</span></li>
-						<li><span class="usa-label {% if product.fedramp_inprocess_agency %}label-active{% endif %}">FedRamp In-Process (Agency)</span></li>
-						<li><span class="usa-label {% if product.fedramp_ready %}label-active{% endif %}">FedRamp Ready</span></li>
-						<li><span class="usa-label {% if product.fedramp_infra %}label-active{% endif %}">FedRamp Infrastructure</span></li>
-						<li><span class="usa-label {% if product.swamp %}label-active{% endif %}">DHS SWAMP</span></li>
-						<li><span class="usa-label {% if product.nccoe %}label-active{% endif %}">NCCoE Review</span></li>
-						<li><span class="usa-label {% if product.icd_503 %}label-active{% endif %}">ICD 503</span></li>
-						<li><span class="usa-label {% if product.hipaa %}label-active{% endif %}">HIPAA Compliant</span></li>
-						<li><span class="usa-label {% if product.pci %}label-active{% endif %}">PCI Compliant</span></li>
-					</ul>
-				</section>
+				{% if product.fedramp_ready or product.fedramp_infra or product.swamp or product.nccoe or product.icd_503 or product.hipaa or product.pci %}
+					<section class="additional-testing">
+						<h4>Additional Testing</h4>
+						<ul class="additional-testing-items">
+							<li><span class="usa-label {% if product.fedramp_ready %}label-active{% endif %}">FedRamp Ready</span></li>
+							<li><span class="usa-label {% if product.fedramp_infra %}label-active{% endif %}">FedRamp Infrastructure</span></li>
+							<li><span class="usa-label {% if product.swamp %}label-active{% endif %}">DHS SWAMP</span></li>
+							<li><span class="usa-label {% if product.nccoe %}label-active{% endif %}">NCCoE Review</span></li>
+							<li><span class="usa-label {% if product.icd_503 %}label-active{% endif %}">ICD 503</span></li>
+							<li><span class="usa-label {% if product.hipaa %}label-active{% endif %}">HIPAA Compliant</span></li>
+							<li><span class="usa-label {% if product.pci %}label-active{% endif %}">PCI Compliant</span></li>
+						</ul>
+					</section>
+				{% endif %}
 				<div class="proc-options">
 					<h3>Procurement Options</h3>
 					{% assign product_contracts = product.contracts %}

@@ -1,25 +1,30 @@
 id: sewp
 name: NASA SEWP
 description: |
-  The <a href="http://www.sewp.nasa.gov/" target="blank">NASA Solutions 
-  for Enterprise Wide Procurement (SEWP)</a> is a multi-award GWAC 
-  vehicle focused on commercial IT products and product based services. 
-  There are 147 pre-competed Contract Holders that serve as vendors of 
-  IT technologies. Follow the steps below to purchase a product using 
-  the NASA SEWP contract vehicle
+  <a href="http://www.sewp.nasa.gov/" target="blank">NASA Solutions 
+  for Enterprise Wide Procurement (SEWP)</a> is a multi-award Government-wide 
+  Acquisition Contract focused on commercial Information Technology (IT) 
+  products and product-based services. There are 147 pre-competed Contract 
+  Holders, many of them small businesses, which serve as resellers of 
+  these IT technologies and product-based services.
+
+  If new to NASA SEWP then please follow the steps below to acquire 
+  guidance to create quotes for purchasing using the NASA SEWP contract 
+  vehicle:
 poc: sewporders@sewp.nasa.com
 steps:
 - |
     Send an email to <a href="mailto:sewporders@sewp.nasa.com" 
-    target="blank">sewporders@sewp.nasa.com</a> titled 'RFQ request' to 
+    target="blank">sewporders@sewp.nasa.com</a> titled 'Apps.Gov RFQ request' to 
     include your name, email, agency, contracting officer info (if required), 
     and the product description.
 - |
-    The NASA SEWP team will then submit a RFQ to the list of approved 
-    vendors, which will identify a suitable product based on the product 
-    description provided. (average time 5-7 business days).
+    A member of the SEWP Customer Care team will contact you within one business 
+    day to assist you with creating your RFQ using the 
+    <a href="https://www.sewp.nasa.gov/sewp5public/security/login.sa" target="blank">
+    SEWP Quote Request Tool (QRT)</a>.
 - |
-    Each vendor will work with the provider of the product and will 
-    negotiate a price. This list will be returned for a decision 
-    and at that point you or your contracting officer will be able to 
-    purchase the product.
+    Upon receipt of an RFQ, the NASA SEWP Contract Holders will add the provider 
+    and selected products to their catalog. Reponses to your RFQ can be 
+    expected within a few days. At that point, the Contracting Officer will 
+    be able to purchase the product.
