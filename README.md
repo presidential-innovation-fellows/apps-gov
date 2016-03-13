@@ -117,6 +117,7 @@ Code | Name
 DOC | Department of Commerce
 DOE | Department of Energy
 DOI | Department of Interior
+DOJ | Department of Justice
 DOL | Department of Labor
 ED | Department of Education
 FDA | Food and Drug Administration
