@@ -3,6 +3,9 @@
     "name": "Acquia Cloud",
     "url": "acquia.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_ef598b5bd588c21f9b93be78443f4e22.image/png",
+    "founded_year": 2007,
+    "location": "Boston, MA",
+    "status": "Private",
     "twitter_handle": "acquia",
     "linkedin_id": 167056,
     "top_keywords": [
@@ -12,6 +15,7 @@
         "social media",
         "software"
     ],
+    "number_of_employees": 730,
     "short_description": "Global organizations turn to Acquia to provide technical expertise and strategic\ninsight to build, deliver, and optimize the Drupal WCMS",
     "long_description": "Acquia is where great digital experiences begin. Acquia is helping some of the\nworld's leading brands succeed, including Twitter, Mercedes Benz, Warner Music\nGroup, and Stanford University. Join the more than 4,000 organizations that are\nmoving at the speed of the web with Acquia's solutions for content, community\nand commerce. Acquia offers developer tools, cloud solutions and global\nexpertise to drive success the open source way.",
     "sales_poc":"brian.kerr@acquia.com",
