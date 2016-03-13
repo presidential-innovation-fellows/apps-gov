@@ -3,9 +3,6 @@
     "name": "Blackboard Learn & Collaborate",
     "url": "blackboard.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_5e0f1cabfcc870ca0cfde1b56e8188f4.image/gif",
-    "founded_year": 1997,
-    "location": "Washington, DC",
-    "status": "Public",
     "twitter_handle": "Blackboard",
     "linkedin_id": 4763,
     "top_keywords": [
@@ -15,7 +12,6 @@
         "elearning",
         "mobile learning"
     ],
-    "number_of_employees": 2361,
     "short_description": "Blackboard’s Learn and Collaborate SaaS solution offers government and military agencies next-generation online, social and mobile tools that create a continuous learning environment, built around peer-to-peer interaction, content and discussions.",
     "long_description": "Blackboard’s Learn and Collaborate SaaS solution offers government and military agencies next-generation online, social and mobile tools that create a continuous learning environment, built around peer-to-peer interaction, content and discussions.",
     "sales_poc":"bruce.shim@blackboard.com",

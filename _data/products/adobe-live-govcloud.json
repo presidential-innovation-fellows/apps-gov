@@ -3,9 +3,6 @@
     "name": "Adobe LiveCycle Managed Services GovCloud (LCMS-GC)",
     "url": "www.adobe.com/",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/al_37773.jpg%3Fbuster%3D1326846962",
-    "founded_year": 1982,
-    "location": null,
-    "status": "Public",
     "twitter_handle": "Adobe",
     "linkedin_id": 1480,
     "top_keywords": [
@@ -15,7 +12,6 @@
         "design",
         "image recognition"
     ],
-    "number_of_employees": null,
     "short_description": "Simplify the creation, processing, and securing of electronic forms and documents.",
     "long_description": "Simplify the creation, processing, and securing of electronic forms and documents.   The Adobe solution supports employee / citizen enrollments and other communications, and integrates them into an engaging, digital experience.   This platform as a service (PaaS) capability is FedRAMP certified and allows customers to:
         <ul>

@@ -3,9 +3,6 @@
     "name": "Box Enterprise",
     "url": "box.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_022bddcce01aa6de91e9b93cfcc5a9ee.image/png",
-    "founded_year": 2005,
-    "location": "Redwood City, CA",
-    "status": "Public",
     "twitter_handle": "BoxHQ",
     "linkedin_id": 54178,
     "top_keywords": [
@@ -15,7 +12,6 @@
         "cloud computing",
         "saas"
     ],
-    "number_of_employees": 972,
     "short_description": "Founded in 2005, Box (NYSE: BOX) is transforming the way people and\norganizations work so they can achieve their greatest ambitions. As the world's\nleading enterprise content management and collaboration platform, Box helps\nbusinesses of all sizes in every industry securely access and manage their\ncritical information in the cloud. Box is headquartered in Redwood City, CA,\nwith offices across the United States, Europe and Asia. To learn more about Box,\nvisit www.box.com.",
     "long_description": "After starting as a college business project in 2005, Box was officially\nlaunched in March of 2006 with the vision of connecting people, devices and\nnetworks. Box provides more than 8 million users with secure cloud content\nmanagement and collaboration. They say their platform \"allows personal and\ncommercial content to be accessible, sharable, and storable in any format from\nanywhere.\"",
     "sales_poc":"tcowles@box.com",

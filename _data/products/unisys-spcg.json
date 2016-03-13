@@ -3,9 +3,6 @@
     "name": "Unisys SPCG",
     "url": "unisys.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_25143d6196c34bdd8aee16ea90d16899.jpg",
-    "founded_year": null,
-    "location": "Blue Bell, PA",
-    "status": "Acquired",
     "twitter_handle": "UnisysCorp",
     "linkedin_id": 1281,
     "top_keywords": [
@@ -15,7 +12,6 @@
         "data center transformation and outsourcing",
         "application modernization and outsourcing"
     ],
-    "number_of_employees": 20737,
     "short_description": "Unisys Secure Private Cloud for Government (SPCG) is an Infrastructure-as-a-Service (IaaS) and Platform-as-a-Service (PaaS) that provides a community cloud to host Government workloads in a secure caged environment.",
     "long_description": "Unisys Secure Private Cloud for Government (SPCG) is an Infrastructure-as-a-Service (IaaS) and Platform-as-a-Service (PaaS) that provides a community cloud to host Government workloads in a secure caged environment. The SPCG cloud environment leverages NIST controls and standards, NIST Risk Management Framework (RMF), Federal Risk and Authorization Management Program (FedRAMP) assessment framework, as well as Department of Defense (DoD) standards to keep Government confidential and proprietary information safe and secure. By enhancing the application of the key cloud characteristics, Unisys SPCG promotes, optimizes, and assures the customer’s vision for secure, agile and flexible cloud hosting.",
     "sales_poc":"james.leake@unisys.com",

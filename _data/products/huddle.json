@@ -3,9 +3,6 @@
     "name": "Huddle",
     "url": "huddle.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_080d922c318d5f556b7a5cb1c7b410bc.image/png",
-    "founded_year": 2006,
-    "location": "San Francisco, CA",
-    "status": "Private",
     "twitter_handle": "huddle",
     "linkedin_id": 134570,
     "top_keywords": [
@@ -15,7 +12,6 @@
         "document management",
         "internet"
     ],
-    "number_of_employees": 175,
     "short_description": "Huddle provides cloud based online collaboration and document sharing solutions for users and businesses.",
     "long_description": "Huddle provides cloud based online collaboration and document sharing solutions for users and businesses. Using a Software as a Service (SaaS) service model, Huddle combines Enterprise Content Management (ECM) and social software allowing companies and communities to collaborate flexibly. The key functionality that the Huddle system provides is:
         <ul>

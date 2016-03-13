@@ -3,9 +3,6 @@
     "name": "GitHub",
     "url": "github.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_57fd815ad340c7aba975dd541a71fec6.png",
-    "founded_year": 2008,
-    "location": "San Francisco, CA",
-    "status": "Private",
     "twitter_handle": "github",
     "linkedin_id": 1418841,
     "top_keywords": [
@@ -15,7 +12,6 @@
         "computer software",
         "software development and collaboration tools"
     ],
-    "number_of_employees": 375,
     "short_description": "GitHub is a web-based Git repository hosting service offering distributed\nrevision control and source code management functionality of Git.",
     "long_description": "GitHub is the best place to build software together. Over 12 million people use\nGitHub to share code and build amazing things with friends, co-workers,\nclassmates, and complete strangers. With the collaborative features of\nGitHub.com, our desktop and mobile apps, and GitHub Enterprise, it has never\nbeen easier for individuals and teams to write better code, faster. Originally\nfounded by Tom Preston-Werner, Chris Wanstrath, and PJ Hyett to simplify sharing\ncode, GitHub has grown into the largest code host in the world.",
     "contracts":[

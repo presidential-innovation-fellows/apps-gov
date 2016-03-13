@@ -3,9 +3,6 @@
     "name": "GovDelivery Communications Cloud",
     "url": "govdelivery.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_7093e3c8836d75411cf33cd20b03907a.image/jpeg",
-    "founded_year": 2000,
-    "location": "St. Paul, MN",
-    "status": "Private",
     "twitter_handle": "GovDelivery",
     "linkedin_id": 42382,
     "top_keywords": [
@@ -15,7 +12,6 @@
         "web 2.0",
         "e government"
     ],
-    "number_of_employees": 182,
     "short_description": "More than 1,000 public sector organizations use GovDelivery’s proprietary network and secure, cloud-based, enterprise communications platform to reach, inform, and engage their audiences.",
     "long_description": "More than 1,000 public sector organizations use GovDelivery’s proprietary network and secure, cloud-based, enterprise communications platform to reach, inform, and engage their audiences. In addition to being the primary referrer of traffic to hundreds of government websites, GovDelivery is the only digital communications platform that exclusively connects national, regional, and local governments with over 90 million citizens.<br/><br/>Through web, email, mobile, and social media channels, government organizations use the GovDelivery platform to promote the usage of services, enhance public awareness, and increase the involvement of their citizen communities.",
     "sales_poc":"mike.sangillo@govdelivery.com",

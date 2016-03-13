@@ -3,9 +3,6 @@
     "name": "BMC Ready Fed-SaaS",
     "url": "bmc.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_b50f4f2ce7fc22f62432dfd7285923be.png",
-    "founded_year": 1980,
-    "location": "Houston, TX",
-    "status": "Public",
     "twitter_handle": "bmcsoftware",
     "linkedin_id": 1597,
     "top_keywords": [
@@ -15,7 +12,6 @@
         "it management",
         "itsm"
     ],
-    "number_of_employees": 6100,
     "short_description": "They transform digital enterprises for the ultimate competitive business\nadvantage.",
     "long_description": "From mainframe to cloud to mobile, BMC Software helps businesses around the\nworld manage complex technology to deliver extraordinary business performance.",
     "fedramp_inprocess_agency":"ace/in-process-systems/bmc-software-bmc-remedy-fed-saas-bmc-remedy-ondemand-for-public-sector/",

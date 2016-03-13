@@ -3,9 +3,6 @@
     "name": "AT&T Storage as a Service",
     "url": "www.att.com/",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_8b69af97cb83b6f0789b45f6f4211171.image/png",
-    "founded_year": 1983,
-    "location": "Dallas, TX",
-    "status": "Public",
     "twitter_handle": "ATT",
     "linkedin_id": 1052,
     "top_keywords": [
@@ -15,7 +12,6 @@
         "u verse",
         "enterprise applications and managed hosting solutions"
     ],
-    "number_of_employees": 243620,
     "short_description": "AT&T STaaS is a storage platform that enables an Agency to pay only for storage they use.",
     "long_description": "AT&T STaaS is a storage platform that enables an Agency to pay only for storage they use.  STaaS provides elastic storage capacity on demand and allows the Agency to access their stored data from virtually anywhere and at any time.  Protection and access to Agency data objects is accomplished using policy-based data storage.  STaaS service administration is through a web-based portal enabling the Agency to easily manage their cloud-based storage resources.  Access to the STaaS web portal is secured through two-factor authentication.",
     "sales_poc":"fhkeel@att.com",

@@ -3,9 +3,6 @@
     "name": "Everbridge Suite",
     "url": "everbridge.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_73963bef286bf69292c6c6cd199352ac.image/png",
-    "founded_year": 2002,
-    "location": "Glendale, CA",
-    "status": "Private",
     "twitter_handle": "everbridge",
     "linkedin_id": 33883,
     "top_keywords": [
@@ -15,7 +12,6 @@
         "critical it alerting",
         "internet of things"
     ],
-    "number_of_employees": 175,
     "short_description": "Everbridge Suite enables users to send notifications to individuals or groups using lists, locations, and visual intelligence.",
     "long_description": "Everbridge Suite enables users to send notifications to individuals or groups using lists, locations, and visual intelligence. Our notification system keeps everyone informed before, during, and after events. Everbridge Suite provides robust analytics, GIS targeting, flexible group management, distributed contact data, language localization, multiple options for contact data management, and a “globally local” approach to optimize voice and SMS routing.",
     "sales_poc":"nathan.chan@everbridge.com",

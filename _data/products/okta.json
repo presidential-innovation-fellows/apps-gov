@@ -3,9 +3,6 @@
     "name": "Okta",
     "url": "okta.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_d655da6b07f172f1f838b956e2a6fecc.image/png",
-    "founded_year": 2009,
-    "location": "San Francisco, CA",
-    "status": "Private",
     "twitter_handle": "okta",
     "linkedin_id": 926041,
     "top_keywords": [
@@ -15,7 +12,6 @@
         "single sign on",
         "saas"
     ],
-    "number_of_employees": 175,
     "short_description": "The IDaaS system is an on-demand identity and access management service that enables enterprises to accelerate the secure adoption of their web based applications, both in the cloud and behind the firewall.",
     "long_description": "The IDaaS system is an on-demand identity and access management service that enables enterprises to accelerate the secure adoption of their web based applications, both in the cloud and behind the firewall. The IDaaS system delivers a complete solution addressing the needs of IT Operations, End Users, and Business Leaders with no customization required. The service offers:
         <ul>

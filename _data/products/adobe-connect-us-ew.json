@@ -3,9 +3,6 @@
     "name": "Adobe Connect Managed Services US East-West (ACMS-EW)",
     "url": "www.adobe.com/",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/al_37773.jpg%3Fbuster%3D1326846962",
-    "founded_year": 1982,
-    "location": null,
-    "status": "Public",
     "twitter_handle": "Adobe",
     "linkedin_id": 1480,
     "top_keywords": [
@@ -15,7 +12,6 @@
         "design",
         "image recognition"
     ],
-    "number_of_employees": null,
     "short_description": "Adobe offers immersive online meeting experiences for collaboration, large scale webinars, and virtual classrooms.",
     "long_description": "Adobe offers immersive online meeting experiences for collaboration, large scale webinars, and virtual classrooms.  This platform as a service (PaaS) capability is FedRAMP certified and supports:
         <ul>

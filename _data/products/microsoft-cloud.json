@@ -3,9 +3,6 @@
     "name": "Microsoft Cloud Infrastructure",
     "url": "microsoft.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_fd80725f53fc70099878aeecf1e9ffbb.image/jpeg",
-    "founded_year": 1974,
-    "location": "Redmond, WA",
-    "status": "Public",
     "twitter_handle": "Microsoft",
     "linkedin_id": 1035,
     "top_keywords": [
@@ -15,7 +12,6 @@
         "business software",
         "design tools"
     ],
-    "number_of_employees": 128000,
     "short_description": "Microsoft’s Global Foundation Services (GFS) cloud infrastructure is the data center and network engine that powers Microsoft’s enterprise cloud services.",
     "long_description": "Microsoft’s Global Foundation Services (GFS) cloud infrastructure is the data center and network engine that powers Microsoft’s enterprise cloud services. While the GFS system has no user consumable services, it is leveraged by multiple Microsoft offerings as a common control provider.",
     "sales_poc": "susie.adams@microsoft.com",

@@ -3,9 +3,6 @@
     "name": "Esri Managed Cloud Services",
     "url": "esri.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_cc32709a92ad3cadf2af5f09c02ae696.image/jpeg",
-    "founded_year": 1969,
-    "location": "Redlands, CA",
-    "status": "Private",
     "twitter_handle": "Esri",
     "linkedin_id": 5311,
     "top_keywords": [
@@ -15,7 +12,6 @@
         "geographic information systems",
         "geospatial analysis"
     ],
-    "number_of_employees": 4000,
     "short_description": "Esri is a leading provider of geographic information systems (GIS) with decades of experience hosting solutions for customers.",
     "long_description": "Esri is a leading provider of geographic information systems (GIS) with decades of experience hosting solutions for customers. Esri Managed Cloud Services provides organizations with ready-to-use instances of ArcGIS running in the cloud and includes the infrastructure (facilities, hardware, network, and security), the software (Esri and third party), application deployment, testing, ongoing data management (data updates, backup, and archive), technical support, monitoring, and supporting 24/7 Security Operations Center. The environment has been architected following FISMA, NIST, and CIS guidance to facilitate FedRAMP moderate geospatial Platform-as-a-Service (PaaS) and Software-as-a-Service (SaaS) authorizations of our customer environments. EMCS enables quickly sharing geospatial content and providing access to critical information while the organization maintains complete control over the access to their services and maps. EMCS leverages the Amazon Web Services East / West Regions FedRAMP moderate cloud infrastructure.",
     "sales_poc":"myoung@esri.com",

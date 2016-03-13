@@ -3,9 +3,6 @@
     "name": "PowerTrain Web Development and Hosting",
     "url": "www.powertrain.com",
     "logo_url": null,
-    "founded_year": null,
-    "location": "Landover, MD",
-    "status": null,
     "twitter_handle": null,
     "linkedin_id": null,
     "top_keywords": [
@@ -15,7 +12,6 @@
         "computer based training",
         "human capital"
     ],
-    "number_of_employees": 75,
     "short_description": "PowerTrain is an on-line application development, implementation, and hosting provider for a range of federal government agencies through an Office of Personnel Management contract.",
     "long_description": "PowerTrain is an on-line application development, implementation, and hosting provider for a range of federal government agencies through an Office of Personnel Management contract. PowerTrain currently runs systems under an assessment and authorization to operate through the Office of Personnel Management security team.",
     "sales_poc":"ccox@powertrain.com",

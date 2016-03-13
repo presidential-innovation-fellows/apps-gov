@@ -3,9 +3,6 @@
     "name": "Eventbrite",
     "url": "eventbrite.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_ead31184841376a0f70ff8dcd489cdc6.png",
-    "founded_year": 2006,
-    "location": "San Francisco, CA",
-    "status": "Private",
     "twitter_handle": "Eventbrite",
     "linkedin_id": 167280,
     "top_keywords": [
@@ -15,7 +12,6 @@
         "event management",
         "curated web"
     ],
-    "number_of_employees": 375,
     "short_description": "Eventbrite is for anyone planning or attending an event.",
     "long_description": "Eventbrite is for anyone planning or attending an event. We empower event\norganizers to become more efficient and effective when bringing people together,\nand people everywhere are searching Eventbrite to discover great events that\nmatter to them.",
     "contracts":[

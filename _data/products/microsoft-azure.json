@@ -3,9 +3,6 @@
     "name": "Microsoft Azure Public and Gov Community Cloud Solution",
     "url": "microsoft.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_fd80725f53fc70099878aeecf1e9ffbb.image/jpeg",
-    "founded_year": 1974,
-    "location": "Redmond, WA",
-    "status": "Public",
     "twitter_handle": "Microsoft",
     "linkedin_id": 1035,
     "top_keywords": [
@@ -15,7 +12,6 @@
         "business software",
         "design tools"
     ],
-    "number_of_employees": 128000,
     "short_description": "Microsoft Azure Government is a government-community cloud that offers hyper-scale compute, storage, networking, and identity management services, with world-class security.",
     "long_description": "Microsoft Azure Government is a government-community cloud that offers hyper-scale compute, storage, networking, and identity management services, with world-class security. A physically and network-isolated instance of Microsoft Azure, operated by screened U.S. citizens, Azure Government provides standards-compliant IaaS and PaaS that has now received a FedRAMP JAB P-ATO .  All services are available immediately for supporting secure US government workloads, including CJIS, IRS 1075 FTI, HIPAA, DoD, and federal agency data.
         <br/><br/>

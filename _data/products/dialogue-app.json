@@ -3,15 +3,11 @@
     "name": "Dialogue App",
     "url": "www.dialogue-app.com/",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_285d8d5d8653a8841961baddadce4b23.png",
-    "founded_year": null,
-    "location": "Bristol, United Kingdom",
-    "status": null,
     "twitter_handle": null,
     "linkedin_id": null,
     "top_keywords": [
         "applications"
     ],
-    "number_of_employees": 12,
     "short_description": "Dialogue App produces ideas that are valuable and actionable through structured\nonline discussion.",
     "long_description": "Dialogue App is designed to make it easy to run a successful dialogue process,\nto achieve outcomes like policy crowdsourcing, ideas generation, and\nparticipatory budgeting. A key aspect of designing for success is the approach\nto user roles in the app. Dialogue App provides for: Unregisted users Registered\nusers Moderators Site admins Here's a quick guide to each of the different types\nof user in Dialogue App, their responsibilities, and how they interact with the\nsystem.",
     "contracts":[

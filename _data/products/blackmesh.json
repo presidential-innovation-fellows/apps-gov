@@ -3,9 +3,6 @@
     "name": "BlackMesh SecureCloud",
     "url": "blackmesh.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_2689661bb0e7e88202fd3e5f0142b525.png",
-    "founded_year": 2003,
-    "location": "Herndon, VA",
-    "status": "Private",
     "twitter_handle": null,
     "linkedin_id": 357286,
     "top_keywords": [
@@ -15,7 +12,6 @@
         "drupal hosting",
         "cloud solutions"
     ],
-    "number_of_employees": 25,
     "short_description": "SecureCloud is provided by BlackMesh as a FedRAMP Moderate Platform as a Service (PaaS) offering.",
     "long_description": "SecureCloud is provided by BlackMesh as a FedRAMP Moderate Platform as a Service (PaaS) offering. The offering consists several managed services to facilitate hosting federal applications in a secure environment. The solution provided is a multi-tenant cloud-based environment, with the option for deployment of single-tenant environments if required by specific customers and system owners. BlackMesh is able to provide hosting environments compliant with requirements including, but not limited to, FedRAMP, FISMA, PCI DSS, and HIPAA.
         <br/><br/>

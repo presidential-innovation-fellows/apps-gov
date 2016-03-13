@@ -3,9 +3,6 @@
     "name": "FireEye Email Threat Prevention Service",
     "url": "fireeye.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_b82b52504894e935a2e810e1e4cee0f9.image/jpeg",
-    "founded_year": 2004,
-    "location": "Milpitas, CA",
-    "status": "Public",
     "twitter_handle": "FireEye",
     "linkedin_id": 44195,
     "top_keywords": [
@@ -15,7 +12,6 @@
         "next generation threat protection",
         "advanced persistent threats"
     ],
-    "number_of_employees": 2500,
     "short_description": "The FireEye® Email Threat Prevention Cloud is a SaaS offering that not only combats against today’s advanced email attacks but also provides anti-spam and anti-virus protection.",
     "long_description": "The FireEye® Email Threat Prevention Cloud is a SaaS offering that not only combats against today’s advanced email attacks but also provides anti-spam and anti-virus protection. As organizations have embraced the cloud for email needs, the Email Threat Prevention Cloud provides complete email security for cloud mailboxes.
         <br/><br/>

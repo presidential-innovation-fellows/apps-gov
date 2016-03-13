@@ -3,9 +3,6 @@
     "name": "IFTTT",
     "url": "ifttt.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_14555eed145287f5dc3bb7b65746e39f.png",
-    "founded_year": 2010,
-    "location": "San Francisco, CA",
-    "status": "Private",
     "twitter_handle": "IFTTT",
     "linkedin_id": 1785718,
     "top_keywords": [
@@ -15,7 +12,6 @@
         "consumer internet",
         "business productivity"
     ],
-    "number_of_employees": 35,
     "short_description": "Put the internet to work for you",
     "long_description": "IFTTT lets you create powerful connections \u0003with one simple statement — if this\nthen that.",
     "contracts":[

@@ -3,9 +3,6 @@
     "name": "Microsoft Office 365 (SaaS)",
     "url": "microsoft.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_fd80725f53fc70099878aeecf1e9ffbb.image/jpeg",
-    "founded_year": 1974,
-    "location": "Redmond, WA",
-    "status": "Public",
     "twitter_handle": "Microsoft",
     "linkedin_id": 1035,
     "top_keywords": [
@@ -15,7 +12,6 @@
         "business software",
         "design tools"
     ],
-    "number_of_employees": 128000,
     "short_description": "The Office 365 Multi-Tenant Software is a Software as a Service offering with government specific instances of some services including Exchange Online, SharePoint Online, and Lync Online.",
     "long_description": "The Office 365 Multi-Tenant Software is a Software as a Service offering with government specific instances of some services including Exchange Online, SharePoint Online, and Lync Online. The government specific instances are designated for the sole use of U.S federal, tribal, state, and local government customers, U.S. government contractors, and Federally Funded Research and Development Centers (FFRDCs). Office 365 delivers customers with familiar productivity, communication and collaboration capabilities all in a service that is reliable, secure and able to rapidly scale up or down to meet variable resource demands.",
     "sales_poc":"O365FedRAMP@microsoft.com",

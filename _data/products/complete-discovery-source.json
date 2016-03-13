@@ -3,9 +3,6 @@
     "name": "Complete Discovery Source Federal Cloud",
     "url": "cdslegal.com",
     "logo_url": null,
-    "founded_year": 2003,
-    "location": "New York, NY",
-    "status": "Private",
     "twitter_handle": null,
     "linkedin_id": 142050,
     "top_keywords": [
@@ -15,7 +12,6 @@
         "review hosting",
         "computer forensics"
     ],
-    "number_of_employees": 375,
     "short_description": "CDS covers the complete eDiscovery process from forensics collections and early case assessment to review and production.",
     "long_description": "Successful eDiscovery outcomes require the right balance of tools, expertise, and vision. CDS covers the complete eDiscovery process from forensics collections and early case assessment to review and production.  CDS – Federal Cloud Discovery Services (FCDS) performs a set of operations required to progress through the various phases of the discovery process, including Chain of Custody Tracking, Data Staging, Data Filtering, De-duplication, Metadata Extraction, Full Text Extraction, Exception Handling, Data Conversion, Document Review Management, Document Review, Redaction and Annotation, and Load File Production.",
     "sales_poc":"gbendel@cdslegal.com",
