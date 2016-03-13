@@ -115,16 +115,16 @@ skip_index: false
 					<h4>Reviews</h4>
 					<ul class="reviews-items">
 						<li>
-							<p {% if product.gov_tos %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} Federal-Negotiated TOS{% if product.gov_tos %} (<a href="{{ product.gov_tos }}" target="blank">link</a>){% endif %}</p>
+							<p {% if product.gov_tos or product.fedramp_jab or product.fedramp_agency or product.fedramp_csp %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} Federal-Negotiated TOS{% if product.gov_tos and product.gov_tos != true %} (<a href="{{ product.gov_tos }}" target="blank">link</a>){% endif %}</p>
 						</li>
 						<li>
-							<p {% if product.pta == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} Privacy Threshold Analysis (PTA)</p>
+							<p {% if product.pta or product.fedramp_jab or product.fedramp_agency or product.fedramp_csp %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} Privacy Threshold Analysis (PTA){% if product.pta and product.pta != true %} (<a href="{{ product.pta }}" target="blank">link</a>){% endif %}</p>
 						</li>
 						<li>
-							<p {% if product.pia == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} Privacy Impact Assessment (PIA)</p>
+							<p {% if product.pia or product.fedramp_jab or product.fedramp_agency or product.fedramp_csp  %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} Privacy Impact Assessment (PIA){% if product.pia and product.pia != true %} (<a href="{{ product.pia }}" target="blank">link</a>){% endif %}</p>
 						</li>
 						<li>
-							<p {% if product.sorn == true %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} System or Records Notice (SORN)</p>
+							<p {% if product.sorn %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} System or Records Notice (SORN){% if product.sorn and product.sorn != true %} (<a href="{{ product.sorn }}" target="blank">link</a>){% endif %}</p>
 						</li>
 					</ul>
 				</section>
@@ -134,7 +134,7 @@ skip_index: false
 						<li><p {% if product.fedramp_jab %}class="complete"><i class="fa fa-check-circle"></i>{% else %}{% if product.fedramp_inprocess_jab %}class="complete"><i class="fa fa-check-circle inprocess"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %}{% endif %} FedRamp (JAB){% if product.fedramp_jab %} (<a href="{{ product.fedramp_jab }}" target="blank">link</a>){% endif %}{% if product.fedramp_inprocess_jab %} (<a href="{{ product.fedramp_inprocess_jab }}" target="blank">link</a>){% endif %}</li>
 						<li><p {% if product.fedramp_agency %}class="complete"><i class="fa fa-check-circle"></i>{% else %}{% if product.fedramp_inprocess_agency %}class="complete"><i class="fa fa-check-circle inprocess"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %}{% endif %} FedRamp (Agency){% if product.fedramp_agency %} (<a href="{{ product.fedramp_agency }}" target="blank">link</a>){% endif %}{% if product.fedramp_inprocess_agency %} (<a href="{{ product.fedramp_inprocess_agency }}" target="blank">link</a>){% endif %}</li>
 						<li><p {% if product.fedramp_csp %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} FedRamp (CSP Package){% if product.fedramp_csp %} (<a href="{{ product.fedramp_csp }}" target="blank">link</a>){% endif %}</li>
-						<li><p {% if product.ato_agency %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} Agency Approval{% if product.ato_agency %} (<a href="{{ product.ato_agency }}" target="blank">link</a>){% endif %}</li>
+						<li><p {% if product.ato_agency %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} Agency Approval{% if product.ato_agency and product.ato_agency != true %} (<a href="{{ product.ato_agency }}" target="blank">link</a>){% endif %}</li>
 					</ul>
 				</section>
 				{% if product.fedramp_ready or product.fedramp_infra or product.swamp or product.nccoe or product.icd_503 or product.hipaa or product.pci %}
