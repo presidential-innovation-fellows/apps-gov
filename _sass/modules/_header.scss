@@ -52,6 +52,9 @@
 
   .search-products {
     margin-left: 0;
+    @media screen and (max-width: 400px) {
+      width:155px;
+    }
   }
 
   .usa-button-gray,
