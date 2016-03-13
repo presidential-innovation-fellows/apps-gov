@@ -3,8 +3,6 @@
     "name": "Okta",
     "url": "okta.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_d655da6b07f172f1f838b956e2a6fecc.image/png",
-    "twitter_handle": "okta",
-    "linkedin_id": 926041,
     "top_keywords": [
         "enterprise software",
         "identity management",
@@ -19,13 +17,10 @@
         <li>Comprehensive user management that is integrated with Active Directory, including user provisioning and de-provisioning, enabling IT to accelerate adoption of online services or SaaS applications</li>
         <li>Authentication analytics spanning usage, utilization, and cost that provide IT the insight needed to optimize their application investments and address their compliance needs</li></ul>",
     "sales_poc":"chris.niggel@okta.com",
-    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/okta-idaas/",
-    "tags":[
-        "saas",
-        "security",
-        "iam"
-    ],
+    "twitter_handle": "okta",
+    "linkedin_id": 926041,
     "contracts":[
         "sewp"
     ],
+    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/okta-idaas/",
 }

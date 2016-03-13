@@ -3,8 +3,6 @@
     "name": "Meetup",
     "url": "meetup.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_e62b140b2321d4b5a74c19d989be276b.image/jpeg",
-    "twitter_handle": "Meetup",
-    "linkedin_id": 30984,
     "top_keywords": [
         "social media",
         "communities",
@@ -14,13 +12,11 @@
     ],
     "short_description": "Meetup's mission is to revitalize local community and help people around the\nworld self-organize.",
     "long_description": "Meetup is the world's largest network of local groups. Meetup makes it easy for\nanyone to organize a local group or find one of the thousands already meeting up\nface-to-face. More than 9,000 groups get together in local communities each day,\neach one with the goal of improving themselves or their communities.",
+    "twitter_handle": "Meetup",
+    "linkedin_id": 30984,
     "contracts":[
         "micro",
         "sewp"
     ],
     "gov_tos":"http://www.digitalgov.gov/files/2014/01/meetup-everywhere-tos-amendment.pdf",
-    "tags":[
-        "saas",
-        "events"
-    ]
 }

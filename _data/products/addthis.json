@@ -3,8 +3,6 @@
     "name": "AddThis",
     "url": "addthis.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_fc89cfdea28ee12c443cedccb6c93fd4.png",
-    "twitter_handle": "addthis",
-    "linkedin_id": 167173,
     "top_keywords": [
         "mobile",
         "advertising",
@@ -14,14 +12,11 @@
     ],
     "short_description": "AddThis provides social engagement tools, APIs and services personalizing\nwebsites for engagement, monetization and traffic boosting.",
     "long_description": "AddThis provide online marketers easy-to-use tools to deliver personalized\nexperiences to users across the web. Over 15 million domains reaching 2B unique\nusers, leverage the AddThis platform to drive traffic and engagement. The\ncompany leverages a footprint of 1 trillion page views yearly to power their\nunique offering.",
+    "twitter_handle": "addthis",
+    "linkedin_id": 167173,
     "contracts":[
         "micro",
         "sewp"
     ],
     "gov_tos":"http://www.digitalgov.gov/files/2014/07/addthis-updated-tos-amendment.pdf",
-    "tags":[
-        "saas",
-        "social"
-    ]
-    
 }

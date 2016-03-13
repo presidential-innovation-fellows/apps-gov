@@ -3,8 +3,6 @@
     "name": "Decision Lens Software",
     "url": "decisionlens.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_f32f7cf529675b6e8b59badea0dfe9dc.png",
-    "twitter_handle": "DecisionLens",
-    "linkedin_id": 135092,
     "top_keywords": [
         "software",
         "real time",
@@ -15,12 +13,10 @@
     "short_description": "The Decision Lens Software is a cloud-based prioritization and resource optimization software solution.",
     "long_description": "The Decision Lens Software is a cloud-based prioritization and resource optimization software solution.  Decision Lens enables governmental organizations to make critical decisions in program and project prioritization and resourcing, modernization, resource allocation and optimization, and workforce planning.  This cloud-based software, which is hosted on the FedRAMP-authorized Amazon Web Services (AWS) Infrastructure as a Service (IaaS), rapidly engages decision-makers to achieve better outcomes in a resource-constrained environment.  Driven by sophisticated analytics, the Decision Lens Software empowers organizations to identify those investments that will deliver the best future outcomes.",
     "sales_poc":"andykeller@decisionlens.com",
-    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/decision-lens-inc-decision-lens-software/",
-    "tags":[
-        "saas",
-        "collaboration"
-    ],
+    "twitter_handle": "DecisionLens",
+    "linkedin_id": 135092,
     "contracts":[
         "sewp"
     ],
+    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/decision-lens-inc-decision-lens-software/",
 }

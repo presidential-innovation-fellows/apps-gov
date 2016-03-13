@@ -3,8 +3,6 @@
     "name": "AtHoc Networked Crisis Communication Platform",
     "url": "athoc.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_5868ece074e549746dafd3860b662ba0.image/gif",
-    "twitter_handle": "AtHoc",
-    "linkedin_id": 54310,
     "top_keywords": [
         "physical security",
         "security",
@@ -15,12 +13,10 @@
     "short_description": "AtHoc Networked Crisis Communication Platform enables organizations to communicate and collaborate securely with their people, and with other organizations through multiple devices during crises.",
     "long_description": "AtHoc Networked Crisis Communication Platform enables organizations to communicate and collaborate securely with their people, and with other organizations through multiple devices during crises. The Platform empowers organizations to ALERT the people they care about, COLLECT information from the field for situational awareness, ACCOUNT for people before, during and after an event, and CONNECT with external organizations to empower the connected community to manage events. The platform runs on AtHoc-hosted cloud services that are designed to streamline communications and deliver security, high availability, deployment flexibility, and scalability.",
     "sales_poc":"asiegel@athoc.com",
-    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/athoc-athoc-networked-crisis-communication-platform/",
-    "tags":[
-        "saas",
-        "security"
-    ],
+    "twitter_handle": "AtHoc",
+    "linkedin_id": 54310,
     "contracts":[
         "sewp"
     ],
+    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/athoc-athoc-networked-crisis-communication-platform/",
 }

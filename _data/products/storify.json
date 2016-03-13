@@ -3,8 +3,6 @@
     "name": "Storify",
     "url": "storify.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_4ed8dd8aca834af8545f6ce81644fc56.image/jpeg",
-    "twitter_handle": "Storify",
-    "linkedin_id": 1233728,
     "top_keywords": [
         "curated web",
         "media",
@@ -14,12 +12,10 @@
     ],
     "short_description": "Storify is a social network service allowing users to create stories and\ntimelines using social media platforms.",
     "long_description": "Turn what people post on social media into compelling stories. With Storify, you\ncollect the best photos, video, quotes from Twitter, Instagram, YouTube and more\nto publish them as simple, beautiful stories that can be embedded anywhere. It's\nthe best way to capture an event whether it's a news event, a conference, a\nproduct launch, a wedding, ... Social media streams flow, but stories last.",
+    "twitter_handle": "Storify",
+    "linkedin_id": 1233728,
     "contracts":[
         "sewp"
     ],
     "gov_tos":"https://storify.com/tos/amendment",
-    "tags":[
-        "saas",
-        "social"
-    ]
 }

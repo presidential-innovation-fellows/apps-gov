@@ -3,8 +3,6 @@
     "name": "HP Enterprise Helion for Public Sector",
     "url": "www.hpe.com",
     "logo_url": ,
-    "twitter_handle": ,
-    "linkedin_id": ,
     "top_keywords": [
     ],
     "short_description": "Hewlett Packard Enterprise (HPE) Helion for Public Sector is an Infrastructure-as-a-Service (IaaS) cloud service that implements the complete FedRAMP Risk Management Framework by establishing controls for security, privacy, and IT governance to fulfill the NIST requirements for U.S. government agencies.",
@@ -32,11 +30,8 @@
         </ul>
         For more information, visit our web site for the U.S. public sector at www.hpe.com/gov/transformation or our worldwide web site at www.hpe.com.",
     "sales_poc": "marilyn.hays@hpe.com",
-    "fedramp_jab":"http://www.fedramp.gov/marketplace/compliant-systems/hewlett-packard-enterprise-hpe-helion-for-public-sector-helion/",
-    "tags":[
-        "iaas"
-    ],
     "contracts":[
         "sewp"
     ],
+    "fedramp_jab":"http://www.fedramp.gov/marketplace/compliant-systems/hewlett-packard-enterprise-hpe-helion-for-public-sector-helion/",
 }

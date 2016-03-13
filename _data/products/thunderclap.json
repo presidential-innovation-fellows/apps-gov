@@ -3,8 +3,6 @@
     "name": "Thunderclap",
     "url": "thunderclap.it",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_abd4ac318039b3d0e4677d4664fe6882.image/png",
-    "twitter_handle": "ThunderclapIt",
-    "linkedin_id": null,
     "top_keywords": [
         "social media",
         "advertising",
@@ -14,13 +12,11 @@
     ],
     "short_description": "Social media amplify platform",
     "long_description": "Thunderclap is the world's first crowdspeaking platform that allows anyone with\na message to amplify it with the power of their networks. Anyone with a\ntweet-sized message about something they care about can create a Thunderclap\ncampaign with that message. They can then invite their network to lend their\nvoices and support the message on Thunderclap. If enough people support the\nmessage, Thunderclap will blast out the original message on Twitter, Facebook,\nor Tumblr from all of the supporters’ social media accounts at the same time,\nautomatically creating a wave of activity.",
+    "twitter_handle": "ThunderclapIt",
+    "linkedin_id": null,
     "contracts":[
         "micro",
         "sewp"
     ],
     "gov_tos":"https://www.thunderclap.it/federal_tou",
-    "tags":[
-        "saas",
-        "social"
-    ]
 }

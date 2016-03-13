@@ -3,8 +3,6 @@
     "name": "GDIT OMNI Cloud",
     "url": "gdit.com",
     "logo_url": null,
-    "twitter_handle": null,
-    "linkedin_id": 1905,
     "top_keywords": [
         "enterprise it",
         "network systems integration",
@@ -15,11 +13,10 @@
     "short_description": "The purpose of the OMNI Cloud is to provide Infrastructure-as-a-Service (IaaS) to our customers.",
     "long_description": "The purpose of the OMNI Cloud is to provide Infrastructure-as-a-Service (IaaS) to our customers. The OMNI Cloud information system is delivered as an IaaS offering using a multi-tenant Government Community Cloud computing environment that is owned/leased and operated by GDIT and hosted in GDIT leased Data Centers located in the continental United States.",
     "sales_poc":"david.pizzano@gdit.com",
-    "fedramp_jab":"https://www.fedramp.gov/marketplace/compliant-systems/gdit-omni-cloud/",
-    "tags":[
-        "iaas"
-    ],
+    "twitter_handle": null,
+    "linkedin_id": 1905,
     "contracts":[
         "sewp"
     ],
+    "fedramp_jab":"https://www.fedramp.gov/marketplace/compliant-systems/gdit-omni-cloud/",
 }

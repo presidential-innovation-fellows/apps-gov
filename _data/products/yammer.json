@@ -3,8 +3,6 @@
     "name": "Yammer",
     "url": "yammer.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_28fa95241d964636a9b521d522909b94.image/jpeg",
-    "twitter_handle": "Yammer",
-    "linkedin_id": 260901,
     "top_keywords": [
         "applications",
         "enterprise software",
@@ -14,13 +12,11 @@
     ],
     "short_description": "Yammer is an enterprise social network that enables employees to collaborate\nacross departments, geographies and business applications.",
     "long_description": "Yammer is an enterprise social network established to foster team collaboration,\nempower employees, and drive business transformation. It enables employees to\ncollaborate in real time across departments, geographies, and business\napplications. It also helps them create groups to collaborate on projects and\nshare and edit documents. The service of yammer.com can be accessed through the\nweb, desktop and mobile devices including iPhone, iPad, Windows Phone, Android,\nand Blackberry, enabling a “virtual office” that employees can plug into while\non-the-go. Additionally, Yammer can be easily integrated with other systems such\nas Microsoft SharePoint, creating a social layer across all enterprise\napplications. Yammer has secured more than 7 million users, including employees\nfrom 85 percent of the Fortune 500 companies. Founded in 2008, Yammer is now a\npart of Microsoft.",
+    "twitter_handle": "Yammer",
+    "linkedin_id": 260901,
     "contracts":[
         "micro",
         "sewp"
     ],
     "gov_tos":"http://www.digitalgov.gov/files/2014/07/delib-dialog-tos-amendment.pdf",
-    "tags":[
-        "saas",
-        "social"
-    ]
 }

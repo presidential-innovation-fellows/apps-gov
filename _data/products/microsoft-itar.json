@@ -3,8 +3,6 @@
     "name": "Microsoft O365 ITAR",
     "url": "microsoft.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_fd80725f53fc70099878aeecf1e9ffbb.image/jpeg",
-    "twitter_handle": "Microsoft",
-    "linkedin_id": 1035,
     "top_keywords": [
         "software",
         "video games",
@@ -15,12 +13,10 @@
     "short_description": "Office 365 with ITAR Support is a dedicated software-as-a-service offering that includes Microsoft Exchange Online, Microsoft SharePoint® Online, and Microsoft Lync Online.",
     "long_description": "Office 365 with ITAR Support is a dedicated software-as-a-service offering that includes Microsoft Exchange Online, Microsoft SharePoint® Online, and Microsoft Lync Online. Customers can subscribe to one or more of the three services offered.",
     "sales_poc": "patricia@microsoft.com",
-    "fedramp_jab": "http://www.fedramp.gov/marketplace/compliant-systems/microsoft-ms-o365-itar/",
-    "tags":[
-        "saas",
-        "productivity"
-    ],
+    "twitter_handle": "Microsoft",
+    "linkedin_id": 1035,
     "contracts":[
         "sewp"
     ],
+    "fedramp_jab": "http://www.fedramp.gov/marketplace/compliant-systems/microsoft-ms-o365-itar/",
 }

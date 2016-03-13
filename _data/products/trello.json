@@ -3,8 +3,6 @@
     "name": "Trello",
     "url": "trello.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_f94d7d1fe13815f13f71e03beb45caaa.png",
-    "twitter_handle": "trello",
-    "linkedin_id": 3833064,
     "top_keywords": [
         "project management",
         "applications",
@@ -14,14 +12,11 @@
     ],
     "short_description": "Trello is a visual project management system.",
     "long_description": "Trello is a free app that makes working on group projects as easy as using\nsticky notes on your whiteboard. Available on your phone, tablet, and desktop,\nTrello's drag-and-drop interface and visual way of organizing your tasks makes\nsure you always know what needs to get done and who's working on it. Whether\nit's your sales pipeline, new employee training program, a home renovation\nproject, or even your wedding, Trello is flexible enough to make sure you're on\ntop of all your important projects. Trello was built by [Fog Creek\nSoftware](/organization/fog-creek-software) and subsequently [spun\noff](http://techcrunch.com/2014/07/24/trello-series-a/) as an independent\ncompany.",
+    "twitter_handle": "trello",
+    "linkedin_id": 3833064,
     "contracts":[
         "micro",
         "sewp"
     ],
     "gov_tos":"https://trello.com/amendment-to-trello-terms-of-service-applicable-to-government-users",
-    "tags":[
-        "saas",
-        "project",
-        "collaboration"
-    ]
 }

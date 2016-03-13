@@ -3,8 +3,6 @@
     "name": "Cisco WebEx Conference Service",
     "url": "cisco.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/5130efc18989846a36000044-1455243171",
-    "twitter_handle": "cisco",
-    "linkedin_id": 1063,
     "top_keywords": [
         "internet",
         "internet of things",
@@ -33,12 +31,10 @@
         <li>Make faster, better-informed decisions</li>
         <li>Manage national or global teams more efficiently, and save time and money on travel</li></ul>",
     "sales_poc":"sanjkhan@cisco.com",
-    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/cisco-cisco-webex-conferencing-service/",
-    "tags":[
-        "saas",
-        "collaboration"
-    ],
+    "twitter_handle": "cisco",
+    "linkedin_id": 1063,
     "contracts":[
         "sewp"
     ],
+    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/cisco-cisco-webex-conferencing-service/",
 }

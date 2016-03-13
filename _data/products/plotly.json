@@ -3,8 +3,6 @@
     "name": "Plotly",
     "url": "plot.ly",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_c32b6e4eb00ab5c73a23cb69f278d15b.png",
-    "twitter_handle": "plotlygraphs",
-    "linkedin_id": 3327684,
     "top_keywords": [
         "analytics",
         "big data",
@@ -14,13 +12,11 @@
     ],
     "short_description": "Collaborative data analysis and visualization for Python, R, MATLAB, & Excel.\n2D, 3D, and live-streaming graphs.",
     "long_description": "Plotly is a web-based graphing and analytics platform. Plotly offers paid plans\nand on-premise instances of Plotly for private collaboration and free accounts\nfor public projects. Plotly helps its users share data, graphs, and code with\nteammates, collaborators, and the world.",
+    "twitter_handle": "plotlygraphs",
+    "linkedin_id": 3327684,
     "contracts":[
         "micro",
         "sewp"
     ],
     "gov_tos":"https://plot.ly/amendment-to-plotly-terms-of-service-applicable-to-government-users/",
-    "tags":[
-        "saas",
-        "data-viz"
-    ]
 }

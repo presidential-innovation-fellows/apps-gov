@@ -3,8 +3,6 @@
     "name": "tibbr",
     "url": "www.tibco.com/",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/al_39578.jpg%3Fbuster%3D1326848434",
-    "twitter_handle": "TIBCO",
-    "linkedin_id": 3420,
     "top_keywords": [
         "big data",
         "analytics",
@@ -15,13 +13,10 @@
     "short_description": "tibbr enables users to post news and updates, ask questions, make announcements, or share ideas using a familiar, social network user interface, while restricting who can see the posts to just specific individuals, certain groups, or the whole agency, depending upon the use case and privacy required.",
     "long_description": "tibbr enables users to post news and updates, ask questions, make announcements, or share ideas using a familiar, social network user interface, while restricting who can see the posts to just specific individuals, certain groups, or the whole agency, depending upon the use case and privacy required.  tibbr connects geographically dispersed teams and leverages collective expertise to solve problems, improve employee engagement, capture corporate knowledge and all in a highly secure collaborative platform.",
     "sales_poc":"aobermay@tibco.com",
-    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/tibco-tibbr/",
-    "tags":[
-        "saas",
-        "analytics",
-        "social"
-    ],
+    "twitter_handle": "TIBCO",
+    "linkedin_id": 3420,
     "contracts":[
         "sewp"
     ],
+    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/tibco-tibbr/",
 }

@@ -3,8 +3,6 @@
     "name": "Federal Community Cloud Platform",
     "url": "datapipe.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_3d03289da857bc80e73e6cd18964dbf6.jpg",
-    "twitter_handle": "Datapipe",
-    "linkedin_id": 21475,
     "top_keywords": [
         "web hosting",
         "managed hosting",
@@ -36,11 +34,10 @@
         <li>Continuous Monitoring</li>
         <li>Software-as-a-Service (SaaS) Enablement</li></ul>",
     "sales_poc": "dtudahl@datapipe.com",
-    "fedramp_jab": "http://www.fedramp.gov/marketplace/compliant-systems/datapipe-government-solutions-federal-community-cloud-platform/",
-    "tags":[
-        "paas"
-    ],
+    "twitter_handle": "Datapipe",
+    "linkedin_id": 21475,
     "contracts":[
         "sewp"
     ],
+    "fedramp_jab": "http://www.fedramp.gov/marketplace/compliant-systems/datapipe-government-solutions-federal-community-cloud-platform/",
 }

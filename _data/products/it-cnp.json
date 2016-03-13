@@ -3,8 +3,6 @@
     "name": "GovDataHosting Cloud Platform",
     "url": "www.govdatahosting.com",
     "logo_url": null,
-    "twitter_handle": null,
-    "linkedin_id": null,
     "top_keywords": [
     ],
     "short_description": "IT-CNP’s FedRAMP JAB-authorized GovDataHosting Cloud Platform (GCP) is delivered as FISMA-compliant Infrastructure-as-a-Service (IaaS) offering using multi-tenant Federal Government cloud and private cloud computing environment deployment models.",
@@ -12,11 +10,8 @@
         <br/><br/>
         GCP certified support personnel manage the underlying components of datacenter infrastructure (physical security, redundant power/cooling, network, storage, physical hypervisor servers, access/authentication, operating system, backup, disaster recovery and security compliance) allowing customers to focus on their system mission, software application implementation and system performance fine-tuning. 100% of GCP datacenters and 24/7/365 mission critical support is provided from the continental United States and is available exclusively to U.S. Federal, state, and local government entities and their respective authorized contractors. GCP offers government customers the ability to quickly and cost effectively deploy FedRAMP and NIST SP 800-53 compliant information systems while leveraging elastic network, connectivity, as well as virtual server memory, disk and CPU resources that can be scaled up or down to accommodate periodic spikes in processing demand.",
     "sales_poc": "fedramp@govdatahosting.com",
-    "fedramp_jab": "http://www.fedramp.gov/marketplace/compliant-systems/it-cnp-inc-govdatahosting-cloud-platform/",
-    "tags":[
-        "iaas"
-    ],
     "contracts":[
         "sewp"
     ],
+    "fedramp_jab": "http://www.fedramp.gov/marketplace/compliant-systems/it-cnp-inc-govdatahosting-cloud-platform/",
 }

@@ -3,8 +3,6 @@
     "name": "Wikispaces",
     "url": "wikispaces.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_2749b654b8a19548bb83f17bdb35ad87.image/jpeg",
-    "twitter_handle": "wikispaces",
-    "linkedin_id": null,
     "top_keywords": [
         "internet",
         "education",
@@ -14,13 +12,11 @@
     ],
     "short_description": "Social Writing for Education",
     "long_description": "Wikispaces Classroom is a social writing platform for education. They make it\nincredibly easy to create a classroom workspace where you and your students can\ncommunicate and work on writing projects alone or in teams. Rich assessment\ntools give you the power to measure student contribution and engagement in\nreal-time. Wikispaces Classroom works great on modern browsers, tablets, and\nphones. Wikispaces Classroom is free for teachers and students. They have over\n10 million registered teachers and students on the platform.",
+    "twitter_handle": "wikispaces",
+    "linkedin_id": null,
     "contracts":[
         "micro",
         "sewp"
     ],
     "gov_tos":"http://www.digitalgov.gov/files/2014/01/wikispaces-tos-amendment.pdf",
-    "tags":[
-        "saas",
-        "social"
-    ]
 }

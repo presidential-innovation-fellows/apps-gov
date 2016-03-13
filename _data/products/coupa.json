@@ -3,8 +3,6 @@
     "name": "Coupa Cloud Spend Management Services",
     "url": "coupa.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_aa99fe1a3b31872de9bfc0179c4893eb.image/png",
-    "twitter_handle": "Coupa",
-    "linkedin_id": 99595,
     "top_keywords": [
         "enterprise software",
         "procurement",
@@ -15,13 +13,10 @@
     "short_description": "Coupa is a cloud-based suite of financial applications providing spend\nmanagement solutions to companies.",
     "long_description": "Coupa Software is the leading provider of disruptive and\ninnovative cloud spend management (CSM) solutions that help companies control\ntheir indirect spending and generate savings that go direct to the bottom line.\nCoupa combines the best e-procurement and expense management capabilities in a\nsingle solution that is easier to use, faster to configure and deploy, and more\ncost-effective than anything available today. With deep domain knowledge in\ne-procurement and expense management, a best-in-class cloud computing platform,\na fast-growing community of customers, and industry-first innovations like\nreal-time benchmarking, intelligent expense report auditing, and crowd sourcing\ngreat deals on the Web, Coupa is leading the way in helping companies spend\nsmarter and save more.",
     "sales_poc":"ashley.dale@coupa.com",
-    "fedramp_agency_inprocess":"https://www.fedramp.gov/marketplace/in-process-systems/coupa-software-inc-coupa-cloud-spend-management-services/",
-    "tags":[
-        "saas",
-        "procurement",
-        "finance"
-    ],
+    "twitter_handle": "Coupa",
+    "linkedin_id": 99595,
     "contracts":[
         "sewp"
     ],
+    "fedramp_agency_inprocess":"https://www.fedramp.gov/marketplace/in-process-systems/coupa-software-inc-coupa-cloud-spend-management-services/",
 }

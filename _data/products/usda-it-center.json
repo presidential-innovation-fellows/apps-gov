@@ -3,8 +3,6 @@
     "name": "USDA National Information Technology Center",
     "url": null,
     "logo_url": null,
-    "twitter_handle": null,
-    "linkedin_id": null,
     "top_keywords": [
     ],
     "short_description": "The USDA’s National Information Technology Center (NITC) is a federally-owned Cloud Service Provider for systems that are owned by Federal, State, and Local governments.",
@@ -19,12 +17,8 @@
         <br/><br/>
         In addition to the FedRAMP Moderate security control baseline, the NITC has implemented FISMA High security controls within both service offerings.",
     "sales_poc":"NITCServiceDesk@ocio.usda.gov",
-    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/united-states-department-of-agriculture-usda-national-information-technology-center/",
-    "tags":[
-        "iaas",
-        "paas"
-    ],
     "contracts":[
         "sewp"
     ],
+    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/united-states-department-of-agriculture-usda-national-information-technology-center/",
 }

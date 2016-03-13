@@ -3,8 +3,6 @@
     "name": "PowerTrain Web Development and Hosting",
     "url": "www.powertrain.com",
     "logo_url": null,
-    "twitter_handle": null,
-    "linkedin_id": null,
     "top_keywords": [
         "powertrain",
         "training",
@@ -15,12 +13,8 @@
     "short_description": "PowerTrain is an on-line application development, implementation, and hosting provider for a range of federal government agencies through an Office of Personnel Management contract.",
     "long_description": "PowerTrain is an on-line application development, implementation, and hosting provider for a range of federal government agencies through an Office of Personnel Management contract. PowerTrain currently runs systems under an assessment and authorization to operate through the Office of Personnel Management security team.",
     "sales_poc":"ccox@powertrain.com",
-    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/powertrain-inc-web-development-and-hosting/",
-    "tags":[
-        "saas",
-        "training"
-    ],
     "contracts":[
         "sewp"
     ],
+    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/powertrain-inc-web-development-and-hosting/",
 }

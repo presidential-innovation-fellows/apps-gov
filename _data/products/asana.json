@@ -3,8 +3,6 @@
     "name": "Asana",
     "url": "asana.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_c2d47d059e78de77084cdd5171251ff1.png",
-    "twitter_handle": "asana",
-    "linkedin_id": 807257,
     "top_keywords": [
         "productivity software",
         "software",
@@ -14,13 +12,10 @@
     ],
     "short_description": "Asana is a web and mobile application designed to help teams improve\ncommunication, organization and collaboration.",
     "long_description": "Asana is the easiest way for teams to track their work. From tasks and projects\nto conversations and dashboards, Asana enables teams to move work from start to\nfinish--and get results. Available at asana.com and on iOS & Android. It was\nfounded by [Dustin Moskovitz](/person/dustin-moskovitz), a co-founder of\n[Facebook](/company/facebook), and [Justin\nRosenstein](/person/justin-rosenstein), an alum of both Facebook and\n[Google](/company/google). Asana’s mission is to help humanity thrive by\nenabling all teams to work together effortlessly.",
+    "twitter_handle": "asana",
+    "linkedin_id": 807257,
     "contracts":[
         "micro",
         "sewp"
     ],
     "gov_tos":"https://asana.com/terms/amendment",
-    "tags":[
-        "saas",
-        "productivity"
-    ]
-}

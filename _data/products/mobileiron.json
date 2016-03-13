@@ -3,8 +3,6 @@
     "name": "MobileIron Government Cloud",
     "url": "mobileiron.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_21b531137d66c6a457c737443e596363.image/jpeg",
-    "twitter_handle": "mobileiron",
-    "linkedin_id": 644123,
     "top_keywords": [
         "mobile",
         "security",
@@ -44,13 +42,10 @@
         <li>Selective wipe of content repository</li>
         <li>Policy control to restrict open-in, copy & paste</li></ul></ul>",
     "sales_poc":"bmansfield@mobileiron.com",
-    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/mobileiron-mobileiron-government-cloud/",
-    "tags":[
-        "saas",
-        "mobile",
-        "security"
-    ],
+    "twitter_handle": "mobileiron",
+    "linkedin_id": 644123,
     "contracts":[
         "sewp"
     ],
+    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/mobileiron-mobileiron-government-cloud/",
 }

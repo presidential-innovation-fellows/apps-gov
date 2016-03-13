@@ -3,8 +3,6 @@
     "name": "TubeMogul",
     "url": "tubemogul.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_e24d9888b1d7b59dfbaba02f85fc3b76.png",
-    "twitter_handle": "tubemogul",
-    "linkedin_id": 127551,
     "top_keywords": [
         "advertising",
         "analytics",
@@ -14,11 +12,10 @@
     ],
     "short_description": "TubeMogul is an enterprise software company for digital branding. Brands use the\nTubeMogul Platform to execute their global video ad spend.",
     "long_description": "TubeMogul is the leading enterprise software company for digital branding. The\nworld’s largest brands and agencies unify their video advertising on TubeMogul’s\nprogrammatic platform. By using a single, integrated solution, TubeMogul’s\nclients gain control over their video spend, simplify their workflow and verify\nthe success of their campaigns. Founded in 2006, TubeMogul is based in\nEmeryville, California with offices across North America, Europe, Asia and\nAustralia.",
+    "twitter_handle": "tubemogul",
+    "linkedin_id": 127551,
     "contracts":[
         "sewp"
     ],
     "gov_tos":"http://www.digitalgov.gov/files/2014/01/tubemogul-tos-amendment.pdf",
-    "tags":[
-        "saas"
-    ]
 }

@@ -3,8 +3,6 @@
     "name": "IFTTT",
     "url": "ifttt.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_14555eed145287f5dc3bb7b65746e39f.png",
-    "twitter_handle": "IFTTT",
-    "linkedin_id": 1785718,
     "top_keywords": [
         "internet",
         "curated web",
@@ -14,13 +12,11 @@
     ],
     "short_description": "Put the internet to work for you",
     "long_description": "IFTTT lets you create powerful connections \u0003with one simple statement — if this\nthen that.",
+    "twitter_handle": "IFTTT",
+    "linkedin_id": 1785718,
     "contracts":[
         "micro",
         "sewp"
     ],
     "gov_tos":"https://ifttt.com/terms_for_government_agencies",
-    "tags":[
-        "saas",
-        "productivity"
-    ]
 }

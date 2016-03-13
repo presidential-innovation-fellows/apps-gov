@@ -3,8 +3,6 @@
     "name": "Dialogue App",
     "url": "www.dialogue-app.com/",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_285d8d5d8653a8841961baddadce4b23.png",
-    "twitter_handle": null,
-    "linkedin_id": null,
     "top_keywords": [
         "applications"
     ],
@@ -14,7 +12,4 @@
         "sewp"
     ],
     "gov_tos":"http://www.digitalgov.gov/files/2014/07/delib-dialog-tos-amendment.pdf",
-    "tags":[
-        "saas",
-    ]
 }

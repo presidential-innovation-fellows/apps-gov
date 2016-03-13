@@ -3,8 +3,6 @@
     "name": "Veracode Application Security Services System",
     "url": "veracode.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_d005b000c95105935d49016ad25c7513.jpg",
-    "twitter_handle": "veracode",
-    "linkedin_id": 27845,
     "top_keywords": [
         "cyber security",
         "mobile",
@@ -47,12 +45,10 @@
         <br/><br/>
         Veracode’s mobile application security solution combines automated code assessments with expert remediation services that enable IT teams to rapidly secure mobile applications in agile development environments, without slowing innovation.",
     "sales_poc":"jhoran@veracode.com",
-    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/veracode-veracode-application-security-services-system/",
-    "tags":[
-        "saas",
-        "security"
-    ],
+    "twitter_handle": "veracode",
+    "linkedin_id": 27845,
     "contracts":[
         "sewp"
     ],
+    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/veracode-veracode-application-security-services-system/",
 }

@@ -3,8 +3,6 @@
     "name": "HootSuite",
     "url": "hootsuite.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_0659accbc67223c64ebc57a53d2869ce.jpg",
-    "twitter_handle": "HootSuite",
-    "linkedin_id": 288540,
     "top_keywords": [
         "big data",
         "applications",
@@ -14,13 +12,11 @@
     ],
     "short_description": "Hootsuite is the most widely used platform for managing social media, loved by\nover 10 million people around the globe.",
     "long_description": "Hootsuite is the most widely used platform for managing social media, loved by\nover 10 million people around the globe and trusted by 744 of the Fortune 1000.\nWith Hootsuite, brands harness the power of social. Our platform brings together\nyour social networks and integrates with hundreds of business applications. It’s\nthe one place to build customer relationships, listen to the needs of the market\nand grow your revenue.",
+    "twitter_handle": "HootSuite",
+    "linkedin_id": 288540,
     "contracts":[
         "micro",
         "sewp"
     ],
     "gov_tos":"http://www.digitalgov.gov/files/2015/02/hootsuite-tos-amendment.pdf",
-    "tags":[
-        "saas",
-        "social"
-    ]
 }

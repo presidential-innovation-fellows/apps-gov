@@ -3,8 +3,6 @@
     "name": "Microsoft Azure Public and Gov Community Cloud Solution",
     "url": "microsoft.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_fd80725f53fc70099878aeecf1e9ffbb.image/jpeg",
-    "twitter_handle": "Microsoft",
-    "linkedin_id": 1035,
     "top_keywords": [
         "software",
         "video games",
@@ -21,12 +19,10 @@
         <br/><br/>
         For additional information, visit the Microsoft Compliance blog and Azure Trust Center, or refer to Azure FedRAMP Package ID# F1209051525.",
     "sales_poc":"adamsoh@microsoft.com",
-    "fedramp_jab":"http://www.fedramp.gov/marketplace/compliant-systems/microsoft-azure-public-and-government-community-cloud-solution/",
-    "tags":[
-        "iaas",
-        "paas"
-    ],
+    "twitter_handle": "Microsoft",
+    "linkedin_id": 1035,
     "contracts":[
         "sewp"
     ],
+    "fedramp_jab":"http://www.fedramp.gov/marketplace/compliant-systems/microsoft-azure-public-and-government-community-cloud-solution/",
 }

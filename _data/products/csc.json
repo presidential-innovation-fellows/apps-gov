@@ -3,8 +3,6 @@
     "name": "CSC Community Cloud Service",
     "url": "csc.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_5a90b0fbe0326d0afbaa558de8389919.jpg",
-    "twitter_handle": "CSCNews",
-    "linkedin_id": 1120,
     "top_keywords": [
         "software",
         "information services",
@@ -27,11 +25,10 @@
         </ul>
         For more information about CSC and its services, visit www.csc.com",
     "sales_poc":"christos.skeadas@fema.dhs.gov",
-    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/fema-nx/",
-    "tags":[
-        "iaas"
-    ],
+    "twitter_handle": "CSCNews",
+    "linkedin_id": 1120,
     "contracts":[
         "sewp"
     ],
+    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/fema-nx/",
 }

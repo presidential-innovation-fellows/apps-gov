@@ -3,8 +3,6 @@
     "name": "SocialTwist",
     "url": "socialtwist.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_c1c8c675422a557a22cad8ce8cf28b69.image/png",
-    "twitter_handle": "TellaFriend",
-    "linkedin_id": 269478,
     "top_keywords": [
         "social media marketing",
         "internet marketing",
@@ -14,12 +12,10 @@
     ],
     "short_description": "SocialTwist is a social marketing technology platform that drives customer\nacquisition, engagement and retention strategies for businesses.",
     "long_description": "SocialTwist is a leading social marketing technology provider. Our customer\nactivation platform helps marketers drive customer acquisition, engagement and\nretention strategies. Since 2008, SocialTwist has helped a large number of\ncustomers across industries including consumer products, financial services,\ntravel, and entertainment to implement solutions for referral marketing,\nenhancing content engagement, and launch creative social applications.",
+    "twitter_handle": "TellaFriend",
+    "linkedin_id": 269478,
     "contracts":[
         "sewp"
     ],
     "gov_tos":"http://www.digitalgov.gov/files/2014/01/socialtwist-tos-amendment.pdf",
-    "tags":[
-        "saas",
-        "social"
-    ]
 }

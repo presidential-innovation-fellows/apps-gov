@@ -3,8 +3,6 @@
     "name": "IBM Cloud (DOD)",
     "url": "ibm.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_fc5fbe7a562dd577b05e46797caa134c.image/png",
-    "twitter_handle": "IBM",
-    "linkedin_id": 1009,
     "top_keywords": [
         "information technology",
         "information services",
@@ -15,11 +13,10 @@
     "short_description": "The IBM Cloud Managed Services for Government is a Public Sector focused infrastructure as a service (IaaS) community cloud that is designed to meet the unique security and compliance needs of IBM Public Sector customers.",
     "long_description": "The IBM Cloud Managed Services for Government is a Public Sector focused infrastructure as a service (IaaS) community cloud that is designed to meet the unique security and compliance needs of IBM Public Sector customers. The cloud provides server and storage infrastructure services in the form of fully managed and/or customer-managed Windows and Linux virtual machines, as well as managed magnetic disk and sequential media storage. The IBM Cloud Managed Services for Government is a multi-tenant environment that currently supports production and development workloads for US Public Sector customers.",
     "sales_poc":"jmorrison@us.ibm.com",
-    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/ibm-cloud-managed-services-for-government-dod/",
-    "tags":[
-        "iaas"
-    ],
+    "twitter_handle": "IBM",
+    "linkedin_id": 1009,
     "contracts":[
         "sewp"
     ],
+    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/ibm-cloud-managed-services-for-government-dod/",
 }

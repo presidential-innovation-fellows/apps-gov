@@ -3,8 +3,6 @@
     "name": "Oracle Gov Cloud Common Controls",
     "url": "oracle.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_bef5bd4b72c67877d7ab8bbe43f7bda7.png",
-    "twitter_handle": "Oracle",
-    "linkedin_id": 1028,
     "top_keywords": [
         "enterprise software",
         "hardware",
@@ -15,11 +13,10 @@
     "short_description": "Common Controls (OGC-CC) are a collection of common Oracle cloud information resources within the Oracle clouds that support Oracle applications, platforms, infrastructure and services provided to U.S. Government and public sector.",
     "long_description": "Common Controls (OGC-CC) are a collection of common Oracle cloud information resources within the Oracle clouds that support Oracle applications, platforms, infrastructure and services provided to U.S. Government and public sector. The environment serves as a community cloud that hosts current and future Oracle Cloud FedRAMP systems. The authorization of the system includes the common hardware, software, information, data, applications, communications, facilities, and people that provide support for a variety of users and applications and will be leveraged by future Oracle Cloud authorization packages.",
     "sales_poc":"michael.l.whaley@oracle.com",
-    "fedramp_inprocess_jab":"https://www.fedramp.gov/marketplace/in-process-systems/oracle-oracle-government-cloud-common-controls-iaas/",
-    "tags":[
-        "iaas"
-    ],
+    "twitter_handle": "Oracle",
+    "linkedin_id": 1028,
     "contracts":[
         "sewp"
     ],
+    "fedramp_inprocess_jab":"https://www.fedramp.gov/marketplace/in-process-systems/oracle-oracle-government-cloud-common-controls-iaas/",
 }

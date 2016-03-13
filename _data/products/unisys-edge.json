@@ -3,8 +3,6 @@
     "name": "Unisys Edge",
     "url": "unisys.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_25143d6196c34bdd8aee16ea90d16899.jpg",
-    "twitter_handle": "UnisysCorp",
-    "linkedin_id": 1281,
     "top_keywords": [
         "software",
         "security",
@@ -24,9 +22,10 @@
         <br/><br/>
         All of this is bundled and delivered in a flexible and scalable SaaS model, eliminating large capital expenditures and hidden integration and maintenance costs often experienced with other platform vendors. When everything is up and running  we use the Unisys VantagePoint executive dashboard to deliver quantifiable results right to the IT leader’s desktop or tablet screen.",
     "sales_poc":"james.leake@unisys.com",
+    "twitter_handle": "UnisysCorp",
+    "linkedin_id": 1281,
+    "contracts":[
+        "sewp"
+    ],
     "fedramp_ready":"https://www.fedramp.gov/marketplace/fedramp-ready-systems/unisys-unisys-edge-for-government/",
-    "tags":[
-        "saas",
-        "security"
-    ]
 }

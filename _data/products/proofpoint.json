@@ -3,8 +3,6 @@
     "name": "Proofpoint Email Archive",
     "url": "proofpoint.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_ed13bb298d6a0332bea3c401a98df9c1.image/gif",
-    "twitter_handle": "Proofpoint_Inc",
-    "linkedin_id": 11681,
     "top_keywords": [
         "enterprise software",
         "software",
@@ -15,11 +13,10 @@
     "short_description": "Proofpoint provides cloud-based email security, e-discovery and compliance\nsolutions for companies to protect sensitive business data.",
     "long_description": "Proofpoint provides cloud-based email security, eDiscovery and compliance\nsolutions. Its patented technologies and on-demand delivery system protect\nagainst spam and viruses, safeguard privacy, encrypt sensitive information, and\narchive messages for management and discovery. SAAS SECURITY & COMPLIANCE SUITE\nEnterprise Email Archiving: The email archiving solution supports eDiscovery,\nregulatory compliance and email storage management. Enterprise Email Protection:\nProvides inbound and outbound email security and management to protect from\noutside threats including spam, phishing, unpredictable email volumes, malware\nand other forms of objectionable or dangerous content before they hit the\nenterprise perimeter. Enterprise Privacy: Protects private information in email,\ndefends against leaks of confidential information and ensures compliance with\ncommon international, industry and US data protection regulationsâ€”including\nHIPAA, GLBA and PCI-DSS. PRODUCT ADD-ONS Policy-Based Email Encryption:\nMitigates regulatory violations, data loss and corporate policy violations,\nwithout adversely impacting business operations. Secure File Transfer: Adds\nsecure, easy-to-use large file transfer capabilities to an organizationâ€™s\nProofpoint deployment CUSTOMERS Proofpoint provides email security, encryption,\narchiving and data loss prevention solutions for over 3,000 enterprise-level\naccounts including global enterprises, universities and government agencies.\nINDUSTRY AWARDS GARTNER: Gartner positions Proofpoint in the Leaders quadrant in\nthe 2010 Magic Quadrant for Secure Email Gateways. SC MAGAZINE: The Proofpoint\nEmail Security Blog was named \"Best Corporate Security Blog\" at SC Magazine's\nannual awards in conjunction with the RSA Conference 2010. DELOITTE: Proofpoint\nwas named as the second fastest growing technology company in Silicon Valley.\nRED HERRING: Proofpoint was named as a winner of the Red Herring 100, honoring\npromising private companies that are leading the next wave of innovation.\nFORRESTER: Forrester's Emerging Technology Showcase Recognizes The Most\nInnovative Technologies. DOW JONES: Proofpoint named as one of 10 companies most\nlikely to succeed in enterprise market. Proofpoint, Inc. was founded in 2002 and\nis based in Sunnyvale, California.",
     "sales_poc":"dbarnes@proofpoint.com",
-    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/proofpoint-inc-proofpoint-email-archive/",
-    "tags":[
-        "saas"
-    ],
+    "twitter_handle": "Proofpoint_Inc",
+    "linkedin_id": 11681,
     "contracts":[
         "sewp"
     ],
+    "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/proofpoint-inc-proofpoint-email-archive/",
 }

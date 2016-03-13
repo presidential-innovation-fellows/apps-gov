@@ -3,8 +3,6 @@
     "name": "Huddle",
     "url": "huddle.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_080d922c318d5f556b7a5cb1c7b410bc.image/png",
-    "twitter_handle": "huddle",
-    "linkedin_id": 134570,
     "top_keywords": [
         "enterprise software",
         "collaboration",
@@ -23,13 +21,10 @@
         <li>Instant note taking facility with mark-down formatting</li>
         <li>Dashboard feature to provide a quick overview of activity within the tea</li></ul>",
     "sales_poc":"ed.kleiser@huddle.com",
-    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/huddle/",
-    "tags":[
-        "saas",
-        "collaboration",
-        "project"
-    ],
+    "twitter_handle": "huddle",
+    "linkedin_id": 134570,
     "contracts":[
         "sewp"
     ],
+    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/huddle/",
 }

@@ -3,8 +3,6 @@
     "name": "Microsoft Dynamics CRM Online for Government",
     "url": "microsoft.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_fd80725f53fc70099878aeecf1e9ffbb.image/jpeg",
-    "twitter_handle": "Microsoft",
-    "linkedin_id": 1035,
     "top_keywords": [
         "software",
         "video games",
@@ -15,12 +13,10 @@
     "short_description": "Microsoft CRMOL for Government is a government-community cloud that delivers cloud-based public sector solutions to US federal, state, and local government customers, helping leaders, policymakers, and those they serve achieve greater impact within their communities.",
     "long_description": "Microsoft CRMOL for Government is a government-community cloud that delivers cloud-based public sector solutions to US federal, state, and local government customers, helping leaders, policymakers, and those they serve achieve greater impact within their communities. With core case management functionality out of the box and a variety of built-for-government solutions available, organizations can focus on tailoring Microsoft Dynamics CRM to meet their unique mission requirements. Agencies can track and manage their constituents online, increase cost efficiency, securely manage data, and offer convenient services and transactions around the clock.<br/><br/>As a Dynamics CRM Online customer, Microsoft values your trust and is committed to protect the privacy and security of your data. Please refer to https://www.microsoft.com/en-us/TrustCenter/CloudServices/Dynamics for more details.",
     "sales_poc":"shajai@microsoft.com",
-    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/microsoft-dymanics-crm-online-for-government/",
-    "tags":[
-        "saas",
-        "crm"
-    ],
+    "twitter_handle": "Microsoft",
+    "linkedin_id": 1035,
     "contracts":[
         "sewp"
     ],
+    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/microsoft-dymanics-crm-online-for-government/",
 }

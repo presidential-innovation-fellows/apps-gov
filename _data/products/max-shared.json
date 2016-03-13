@@ -3,8 +3,6 @@
     "name": "MAX.gov Shared Services",
     "url": "max.gov",
     "logo_url": null,
-    "twitter_handle": null,
-    "linkedin_id": null,
     "top_keywords": [
     ],
     "short_description": "MAX.gov Shared Services is a government-wide advanced collaboration, information sharing, data collection, publishing, and analytical capability for federal agencies and partners.",
@@ -22,16 +20,8 @@
         <br/><br/>
         MAX is managed by the Budget Systems Branch (BSB), Budget Review Division (BRD), of the Office of Management and Budget (OMB), in conjunction with the Budget Formulation and Execution Line of Business (BFELoB) Program Management Office (PMO) at the Department of Education (ED).",
     "sales_poc": "MAXSupport@omb.eop.gov",
-    "fedramp_agency": "http://www.fedramp.gov/marketplace/compliant-systems/omb-max-gov-shared-services/",
-    "tags":[
-        "paas",
-        "saas",
-        "productivity",
-        "remote",
-        "iam",
-        "collaboration"
-    ],
     "contracts":[
         "sewp"
     ],
+    "fedramp_agency": "http://www.fedramp.gov/marketplace/compliant-systems/omb-max-gov-shared-services/",
 }

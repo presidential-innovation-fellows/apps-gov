@@ -3,8 +3,6 @@
     "name": "Survey Analytics",
     "url": "surveyanalytics.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_199be61148ae3aee61ad3c2ae266f65c.image/png",
-    "twitter_handle": "surveyanalytics",
-    "linkedin_id": 542565,
     "top_keywords": [
         "curated web",
         "market research",
@@ -14,12 +12,10 @@
     ],
     "short_description": "Survey Analytics offers data collection and analysis tools, including online\nsurveys, mobile data collection, and more for enterprises.",
     "long_description": "Survey Analytics offers user-friendly, robust and affordable online tools that\nhelp businesses and organizations communicate with customers and prospects to\ngain key insights and drive sales.",
+    "twitter_handle": "surveyanalytics",
+    "linkedin_id": 542565,
     "contracts":[
         "sewp"
     ],
     "gov_tos":"http://www.digitalgov.gov/files/2014/01/survey-analytics-tos-amendment.pdf",
-    "tags":[
-        "saas",
-        "cx"
-    ]
 }

@@ -3,8 +3,6 @@
     "name": "ServiceNow Service Automation Gov Cloud Suite",
     "url": "www.servicenow.com/",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_5732f882ce884954eb911f5f65907e4b.image/png",
-    "twitter_handle": "servicenow",
-    "linkedin_id": 29352,
     "top_keywords": [
         "enterprise software",
         "saas",
@@ -14,13 +12,11 @@
     ],
     "short_description": "ServiceNow is changing the way people work, offering service management for\nevery department in the enterprise.",
     "long_description": "ServiceNow automates and manages global IT service relationships. Create a\nsingle system of record for IT, automate manual tasks, consolidate legacy ITIL\nsystems.",
+    "twitter_handle": "servicenow",
+    "linkedin_id": 29352,
     "sales_poc": "carri.thompson@servicenow.com",
-    "fedramp_jab":"https://www.fedramp.gov/marketplace/compliant-systems/servicenow-inc-servicenow-service-automation-government-cloud-suite/",
-    "tags":[
-        "saas",
-        "cx"
-    ],
     "contracts":[
         "sewp"
     ],
+    "fedramp_jab":"https://www.fedramp.gov/marketplace/compliant-systems/servicenow-inc-servicenow-service-automation-government-cloud-suite/",
 }

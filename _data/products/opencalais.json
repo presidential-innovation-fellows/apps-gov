@@ -3,19 +3,15 @@
     "name": "OpenCalais",
     "url": "opencalais.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_244771e3dc138bd53a3bea2dcf9da910.image/png",
-    "twitter_handle": "opencalais",
-    "linkedin_id": null,
     "top_keywords": [
         "curated web"
     ],
     "short_description": "OpenCalais is a web service that creates rich semantic metadata for the content\nsubmitted by users.",
     "long_description": "Calais is a rapidly growing toolkit of capabilities that allow you to readily\nincorporate state-of-the-art semantic functionality within your blog, content\nmanagement system, website or application. The OpenCalais Web Service\nautomatically creates rich semantic metadata for the content you submit â€“ in\nwell under a second. Using natural language processing, machine learning and\nother methods, Calais analyzes your document and finds the entities within it.\nBut, Calais goes well beyond classic entity identification and returns the facts\nand events hidden within your text as well. The OpenCalais initiative supports\nthe interoperability of content and advances Thomson Reuters mission to deliver\nintelligent information. It offers free metadata generation services, developer\ntools and an automatic connection to the Linked Data cloud. The free OpenCalais\nservice and open API makes it easy to automate content operations, enhance\ncontent, increase audience engagement and extend distribution across the content\necosystem.",
+    "twitter_handle": "opencalais",
+    "linkedin_id": null,
     "contracts":[
         "sewp"
     ],
     "gov_tos":"http://www.digitalgov.gov/files/2014/01/opencalais-tos-amendment.pdf",
-    "tags":[
-        "saas",
-        "data-viz"
-    ]
 }

@@ -3,8 +3,6 @@
     "name": "Mapbox",
     "url": "mapbox.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_53c6bc6e62dc9974703efef16a67db33.png",
-    "twitter_handle": "Mapbox",
-    "linkedin_id": 3302167,
     "top_keywords": [
         "enterprise software",
         "geospatial",
@@ -14,13 +12,11 @@
     ],
     "short_description": "Mapbox is mapping platform for developers. Our building blocks make it easy for\nlocation to be core to any mobile or online application.",
     "long_description": "Mapbox is a platform for designing and publishing custom maps that are fast at\nscale. Our technology makes it possible to pin travel spots on Pinterest, find\nrestaurants on Foursquare, and visualize data on GitHub. We're building our\nstack using open source tech and working with open data.",
+    "twitter_handle": "Mapbox",
+    "linkedin_id": 3302167,
     "contracts":[
         "micro",
         "sewp"
     ],
     "gov_tos":"https://www.mapbox.com/usg-tos/",
-    "tags":[
-        "saas",
-        "gis"
-    ]
 }

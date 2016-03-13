@@ -3,8 +3,6 @@
     "name": "POPAPP",
     "url": "popapp.in",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_971d6f77335f0b90f861c9528a2f7101.image/png",
-    "twitter_handle": "woomooinc",
-    "linkedin_id": 2861243,
     "top_keywords": [
         "software",
         "rapidly expanding",
@@ -14,13 +12,11 @@
     ],
     "short_description": "POPAPP is an app that transforms sketches into click-through prototypes.",
     "long_description": "POPAPP transforms sketches into click-through prototypes in minutes. Design\nwireframes on paper. Pen & paper are the best tools. Import your sketches by\ntaking a picture. Create a storyboard by linking your sketches together with\n\"link spots\". Press play and simulate your user interface to make sure\neverything flows correctly. Share your prototype with colleagues and friends.\nThey can try out your prototype in any device. You’d be surprised how valuable\ntheir feedback can be. POPAPP is widely adopted, its users include Yahoo, Zynga,\nLinkedIn and 37Signals.",
+    "twitter_handle": "woomooinc",
+    "linkedin_id": 2861243,
     "contracts":[
         "micro",
         "sewp"
     ],
     "gov_tos":"https://popapp.in/en/terms/government-users",
-    "tags":[
-        "saas",
-        "productivity"
-    ]
 }

@@ -3,8 +3,6 @@
     "name": "COPT Connect Virtual Federal Image",
     "url": "vazata.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_5df564054f5d7d78550aea51f910eee6.image/jpeg",
-    "twitter_handle": "VAZATA",
-    "linkedin_id": 2337758,
     "top_keywords": [
         "enterprise software",
         "consulting",
@@ -19,11 +17,10 @@
         <br/><br/>
         COPT/VAZATA replicates the entire VFI infrastructure elements at the Manassas, Virginia data center to an alternative processing site (data center) located centrally within the continental United States. All security controls are identical for both the primary and alternative processing centers, and both are fully operational at all times. The two processing centers are connected at all times by a dedicated private, multi-path 10GB network.",
     "sales_poc":"skovac@vazata.com",
-    "fedramp_jab":"http://www.fedramp.gov/marketplace/compliant-systems/copt-connect-llc-powered-by-vazata-virtual-federal-image/",
-    "tags":[
-        "iaas"
-    ],
+    "twitter_handle": "VAZATA",
+    "linkedin_id": 2337758,
     "contracts":[
         "sewp"
     ],
+    "fedramp_jab":"http://www.fedramp.gov/marketplace/compliant-systems/copt-connect-llc-powered-by-vazata-virtual-federal-image/",
 }

@@ -3,8 +3,6 @@
     "name": "Oracle Service Cloud",
     "url": "oracle.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_bef5bd4b72c67877d7ab8bbe43f7bda7.png",
-    "twitter_handle": "Oracle",
-    "linkedin_id": 1028,
     "top_keywords": [
         "enterprise software",
         "hardware",
@@ -15,12 +13,10 @@
     "short_description": "The Oracle Service Cloud is Oracle’s premier Software as a Service (SaaS) solution providing the industry’s best in class customer service platform for enterprise customers.",
     "long_description": "The Oracle Service Cloud is Oracle’s premier Software as a Service (SaaS) solution providing the industry’s best in class customer service platform for enterprise customers. Oracle Service Cloud is deployed onto a robust, secure infrastructure hosting Oracle’s patented CX software applications in an environment accredited to FedRAMP-Moderate specifications. The Oracle Service Cloud leverages a fault-tolerant core application framework offering flexible add-on modules providing customers with a customizable, out-of-the-box feature set to support both customer-facing and customer service agent-facing functions. The Oracle Service Cloud is offered as a hosted cloud solution (i.e., operated and maintained by Oracle within its secure hosting environment at co-location facilities in the United States) providing customers with a modern, efficient and secure cloud solution via a proven Software as a Service (SaaS) delivery model.",
     "sales_poc":"michael.l.whaley@oracle.com",
-    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/oracle-corporation-oracle-service-cloud-oracle-dod-cloud/",
-    "tags":[
-        "saas",
-        "cx",
-    ],
+    "twitter_handle": "Oracle",
+    "linkedin_id": 1028,
     "contracts":[
         "sewp"
     ],
+    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/oracle-corporation-oracle-service-cloud-oracle-dod-cloud/",
 }

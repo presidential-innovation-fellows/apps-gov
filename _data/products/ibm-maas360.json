@@ -3,8 +3,6 @@
     "name": "IBM MaaS360 Enterprise Mobility Management",
     "url": "ibm.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_fc5fbe7a562dd577b05e46797caa134c.image/png",
-    "twitter_handle": "IBM",
-    "linkedin_id": 1009,
     "top_keywords": [
         "information technology",
         "information services",
@@ -26,12 +24,10 @@
         <ul>
         MaaS360 provides a true, on-demand software-as-a-service delivery model, built on a secure, multi-tenant architecture. It offers immediate insight and control without the added costs and complexities of deploying hardware and software, dealing with intricate configurations, and dedicating additional resources to support the solution on an ongoing basis.",
     "sales_poc":"jeff.ward@us.ibm.com",
-    "fedramp_jab":"http://www.fedramp.gov/marketplace/compliant-systems/ibm-maas360-enterprise-mobility-management-saas/",
-    "tags":[
-        "saas",
-        "mobile"
-    ],
+    "twitter_handle": "IBM",
+    "linkedin_id": 1009,
     "contracts":[
         "sewp"
     ],
+    "fedramp_jab":"http://www.fedramp.gov/marketplace/compliant-systems/ibm-maas360-enterprise-mobility-management-saas/",
 }

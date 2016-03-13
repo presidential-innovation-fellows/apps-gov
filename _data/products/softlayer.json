@@ -3,8 +3,6 @@
     "name": "SoftLayer Federal Cloud",
     "url": "softlayer.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_e1f84f6469a5216199ce2033463a2178.image/png",
-    "twitter_handle": "SoftLayer",
-    "linkedin_id": 95291,
     "top_keywords": [
         "web hosting",
         "information technology",
@@ -15,12 +13,11 @@
     "short_description": "The SoftLayer Federal Cloud (SFC) is a high performance, high security, Infrastructure-as-a-Service Cloud.",
     "long_description": "The SoftLayer Federal Cloud (SFC) is a high performance, high security, Infrastructure-as-a-Service Cloud provided by SoftLayer Technologies, Inc. SFC makes use of a unique managed and automated cloud service provider architecture layer (a multi-faceted Infrastructure-as-a-Service (IaaS) Cloud) that provides a variety of cloud-based services. Under SoftLayer’s unique managed/automated service provider architecture, its offerings include public, private, and hybrid cloud offerings. Services include orchestrated bare metal servers (dedicated and shared) and virtual servers (dedicated and shared) to support a variety of operational and security requirements of federal agencies.",
     "sales_poc":"skinman@softlayer.com",
-    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/softlayer-softlayer-federal-cloud-sfc/",
-    "fedramp_inprocess_jab":"https://www.fedramp.gov/marketplace/in-process-systems/softlayer-softlayer-federal-cloud/",
-    "tags":[
-        "iaas"
-    ],
+    "twitter_handle": "SoftLayer",
+    "linkedin_id": 95291,
     "contracts":[
         "sewp"
     ],
+    "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/softlayer-softlayer-federal-cloud-sfc/",
+    "fedramp_inprocess_jab":"https://www.fedramp.gov/marketplace/in-process-systems/softlayer-softlayer-federal-cloud/",
 }

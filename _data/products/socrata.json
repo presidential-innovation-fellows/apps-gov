@@ -3,8 +3,6 @@
     "name": "Socrata",
     "url": "socrata.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_cf9b7eed8b2d4a8457274286fee14a49.png",
-    "twitter_handle": "socrata",
-    "linkedin_id": 428169,
     "top_keywords": [
         "enterprise software",
         "cloud computing",
@@ -14,13 +12,11 @@
     ],
     "short_description": "Socrata, a cloud-based software company, enables users to access the data of\npublic sector organizations via web, mobile and M2M interfaces.",
     "long_description": "Socrata is a Seattle-based cloud software company, focused exclusively on\ndemocratizing access to government data. We help public sector organizations\nimprove transparency, citizen service and fact-based decision-making by\nefficiently delivering data to citizens, employees and developers in a\nuser-friendly experience on web, mobile and machine-to-machine interfaces.\nInnovators like the World Bank, Medicare, Data.gov, EnergyStar, New York City,\nChicago, San Francisco, Oregon and Maryland, have all chosen Socrata for its\nturnkey and low-cost cloud delivery of easy-to-use open data products. Socrata’s\ntoolkit goes well beyond creating data catalogues. The company’s products are\ndesigned to support a lively ecosystem around open data. For example, every data\nset on Socrata is API-enabled with accompanying documentation, allowing\ndevelopers and entrepreneurs to query data sets easily to create apps.\nMeanwhile, citizens, researchers, and journalists can search for the information\nthey want without filling out a F.O.I.A. request or digging through papers. They\ncan easily create digital visualizations, such as map mashups, charts, and\ngraphs, with data. These same citizens then embed their creations on another\nwebsite, where the data included will refresh automatically. And, they can give\nfeedback to the agency hosting the data about their experience, creating a full\nfeedback loop between citizens and government. In addition, Socrata GovStat\ncombines openly accessible government data and a drag-and-drop report-creation\ntool, Socrata DataSlate, to offer an efficient way for government agencies to\ntrack their progress against goals and engage with the public about the results.\nDesigned by former Director of Maryland StateStat, Beth Blauer, GovStat is\ntransforming the cost and effectiveness of government performance management.",
+    "twitter_handle": "socrata",
+    "linkedin_id": 428169,
     "contracts":[
         "sewp"
     ],
     "gov_tos":"http://www.digitalgov.gov/files/2014/01/socrata-tos-amendment_0.pdf",
     "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/socrata-socrata-open-data-platform/",
-    "tags":[
-        "saas",
-        "analytics"
-    ]
 }
