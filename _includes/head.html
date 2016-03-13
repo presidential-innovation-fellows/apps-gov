@@ -17,6 +17,29 @@
 
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
+  <!-- Google+ -->
+  <meta itemprop="name" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta itemprop="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+  <meta itemprop="image" content="{% if page.img %}{{ site.url }}/{{ page.img }}{% else %}{{ site.url }}/img/wh-hero.jpg{% endif %}"/>
+
+  <!-- Facebook OG -->
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{% if page.title %}{{ site.url }}{{ page.permalink }}{% else %}{{ site.url }}{% endif %}" />
+  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+  <meta property="og:image" content="{% if page.img %}{{ site.url }}/{{ page.img }}{% else %}{{ site.url }}/img/wh-hero.jpg{% endif %}" />
+  <meta property="og:site_name" content="{{ site.title }}" />
+  <meta property="fb:admins" content="123456789" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+  <meta name="twitter:site" content="@innovfellows" />
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+  <meta name="twitter:creator" content="@innovfellows" />
+  <meta name="twitter:image:src" content="{% if page.img %}{{ site.url }}/{{ page.img }}{% else %}{{ site.url }}/img/wh-hero.jpg{% endif %}" />
+
+
   <!--[if lt IE 9]>
     <script src="{{ site.baseurl }}/js/vendor/html5shiv.js"></script>
   <![endif]-->
