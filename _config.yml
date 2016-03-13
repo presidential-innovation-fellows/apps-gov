@@ -12,8 +12,8 @@ description: > # this means to ignore newlines until "baseurl:"
   A marketplace to find cloud based products to help the government 
   operate better.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://apps.pif.gov" # the base hostname & protocol for your site
-twitter_username: appsgov
+url: "https://apps.gov" # the base hostname & protocol for your site
+twitter_username: innovfellows
 github_username:  presidential-innovation-fellows
 repo_url: https://github.com/presidential-innovation-fellows/apps-gov
 
