@@ -156,14 +156,16 @@ skip_index: false
 					{% assign product_contracts = product.contracts %}
 					<div class="usa-accordion">
 		    		<ul class="usa-unstyled-list">
+		    		{% assign loop_index = 0 %}
 						{% for product_contract in product_contracts %}
 							{% for contracts_hash in site.data.contracts %}{% assign contract = contracts_hash[1] %}
 								{% if product_contract == contract.id %}
+									{% capture loop_index %}{{ loop_index | plus:1 }}{% endcapture %}
 						      <li>
-						        <button class="usa-button-unstyled" aria-expanded="{% if forloop.first == true %}true{% else %}false{% endif %}" aria-controls="collapsible-{{ forloop.index }}">
+						        <button class="usa-button-unstyled" aria-expanded="{% if loop_index == '1' %}true{% else %}false{% endif %}" aria-controls="collapsible-{{ forloop.index }}">
 						          {{ contract.name }}
 						        </button>
-						        <div id="collapsible-{{ forloop.index }}" aria-hidden="{% if forloop.first == true %}false{% else %}true{% endif %}" class="usa-accordion-content">
+						        <div id="collapsible-{{ forloop.index }}" aria-hidden="{% if loop_index == '1' %}false{% else %}true{% endif %}" class="usa-accordion-content">
 						          {% if contract.poc %}
 												<p>POC: <a href="mailto:{{ contract.poc }}" target="blank">{{ contract.poc }}</a></p>
 											{% endif %}
