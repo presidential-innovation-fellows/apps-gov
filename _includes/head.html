@@ -27,9 +27,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{% if page.title %}{{ site.url }}{{ page.permalink }}{% else %}{{ site.url }}{% endif %}" />
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
-  <meta property="og:image" content="{% if page.img %}{{ site.url }}/{{ page.img }}{% else %}{{ site.url }}/img/apps-gov-og.jpg?t=12345?{% endif %}" />
-  <meta property="og:image:width" content="200" />
-  <meta property="og:image:height" content="200" />
+  <meta property="og:image" content="{% if page.img %}{{ site.url }}/{{ page.img }}{% else %}{{ site.url }}/img/apps-gov-og.jpg{% endif %}" />
   <meta property="og:site_name" content="{{ site.title }}" />
   <meta property="fb:admins" content="123456789" />
 
