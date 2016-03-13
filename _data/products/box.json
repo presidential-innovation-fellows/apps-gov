@@ -18,5 +18,9 @@
     "contracts":[
         "sewp"
     ],
+    "gov_customers":[
+        "DOJ"
+    ],
     "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/box-inc-box-enterprise-cloud-content-collaboration-platform/",
+    "ato_agency":true
 }

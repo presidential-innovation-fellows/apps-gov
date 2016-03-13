@@ -23,5 +23,6 @@
         "NASA",
         "State"
     ],
+    "ato_agency":true,
     "gov_tos":"https://slack.com/terms-of-service/government",
 }

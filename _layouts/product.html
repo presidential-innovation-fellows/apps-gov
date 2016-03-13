@@ -115,7 +115,7 @@ skip_index: false
 					<h4>Reviews</h4>
 					<ul class="reviews-items">
 						<li>
-							<p {% if product.gov_tos or product.fedramp_jab or product.fedramp_agency or product.fedramp_csp %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} Federal-Negotiated TOS{% if product.gov_tos and product.gov_tos != true %} (<a href="{{ product.gov_tos }}" target="blank">link</a>){% endif %}</p>
+							<p {% if product.gov_tos or product.fedramp_jab or product.fedramp_agency or product.fedramp_csp or product.gov_customers or product.agency_approval %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} Federally-Compatible TOS{% if product.gov_tos and product.gov_tos != true %} (<a href="{{ product.gov_tos }}" target="blank">link</a>){% endif %}</p>
 						</li>
 						<li>
 							<p {% if product.pta or product.fedramp_jab or product.fedramp_agency or product.fedramp_csp %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} Privacy Threshold Analysis (PTA){% if product.pta and product.pta != true %} (<a href="{{ product.pta }}" target="blank">link</a>){% endif %}</p>
