@@ -39,7 +39,7 @@ The format for listing your product `JSON` includes three sections: 1) required,
     "facebook_url": "facebook_url",
     "linkedin_id": "linkedin_id",
     "angellist_name": "angellist_name",
-    "youtube_id": "youtube_id",
+    "youtube_video_id": "youtube_video_id",
     
 ####Attributes: (add the appropriate ones that apply to your product)
 
