@@ -141,13 +141,13 @@ skip_index: false
 					<section class="additional-testing">
 						<h4>Additional Testing</h4>
 						<ul class="additional-testing-items">
-							{% if product.fedramp_ready %}<li><span class="usa-label">FedRamp Ready</span></li>{% endif %}
-							{% if product.fedramp_infra %}<li><span class="usa-label">FedRamp Infrastructure</span></li>{% endif %}
-							{% if product.swamp %}<li><span class="usa-label">DHS SWAMP</span></li>{% endif %}
-							{% if product.nccoe %}<li><span class="usa-label">NCCoE Review</span></li>{% endif %}
-							{% if product.icd_503 %}<li><span class="usa-label">ICD 503</span></li>{% endif %}
-							{% if product.hipaa %}<li><span class="usa-label">HIPAA Compliant</span></li>{% endif %}
-							{% if product.pci %}<li><span class="usa-label">PCI Compliant</span></li>{% endif %}
+							{% if product.fedramp_ready %}<li>{% if product.fedramp_ready and product.fedramp_ready != true %}<a href="{{ product.fedramp_ready }}" target="blank">{% endif %}<span class="usa-label">FedRamp Ready</span>{% if product.fedramp_ready and product.fedramp_ready != true %}</a>{% endif %}</li>{% endif %}
+							{% if product.fedramp_infra %}<li>{% if product.fedramp_infra and product.fedramp_infra != true %}<a href="{{ product.fedramp_infra }}" target="blank">{% endif %}<span class="usa-label">FedRamp Infrastructure</span>{% if product.fedramp_infra and product.fedramp_infra != true %}</a>{% endif %}</li>{% endif %}
+							{% if product.swamp %}<li>{% if product.swamp and product.swamp != true %}<a href="{{ product.swamp }}" target="blank">{% endif %}<span class="usa-label">DHS SWAMP</span>{% if product.swamp and product.swamp != true %}</a>{% endif %}</li>{% endif %}
+							{% if product.nccoe %}<li>{% if product.nccoe and product.nccoe != true %}<a href="{{ product.nccoe }}" target="blank">{% endif %}<span class="usa-label">NCCoE Review</span>{% if product.nccoe and product.nccoe != true %}</a>{% endif %}</li>{% endif %}
+							{% if product.icd_503 %}<li>{% if product.icd_503 and product.icd_503 != true %}<a href="{{ product.icd_503 }}" target="blank">{% endif %}<span class="usa-label">ICD 503</span>{% if product.icd_503 and product.icd_503 != true %}</a>{% endif %}</li>{% endif %}
+							{% if product.hipaa %}<li>{% if product.hipaa and product.hipaa != true %}<a href="{{ product.hipaa }}" target="blank">{% endif %}<span class="usa-label">HIPAA Compliant</span>{% if product.hipaa and product.hipaa != true %}</a>{% endif %}</li>{% endif %}
+							{% if product.pci %}<li>{% if product.pci and product.pci != true %}<a href="{{ product.pci }}" target="blank">{% endif %}<span class="usa-label">PCI Compliant</span>{% if product.pci and product.pci != true %}</a>{% endif %}</li>{% endif %}
 						</ul>
 					</section>
 				{% endif %}
