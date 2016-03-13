@@ -29,14 +29,12 @@ exclude:
 - Gemfile.lock
 - LICENSE.md
 - README.md
-- Staticfile
 - go
 - node_modules
 - package.json
 - vendor
 - system-security-plan.yml
 - about.yml
-- nginx.conf
 
 page_gen:
   - data: apps

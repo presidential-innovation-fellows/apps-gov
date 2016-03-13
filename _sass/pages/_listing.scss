@@ -47,6 +47,22 @@
   .left-col {
     @include media($medium-screen) {
       @include span-columns(3);
+
+      .usa-sidenav-list{
+        position:fixed;
+        top:196px;
+        bottom:0;
+        width:21.23176%;
+      }
+    }
+    @include media($large-screen) {
+      .usa-sidenav-list{
+        position:fixed;
+        top:196px;
+        bottom:0;
+        width:250px;
+        left:114.5;
+      }
     }
   }
 
