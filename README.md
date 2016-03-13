@@ -51,6 +51,14 @@ The format for listing your product `JSON` includes three sections: 1) required,
         "sewp is universal and should be added by default"
     ],
 
+**Government Customers:**
+
+    "gov_customers": [
+        "add the",
+        "agency code here",
+        "e.g. GSA"
+    ]
+
 **Reviews:**
 
     "gov_tos": "add the value "true" OR the url to TOS",
