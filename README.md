@@ -46,7 +46,7 @@ The format for listing your product `JSON` includes three sections: 1) required,
 **Contract Vehicles:**
 
     "contracts": [
-        "add from the approved list below",
+        "add from the approved list in appendix",
         "e.g. micro",
         "sewp is universal and should be added by default"
     ],
@@ -54,9 +54,9 @@ The format for listing your product `JSON` includes three sections: 1) required,
 **Government Customers:**
 
     "gov_customers": [
-        "add the",
-        "agency code here",
-        "e.g. GSA"
+        "add the agency code here",
+        "e.g. GSA",
+        "see appendix for details"
     ]
 
 **Reviews:**
