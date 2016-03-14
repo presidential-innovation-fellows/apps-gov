@@ -7,13 +7,11 @@ $('#github').on('click', function() {
 $('#tag').on('click', function() {
   ga('send', 'event', 'apps', 'product', 'tag');
 });
-$('#search-form').submit(function(event) {
-  console.log(event);
-  ga('send', 'event', 'apps', 'search', 'complete');
-})
-// $("#search-field-big").keyup(function(event){
-//     if(event.keyCode == 13){
-//         console.log('test');
-//         event.preventDefault();
-//     }
-// });
+
+$('#hero-search-form').on('submit', function(event){
+  ga('send', 'event', 'apps', 'search', 'hero');
+});
+
+$('#product-search-form').on('submit', function(event){
+  ga('send', 'event', 'apps', 'search', 'product');
+});
