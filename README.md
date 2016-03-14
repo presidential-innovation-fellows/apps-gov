@@ -2,13 +2,13 @@
 
 #Apps.Gov
 
-This is the public repo for apps.gov, which is an active marketplace that helps gov employees evlauate and compare cloud-based products. Information on product's description, certifications, and contract vehicles are listed. Additionally, resources for tech comapnies to list their products and how to get started selling to the federal government can be found.
+This is the public repo for apps.gov, which is an active marketplace that helps gov employees evaluate and compare cloud-based products. Information on product's description, certifications, and contract vehicles are listed. Additionally, resources for tech companies to list their products and how to get started selling to the federal government can be found.
 
 This repo is open source, maintained by the [Presidential Innovation Fellows](pif.gov). If you have any questions regarding this repo or the content listed, please contact [apps-gov@gsa.gov](mailto:apps-gov@gsa.gov).
 
 ## How to list your product
 
-To get started selling ot the federal government, check out [https://apps.gov/listing](https://apps.gov/listing) to learn more about steps to get listed, contract vehicles available, and security reviews when selling to the federal government.
+To get started selling to the federal government, check out [https://apps.gov/listing](https://apps.gov/listing) to learn more about steps to get listed, contract vehicles available, and security reviews when selling to the federal government.
 
 ## Editing your product
 
@@ -32,7 +32,7 @@ The format for listing your product `JSON` includes three sections: 1) required,
     "short_description": "High level product description, up to 140 characters.",
     "long_description": "Longer description of the product, which will be found on the product page.",
     "sales_poc": "sales-poc-email",
-    
+
 ####Optional:
 
     "twitter_handle": "twitter_handle",
@@ -40,7 +40,7 @@ The format for listing your product `JSON` includes three sections: 1) required,
     "linkedin_id": "linkedin_id",
     "angellist_name": "angellist_name",
     "youtube_video_id": "youtube_video_id",
-    
+
 ####Attributes: (add the appropriate ones that apply to your product)
 
 **Contract Vehicles:**
@@ -74,7 +74,7 @@ The format for listing your product `JSON` includes three sections: 1) required,
     "fedramp_inprocess_jab": "fedramp-inprocess-jab-url",
     "fedramp_inprocess_agency": "fedramp-inprocess-agency-url",
     "agency_ato": "link-to-ato",
-   
+
 **Additional Testing:**
 
     "fedramp_ready": "fedramp-ready-url",
@@ -84,7 +84,7 @@ The format for listing your product `JSON` includes three sections: 1) required,
     "icd_503": "add the value "true" or url to certification",
     "hipaa": "add the value "true" or url to compliance doc",
     "pci": "add the value "true" or url to compliance doc"
-    
+
 ### How to run this locally
 
 Clone this repo https://github.com/mbland/jekyll_pages_api_search/ and update your `Gemfile` to set the url path to this gem in your local directory
@@ -92,8 +92,8 @@ Clone this repo https://github.com/mbland/jekyll_pages_api_search/ and update yo
 Within the apps-gov repo, run `./go init` which installs the npm modules (specified in package.json). Specifically, we need browserify and uglifyify to compile the custom js/products.js code into js/products-bundle.js, as specified in the jekyll_pages_api_search: browserify: property of _config.yml.
 
 Then, run `./go build` and `./go serve` to run the `bundler-aware` Jekyll build and serve commands, respectively. The .go script also sets the `NODE_PATH environment` variable to add the `node_modules` directory, so that the locally-installed browserify and uglifyify modules are discoverable.
-    
-Navigate to 
+
+Navigate to
 
 ## Appendix
 
