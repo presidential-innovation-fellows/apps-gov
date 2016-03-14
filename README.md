@@ -114,6 +114,7 @@ When adding customers, please use the following terms to appropriately populate 
 
 Code | Name
 --- | ---
+CFPB | Consumer Financial Protection Bureau
 DOC | Department of Commerce
 DOE | Department of Energy
 DOI | Department of Interior
