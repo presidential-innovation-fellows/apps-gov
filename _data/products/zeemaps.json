@@ -2,7 +2,7 @@
     "slug": "zeemaps",
     "name": "ZeeMaps",
     "url": "zeemaps.com",
-    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_9ca53c6f34db0b0e24d449de45f85fa2.image/png",
+    "logo_url": "//d3o96a3f9o7chl.cloudfront.net/images/app/logo.png",
     "top_keywords": [
         "software",
         "maps",
@@ -10,8 +10,8 @@
         "curated web",
         "create map"
     ],
-    "short_description": "Your Open Source Partner",
-    "long_description": "Zee Source mission is to help organizations adopt Open Source technologies for\ntheir own software development. We provide professional customization and\nintegration of several Open Source tools like Bugzilla, CVS, SubVersion, and\nMailman, to suite our customers' special requirements. Zee Source has developed\na Web 2.0 mapping solution ZeeMaps, that allows users to easily create and\npublish interactive maps. Some unique features of ZeeMaps are: (1) scalability:\nfrom a few markers to tens of thousands of markers, (2) custom fields that can\nbe combined with distance search, and (3) static images in high resolution\nsuitable for publications. Many publishers like wired.com, Bay Area Newsgroup,\nand Milwaukee Sentinel routinely use ZeeMaps to create interactive maps related\nto their news stories.",
+    "short_description": "We Map Your Lists",
+    "long_description": "ZeeMaps allows users to easily create and publish customized interactive maps. Use pins for locations and highlight areas like counties, states, zip codes, or radius circles. The data for pins can come from spreadsheets, crowd source, or Google search. ZeeMaps can automatically update maps from spreadsheets stored on a Google Drive. Some highlights  ZeeMaps are: (1) scalability:from a few markers to tens of thousands of markers, (2) custom fields that can be combined with distance search, and (3) static custom map images in high resolution suitable for publications. Government agencies like CDC and NIH routinely use ZeeMaps for their mapping requirements.",
     "twitter_handle": "zeemaps",
     "linkedin_id": null,
     "contracts":[
