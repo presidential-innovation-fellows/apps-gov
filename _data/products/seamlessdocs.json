@@ -1,0 +1,24 @@
+{
+    "slug": "seamlessdocs",
+    "name": "SeamlessDocs",
+    "url": "https://www.seamlessdocs.com",
+    "logo_url": "https://www.seamlessdocs.com/_imgs/logos/seamlessdocs.png",
+    "top_keywords": [
+        "eSignatures",
+        "Automated Paperwork",
+        "Cloud Storage",
+        "surveys",
+        "Online Form Templates"
+    ],
+    "short_description": "SeamlessDocs is a form & eSignature platform specializing in helping govs convert all their PDF & form processes into beautiful experiences.",
+    "long_description": "We specialize in working with governments to convert all their PDFs and forms into fillable, smart & secure online versions that can be completed and eSigned from any device.",
+    "sales_poc": "sales@seamlessdocs.com",
+    "twitter_handle": "@seamlessdocs",
+    "facebook_url": "https://www.facebook.com/SeamlessDocs",
+    "linkedin_id": "https://www.linkedin.com/company/seamlessdocs",
+    "angellist_name": "https://angel.co/seamlessdocs",
+    "contracts": [
+        "micro",
+        "sewp"
+    ]
+}
