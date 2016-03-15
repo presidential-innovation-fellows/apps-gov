@@ -43,7 +43,7 @@ rescue LoadError
 end
 
 extend GoScript
-check_ruby_version '2.3.0'
+check_ruby_version '2.2.4'
 
 # END go_script 0.1.9 GENERATED CONTENT
 
