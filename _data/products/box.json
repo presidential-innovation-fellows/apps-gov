@@ -8,15 +8,20 @@
         "file sharing",
         "flash storage",
         "cloud computing",
-        "saas"
+        "saas",
+        "enterprise software",
+        "content management",
+        "productivity",
+        "mobile",
+        "ECM"
     ],
-    "short_description": "Founded in 2005, Box (NYSE: BOX) is transforming the way people and\norganizations work so they can achieve their greatest ambitions. As the world's\nleading enterprise content management and collaboration platform, Box helps\nbusinesses of all sizes in every industry securely access and manage their\ncritical information in the cloud. Box is headquartered in Redwood City, CA,\nwith offices across the United States, Europe and Asia. To learn more about Box,\nvisit www.box.com.",
-    "long_description": "After starting as a college business project in 2005, Box was officially\nlaunched in March of 2006 with the vision of connecting people, devices and\nnetworks. Box provides more than 8 million users with secure cloud content\nmanagement and collaboration. They say their platform \"allows personal and\ncommercial content to be accessible, sharable, and storable in any format from\nanywhere.\"",
+    "short_description": "Founded in 2005, Box (NYSE:BOX) is transforming the way people and organizations work so they can achieve their greatest ambitions. As a leading enterprise content management platform, Box helps businesses of all sizes in every industry securely access and manage their critical information in the cloud. Box is headquartered in Redwood City, CA, with offices across the United States, Europe and Asia. To learn more about Box, visit www.box.com.",
+    "long_description": "Founded in 2005, Box (NYSE:BOX) is transforming the way people and organizations work so they can achieve their greatest ambitions. As a leading enterprise content management platform, Box helps businesses of all sizes in every industry securely access and manage their critical information in the cloud. Box is headquartered in Redwood City, CA, with offices across the United States, Europe and Asia. To learn more about Box, visit www.box.com.",
     "sales_poc":"tcowles@box.com",
     "twitter_handle": "BoxHQ",
     "linkedin_id": 54178,
     "contracts":[
-        "sewp"
+        "sewp", "s70"
     ],
     "gov_customers":[
         "DOJ"
