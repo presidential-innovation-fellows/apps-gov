@@ -4,16 +4,17 @@
     "url": "zeemaps.com",
     "logo_url": "//d3o96a3f9o7chl.cloudfront.net/images/app/logo.png",
     "top_keywords": [
-        "software",
+        "zip code",
         "maps",
-        "open source",
-        "curated web",
+        "google maps",
+        "map pdf",
         "create map"
     ],
     "short_description": "We Map Your Lists",
-    "long_description": "ZeeMaps allows users to easily create and publish customized interactive maps. Use pins for locations and highlight areas like counties, states, zip codes, or radius circles. The data for pins can come from spreadsheets, crowd source, or Google search. ZeeMaps can automatically update maps from spreadsheets stored on a Google Drive. Some highlights  ZeeMaps are: (1) scalability:from a few markers to tens of thousands of markers, (2) custom fields that can be combined with distance search, and (3) static custom map images in high resolution suitable for publications. Government agencies like CDC and NIH routinely use ZeeMaps for their mapping requirements.",
+    "long_description": "ZeeMaps allows users to easily create, analyze and publish customized interactive maps. Add markers (pins) for locations of interest, and highlight areas, e.g., counties, states, zip codes, and radius circles. The data for pins can come from spreadsheets, crowd source, or Google search. Automatically update maps from Google Drive spreadsheets. Some highlights of ZeeMaps are: (1) scale from a few markers to tens of thousands of markers, (2) searchable custom fields, (3) static custom map images in high resolution suitable for publications, (4) custom marker icons, and (5) powerful analysis and search capabilities. Federal agencies like CDC, DHS, SBA, and USDA and several state fire departments, libraries and other groups, routinely use ZeeMaps for their mapping requirements.",
     "twitter_handle": "zeemaps",
     "linkedin_id": null,
+	"facebook_url": "https://www.facebook.com/zeemaps",
     "contracts":[
         "micro",
         "sewp"
