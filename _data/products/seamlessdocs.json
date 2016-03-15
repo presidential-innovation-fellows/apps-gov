@@ -1,7 +1,7 @@
 {
     "slug": "seamlessdocs",
     "name": "SeamlessDocs",
-    "url": "https://www.seamlessdocs.com",
+    "url": "https://www.seamlessgov.com",
     "logo_url": "https://www.seamlessdocs.com/_imgs/logos/seamlessdocs.png",
     "top_keywords": [
         "eSignatures",
@@ -15,8 +15,9 @@
     "sales_poc": "sales@seamlessdocs.com",
     "twitter_handle": "@seamlessdocs",
     "facebook_url": "https://www.facebook.com/SeamlessDocs",
-    "linkedin_id": "https://www.linkedin.com/company/seamlessdocs",
-    "angellist_name": "https://angel.co/seamlessdocs",
+    "linkedin_id": "seamlessdocs",
+    "angellist_name": "seamlessdocs",
+    "gov_tos": true,
     "contracts": [
         "micro",
         "sewp"
