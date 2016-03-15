@@ -1,7 +1,7 @@
 {
     "slug": "github",
     "name": "GitHub",
-    "url": "github.com",
+    "url": "https://government.github.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_57fd815ad340c7aba975dd541a71fec6.png",
     "top_keywords": [
         "software",
@@ -10,13 +10,18 @@
         "computer software",
         "software development and collaboration tools"
     ],
-    "short_description": "GitHub is a web-based Git repository hosting service offering distributed\nrevision control and source code management functionality of Git.",
-    "long_description": "GitHub is the best place to build software together. Over 12 million people use\nGitHub to share code and build amazing things with friends, co-workers,\nclassmates, and complete strangers. With the collaborative features of\nGitHub.com, our desktop and mobile apps, and GitHub Enterprise, it has never\nbeen easier for individuals and teams to write better code, faster. Originally\nfounded by Tom Preston-Werner, Chris Wanstrath, and PJ Hyett to simplify sharing\ncode, GitHub has grown into the largest code host in the world.",
+    "short_description": "GitHub is how people build software. Millions of individuals and organizations around the world use GitHub to discover, share, and contribute to software—from games and experiments to popular frameworks and leading applications. Together, we're defining how software is built today.",
+    "long_description": "GitHub is how people build software. Millions of individuals and organizations around the world use GitHub to discover, share, and collaborate on software—from games and experiments to popular frameworks and leading applications. Together, we're defining how software is built today. Whether you use GitHub.com or GitHub Enterprise on your own servers, you can access one of the world's largest developer communities to build software in the way that works best for you. Choose your deployment option and integrate your favorite third party tools into a powerful, collaborative workflow.",
     "twitter_handle": "github",
     "linkedin_id": 1418841,
     "contracts":[
         "micro",
-        "sewp"
+        "sewp",
+        "s70"
     ],
     "gov_tos":"https://help.github.com/articles/amendment-to-github-terms-of-service-applicable-to-u-s-federal-government-users/",
+    "sales_poc": "government@github.com",
+    "gov_customers": [
+      "DOC", "DOE", "DOI", "DOL", "FDA", "GSA", "HHS", "IRS", "MCC", "NARA", "NASA", "NIH", "NIST", "NOAA", "OSTP", "Smithsonian", "State", "USAID", "USDA", "USCB", "USCIO", "USPTO", "VA"
+    ]
 }
