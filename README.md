@@ -14,7 +14,7 @@ To get started selling ot the federal government, check out [https://apps.gov/li
 
 All products are listed in `JSON` format. Updates can be made and submitted via a pull request, which will be reviewed by the Apps.Gov team. The link to where all products are at https://github.com/presidential-innovation-fellows/apps-gov/tree/master/_data/products
 
-**NOTE:** To help ensure and maintain quality of products listed, only pull requests that come from GitHub accounts that have a publicly listed, confirmed (default GitHub requirement) company email address associated with the profile will be approved. A note will be added if this is not true and will be reviewed again once complete and noted in the comments, notifying the reviewer's GitHub username.
+**NOTICE!!!** To help ensure and maintain quality of products listed, only pull requests that come from GitHub accounts that have a publicly listed, confirmed (default GitHub requirement) company email address associated with the profile will be approved. A note will be added if this is not true and will be reviewed again once complete and noted in the comments, notifying the reviewer's GitHub username.
 
 The format for listing your product `JSON` includes three sections: 1) required, 2) optional, and 3) attributes.
 
