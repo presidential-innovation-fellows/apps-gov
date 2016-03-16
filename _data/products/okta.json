@@ -2,18 +2,13 @@
    "slug": "okta",
     "name": "Okta",
     "url": "okta.com",
-    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_d655da6b07f172f1f838b956e2a6fecc.image/png",
+    "logo_url": "https://www.okta.com/sites/all/themes/Okta/images/logo.svg",
     "top_keywords": [
-        "enterprise software",
         "identity management",
-        "access management",
         "single sign on",
         "saas",
         "multi-factor authentication",
-        "provisioning",
-        "federation",
-        "universal directory",
-        "mobility management"
+        "universal directory"
     ],
     "short_description": "Okta is the foundation for secure connections between people and technology. Okta’s products manage identity and access for millions of people on millions of devices.",
     "long_description": "Okta is the foundation for secure connections between people and technology. Okta’s products manage identity and access for millions of people on millions of devices.<br/>
