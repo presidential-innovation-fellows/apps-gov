@@ -1,0 +1,21 @@
+{
+    "slug": "cludo",
+    "name": "Cludo Search",
+    "url": "https://www.cludo.com/en",
+    "logo_url": "https://www.cludo.com/img/Cludo-full-color-dark-h40.png",
+    "top_keywords": [
+        "enterprise search",
+        "search",
+        "site search",
+        "website search",
+        "intranet search"
+    ],
+    "short_description": "Cludo is a cloud-based search solution which puts in control over your search solution. Cludo can be used both in public websites and intranet solutions.",
+    "long_description": "With Cludo Search you are in control over your search. We automatically fix spelling mistakes and support features such as, autocomplete, synonyms, banners to promote content and much more. Every feature can be accessed from our mobile-friendly dashboard. Installation of Cludo Search is very easy, and can be done by copy & pasting a HTML & Javascript code snippet.",
+    "sales_poc":"philip@cludo.com",
+    "twitter_handle": "cludoapp",
+    "linkedin_id": 9423751,
+    "contracts":[
+        "micro"
+    ]
+}
