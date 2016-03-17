@@ -34,6 +34,8 @@ The format for listing your product `JSON` includes three sections: 1) required,
     "short_description": "High level product description, up to 140 characters.",
     "long_description": "Longer description of the product, which will be found on the product page.",
     "sales_poc": "sales-poc-email",
+    
+**NOTE:** The `sales_poc` designation enables the Contact button on your product page.
 
 #### Optional:
 
@@ -52,6 +54,8 @@ The format for listing your product `JSON` includes three sections: 1) required,
         "e.g. micro",
         "sewp is universal and should be added by default"
     ],
+    
+**NOTE:** All products should be available on the NASA SEWP contract vehicle by default. Read more at https//apps.gov/listing/#sewp
 
 **Government Customers:**
 
