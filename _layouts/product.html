@@ -91,8 +91,13 @@ skip_index: false
 				<section class="product-info">
 					<h2>{{ product.name }}</h2>
 					<h4>
-						<a href="http://{{ product.url }}"target="blank">
-							{{ product.url }}
+						{% if product.url contains "http://" or product.url contains "https://" %}
+							{% assign normalized_product_url = product.url %}
+						{% else %}
+							{% capture normalized_product_url %}http://{{product.url}}{% endcapture %}
+						{% endif %}
+						<a href="{{ normalized_product_url }}"target="blank">
+							{{ normalized_product_url }}
 							<i class="fa fa-external-link"></i>
 						</a>
 					</h4>
