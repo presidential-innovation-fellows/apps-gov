@@ -14,7 +14,7 @@ To get started selling ot the federal government, check out [https://apps.gov/li
 
 All products are listed in `JSON` format. Updates can be made and submitted via a pull request, which will be reviewed by the Apps.Gov team. The link to where all products are at https://github.com/presidential-innovation-fellows/apps-gov/tree/master/_data/products
 
-**NOTICE!!!** To help ensure and maintain quality of products listed, only pull requests that come from GitHub accounts that have a publicly listed, confirmed (default GitHub requirement) company email address associated with the profile will be approved. A note will be added if this is not true and will be reviewed again once complete and noted in the comments, notifying the reviewer's GitHub username.
+**NOTICE!!!** To help ensure and maintain quality of products listed, only pull requests that come from GitHub accounts that have a publicly listed, confirmed (default GitHub requirement) company email address OR the company GitHub organization associated with the profile. A note will be added if this is not true and will be reviewed again once complete and noted in the comments, notifying the reviewer's GitHub username.
 
 The format for listing your product `JSON` includes three sections: 1) required, 2) optional, and 3) attributes.
 
@@ -171,7 +171,11 @@ When adding customers, please use the following terms to appropriately populate 
 Code | Name
 --- | ---
 CFPB | Consumer Financial Protection Bureau
+CNSC | Corporation for National and Community Service
+DHA | Defense Health Agency
+DHS | Departmnet of Homeland Security
 DOC | Department of Commerce
+DOD | Departmnet of Defense
 DOE | Department of Energy
 DOI | Department of Interior
 DOJ | Department of Justice
@@ -188,10 +192,12 @@ NASA | National Aeronautics and Space Administration
 NIH | National Institute of Health
 NIST | National Institute of Standards and Technology
 NOAA | National Oceanic and Atmospheric Administration
+NSA | National Security Agency
 NSF | National Science Foundatoin
 OSTP | White House Office of Science & Technology, Policy
 SBA | Small Business Administration
 Smithsonian | Smithsonian Institution
+SSA | Social Security Administration
 State | State Department
 Treasury | Department of the Treasury
 USAID | US Agency for International Development
