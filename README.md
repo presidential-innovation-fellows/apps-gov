@@ -55,7 +55,7 @@ The format for listing your product `JSON` includes three sections: 1) required,
         "sewp is universal and should be added by default"
     ],
     
-**NOTE:** All products should be available on the NASA SEWP contract vehicle by default. Read more at https//apps.gov/listing/#sewp
+**NOTE:** All products should be available on the NASA SEWP contract vehicle by default. Read more at [https://apps.gov/listing/#sewp](https://apps.gov/listing/#sewp)
 
 **Government Customers:**
 
