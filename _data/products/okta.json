@@ -1,21 +1,19 @@
 {
-    "slug": "okta",
+   "slug": "okta",
     "name": "Okta",
     "url": "okta.com",
-    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_d655da6b07f172f1f838b956e2a6fecc.image/png",
+    "logo_url": "https://www.okta.com/sites/all/themes/Okta/images/logo.svg",
     "top_keywords": [
-        "enterprise software",
         "identity management",
-        "access management",
         "single sign on",
-        "saas"
+        "saas",
+        "multi-factor authentication",
+        "universal directory"
     ],
-    "short_description": "The IDaaS system is an on-demand identity and access management service that enables enterprises to accelerate the secure adoption of their web based applications, both in the cloud and behind the firewall.",
-    "long_description": "The IDaaS system is an on-demand identity and access management service that enables enterprises to accelerate the secure adoption of their web based applications, both in the cloud and behind the firewall. The IDaaS system delivers a complete solution addressing the needs of IT Operations, End Users, and Business Leaders with no customization required. The service offers:
-        <ul>
-        <li>Secure, strong authentication sign-on for end users, giving them seamless access to the SaaS applications or online services they need</li>
-        <li>Comprehensive user management that is integrated with Active Directory, including user provisioning and de-provisioning, enabling IT to accelerate adoption of online services or SaaS applications</li>
-        <li>Authentication analytics spanning usage, utilization, and cost that provide IT the insight needed to optimize their application investments and address their compliance needs</li></ul>",
+    "short_description": "Okta is the foundation for secure connections between people and technology. Okta’s products manage identity and access for millions of people on millions of devices.",
+    "long_description": "Okta is the foundation for secure connections between people and technology. Okta’s products manage identity and access for millions of people on millions of devices.<br/>
+    By harnessing the power of the cloud, Okta allows people to access applications on any device at any time, while still enforcing strong security policies. It integrates directly with an organization’s existing directories and identity systems, as well as 4,000+ applications.<br/>
+Okta offers products in two lines: for IT and developers. Okta’s IT products are geared toward IT and security leaders and are designed to simplify the way people connect to enterprise technology, while increasing efficiency and keeping IT environments secure. Okta’s IT products include Universal Directory, Single Sign-On, Provisioning, Adaptive Multi-factor Authentication and Mobility Management. Okta’s developer and platform products allow product teams to layer Okta’s powerful identity services into their applications and portals. Okta’s Platform makes it easy for customers to authentication, manage and secure their users. Okta’s Platform products include Universal Directory, Single Sign-On, Provisioning, Adaptive Multi-factor Authentication, Social Authentication, Inbound Federation, and AD and LDAP Integration.",
     "sales_poc":"chris.niggel@okta.com",
     "twitter_handle": "okta",
     "linkedin_id": 926041,
