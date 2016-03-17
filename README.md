@@ -87,14 +87,6 @@ The format for listing your product `JSON` includes three sections: 1) required,
 
 ### How to run this locally
 
-Clone this repo https://github.com/mbland/jekyll_pages_api_search/ and update your `Gemfile` to set the url path to this gem in your local directory
-
-Within the apps-gov repo, run `./go init` which installs the npm modules (specified in package.json). Specifically, we need browserify and uglifyify to compile the custom js/products.js code into js/products-bundle.js, as specified in the jekyll_pages_api_search: browserify: property of _config.yml.
-
-Then, run `./go build` and `./go serve` to run the `bundler-aware` Jekyll build and serve commands, respectively. The .go script also sets the `NODE_PATH environment` variable to add the `node_modules` directory, so that the locally-installed browserify and uglifyify modules are discoverable.
-
-Navigate to
-
 1. Install [Ruby](https://www.ruby-lang.org/) on your system. This site
    requires version 2.2.4 or greater. You can see if a compatible version is
    already installed by running `ruby -v` in a terminal window.
@@ -156,7 +148,7 @@ Navigate to
    Node.js module resolution
    algorithm](https://nodejs.org/api/modules.html#modules_all_together) will
    not discover the modules on its own.
->>>>>>> 90214b0ba7ea747284ad0497e2ea2c3fb63e721d
+
 
 ## Appendix
 
