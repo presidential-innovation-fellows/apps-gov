@@ -16,8 +16,10 @@
   "facebook_url": "https://www.facebook.com/crowdkeep/",
   "linkedin_id": "crowdkeep",
   "angellist_name": "crowdkeep",
+  "sales_poc": "apps.gov@crowdkeep.com",
   "contracts":[
     "micro",
-    "s70"
+    "s70",
+    "sewp"
   ]
 }
