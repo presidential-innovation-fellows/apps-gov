@@ -1,19 +1,20 @@
 {
     "slug": "zeemaps",
     "name": "ZeeMaps",
-    "url": "zeemaps.com",
-    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_9ca53c6f34db0b0e24d449de45f85fa2.image/png",
+    "url": "www.zeemaps.com",
+    "logo_url": "//d3o96a3f9o7chl.cloudfront.net/images/app/logo.png",
     "top_keywords": [
-        "software",
+        "zip code",
         "maps",
-        "open source",
-        "curated web",
+        "google maps",
+        "map pdf",
         "create map"
     ],
-    "short_description": "Your Open Source Partner",
-    "long_description": "Zee Source mission is to help organizations adopt Open Source technologies for\ntheir own software development. We provide professional customization and\nintegration of several Open Source tools like Bugzilla, CVS, SubVersion, and\nMailman, to suite our customers' special requirements. Zee Source has developed\na Web 2.0 mapping solution ZeeMaps, that allows users to easily create and\npublish interactive maps. Some unique features of ZeeMaps are: (1) scalability:\nfrom a few markers to tens of thousands of markers, (2) custom fields that can\nbe combined with distance search, and (3) static images in high resolution\nsuitable for publications. Many publishers like wired.com, Bay Area Newsgroup,\nand Milwaukee Sentinel routinely use ZeeMaps to create interactive maps related\nto their news stories.",
+    "short_description": "We Map Your Lists",
+    "long_description": "ZeeMaps allows you to create, analyze and publish customized interactive maps. Make maps with multiple markers and highlighted areas, e.g., counties, states, zip codes, and radius circles. The location data can come from spreadsheets, crowd source, or Google search. In addition, ZeeMaps can periodically update maps from attached Google Drive spreadsheets. Some highlights of ZeeMaps are: (1) scale from a few markers to tens of thousands of markers, (2) searchable custom fields, (3) static custom map images in high resolution suitable for publications, (4) custom marker icons, and (5) powerful analysis and search capabilities based on highlighted areas and distance buffers. Federal agencies like CDC, DHS, SBA, and USDA, and several state fire departments, libraries and other groups, routinely use ZeeMaps for their mapping requirements.",
     "twitter_handle": "zeemaps",
     "linkedin_id": null,
+	"facebook_url": "https://www.facebook.com/zeemaps",
     "contracts":[
         "micro",
         "sewp"
