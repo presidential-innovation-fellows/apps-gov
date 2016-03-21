@@ -23,14 +23,14 @@
   <!-- Google+ -->
   <meta itemprop="name" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta itemprop="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
-  <meta itemprop="image" content="{% if page.img %}{{ site.url }}/{{ page.img }}{% else %}{{ site.url }}/img/apps-gov-og.jpg{% endif %}"/>
+  <meta itemprop="image" content="{% if page.img %}{{ site.url }}/{{ page.img }}{% else %}{{ site.url }}/assets/img/apps-gov-og.jpg{% endif %}"/>
 
   <!-- Facebook OG -->
   <meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{% if page.title %}{{ site.url }}{{ page.permalink }}{% else %}{{ site.url }}{% endif %}" />
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
-  <meta property="og:image" content="{% if page.img %}{{ site.url }}/{{ page.img }}{% else %}{{ site.url }}/img/apps-gov-og.jpg{% endif %}" />
+  <meta property="og:image" content="{% if page.img %}{{ site.url }}/{{ page.img }}{% else %}{{ site.url }}/assets/img/apps-gov-og.jpg{% endif %}" />
   <meta property="og:site_name" content="{{ site.title }}" />
   <meta property="fb:admins" content="123456789" />
 
@@ -40,18 +40,18 @@
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
   <meta name="twitter:creator" content="@innovfellows" />
-  <meta name="twitter:image:src" content="{% if page.img %}{{ site.url }}/{{ page.img }}{% else %}{{ site.url }}/img/apps-gov-og.jpg{% endif %}" />
+  <meta name="twitter:image:src" content="{% if page.img %}{{ site.url }}/{{ page.img }}{% else %}{{ site.url }}/assets/img/apps-gov-og.jpg{% endif %}" />
 
 
   <!--[if lt IE 9]>
-    <script src="{{ site.baseurl }}/js/vendor/html5shiv.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/vendor/html5shiv.js"></script>
   <![endif]-->
 
   <!-- Favicons
   ================================================== -->
     <!-- 128x128 -->
-    <link rel="shortcut icon" type="image/ico" href="{{ site.baseurl }}/img/favicons/favicon.ico" />
-    <link rel="icon" type="image/png" href="{{ site.baseurl }}/img/favicons/favicon.png" />
+    <link rel="shortcut icon" type="image/ico" href="{{ site.baseurl }}/assets/img/favicons/favicon.ico" />
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/img/favicons/favicon.png" />
 
     <!-- 192x192, as recommended for Android
     http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
@@ -69,10 +69,10 @@
 
   <!-- CSS
   ================================================== -->
-    <link rel="stylesheet" href="{{ "/css/google-fonts.css" | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="/font-awesome-4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="{{ "/css/normalize.min.css" | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/css/google-fonts.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="/assets/font-awesome-4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ "/assets/css/normalize.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
