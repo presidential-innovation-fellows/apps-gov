@@ -4,11 +4,11 @@
     "url": "huddle.com",
     "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_080d922c318d5f556b7a5cb1c7b410bc.image/png",
     "top_keywords": [
-        "enterprise software",
         "collaboration",
         "project management",
         "document management",
-        "internet"
+        "file sharing",
+        "FedRAMP"        
     ],
     "short_description": "Huddle provides cloud based online collaboration and document sharing solutions for users and businesses.",
     "long_description": "Huddle provides cloud based online collaboration and document sharing solutions for users and businesses. Using a Software as a Service (SaaS) service model, Huddle combines Enterprise Content Management (ECM) and social software allowing companies and communities to collaborate flexibly. The key functionality that the Huddle system provides is:
@@ -19,12 +19,29 @@
         <li>Permissions models around folders so access can be restricted to specific teams</li>
         <li>Creation and tracking of tasks assigned to members of the team, with automatic reminders</li>
         <li>Instant note taking facility with mark-down formatting</li>
-        <li>Dashboard feature to provide a quick overview of activity within the tea</li></ul>",
-    "sales_poc":"ed.kleiser@huddle.com",
+        <li>Dashboard feature to provide a quick overview of activity within the team</li></ul>",
+    "sales_poc":"rick.barnard@huddle.com",
     "twitter_handle": "huddle",
     "linkedin_id": 134570,
     "contracts":[
-        "sewp"
+        "sewp",
+        "s70",
+        "nitaac"
     ],
     "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/huddle/",
+    "gov_customers":[
+        "DOE",
+        "DOC",
+        "HHS",
+        "NASA",
+        "NIST",
+        "NIH",
+        "USAID",
+        "CNSC",
+        "DHA",
+        "DOD"
+    ],
+    "gov_tos": "true",
+    "pta": "true",
+    "pia": "true",
 }
