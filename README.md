@@ -23,7 +23,7 @@ The format for listing your product `JSON` includes three sections: 1) required,
     "slug": "product-file-name",
     "name": "product-name",
     "url": "product-url",
-    "logo_url": "logo-url",
+    "logo": "file-name-ie-product.png-otherwise-value-should-be-null",
     "top_keywords": [
         "add"
         "up to"
@@ -35,6 +35,8 @@ The format for listing your product `JSON` includes three sections: 1) required,
     "long_description": "Longer description of the product, which will be found on the product page.",
     "sales_poc": "sales-poc-email",
     
+**NOTE:** Adding a logo requires adding a png (max dimensions 400x400 and less than 100kb) to [/assets/img/product_logos/](https://github.com/presidential-innovation-fellows/apps-gov/tree/master/assets/img/product_logos/) folder.
+
 **NOTE:** The `sales_poc` designation enables the Contact button on your product page.
 
 #### Optional:
