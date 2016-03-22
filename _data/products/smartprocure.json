@@ -1,43 +1,43 @@
 
 {
-    "slug": "smartprocure",
-    "name": "SmartProcure",
-    "url": "smartprocure.us",
-    "logo_url": "https://smartprocure.us/images/logo@2x.png",
-    "top_keywords": [
-      "Purchasing software",
-      "Procurement software",
-      "Purchase Order",
-      "Market Research",
-      "Business Intelligence",
-      "Pricing",
-      "RFQ",
-      "Quotes",
-      "RFP",
-      "Request for Proposal",
-      "RFI",
-      "Spend Analytics",
-      "Government Rates",
-      "Fair and Reasonable",
-      "IFB",
-      "Bid",
-      "Contract management",
-      "Piggyback",
-      "purchasing procurement",
-      "Sole Source"
-    ],
-    "short_description": "A FAR compliant market research tool to assist with determining fair and reasonable pricing when conducting price and cost analyses.",
-    "long_description": "<p>SmartProcure’s database contains hundreds of millions of local, state and federal purchase order records. This information can be used to find products, research pricing, verify vendors, ensure compliance, provide data to your citizens and benchmark your performance internally and externally.</p> 
-                          <p>SmartSearch is SmartProcure's web-based tool that makes it easy to find a product’s best price, identify and validate vendors, request quotes and connect with peers. Use our national database of purchase order records to save a significant amount of time and money on every purchase you make. Agencies can instantly find the right vendors and see prices paid by thousands of government agencies.</p>",
-    "sales_poc": "govsales@smartprocure.us",
-    "twitter_handle": "@SmartProcureUS",
-    "contracts":[
-      "micro",
-      "sewp"
-    ],
-    "gov_customers": [
-      "DOD",
-      "NIH"
-    ]
+  "slug": "smartprocure",
+  "name": "SmartProcure",
+  "url": "smartprocure.us",
+  "logo_url": "https://smartprocure.us/images/logo@2x.png",
+  "top_keywords": [
+    "Purchasing software",
+    "Procurement software",
+    "Purchase Order",
+    "Market Research",
+    "Business Intelligence",
+    "Pricing",
+    "RFQ",
+    "Quotes",
+    "RFP",
+    "Request for Proposal",
+    "RFI",
+    "Spend Analytics",
+    "Government Rates",
+    "Fair and Reasonable",
+    "IFB",
+    "Bid",
+    "Contract management",
+    "Piggyback",
+    "purchasing procurement",
+    "Sole Source"
+  ],
+  "short_description": "A FAR compliant market research tool to assist with determining fair and reasonable pricing when conducting price and cost analyses.",
+  "long_description": "<p>SmartProcure’s database contains hundreds of millions of local, state and federal purchase order records. This information can be used to find products, research pricing, verify vendors, ensure compliance, provide data to your citizens and benchmark your performance internally and externally.</p> 
+                        <p>SmartSearch is SmartProcure's web-based tool that makes it easy to find a product’s best price, identify and validate vendors, request quotes and connect with peers. Use our national database of purchase order records to save a significant amount of time and money on every purchase you make. Agencies can instantly find the right vendors and see prices paid by thousands of government agencies.</p>",
+  "sales_poc": "govsales@smartprocure.us",
+  "twitter_handle": "@SmartProcureUS",
+  "contracts":[
+    "micro",
+    "sewp"
+  ],
+  "gov_customers": [
+    "DOD",
+    "NIH"
+  ]
 }
 
