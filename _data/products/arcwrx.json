@@ -1,0 +1,22 @@
+{
+    "slug": "ARCWRX",
+    "name": "ARCWRX (PaaS)",
+    "url": "autonomicresources.com",
+    "logo": "ARCWRX.png",
+    "top_keywords": [
+        "ARCWRX",
+        "PaaS",
+        "CSRA",
+        "Autonomic Resources",
+    ],
+    "short_description": "Autonomic Resources, a CSRA Company, offers the ARCWRX Platform-as-a-Service (PaaS) offering, built on RedHat OpenShift, provides an application development platform within a multi-tenant virtual environment leveraging the ARC-P IaaS system.",
+    "long_description": "Autonomic Resources, a CSRA Company, offers the ARCWRX Platform-as-a-Service (PaaS) offering, built on RedHat OpenShift, provides an application development platform within a multi-tenant virtual environment leveraging the ARC-P IaaS system. Provisioning, automatic scaling, and management of application containers are inherent platform features. The ARCWRX platform allows customer agency and mission developers to design, build, publish, manage, and scale government applications in a secure virtual container runtime environment utilizing programing languages such as Java, PHP, Ruby, Node.js, and Perl with database options including MongoDb, MySQL, and PostgreSQL. Agency and mission customers are afforded the ability to concentrate efforts on application code development while the operation and maintenance of the underlying infrastructure is abstracted. Additional benefits of the ARCWRX PaaS offering include on demand self-service provisioning, broad network access, resource pooling, rapid elasticity, measured service, and the ability to scale applications automatically to handle increased traffic load and demand. A complete set of continuous integration and revision control tools include Git, Jenkins, and Cron and allow for streamlined application development.",
+    "sales_poc": "jfk@autonomicresources.com",
+    "twitter_handle": "Autonomic_CLOUD",
+    "linkedin_id": 711723,
+    "contracts":[
+        "sewp"
+        "nitaac"
+    ],
+    "fedramp_jab": "http://www.fedramp.gov/marketplace/compliant-systems/autonomic-resources-llc-arcwrx/",
+}
