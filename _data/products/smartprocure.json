@@ -32,8 +32,8 @@
     "sales_poc": "govsales@smartprocure.us",
     "twitter_handle": "@SmartProcureUS",
     "contracts":[
-        "micro",
-        "sewp"
+      "micro",
+      "sewp"
     ],
     "gov_customers": [
       "DOD",
