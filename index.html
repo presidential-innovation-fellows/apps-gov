@@ -57,7 +57,7 @@ layout: home
                 {% capture compareUrl %},{{ product.logo_url }},{% endcapture %}
                 {% if urlList contains compareUrl %}{% else %}
                   <li class="product-logo">
-                     <img src="{{ product.logo_url }}">
+                     <img src="{% if product.logo_url or product.logo %}/assets/img/product_logos/{% if product.logo_url %}{{ product.logo_url }}{% else %}{{ product.logo }}{% endif %}{% endif %}">
                   </li>
                   {% capture tempList %}{{ urlList }}{{ product.logo_url }},{% endcapture %}
                   {% assign urlList = tempList %}
