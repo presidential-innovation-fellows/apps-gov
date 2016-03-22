@@ -18,7 +18,7 @@ skip_index: false
 		<div class="product-content">
 			<div class="left-content">
 				<div class="product-logo">
-					<img src="{% if product.logo_url %}{{ product.logo_url }}{% else %}/assets/img/apps-logo.svg{% endif %}">
+					<img src="{% if product.logo_url or product.logo %}{% if product.logo_url %}/assets/img/product_logos/{{ product.logo_url }}{% else %}/assets/img/product_logos/{{ product.logo }}{% endif %}{% else %}/assets/img/apps-logo.svg{% endif %}">
 				</div>
 
 				<ul class="social-icons">

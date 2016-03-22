@@ -2,7 +2,7 @@
     "slug": "acquia",
     "name": "Acquia Cloud",
     "url": "acquia.com",
-    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_ef598b5bd588c21f9b93be78443f4e22.image/png",
+    "logo": "acquia.png",
     "top_keywords": [
         "enterprise software",
         "content",

@@ -2,7 +2,7 @@
     "slug": "addthis",
     "name": "AddThis",
     "url": "addthis.com",
-    "logo_url": "//datafox-data.s3-us-west-1.amazonaws.com/images/cb_fc89cfdea28ee12c443cedccb6c93fd4.png",
+    "logo": "addthis.png",
     "top_keywords": [
         "mobile",
         "advertising",
