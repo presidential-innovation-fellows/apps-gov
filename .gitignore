@@ -2,4 +2,4 @@ _site
 .sass-cache
 .jekyll-metadata
 node_modules/
-js/products-bundle.js
+apps/js/products-bundle.js

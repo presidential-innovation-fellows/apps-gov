@@ -114,7 +114,7 @@ The format for listing your product `JSON` includes three sections: 1) required,
    the [`jekyll_pages_api_search` gem](https://rubygems.org/gems/jekyll_pages_api_search).
    We also use [browserify](https://www.npmjs.com/package/browserify)
    and [uglifyify](https://www.npmjs.com/package/uglifyify) to compile the
-   custom [`js/products.js`](js/products.js]) code into
+   custom [`assets/js/products.js`](assets/js/products.js]) code into
    `js/products-bundle.js`, as specified in the
    `jekyll_pages_api_search.browserify` property of
    [`_config.yml`](_config.yml).

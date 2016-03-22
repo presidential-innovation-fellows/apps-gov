@@ -63,5 +63,5 @@ jekyll_pages_api_search:
   # generate a bundle to define the renderJekyllPagesApiSearchResults
   # function.
   browserify:
-    source: '/assets/js/products.js'
-    target: '/assets/js/products-bundle.js'
+    source: 'assets/js/products.js'
+    target: 'assets/js/products-bundle.js'
