@@ -35,9 +35,9 @@ The format for listing your product `JSON` includes three sections: 1) required,
     "long_description": "Longer description of the product, which will be found on the product page.",
     "sales_poc": "sales-poc-email",
     
-**NOTE:** Adding a logo requires adding a png (max dimensions 400x400 and less than 100kb) to [/assets/img/product_logos/](https://github.com/presidential-innovation-fellows/apps-gov/tree/master/assets/img/product_logos/) folder.
+**NOTE 1:** Adding a logo requires adding an image (max dimensions 400x400 and less than 100kb) to [/assets/img/product_logos/](https://github.com/presidential-innovation-fellows/apps-gov/tree/master/assets/img/product_logos/) folder. GitHub allows users to drag and drop files directly into repositories, which can be part of your pull request.
 
-**NOTE:** The `sales_poc` designation enables the Contact button on your product page.
+**NOTE 2:** The `sales_poc` designation enables the Contact button on your product page.
 
 #### Optional:
 
