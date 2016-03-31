@@ -1,0 +1,23 @@
+{
+    "slug": "thousandeyes",
+    "name": "ThousandEyes",
+    "url": "https://www.thousandeyes.com",
+    "logo_url": "thousandeyes.png",
+    "top_keywords": [
+        "network performance monitoring",
+        "application performance monitoring",
+        "end user experience",
+        "network security",
+        "network troubleshooting"
+    ],
+    "short_description": "ThousandEyes is a Network Intelligence platform that delivers visibility into every network your organization relies on.",
+    "long_description": "ThousandEyes is a Network Intelligence platform that delivers visibility into every network your organization relies on. Smart agents deployed across the Internet and within your organization continuously monitor application experience and network performance. These agents deliver the most complete understanding of network topology, dependencies and behavior. Quickly and precisely pinpoint the root cause of problems, such as device faults, congestion, DDoS attacks, hijacks, route leaks, DNS failures and service provider outages. Share your insights with your vendors, partners and customers to resolve problems faster. Respond to issues before they impact customers and services.",
+    "sales_poc": "contact@thousandeyes.com",
+    "twitter_handle": "ThousandEyes",
+    "linkedin_id": 687352,
+    "youtube_video_id": "hNcNVjpu1TQ",
+    "contracts": [
+        "micro",
+        "sewp"
+    ]
+}
