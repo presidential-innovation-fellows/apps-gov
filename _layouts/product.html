@@ -129,7 +129,7 @@ skip_index: false
 							<p {% if product.pia or product.fedramp_jab or product.fedramp_agency or product.fedramp_csp  %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} Privacy Impact Assessment (PIA){% if product.pia and product.pia != true %} (<a href="{{ product.pia }}" target="blank">link</a>){% endif %}</p>
 						</li>
 						<li>
-							<p {% if product.sorn %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} System or Records Notice (SORN){% if product.sorn and product.sorn != true %} (<a href="{{ product.sorn }}" target="blank">link</a>){% endif %}</p>
+							<p {% if product.sorn %}class="complete"><i class="fa fa-check-circle"></i>{% else %}><i class="fa fa-circle-o"></i>{% endif %} System of Records Notice (SORN){% if product.sorn and product.sorn != true %} (<a href="{{ product.sorn }}" target="blank">link</a>){% endif %}</p>
 						</li>
 					</ul>
 				</section>
