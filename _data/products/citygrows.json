@@ -1,0 +1,23 @@
+{
+    "slug": "citygrows",
+    "name": "CityGrows",
+    "url": "citygro.ws",
+    "logo": "citygrows.png",
+    "top_keywords": [
+        "workflows",
+        "process management",
+        "open data",
+        "transparency",
+        "forms",
+    ],
+    "short_description": "CityGrows is a workflow and transparency platform for government.",
+    "long_description": "CityGrows is a workflow and transparency platform for government. We make it easy for governments to manage complex processes, collaborate with citizens and team members, and provide real-time open data.",
+    "twitter_handle": "citygrows",
+    "sales_poc": "stephen@citygro.ws",
+    "facebook_url": "https://www.facebook.com/Citygrows/",
+    "angellist_name": "citygrows",
+    "linkedin_id": 6403561,
+    "contracts":[
+    ],
+    "gov_tos":"http://citygro.ws/docs/amendment-to-citygrows-terms-of-service-applicable-to-government-users",
+}
