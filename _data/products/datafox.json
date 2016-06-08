@@ -1,0 +1,26 @@
+{
+  "slug": "datafox",
+  "name": "DataFox",
+  "url": "www.datafox.com",
+  "logo": "datafox.png",
+  "top_keywords": [
+    "business intelligence",
+    "company research",
+    "find companies",
+    "corporate development",
+    "industry research"
+  ],
+  "short_description": "DataFox enables users to find, research and, connect with companies and nonprofits by region, type, size, growth potential and more.",
+  "long_description": "With over 1 million companies and 12 thousand sector landscapes in our database, DataFox offers best-in-class searches and filters to help you find the exact types of businesses you're looking for. Whether it's small Ohio healthcare startups who are growing, robotics companies in North America who recently raised financing, or nonprofits with at least 100 employees in the greater Boston area, DataFox helps you find companies, compare vendors to one another, and learn about recent milestones they’ve achieved. Contact sales@datafox.com or 415-969-2144 for more information.",
+  "twitter_handle": "datafoxco",
+  "sales_poc" : "sales@datafox.com",
+  "angellist_name": "datafox",
+  "facebook_url": "https://www.facebook.com/datafoxco/",
+  "linkedin_id": 3231060,
+  "contracts":[
+    "micro"
+  ],
+  "gov_customers": [
+      "GSA"
+  ],
+ }
