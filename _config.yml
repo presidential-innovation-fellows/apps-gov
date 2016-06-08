@@ -35,6 +35,7 @@ exclude:
 - vendor
 - system-security-plan.yml
 - about.yml
+- manifest.yml
 
 page_gen:
   - data: apps

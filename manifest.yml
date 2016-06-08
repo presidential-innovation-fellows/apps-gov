@@ -1,0 +1,12 @@
+---
+applications:
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  domain: apps.gov
+  disk_quota: 1024M
+  env:
+    FORCE_HTTPS: true
+  instances: 3
+  memory: 64M
+  name: apps-gov
+  no-hostname: true
+  path: _site
