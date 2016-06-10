@@ -180,9 +180,9 @@ Code | Name
 CFPB | Consumer Financial Protection Bureau
 CNSC | Corporation for National and Community Service
 DHA | Defense Health Agency
-DHS | Departmnet of Homeland Security
+DHS | Department of Homeland Security
 DOC | Department of Commerce
-DOD | Departmnet of Defense
+DOD | Department of Defense
 DOE | Department of Energy
 DOI | Department of Interior
 DOJ | Department of Justice
