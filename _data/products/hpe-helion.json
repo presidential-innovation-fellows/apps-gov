@@ -31,7 +31,8 @@
         For more information, visit our web site for the U.S. public sector at www.hpe.com/gov/transformation or our worldwide web site at www.hpe.com.",
     "sales_poc": "marilyn.hays@hpe.com",
     "contracts":[
-        "sewp"
+        "sewp",
+        "s70"
     ],
     "fedramp_jab":"http://www.fedramp.gov/marketplace/compliant-systems/hewlett-packard-enterprise-hpe-helion-for-public-sector-helion/",
 }

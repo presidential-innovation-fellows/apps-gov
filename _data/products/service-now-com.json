@@ -16,7 +16,8 @@
     "linkedin_id": 29352,
     "sales_poc": "carri.thompson@servicenow.com",
     "contracts":[
-        "sewp"
+        "sewp",
+        "s70"
     ],
     "fedramp_jab":"https://www.fedramp.gov/marketplace/compliant-systems/servicenow-inc-servicenow-service-automation-government-cloud-suite/",
 }

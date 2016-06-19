@@ -16,7 +16,8 @@
     "twitter_handle": "IBM",
     "linkedin_id": 1009,
     "contracts":[
-        "sewp"
+        "sewp",
+        "s70"
     ],
     "fedramp_jab":"http://www.fedramp.gov/marketplace/compliant-systems/ibm-smartcloud-for-government/",
 }

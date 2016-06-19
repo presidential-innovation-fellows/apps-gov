@@ -16,7 +16,8 @@
     "twitter_handle": "everbridge",
     "linkedin_id": 33883,
     "contracts":[
-        "sewp"
+        "sewp",
+        "s70"
     ],
     "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/everbridge-everbridge-suite-saas/",
 }

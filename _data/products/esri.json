@@ -16,7 +16,8 @@
     "twitter_handle": "Esri",
     "linkedin_id": 5311,
     "contracts":[
-        "sewp"
+        "sewp",
+        "s70"
     ],
     "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/esri-esri-managed-cloud-services/",
 }

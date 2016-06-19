@@ -22,7 +22,8 @@
     "twitter_handle": "Microsoft",
     "linkedin_id": 1035,
     "contracts":[
-        "sewp"
+        "sewp",
+        "s70"
     ],
     "fedramp_jab":"http://www.fedramp.gov/marketplace/compliant-systems/microsoft-azure-public-and-government-community-cloud-solution/",
 }

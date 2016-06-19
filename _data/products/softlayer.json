@@ -16,7 +16,8 @@
     "twitter_handle": "SoftLayer",
     "linkedin_id": 95291,
     "contracts":[
-        "sewp"
+        "sewp",
+        "s70"
     ],
     "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/softlayer-softlayer-federal-cloud-sfc/",
     "fedramp_inprocess_jab":"https://www.fedramp.gov/marketplace/in-process-systems/softlayer-softlayer-federal-cloud/",

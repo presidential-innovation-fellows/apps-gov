@@ -34,7 +34,8 @@
     "twitter_handle": "cisco",
     "linkedin_id": 1063,
     "contracts":[
-        "sewp"
+        "sewp",
+        "s70"
     ],
     "fedramp_agency":"http://www.fedramp.gov/marketplace/compliant-systems/cisco-cisco-webex-conferencing-service/",
 }

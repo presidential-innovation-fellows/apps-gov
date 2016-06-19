@@ -15,7 +15,8 @@
     "twitter_handle": "socrata",
     "linkedin_id": 428169,
     "contracts":[
-        "sewp"
+        "sewp",
+        "s70"
     ],
     "gov_tos":"http://www.digitalgov.gov/files/2014/01/socrata-tos-amendment_0.pdf",
     "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/socrata-socrata-open-data-platform/",

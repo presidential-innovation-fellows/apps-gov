@@ -1,23 +1,34 @@
 id: s70
-name: Schedule 70
+name: GSA IT Schedule 70
 description: |
-  Schedule 70 is an indefinite delivery/indefinite quantity (IDIQ) 
-  multiple award schedule, which allows federal, state, local and 
-  tribal government entities to procure approve technologies. Learn 
-  more about the Schedule 70 process at 
-  <a href="http://www.gsa.gov/portal/content/104506" target="blank">http://www.gsa.gov/portal/content/104506</a>. 
-  The steps for procuring a product listed on Schedule 70 varies 
-  based on the dollar amount, in accordance with FAR part 6 - Publicizing 
-  Contract Actions.
-poc: ITCSC@gsa.gov
-steps:
-- |
-    $3,500 and below (Micro-Purchase Threshold) - an email or verbal communication 
-    to the Schedule 70 POC will be sufficient to initiate the procurement process
-- |
-    $3,501 to $150,000 (Simplified Acquisition Treshold) - an email or verbal 
-    communication to at least three vendors will be sufficient to intiative 
-    the procurement process
-- |
-    greater than $150,001 - must be procured through the Government Purchase 
-    system, <a href="https://www.fbo.gov" target="blank">FedBizOpps</a>
+  The General Services Administration’s (GSA) IT Schedule 70 is an indefinite delivery/indefinite 
+  quantity (IDIQ) multiple award schedule that allows federal, state, local and tribal government 
+  entities to procure technology products and services from more than 5,000 pre-vetted vendors--many 
+  of which are small businesses.
+  <br/><br/>
+  Agencies that use IT Schedule 70 benefit from:
+  <ul class="contract-info">
+  <li>Competitive prices and discounts- GSA negotiates its fair and reasonable prices based on the 
+  aggregated buying power of the federal government.</li>
+  <li>Flexible contracting and streamlined ordering- IT Schedule 70 saves you time by delivering combined 
+  synopses and solicitations, as well as making it easier for you to meet Competition in Contracting Act 
+  (CICA) requirements. Schedules accept purchase cards and allow task orders and blanket purchase agreements 
+  (BPAs).</li>
+  <li>Value-added services - A team of business management specialists, technical analysts, and contracting 
+  officers work closely with customer agencies to ensure best value, technical accuracy, and compliance with 
+  the Federal Acquisition Regulation (FAR) Part 8.4 for all procurements. Customers can request Statement of 
+  Work and technical requirements reviews.</li>
+  </ul>
+  Customer agencies that use IT Schedule 70 can purchase directly through 
+  <a href="https://www.gsaadvantage.gov/advantage/main/start_page.do" target="blank">GSA Advantage!</a>, 
+  submit an RFI or RFQ through GSA’s <a href="https://www.gsaadvantage.gov/advantage/login/eBuyLogin.do" 
+  target="blank">eBuy</a>, or conduct market research prior to making a purchase by using GSA’s 
+  <a href="http://www.gsa.gov/portal/content/100020" target="blank">eLibrary</a>. The steps for procuring 
+  technology products or services through IT Schedule 70 varies based on the dollar amount, in accordance 
+  with FAR Part 8.4.
+  <br/><br/>
+  For more information or for assistance making a purchase, email 
+  <a href="mailto:itschedule70@gsa.gov" target="blank">ITSchedule70@gsa.gov</a>. Or, visit the 
+  <a href="http://www.gsa.gov/portal/category/100515" target="blank">IT Schedule 70</a> website to learn 
+  more about available products and services.
+poc: ITSchedule70@gsa.gov

@@ -15,7 +15,8 @@
     "twitter_handle": "bmcsoftware",
     "linkedin_id": 1597,
     "contracts":[
-        "sewp"
+        "sewp",
+        "s70"
     ],
     "fedramp_inprocess_agency":"ace/in-process-systems/bmc-software-bmc-remedy-fed-saas-bmc-remedy-ondemand-for-public-sector/",
 }

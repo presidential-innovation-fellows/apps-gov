@@ -17,7 +17,8 @@
     "linkedin_id": 711723,
     "contracts":[
         "sewp",
-        "nitaac"
+        "nitaac",
+        "s70"
     ],
     "fedramp_jab": "http://www.fedramp.gov/marketplace/compliant-systems/autonomic-resources-llc-arc-p-iaas/",
 }
