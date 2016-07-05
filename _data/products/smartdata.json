@@ -1,12 +1,12 @@
 {
+    "slug": "smartdata",
     "name": "SmartData Solutions",
     "url": "www.smartdata-solutions.com/",
     "logo": "smartdata.png",
     "top_keywords": [
-        "remediation",
-        "online",
-        "collaboration",
         "environmental",
+        "remediation",
+        "collaboration",
         "site characterization",
         "conceptual site model"
     ],
