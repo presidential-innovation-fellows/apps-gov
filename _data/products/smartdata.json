@@ -1,0 +1,31 @@
+{
+    "slug": "smartdata",
+    "name": "SmartData Solutions",
+    "url": "www.smartdata-solutions.com/",
+    "logo": "smartdata.png",
+    "top_keywords": [
+        "environmental",
+        "remediation",
+        "collaboration",
+        "site characterization",
+        "conceptual site model"
+    ],
+    "short_description": "SmartData Solutions is an environmental remediation data management tool for collaboration, analysis, and reporting of remedation projects.",
+    "long_description": "SmartData Solutions is an environmental remediation data management tool for site characterization, analysis, and planning.  This online software service offers:
+    <ul>
+        <li>Instant Access:  Allow participants to operate immediately, hassle-free with no downloads</li>
+        <li>Security:  All data is protected and user access control is managed by the user</li>
+        <li>Collaboration:  See updates that other users make as they are added, </li>
+        <li>Mapping:  A live mapping component allows users to map the site, tag monitoring wells, direct push, soil samples, and more.</li>
+        <li>Analysis:  Built-in contouring and interpolation of site samples give a view of the entire contaminant plume and estimate costs for remediation.
+        <li>Reporting:  property owners can submit their reports directly to regulators electronically.</li>
+        <li>Budget-friendly:  All projects and upgraded are below the micro-purchase threshold.
+        <li>Real-time updates:  Regulators see updates as they happen, and observe how contractors are making decisions on where to collect new data.</li>
+        </ul>
+        Entirely managed and maintained by Azimuth1, organizations can rely on our expertise managing the most complex sites and use our anlaysts to review data and remediation progress.",
+    "sales_poc": "jason.dalton@azimuth1.com",
+    "twitter_handle": "azimuth1tech",
+    "contracts":[
+        "micro"
+    ],
+}
