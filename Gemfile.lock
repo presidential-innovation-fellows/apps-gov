@@ -3,7 +3,6 @@ GEM
   specs:
     colorator (0.1)
     ffi (1.9.10)
-    ffi (1.9.10-x86-mingw32)
     go_script (0.1.9)
       bundler (~> 1.10)
       safe_yaml (~> 1.0)
@@ -45,7 +44,6 @@ GEM
 
 PLATFORMS
   ruby
-  x86-mingw32
 
 DEPENDENCIES
   go_script
@@ -56,4 +54,4 @@ DEPENDENCIES
   rake
 
 BUNDLED WITH
-   1.12.5
+   1.11.2
