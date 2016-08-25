@@ -1,0 +1,28 @@
+{
+  "slug": "Qualtrics",
+  "name": "Qualtrics Insight Platform",
+  "url": "www.qualtrics.com",
+  "logo_url": "qualtrics.png",
+  "top_keywords": [
+    "survey technology",
+    "analytics",
+    "citizen research",
+    "employee engagement",
+    "digital feedback"
+  ],
+  "short_description": "The Qualtrics platform allows government agencies to collect and analyze citizen and employee feedback via an easy and secure SaaS platform.",
+  "long_description": "Qualtrics is a rapidly growing software-as-a-service company and the world leader in customer insights. More than 8,500 enterprises worldwide, including half of the Fortune 100 and 99 of the top 100 business schools, rely on Qualtrics technology as mission critical software for business growth. Global enterprises, academic institutions and government agencies use Qualtrics to know exactly what customer want, build a customer-centric culture, and measure and respond to customer or website feedback at scale—all on one platform.
+  Qualtrics has transformed the way the public sector collects, analyzes, and acts on valuable insights that drive better decision-making. The Qualtrics Cloud-based insight platform captures citizen, customer employee, and program insights in one place and in real-time. 
+  Too often, agencies end up making big, strategic, and expensive decisions based on speculation, not on real-time data. Whether you are building voice of the citizen, employee engagement, customer or product research, or website feedback programs, you can do it all on Qualtrics. We are doing just that for many of the world’s most forward-thinking brands, including HP, Apple, and P&G and agencies. Qualtrics provides agencies a platform to best understand the needs of their customers, their employees, and all citizens they interact with.
+  Whether dealing with the impact of citizen facing programs, the improvement of existing services (digital and otherwise), or the engagement of federal employees, we help our customers close the gaps between the data they have and the data they need to meet their missions.",
+  "sales_poc":"tdelew@qualtrics.com",
+  "twitter_handle": "Qualtrics",
+  "linkedin_id": 314350,
+  "contracts":[
+    "micro",
+    "sewp",
+    "s70"
+  ],
+  "gov_tos":"https://www.qualtrics.com/amendment-terms-of-service/",
+  "fedramp_inprocess_agency":"https://www.fedramp.gov/marketplace/in-process-systems/qualtrics-qualtrics-insight-platform/",
+}
