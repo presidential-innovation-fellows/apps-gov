@@ -17,17 +17,17 @@
     ],
     "short_description": "The KPS Federal Community Cloud, called CloudSeed, is an off-premises IaaS solution that leverages Cisco hardware, world-class Equinix facilities, and open-source technology to provide compute, storage, and network resources to Federal customers in a secure manner.",
     "long_description": "Knight Point Systems’ Horizon is a portfolio of solutions that spans a customer’s technology needs across multiple phases of cloud adoption.  One of these solutions is the KPS Federal Community Cloud, called CloudSeed, which is an off-premises IaaS solution that leverages Cisco hardware, world-class Equinix facilities, and open-source technology to provide compute, storage, and network resources to Federal customers in a secure manner.  Customers can engage resources in an a la carte, and “pay for performance” model that allows them to know exactly what to expect – It’s the technology you need, when you need it.  The resources are managed and monitored through the KPS tool “Zeus”, which allows management of cloud resources across all of a customer’s cloud deployments – Public, Community, and Private – giving them the ability to have true “hybrid” cloud solutions that are right-sized for their needs.",
-    "sales_poc":"rlewis@knightpoint.com",
+    "sales_poc":"info@knightpoint.com",
     "twitter_handle": null,
     "linkedin_id": 425356,
     "contracts":[
         "sewp",
-        "Schedule 70"
+        "s70"
     ],
     "gov_customers": [
-    "DISA",
-    "DHS"
-]
+        "DISA",
+        "DHS"
+    ],
     "fedramp_csp":"https://www.fedramp.gov/marketplace/compliant-systems/knight-point-systems-cloudseed/",
     "fedramp_infrastructure": true,
 }
