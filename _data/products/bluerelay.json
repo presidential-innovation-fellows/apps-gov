@@ -1,0 +1,18 @@
+{
+    "slug": "bluerelay",
+    "name": "Blue Relay",
+    "url": "bluerelay.com",
+    "logo_url": "bluerelay.png",
+    "top_keywords": [
+        "collaboration",
+        "process management",
+        "document management",
+        "workflow",
+        "document compare",
+    ],
+    "short_description": "Blue Relay provides simplified business process management, document compare and annotation at your fingertips.",
+    "long_description": "Blue Relay gives you complete control and visibility into your current business processes while achieving 300% gains in efficiency. Powerful features like document routing, comparison and annotations allow you to accelerate approval processes by streamlining collaboration.",
+    "sales_poc":"info@bluerelay.com",
+    "twitter_handle": "bluerelay",
+    "linkedin_id": "bluerelay"
+}
