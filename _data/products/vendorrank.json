@@ -1,0 +1,16 @@
+{
+  "slug": "vendorrank",
+  "name": "VendorRank",
+  "url": "http://www.vendorrank.io",
+  "logo": "vendor_rank_logo.png",
+  "top_keywords": [
+      "procurement",
+      "contracting",
+      "vendors",
+      "reviews",
+      "analytics"
+  ],
+  "short_description": "Helping the Federal government procure the best goods and services at a fair price.",
+  "long_description": "VendorRank is a free platform for Federal employees to anonymously review contractors and access highly refined historical contracting data. VendorRank lets the data reveal the strongest contract bidders and helps take the guesswork out of source selection. Using VendorRank, federal employees are given the chance to share their past experiences with other agencies to raise the quality of service across government.",
+  "sales_poc": "contact@vendorrank.io"
+}
