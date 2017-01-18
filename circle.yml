@@ -14,6 +14,7 @@ dependencies:
     - cf -v
     - npm install browserify
     - npm install uglifyify
+    - gem install jekyll
   cache_directories:
     - debs
 
