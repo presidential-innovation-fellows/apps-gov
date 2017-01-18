@@ -1,0 +1,26 @@
+machine:
+  environment:
+    CIRCLE_BUILD_DIR: $HOME/$CIRCLE_PROJECT_REPONAME
+  node:
+    version: 5.1.0
+  ruby:
+    version: 2.2.4
+
+dependencies:
+  pre:
+    - mkdir -p debs
+    - if [ ! -f debs/temp.deb ]; then wget -qO debs/temp.deb https://cli.run.pivotal.io/stable?release=debian64; fi
+    - sudo dpkg -i debs/temp.deb
+    - cf -v
+    - npm install browserify
+    - npm install uglifyify
+  cache_directories:
+    - debs
+
+deployment:
+  production:
+    branch: [master]
+    commands:
+      - jekyll build
+      - cf login -a https://api.fr.cloud.gov -u $CF_APPS_USER -p $CF_APPS_PASS -o gsa-pif-apps -s prod
+      - cf push -f manifest.yml
