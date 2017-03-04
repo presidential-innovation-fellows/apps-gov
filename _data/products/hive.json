@@ -1,0 +1,31 @@
+{
+    "slug": "hive",
+    "name": "Hive",
+    "url": "https://hive.com",
+    "logo_url": "hive.png",
+    "top_keywords": [
+        "collaboration",
+        "productivity software",
+        "task management",
+        "process management",
+        "workflow",
+        "enterprise software",
+        "unifed communications",
+        "computer software",
+        "workplace messaging",
+        "document management"
+    ],
+    "short_description": "Hive is a team collaboration platform with real-time task & process management, messaging, and file sharing for teams.",
+    "long_description": "Hive is a team collaboration platform with real-time task & process management, messaging, and file sharing for teams. Hive has team and individual messaging, granular-level privacy on team projects, and tight integrations with Google, Dropbox, Box, Slack and hundreds of other 3rd party services. Hive is available on the web, Mac, Windows, iOS, and Android.",
+    "sales_poc": "info@hive.com",
+    "twitter_handle": "hive",
+    "linkedin_id": 6473048,
+    "angellist_name": "hivetechnology",
+    "facebook_url": "https://www.facebook.com/hiveteams/",
+    "youtube_video_id": "l1jrnC_umuU",
+    "contracts": [
+        "micro",
+        "sewp",
+    ],
+    "gov_tos": "https://hive.com/gov-terms/",
+}
