@@ -12,7 +12,7 @@
     {% include footer.html %}
 
     <!-- Latest compiled and minified JavaScript -->
-    <script src="/assets/js/vendor/jquery-1.11.3.min.js"></script>
+    <script src="{{site.baseurl}}/assets/js/vendor/jquery-1.11.3.min.js"></script>
 
     <!--[if lt IE 9]>
         <script src="/designstandards/assets/js/vendor/selectivizr-min.js"></script>
@@ -20,8 +20,8 @@
         <script src="/designstandards/assets/js/vendor/rem.min.js"></script>
       <![endif]-->
 
-    <script src="/assets/js/components.js"></script>
-    <script src="/assets/js/main.js"></script>
+    <script src="{{site.baseurl}}/assets/js/components.js"></script>
+    <script src="{{site.baseurl}}/assets/js/main.js"></script>
 
     <!-- Google Tag Manager -->
     <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-572ZSP"
@@ -40,5 +40,5 @@ var JEKYLL_PAGES_API_SEARCH_UI_OPTIONS = {
 };
 </script>
 {% jekyll_pages_api_search_load %}
-  <script src="/assets/js/gaEvents.js"></script>
+  <script src="{{site.baseurl}}/assets/js/gaEvents.js"></script>
 </html>
