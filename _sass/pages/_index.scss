@@ -1,3 +1,5 @@
+$site-baseurl: '/site/presidential-innovation-fellows/pif-website';
+
 body {
   background-color: lighten($color-gray-light, 28);
   -webkit-font-smoothing: antialias;
@@ -23,7 +25,7 @@ ul {
 
 .usa-hero{
   background-attachment: scroll;
-  background-image: url('/assets/img/wh-hero.jpg');
+  background-image: url('#{$site-baseurl}/assets/img/wh-hero.jpg');
   background-position: center 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -207,7 +209,7 @@ ul {
 
 .usa-hero{
   background-attachment: scroll;
-  background-image: url('/assets/img/wh-hero.jpg');
+  background-image: url('#{$site-baseurl}/assets/img/wh-hero.jpg');
   background-position: center 0;
   background-repeat: no-repeat;
   background-size: cover;
