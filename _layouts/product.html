@@ -8,7 +8,7 @@ skip_index: false
 		{% assign product = page.product_info %}
 
 		<div class="product-nav">
-			<a href="/products">
+			<a href="{{site.baseurl}}/products">
 				All Products
 			</a>
 			<i class="fa fa-caret-right"></i>
@@ -18,7 +18,7 @@ skip_index: false
 		<div class="product-content">
 			<div class="left-content">
 				<div class="product-logo">
-					<img src="{% if product.logo_url or product.logo %}{% if product.logo_url %}/assets/img/product_logos/{{ product.logo_url }}{% else %}/assets/img/product_logos/{{ product.logo }}{% endif %}{% else %}/assets/img/apps-logo.svg{% endif %}">
+					<img src="{{site.baseurl}}{% if product.logo_url or product.logo %}{% if product.logo_url %}/assets/img/product_logos/{{ product.logo_url }}{% else %}/assets/img/product_logos/{{ product.logo }}{% endif %}{% else %}/assets/img/apps-logo.svg{% endif %}">
 				</div>
 
 				<ul class="social-icons">
@@ -112,7 +112,7 @@ skip_index: false
 					{% if product.gov_customers %}
 						<h4 class="customers-title">Government Customers:</h4>
 						<ul class="customers">
-							{% assign customers = product.gov_customers %}{% for customer in customers %}<li><img src="/assets/img/customers/{{ customer }}.png" title="{{ customer }}"></li>{% endfor %}
+							{% assign customers = product.gov_customers %}{% for customer in customers %}<li><img src="{{site.baseurl}}/assets/img/customers/{{ customer }}.png" title="{{ customer }}"></li>{% endfor %}
 						</ul>
 					{% endif %}
 				</section>
