@@ -1,0 +1,21 @@
+{
+    "slug": "Domino-Data-Lab",
+    "name": "Domino Data Lab",
+    "url": "dominodatalab.com",
+    "logo_url": "domino.png",
+    "top_keywords": [
+        "data science platform",
+        "advanced analytics",
+        "analytics platform",
+        "data science",
+        "data science software"
+    ],
+    "short_description": "Domino Data Lab is changing the way data science teams work, delivering an enterprise-grade data science platform that accelerates research, increases collaboration, and ensures that companies and agencies get the greatest value from their data.  With Domino, individual data scientists are more productive and teams collaborate more. Domino’s customers include government agencies, universities and companies ranging from Fortune 500 enterprises to small startups.",
+    "sales_poc": "dan@dominodatalab.com",
+    "twitter_handle": "DominoDataLab",
+    "linkedin_id": 3542130,
+    "contracts":[
+        "sewp"
+    ],
+    "gov_tos": "https://www.dominodatalab.com/terms/",
+}
