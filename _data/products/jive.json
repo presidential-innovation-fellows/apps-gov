@@ -1,0 +1,34 @@
+{
+    "slug": "jive",
+    "name": "Jive Collaboration Platform",
+    "url": "jivesoftware.com",
+    "logo_url": "jive.jpg",
+    "top_keywords": [
+        "networking",
+        "collaboration",
+        "community",
+        "enterprise software",
+        "intranet"
+    ],
+    "short_description": "Jive software provides Interactive Intranet and Customer Community solutions that connect people, information and ideas seamlessly.",
+    "long_description": "Jive software provides Interactive Intranet and Customer Community solutions that connect people, information and ideas seamlessly.  Jive provides rapid access to people, expertise and information across your organization and has aided critical agency goals, such as:<ul><li>Increase Efficiency:  Identify and consolidate duplications of effort in a connected collaboration community.</li><li>Discover Hidden Resources:  Whether discovering personnel with critical expertise, or important documents and discussions, Jive makes it all easily discoverable.</li><li>Increase Engagement: Whether supporting employee engagement or driving partner and customer adoption, the Jive UI/UX, mobile app, and recognition tools deliver the experience desired by the modern workforce and customer.</li><li>Drive Innovation: Sharing ideas and voting on ideas within the community to crowdsource solutions.</li><li>Integrate with existing tools: Jive provides seamless bi-directional integrations to Microsoft apps, Box, Google Drive, Salesforce and more. The robust API allows for upgrade safe custom built integrations to agency built applications</li><li>FedRAMP Coming Soon: Jive is committed to providing a FedRAMP certified solution in FY17.</li></ul>	Additional information about Jive and Federal Government solutions are available at <a href='https://www.jivesoftware.com/solutions/government-collaboration/'>https://www.jivesoftware.com/solutions/government-collaboration/</a>",
+    "sales_poc": "marc.harrell@jivesoftware.com",
+	"twitter_handle": "jivesoftware",
+    "linkedin_id": 19867,
+	"youtube_video_id": "uapG_pBfaMg",	
+    "contracts":[
+        "sewp",
+		"s70"
+    ],
+	"gov_customers": [
+    "DIA",
+    "DOD",
+	"DOJ",
+	"NARA",
+	"NASA",
+	"NIH",
+	"VA"
+]
+	"hipaa": "true",
+	
+}
