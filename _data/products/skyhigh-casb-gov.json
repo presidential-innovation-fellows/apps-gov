@@ -1,0 +1,25 @@
+{
+  "slug": "Skyhigh Networks",
+  "name": "Cloud Access Security Broker for Government",
+  "url": "www.skyhighnetworks.com",
+  "logo": "skyhigh.png",
+  "top_keywords": [
+    "Cloud Security",
+    "Shadow IT",
+    "Cloud DLP",
+    "Encryption",
+    "Threat Protection",
+  ],
+  "short_description": "Cloud Visibility, Threat protection, Compliance and Data Security for Government",
+  "long_description": "Skyhigh Cloud Access Security Broker for Government provides a Software as a Service (SaaS) offering which helps agencies gain visibility into their cloud usage and risks, meet compliance requirements, enforce security policies, and detect and respond to potential threats.",
+  "sales_poc": "kevin@skyhighnetworks.com",
+  "twitter_handle": "skyhighnetworks",
+  "linkedin_id": 3003720,
+  "youtube_video_id": "-TwcQ4xmMAc",
+  "facebook_url": "https://www.facebook.com/SkyhighNetworks",
+  "contracts": [
+    "sewp"
+  ],
+  "fedramp_csp": "https://www.fedramp.gov/marketplace/compliant-systems/skyhigh-cloud-access-security-broker-for-government",
+  "fedramp_infrastructure": true
+}
