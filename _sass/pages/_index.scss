@@ -1,3 +1,5 @@
+$site-baseurl: '/site/presidential-innovation-fellows/apps-gov';
+
 body {
   background-color: lighten($color-gray-light, 28);
   -webkit-font-smoothing: antialias;
@@ -18,6 +20,25 @@ ul {
     &::before {
       content: "";
     }
+  }
+}
+
+.usa-hero{
+  background-attachment: scroll;
+  background-image: url('#{$site-baseurl}/assets/img/wh-hero.jpg');
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  position: relative;
+  text-align:center;
+  min-height:550px;
+
+  .usa-hero-overlay {
+    background-color: rgba(0,0,0,0.5);
+    min-height:550px;
   }
 }
 
@@ -188,7 +209,7 @@ ul {
 
 .usa-hero{
   background-attachment: scroll;
-  background-image: url('/assets/img/wh-hero.jpg');
+  background-image: url('#{$site-baseurl}/assets/img/wh-hero.jpg');
   background-position: center 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -197,12 +218,6 @@ ul {
   -o-background-size: cover;
   position: relative;
   text-align:center;
-  min-height:550px;
-
-  .usa-hero-overlay {
-    background-color: rgba(0,0,0,0.5);
-    min-height:550px;
-  }
 
   h1,
   h2,
