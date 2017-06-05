@@ -9,9 +9,8 @@
 title: Apps.Gov
 email: andrew.stroup@pif.gov
 description: > # this means to ignore newlines until "baseurl:"
-  A marketplace to find cloud based products to help the government 
+  A marketplace to find cloud-based products to help the government
   operate better.
-baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://apps.gov" # the base hostname & protocol for your site
 twitter_username: innovfellows
 github_username:  presidential-innovation-fellows
@@ -66,3 +65,7 @@ jekyll_pages_api_search:
   browserify:
     source: 'assets/js/products.js'
     target: 'assets/js/products-bundle.js'
+
+# Analytics setup
+  google_analytics:
+    default: UA-48605964-49
