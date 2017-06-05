@@ -65,3 +65,7 @@ jekyll_pages_api_search:
   browserify:
     source: 'assets/js/products.js'
     target: 'assets/js/products-bundle.js'
+
+# Analytics setup
+  google_analytics:
+    default: UA-48605964-49
