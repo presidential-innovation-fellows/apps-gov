@@ -9,7 +9,7 @@
 title: Apps.Gov
 email: andrew.stroup@pif.gov
 description: > # this means to ignore newlines until "baseurl:"
-  A marketplace to find cloud based products to help the government
+  A marketplace to find cloud-based products to help the government
   operate better.
 url: "https://apps.gov" # the base hostname & protocol for your site
 twitter_username: innovfellows
